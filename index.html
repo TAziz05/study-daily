@@ -4,9 +4,19 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Study Daily</title>
-<meta name="description" content="Four questions a day, one from each class.">
 <meta name="theme-color" content="#f6f1e7">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%231f2a44'/><text x='32' y='44' font-size='34' text-anchor='middle' fill='%23f6f1e7' font-family='Georgia,serif'>S</text></svg>">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="description" content="One question from every class, every day: Philosophy, Data Mining, Data Visualization and Japanese.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Study Daily">
+<meta property="og:description" content="One question from every class, every day.">
+<meta property="og:url" content="https://taziz05.github.io/study-daily/">
+<meta property="og:image" content="https://taziz05.github.io/study-daily/preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://taziz05.github.io/study-daily/preview.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
@@ -37,6 +47,8 @@ html,body{margin:0}
 body{background:var(--bg);color:var(--ink);font:16px/1.55 "IBM Plex Sans","Noto Sans JP",system-ui,sans-serif;-webkit-font-smoothing:antialiased;min-height:100vh}
 .wrap{max-width:720px;margin:0 auto;padding:20px 16px 96px}
 header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:18px}
+.brand{display:flex;align-items:center;gap:12px}
+.brand .logo{width:44px;height:44px;flex:none;border-radius:10px;box-shadow:0 0 0 1px var(--line)}
 .brand h1{font-family:Fraunces,Georgia,serif;font-weight:700;font-size:28px;margin:0;letter-spacing:-.01em}
 .brand p{margin:2px 0 0;color:var(--muted);font-size:14px}
 .streak{display:flex;align-items:center;gap:8px;background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-weight:600;font-size:14px;white-space:nowrap}
@@ -125,8 +137,11 @@ footer button{background:none;border:0;color:inherit;text-decoration:underline;c
 <div class="wrap">
   <header>
     <div class="brand">
+      <img class="logo" src="logo.png" alt="">
+      <div>
       <h1>Study Daily</h1>
       <p id="dateLine"></p>
+      </div>
     </div>
     <div class="streak" title="Days in a row you finished your daily set"><span class="flame">🔥</span><span id="streakNum">0</span></div>
   </header>
