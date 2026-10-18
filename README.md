@@ -20,3 +20,7 @@ Japanese kanji questions are generated from `build/kanji_data.txt`. After editin
 ```
 python3 build/build.py
 ```
+
+## Credits
+
+Coded with [Claude](https://claude.ai) (Opus 5.5) by Anthropic. Questions were written by Claude from my own lecture notes and readings, plus the Genki I/II and Quartet I textbooks for Japanese.
