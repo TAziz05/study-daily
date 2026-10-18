@@ -1,0 +1,317 @@
+# lesson|kanji|meaning|word|reading|word meaning
+G1L3|一|one|一つ|ひとつ|one (thing)
+G1L3|二|two|二人|ふたり|two people
+G1L3|三|three|三月|さんがつ|March
+G1L3|四|four|四時|よじ|four o'clock
+G1L3|五|five|五日|いつか|the fifth day
+G1L3|六|six|六百|ろっぴゃく|six hundred
+G1L3|七|seven|七時|しちじ|seven o'clock
+G1L3|八|eight|八百|はっぴゃく|eight hundred
+G1L3|九|nine|九時|くじ|nine o'clock
+G1L3|十|ten|十分|じゅっぷん|ten minutes
+G1L3|百|hundred|三百|さんびゃく|three hundred
+G1L3|千|thousand|三千|さんぜん|three thousand
+G1L3|万|ten thousand|一万円|いちまんえん|10,000 yen
+G1L3|円|yen; circle|百円|ひゃくえん|100 yen
+G1L3|時|time; o'clock|時間|じかん|time; hours
+G1L4|日|day; sun|毎日|まいにち|every day
+G1L4|本|book; origin|日本|にほん|Japan
+G1L4|人|person|日本人|にほんじん|Japanese person
+G1L4|月|month; moon|月曜日|げつようび|Monday
+G1L4|火|fire|火曜日|かようび|Tuesday
+G1L4|水|water|水曜日|すいようび|Wednesday
+G1L4|木|tree|木曜日|もくようび|Thursday
+G1L4|金|gold; money|お金|おかね|money
+G1L4|土|soil|土曜日|どようび|Saturday
+G1L4|曜|day of the week|日曜日|にちようび|Sunday
+G1L4|上|up; above|上手|じょうず|good at
+G1L4|下|down; below|下手|へた|bad at
+G1L4|中|middle; inside|中国|ちゅうごく|China
+G1L4|半|half|三時半|さんじはん|3:30
+G1L5|山|mountain|富士山|ふじさん|Mt. Fuji
+G1L5|川|river|川|かわ|river
+G1L5|元|origin|元気|げんき|healthy; energetic
+G1L5|気|spirit; air|天気|てんき|weather
+G1L5|天|heaven|天気|てんき|weather
+G1L5|私|I; private|私|わたし|I
+G1L5|今|now|今日|きょう|today
+G1L5|田|rice field|田中さん|たなかさん|Mr./Ms. Tanaka
+G1L5|女|woman|女の人|おんなのひと|woman
+G1L5|男|man|男の人|おとこのひと|man
+G1L5|見|see|見る|みる|to see
+G1L5|行|go|行く|いく|to go
+G1L5|食|eat|食べる|たべる|to eat
+G1L5|飲|drink|飲む|のむ|to drink
+G1L6|東|east|東京|とうきょう|Tokyo
+G1L6|西|west|西|にし|west
+G1L6|南|south|南|みなみ|south
+G1L6|北|north|北海道|ほっかいどう|Hokkaido
+G1L6|口|mouth|入口|いりぐち|entrance
+G1L6|出|exit; go out|出口|でぐち|exit
+G1L6|右|right|右|みぎ|right
+G1L6|左|left|左|ひだり|left
+G1L6|分|minute; divide|分かる|わかる|to understand
+G1L6|先|ahead; previous|先週|せんしゅう|last week
+G1L6|生|life; birth|先生|せんせい|teacher
+G1L6|大|big|大学|だいがく|university
+G1L6|学|learning|学生|がくせい|student
+G1L6|外|outside|外国|がいこく|foreign country
+G1L6|国|country|国|くに|country
+G1L7|京|capital|京都|きょうと|Kyoto
+G1L7|子|child|子供|こども|child
+G1L7|小|small|小さい|ちいさい|small
+G1L7|会|meet|会う|あう|to meet
+G1L7|社|company; shrine|会社|かいしゃ|company
+G1L7|父|father|お父さん|おとうさん|(someone's) father
+G1L7|母|mother|お母さん|おかあさん|(someone's) mother
+G1L7|高|high; expensive|高い|たかい|expensive; tall
+G1L7|校|school|高校|こうこう|high school
+G1L7|毎|every|毎朝|まいあさ|every morning
+G1L7|語|word; language|日本語|にほんご|Japanese language
+G1L7|文|sentence; writing|文学|ぶんがく|literature
+G1L7|帰|return|帰る|かえる|to go home
+G1L7|入|enter|入る|はいる|to enter
+G1L8|員|member|会社員|かいしゃいん|office worker
+G1L8|新|new|新しい|あたらしい|new
+G1L8|聞|hear; ask|新聞|しんぶん|newspaper
+G1L8|作|make|作る|つくる|to make
+G1L8|仕|serve|仕事|しごと|job; work
+G1L8|事|thing; matter|事|こと|thing; matter
+G1L8|電|electricity|電話|でんわ|telephone
+G1L8|車|car; vehicle|電車|でんしゃ|train
+G1L8|休|rest|休む|やすむ|to rest; be absent
+G1L8|言|say|言う|いう|to say
+G1L8|読|read|読む|よむ|to read
+G1L8|思|think|思う|おもう|to think
+G1L8|次|next|次|つぎ|next
+G1L8|何|what|何|なに|what
+G1L9|午|noon|午前|ごぜん|A.M.
+G1L9|後|after; behind|午後|ごご|P.M.
+G1L9|前|before; front|名前|なまえ|name
+G1L9|名|name|名前|なまえ|name
+G1L9|白|white|白い|しろい|white
+G1L9|雨|rain|雨|あめ|rain
+G1L9|書|write|書く|かく|to write
+G1L9|友|friend|友達|ともだち|friend
+G1L9|間|interval; between|時間|じかん|time
+G1L9|家|house; family|家|いえ|house
+G1L9|話|talk|話す|はなす|to speak
+G1L9|少|few; little|少し|すこし|a little
+G1L9|古|old|古い|ふるい|old (things)
+G1L9|知|know|知る|しる|to know
+G1L9|来|come|来る|くる|to come
+G1L10|住|live|住む|すむ|to live (reside)
+G1L10|正|correct|お正月|おしょうがつ|New Year's
+G1L10|年|year|今年|ことし|this year
+G1L10|売|sell|売る|うる|to sell
+G1L10|買|buy|買う|かう|to buy
+G1L10|町|town|町|まち|town
+G1L10|長|long; chief|長い|ながい|long
+G1L10|道|road; way|道|みち|road; way
+G1L10|雪|snow|雪|ゆき|snow
+G1L10|立|stand|立つ|たつ|to stand
+G1L10|自|self|自分|じぶん|oneself
+G1L10|夜|night|今夜|こんや|tonight
+G1L10|朝|morning|朝ご飯|あさごはん|breakfast
+G1L10|持|hold|持つ|もつ|to hold; carry
+G1L11|手|hand|手紙|てがみ|letter
+G1L11|紙|paper|紙|かみ|paper
+G1L11|好|like|好き|すき|to like
+G1L11|近|near|近い|ちかい|near
+G1L11|明|bright|明るい|あかるい|bright; cheerful
+G1L11|病|illness|病気|びょうき|illness; sick
+G1L11|院|institution|病院|びょういん|hospital
+G1L11|映|reflect; project|映画|えいが|movie
+G1L11|画|picture; stroke|映画|えいが|movie
+G1L11|歌|song; sing|歌う|うたう|to sing
+G1L11|市|city|市|し|city
+G1L11|所|place|所|ところ|place
+G1L11|勉|exertion|勉強|べんきょう|study
+G1L11|強|strong|強い|つよい|strong
+G1L11|有|exist; have|有名|ゆうめい|famous
+G1L11|旅|travel|旅行|りょこう|travel
+G1L12|昔|old times|昔|むかし|long ago
+G1L12|々|(repetition mark)|時々|ときどき|sometimes
+G1L12|神|god|神様|かみさま|god
+G1L12|早|early; fast|早い|はやい|early
+G1L12|起|wake up|起きる|おきる|to get up
+G1L12|牛|cow|牛乳|ぎゅうにゅう|milk
+G1L12|使|use|使う|つかう|to use
+G1L12|働|work|働く|はたらく|to work
+G1L12|連|take along|連れて行く|つれていく|to take (someone) along
+G1L12|別|separate|別れる|わかれる|to break up; part
+G1L12|度|degrees; times|今度|こんど|next time; this time
+G1L12|赤|red|赤い|あかい|red
+G1L12|青|blue|青い|あおい|blue
+G1L12|色|color|色|いろ|color
+G2L13|物|thing|食べ物|たべもの|food
+G2L13|鳥|bird|鳥|とり|bird
+G2L13|料|fee; materials|料理|りょうり|cooking; cuisine
+G2L13|理|reason; logic|料理|りょうり|cooking; cuisine
+G2L13|特|special|特に|とくに|especially
+G2L13|安|cheap; peaceful|安い|やすい|cheap
+G2L13|飯|meal; cooked rice|ご飯|ごはん|rice; meal
+G2L13|肉|meat|肉|にく|meat
+G2L13|悪|bad|悪い|わるい|bad
+G2L13|体|body|体|からだ|body
+G2L13|同|same|同じ|おなじ|same
+G2L13|着|arrive; wear|着る|きる|to put on (clothes)
+G2L13|空|sky; empty|空港|くうこう|airport
+G2L13|港|port|空港|くうこう|airport
+G2L13|昼|noon; daytime|昼ご飯|ひるごはん|lunch
+G2L13|海|sea|海|うみ|sea
+G2L14|彼|he|彼|かれ|he; boyfriend
+G2L14|代|generation; fee|時代|じだい|era
+G2L14|留|stay; keep|留学生|りゅうがくせい|international student
+G2L14|族|family; tribe|家族|かぞく|family
+G2L14|親|parent; intimate|親切|しんせつ|kind
+G2L14|切|cut|切る|きる|to cut
+G2L14|英|England; brilliant|英語|えいご|English language
+G2L14|店|store|店|みせ|store
+G2L14|去|leave; past|去年|きょねん|last year
+G2L14|急|hurry; sudden|急に|きゅうに|suddenly
+G2L14|乗|ride|乗る|のる|to ride
+G2L14|当|hit; this|本当|ほんとう|true; real
+G2L14|音|sound|音楽|おんがく|music
+G2L14|楽|pleasure; music|楽しい|たのしい|fun
+G2L14|医|medicine; doctor|医者|いしゃ|doctor
+G2L14|者|person|医者|いしゃ|doctor
+G2L15|死|death|死ぬ|しぬ|to die
+G2L15|意|mind; meaning|意味|いみ|meaning
+G2L15|味|taste|味|あじ|taste; flavor
+G2L15|注|pour; notes|注意|ちゅうい|caution; warning
+G2L15|夏|summer|夏|なつ|summer
+G2L15|魚|fish|魚|さかな|fish
+G2L15|寺|temple|お寺|おてら|temple
+G2L15|広|wide|広い|ひろい|spacious; wide
+G2L15|足|foot; leg|足|あし|foot; leg
+G2L15|転|roll; turn|自転車|じてんしゃ|bicycle
+G2L15|借|borrow|借りる|かりる|to borrow
+G2L15|走|run|走る|はしる|to run
+G2L15|建|build|建物|たてもの|building
+G2L15|地|ground|地下鉄|ちかてつ|subway
+G2L15|場|place|場所|ばしょ|place
+G2L15|通|pass; commute|通う|かよう|to commute
+G2L16|供|offer; companion|子供|こども|child
+G2L16|世|world; generation|世界|せかい|world
+G2L16|界|boundary; world|世界|せかい|world
+G2L16|全|all; whole|全部|ぜんぶ|all
+G2L16|部|section; part|部屋|へや|room
+G2L16|始|begin|始まる|はじまる|(something) begins
+G2L16|週|week|毎週|まいしゅう|every week
+G2L16|以|from; than|以上|いじょう|or more; above
+G2L16|考|think; consider|考える|かんがえる|to think; consider
+G2L16|開|open|開ける|あける|to open (something)
+G2L16|屋|shop; roof|本屋|ほんや|bookstore
+G2L16|方|direction; person|方|かた|person (polite)
+G2L16|運|carry; luck|運動|うんどう|exercise
+G2L16|動|move|動く|うごく|to move
+G2L16|教|teach|教える|おしえる|to teach
+G2L16|室|room|教室|きょうしつ|classroom
+G2L17|歳|age; years old|二十歳|はたち|20 years old
+G2L17|習|learn|習う|ならう|to learn
+G2L17|主|master; main|ご主人|ごしゅじん|(someone's) husband
+G2L17|結|tie; bind|結婚|けっこん|marriage
+G2L17|婚|marriage|結婚|けっこん|marriage
+G2L17|集|collect|集める|あつめる|to collect
+G2L17|発|departure; emit|発表|はっぴょう|presentation
+G2L17|表|express; surface|発表|はっぴょう|presentation
+G2L17|品|goods|品物|しなもの|goods; article
+G2L17|字|character; letter|漢字|かんじ|kanji
+G2L17|活|lively; active|生活|せいかつ|daily life
+G2L17|写|copy|写真|しゃしん|photograph
+G2L17|真|true; reality|写真|しゃしん|photograph
+G2L17|歩|walk|歩く|あるく|to walk
+G2L17|野|field|野菜|やさい|vegetable
+G2L18|目|eye|目|め|eye
+G2L18|的|target; -ic|目的|もくてき|purpose
+G2L18|力|power|力|ちから|power; strength
+G2L18|洋|ocean; Western|洋服|ようふく|(Western) clothes
+G2L18|服|clothes|服|ふく|clothes
+G2L18|堂|hall|食堂|しょくどう|cafeteria
+G2L18|授|give; teach|授業|じゅぎょう|class
+G2L18|業|business; industry|授業|じゅぎょう|class
+G2L18|試|try; test|試験|しけん|exam
+G2L18|験|test; effect|試験|しけん|exam
+G2L18|貸|lend|貸す|かす|to lend
+G2L18|図|map; drawing|図書館|としょかん|library
+G2L18|館|building; hall|図書館|としょかん|library
+G2L18|終|end|終わる|おわる|(something) ends
+G2L18|宿|lodge|宿題|しゅくだい|homework
+G2L18|題|topic; title|問題|もんだい|problem
+G2L19|春|spring|春|はる|spring
+G2L19|秋|autumn|秋|あき|autumn
+G2L19|冬|winter|冬|ふゆ|winter
+G2L19|花|flower|花|はな|flower
+G2L19|様|formal Mr./Ms.; manner|お客様|おきゃくさま|customer; guest
+G2L19|不|un-; non-|不便|ふべん|inconvenient
+G2L19|姉|older sister|お姉さん|おねえさん|(someone's) older sister
+G2L19|兄|older brother|お兄さん|おにいさん|(someone's) older brother
+G2L19|漢|China (Han)|漢字|かんじ|kanji
+G2L19|卒|graduate|卒業|そつぎょう|graduation
+G2L19|工|craft; construction|工学|こうがく|engineering
+G2L19|研|polish; study|研究|けんきゅう|research
+G2L19|究|research|研究|けんきゅう|research
+G2L19|質|quality; question|質問|しつもん|question
+G2L19|問|question; problem|問題|もんだい|problem
+G2L19|多|many|多い|おおい|many; a lot
+G2L20|皿|plate; dish|お皿|おさら|plate
+G2L20|声|voice|声|こえ|voice
+G2L20|茶|tea|お茶|おちゃ|green tea
+G2L20|止|stop|止める|とめる|to stop (something)
+G2L20|枚|(counter for flat things)|一枚|いちまい|one sheet
+G2L20|両|both|両親|りょうしん|parents
+G2L20|無|nothing; un-|無理|むり|impossible
+G2L20|払|pay|払う|はらう|to pay
+G2L20|心|heart; mind|心配|しんぱい|worry
+G2L20|笑|laugh|笑う|わらう|to laugh
+G2L20|絶|discontinue; absolutely|絶対に|ぜったいに|definitely; absolutely
+G2L20|対|opposite; against|反対|はんたい|opposition
+G2L20|痛|painful|痛い|いたい|painful
+G2L20|最|most|最近|さいきん|recently
+G2L20|続|continue|続ける|つづける|to continue
+G2L21|信|believe; trust|信じる|しんじる|to believe
+G2L21|経|pass through; manage|経済|けいざい|economy
+G2L21|台|stand; (counter for machines)|台風|たいふう|typhoon
+G2L21|風|wind; style|風|かぜ|wind
+G2L21|犬|dog|犬|いぬ|dog
+G2L21|重|heavy|重い|おもい|heavy
+G2L21|初|first; beginning|初めて|はじめて|for the first time
+G2L21|若|young|若い|わかい|young
+G2L21|送|send|送る|おくる|to send
+G2L21|幸|happiness|幸せ|しあわせ|happy
+G2L21|計|measure; plan|時計|とけい|watch; clock
+G2L21|遅|late; slow|遅い|おそい|late; slow
+G2L21|配|distribute; worry|心配|しんぱい|worry
+G2L21|弟|younger brother|弟|おとうと|younger brother
+G2L21|妹|younger sister|妹|いもうと|younger sister
+G2L22|記|write down; record|日記|にっき|diary
+G2L22|銀|silver|銀行|ぎんこう|bank
+G2L22|回|times; turn|一回|いっかい|once
+G2L22|夕|evening|夕方|ゆうがた|evening
+G2L22|黒|black|黒い|くろい|black
+G2L22|用|business; use|用事|ようじ|errand; things to do
+G2L22|守|protect; obey|留守|るす|absence from home
+G2L22|末|end|週末|しゅうまつ|weekend
+G2L22|待|wait|待つ|まつ|to wait
+G2L22|残|remain; leave behind|残念|ざんねん|regrettable
+G2L22|番|number; turn|一番|いちばん|the most; number one
+G2L22|駅|station|駅|えき|station
+G2L22|説|theory; explain|説明|せつめい|explanation
+G2L22|案|plan; proposal|案内|あんない|guidance
+G2L22|内|inside|案内|あんない|guidance
+G2L22|忘|forget|忘れる|わすれる|to forget
+G2L23|顔|face|顔|かお|face
+G2L23|悲|sad|悲しい|かなしい|sad
+G2L23|怒|angry|怒る|おこる|to get angry
+G2L23|違|differ|違う|ちがう|to be different; wrong
+G2L23|変|strange; change|大変|たいへん|tough; hard
+G2L23|比|compare|比べる|くらべる|to compare
+G2L23|情|feelings; emotion|表情|ひょうじょう|facial expression
+G2L23|感|feeling|感情|かんじょう|emotion
+G2L23|調|investigate; tune|調べる|しらべる|to look up; investigate
+G2L23|査|investigate|調査|ちょうさ|survey; investigation
+G2L23|果|fruit; result|結果|けっか|result
+G2L23|化|change; -ize|文化|ぶんか|culture
+G2L23|横|side; horizontal|横|よこ|side
+G2L23|相|mutual; partner|相手|あいて|partner; the other party

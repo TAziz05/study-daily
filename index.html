@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Study Daily</title>
+<meta name="description" content="Four questions a day, one from each class.">
+<meta name="theme-color" content="#f6f1e7">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%231f2a44'/><text x='32' y='44' font-size='34' text-anchor='middle' fill='%23f6f1e7' font-family='Georgia,serif'>S</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f6f1e7; --surface:#fffdf8; --surface-2:#efe8da; --ink:#1d2433; --muted:#6a6f7c; --line:#ddd4c3;
+  --good:#2f7d4f; --good-bg:#e3f1e7; --bad:#b23a32; --bad-bg:#f8e3e0;
+  --philosophy:#4b4fb8; --datamining:#11806f; --dataviz:#b86a00; --japanese:#c8412f;
+  --shadow:0 1px 2px rgba(30,30,40,.06),0 6px 24px rgba(30,30,40,.06);
+  --radius:16px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#14161c; --surface:#1c1f27; --surface-2:#252935; --ink:#ecebe6; --muted:#9aa0ad; --line:#323746;
+    --good:#5cc188; --good-bg:#1d3327; --bad:#ef7a70; --bad-bg:#3a2222;
+    --philosophy:#8f93ff; --datamining:#43c4ae; --dataviz:#f0a640; --japanese:#ff7a66;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 28px rgba(0,0,0,.25);
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#14161c; --surface:#1c1f27; --surface-2:#252935; --ink:#ecebe6; --muted:#9aa0ad; --line:#323746;
+  --good:#5cc188; --good-bg:#1d3327; --bad:#ef7a70; --bad-bg:#3a2222;
+  --philosophy:#8f93ff; --datamining:#43c4ae; --dataviz:#f0a640; --japanese:#ff7a66;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 28px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:16px/1.55 "IBM Plex Sans","Noto Sans JP",system-ui,sans-serif;-webkit-font-smoothing:antialiased;min-height:100vh}
+.wrap{max-width:720px;margin:0 auto;padding:20px 16px 96px}
+header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:18px}
+.brand h1{font-family:Fraunces,Georgia,serif;font-weight:700;font-size:28px;margin:0;letter-spacing:-.01em}
+.brand p{margin:2px 0 0;color:var(--muted);font-size:14px}
+.streak{display:flex;align-items:center;gap:8px;background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-weight:600;font-size:14px;white-space:nowrap}
+.streak .flame{font-size:16px}
+nav.tabs{display:flex;gap:4px;background:var(--surface-2);border-radius:12px;padding:4px;margin-bottom:18px}
+nav.tabs button{flex:1;border:0;background:transparent;color:var(--muted);font:500 14px "IBM Plex Sans",sans-serif;padding:9px 6px;border-radius:9px;cursor:pointer}
+nav.tabs button[aria-selected="true"]{background:var(--surface);color:var(--ink);box-shadow:var(--shadow)}
+nav.tabs .badge[hidden]{display:none}
+nav.tabs .badge{display:inline-block;min-width:18px;padding:0 5px;margin-left:4px;border-radius:9px;background:var(--bad);color:#fff;font-size:11px;line-height:18px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:22px}
+.steps{display:flex;gap:8px;margin-bottom:14px}
+.step{flex:1;height:6px;border-radius:3px;background:var(--surface-2)}
+.step.done{background:var(--c)}
+.step.current{background:var(--c);opacity:.45}
+.subj{display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:var(--c)}
+.subj .dot{width:9px;height:9px;border-radius:50%;background:var(--c)}
+.topic{color:var(--muted);font-size:13px;margin-top:4px}
+.question{font-family:Fraunces,"Noto Sans JP",Georgia,serif;font-weight:500;font-size:22px;line-height:1.35;margin:14px 0 18px}
+.question:lang(ja), .jp .question{font-family:"Noto Sans JP",sans-serif;font-weight:500}
+.choices{display:grid;gap:10px}
+.choice{display:flex;gap:12px;align-items:flex-start;text-align:left;width:100%;border:1.5px solid var(--line);background:var(--surface);color:var(--ink);border-radius:12px;padding:12px 14px;font:inherit;cursor:pointer;transition:border-color .12s, background .12s, transform .05s}
+.choice:hover:not([disabled]){border-color:var(--c)}
+.choice:active:not([disabled]){transform:scale(.995)}
+.choice .key{flex:none;width:24px;height:24px;border-radius:7px;background:var(--surface-2);display:grid;place-items:center;font-size:12px;font-weight:600;color:var(--muted)}
+.choice[disabled]{cursor:default}
+.choice.right{border-color:var(--good);background:var(--good-bg)}
+.choice.right .key{background:var(--good);color:#fff}
+.choice.wrong{border-color:var(--bad);background:var(--bad-bg)}
+.choice.wrong .key{background:var(--bad);color:#fff}
+.choice.dim{opacity:.55}
+.feedback{margin-top:16px;padding:14px 16px;border-radius:12px;background:var(--surface-2)}
+.feedback .verdict{font-weight:600;margin-bottom:4px}
+.feedback .verdict.ok{color:var(--good)} .feedback .verdict.no{color:var(--bad)}
+.feedback .src{margin-top:8px;font-size:13px;color:var(--muted)}
+.actions{display:flex;gap:10px;justify-content:flex-end;margin-top:16px;flex-wrap:wrap}
+.btn{border:0;border-radius:11px;padding:11px 18px;font:600 15px "IBM Plex Sans",sans-serif;cursor:pointer;background:var(--ink);color:var(--bg)}
+.btn.ghost{background:transparent;color:var(--ink);border:1.5px solid var(--line)}
+.btn.small{padding:7px 12px;font-size:13px}
+.btn:disabled{opacity:.4;cursor:default}
+.empty{text-align:center;padding:34px 18px}
+.empty h2{font-family:Fraunces,Georgia,serif;margin:0 0 6px;font-size:24px}
+.empty p{color:var(--muted);margin:0 auto;max-width:420px}
+.summary-grid{display:grid;gap:10px;margin:18px 0}
+.srow{display:flex;align-items:center;gap:12px;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+.srow .name{flex:1;font-weight:600}
+.srow .res{font-weight:600}
+.srow .res.ok{color:var(--good)} .srow .res.no{color:var(--bad)} .srow .res.na{color:var(--muted);font-weight:500}
+.mark{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;color:#fff;font-weight:700;font-size:14px;background:var(--c)}
+.section-title{font-family:Fraunces,Georgia,serif;font-size:20px;margin:26px 0 10px}
+.pick-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.pick{border:1.5px solid var(--line);border-radius:14px;padding:14px;background:var(--surface);text-align:left;cursor:pointer;font:inherit;color:var(--ink)}
+.pick:hover{border-color:var(--c)}
+.pick .n{color:var(--muted);font-size:13px}
+.pick[aria-pressed="true"]{border-color:var(--c);box-shadow:inset 0 0 0 1px var(--c)}
+.pick.soon{opacity:.6}
+select{width:100%;padding:10px 12px;border-radius:10px;border:1.5px solid var(--line);background:var(--surface);color:var(--ink);font:inherit;margin-top:12px}
+.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px}
+.stat .v{font-family:Fraunces,Georgia,serif;font-size:28px;font-weight:700;line-height:1.1}
+.stat .l{color:var(--muted);font-size:13px}
+.bar{height:8px;border-radius:4px;background:var(--surface-2);overflow:hidden;margin-top:8px}
+.bar > span{display:block;height:100%;background:var(--c)}
+.cal{display:grid;grid-template-columns:repeat(14,minmax(0,1fr));gap:4px;margin-top:10px}
+.cal span{aspect-ratio:1;border-radius:4px;background:var(--surface-2)}
+.cal span.l1{background:color-mix(in srgb,var(--good) 35%,var(--surface-2))}
+.cal span.l2{background:color-mix(in srgb,var(--good) 65%,var(--surface-2))}
+.cal span.l3{background:var(--good)}
+.cal span.today{outline:2px solid var(--ink);outline-offset:1px}
+textarea{width:100%;min-height:90px;border-radius:10px;border:1.5px solid var(--line);background:var(--surface);color:var(--ink);font:13px ui-monospace,Menlo,monospace;padding:10px;margin-top:8px}
+.muted{color:var(--muted)}
+.small{font-size:13px}
+.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+footer{margin-top:28px;color:var(--muted);font-size:13px;text-align:center}
+footer button{background:none;border:0;color:inherit;text-decoration:underline;cursor:pointer;font:inherit}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:10px;font-size:14px;opacity:0;transition:opacity .2s;pointer-events:none}
+.toast.show{opacity:1}
+@media (max-width:480px){
+  .question{font-size:19px}
+  .card{padding:18px}
+  .stats{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .stat .v{font-size:22px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <h1>Study Daily</h1>
+      <p id="dateLine"></p>
+    </div>
+    <div class="streak" title="Days in a row you finished your daily set"><span class="flame">🔥</span><span id="streakNum">0</span></div>
+  </header>
+
+  <nav class="tabs" role="tablist">
+    <button role="tab" data-tab="today" aria-selected="true">Today</button>
+    <button role="tab" data-tab="review">Review<span class="badge" id="reviewBadge" hidden></span></button>
+    <button role="tab" data-tab="practice">Practice</button>
+    <button role="tab" data-tab="stats">Stats</button>
+  </nav>
+
+  <main id="view"></main>
+
+  <footer>
+    <span id="bankLine"></span> · <button id="themeBtn">Theme</button> · <button id="syncBtn">Sync devices</button>
+  </footer>
+</div>
+<div class="toast" id="toast"></div>
+
+<script src="questions.js"></script>
+<script>
+(() => {
+"use strict";
+const SUBJECTS = [
+  {key:"philosophy", name:"Philosophy", short:"Phil"},
+  {key:"datamining", name:"Data Mining", short:"DM"},
+  {key:"dataviz",    name:"Data Visualization", short:"Viz"},
+  {key:"japanese",   name:"Japanese", short:"日本語"},
+];
+const BANK = window.QUESTION_BANK || {};
+const BY_ID = {};
+for (const s of SUBJECTS) for (const q of (BANK[s.key]||[])) { q.subject = s.key; BY_ID[q.id] = q; }
+const STORE_KEY = "studyDaily.v1";
+const REVIEW_STEPS = [1, 3, 7, 16]; // days; clears after the last step
+
+// ---------- storage ----------
+function blank(){ return {days:{}, log:{}, review:{}, theme:null}; }
+function load(){ try { return Object.assign(blank(), JSON.parse(localStorage.getItem(STORE_KEY)) || {}); } catch(e){ return blank(); } }
+let state = load();
+function save(){ try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); } catch(e){} }
+
+// ---------- dates ----------
+function dkey(d=new Date()){ const z=n=>String(n).padStart(2,"0"); return `${d.getFullYear()}-${z(d.getMonth()+1)}-${z(d.getDate())}`; }
+function dayNum(key){ const [y,m,d]=key.split("-").map(Number); return Math.round(Date.UTC(y,m-1,d)/864e5); }
+function addDays(key,n){ const t=new Date(dayNum(key)*864e5 + n*864e5); return `${t.getUTCFullYear()}-${String(t.getUTCMonth()+1).padStart(2,"0")}-${String(t.getUTCDate()).padStart(2,"0")}`; }
+const TODAY = dkey();
+
+// ---------- seeded helpers ----------
+function hash(str){ let h=2166136261; for (let i=0;i<str.length;i++){ h^=str.charCodeAt(i); h=Math.imul(h,16777619);} return h>>>0; }
+function rng(seed){ let a=seed>>>0; return ()=>{ a|=0; a=a+0x6D2B79F5|0; let t=Math.imul(a^a>>>15,1|a); t=t+Math.imul(t^t>>>7,61|t)^t; return ((t^t>>>14)>>>0)/4294967296; }; }
+function shuffled(arr, seed){ const r=rng(seed), a=arr.slice(); for(let i=a.length-1;i>0;i--){const j=Math.floor(r()*(i+1)); [a[i],a[j]]=[a[j],a[i]];} return a; }
+function choicesFor(q, salt=""){ return shuffled([q.a, ...q.w], hash(q.id+salt)); }
+
+// ---------- daily selection ----------
+function poolFor(subject, day){
+  let qs = BANK[subject] || [];
+  if (subject === "japanese") { // alternate grammar and kanji days
+    const kanji = qs.filter(q => q.t.includes("Kanji")), grammar = qs.filter(q => !q.t.includes("Kanji"));
+    qs = (dayNum(day) % 2 === 0 ? grammar : kanji);
+    if (!qs.length) qs = BANK[subject];
+  }
+  return qs;
+}
+function seenInDaily(){ const s=new Set(); for (const d of Object.values(state.days)) for (const id of Object.values(d.q||{})) s.add(id); return s; }
+function dailyQuestion(subject, day=TODAY){
+  const rec = state.days[day];
+  if (rec && rec.q && rec.q[subject] && BY_ID[rec.q[subject]]) return BY_ID[rec.q[subject]];
+  const pool = poolFor(subject, day);
+  if (!pool.length) return null;
+  const order = shuffled(pool.map(q=>q.id).sort(), hash("order:"+subject));
+  const seen = seenInDaily();
+  const start = dayNum(day) % order.length;
+  let pick = order[start];
+  for (let i=0;i<order.length;i++){ const id=order[(start+i)%order.length]; if(!seen.has(id)){ pick=id; break; } }
+  state.days[day] = state.days[day] || {q:{}, r:{}};
+  state.days[day].q[subject] = pick; save();
+  return BY_ID[pick];
+}
+function todayRec(){ state.days[TODAY] = state.days[TODAY] || {q:{}, r:{}}; return state.days[TODAY]; }
+function activeSubjects(){ return SUBJECTS.filter(s => (BANK[s.key]||[]).length); }
+
+// ---------- recording answers ----------
+function record(q, correct, mode){
+  const L = state.log[q.subject] = state.log[q.subject] || {n:0, c:0};
+  L.n++; if (correct) L.c++;
+  const rv = state.review[q.id];
+  if (!correct) state.review[q.id] = {step:0, due:addDays(TODAY, REVIEW_STEPS[0])};
+  else if (rv && mode === "review") {
+    const next = rv.step + 1;
+    if (next >= REVIEW_STEPS.length) delete state.review[q.id];
+    else state.review[q.id] = {step:next, due:addDays(TODAY, REVIEW_STEPS[next])};
+  }
+  save();
+}
+function dueReviews(){ return Object.entries(state.review).filter(([id,r]) => BY_ID[id] && r.due <= TODAY).map(([id]) => BY_ID[id]); }
+
+function streak(){
+  const done = d => { const r=state.days[d]; return r && activeSubjects().every(s => r.r && s.key in r.r); };
+  let n=0, d=TODAY;
+  if (!done(d)) d = addDays(d,-1);
+  while (done(d)) { n++; d = addDays(d,-1); }
+  return n;
+}
+
+// ---------- UI helpers ----------
+const $ = s => document.querySelector(s);
+const view = $("#view");
+const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const subj = k => SUBJECTS.find(s => s.key === k);
+function toast(msg){ const t=$("#toast"); t.textContent=msg; t.classList.add("show"); clearTimeout(toast._t); toast._t=setTimeout(()=>t.classList.remove("show"),1800); }
+const hasJa = s => /[぀-ヿ一-龯]/.test(s);
+
+function questionCard(q, {stepsHtml="", mode, onDone, answered=null, salt=""}){
+  const s = subj(q.subject);
+  const opts = choicesFor(q, salt);
+  const el = document.createElement("div");
+  el.className = "card" + (q.subject==="japanese" ? " jp" : "");
+  el.style.setProperty("--c", `var(--${q.subject})`);
+  el.innerHTML = `${stepsHtml}
+    <div class="subj"><span class="dot"></span>${esc(s.name)}</div>
+    <div class="topic">${esc(q.t)}</div>
+    <div class="question" ${hasJa(q.q)?'lang="ja"':''}>${esc(q.q)}</div>
+    <div class="choices">${opts.map((o,i)=>`<button class="choice" data-v="${esc(o)}" ${hasJa(o)?'lang="ja"':''}><span class="key">${"ABCD"[i]}</span><span>${esc(o)}</span></button>`).join("")}</div>
+    <div class="fb"></div>`;
+  const btns = [...el.querySelectorAll(".choice")];
+  function reveal(chosen){
+    const ok = chosen === q.a;
+    btns.forEach(b => { b.disabled = true; const v=b.dataset.v;
+      if (v===q.a) b.classList.add("right"); else if (v===chosen) b.classList.add("wrong"); else b.classList.add("dim"); });
+    el.querySelector(".fb").innerHTML = `<div class="feedback">
+      <div class="verdict ${ok?"ok":"no"}">${ok?"Correct.":"Not quite."}${ok?"":` The answer is <span ${hasJa(q.a)?'lang="ja"':''}>“${esc(q.a)}”</span>.`}</div>
+      <div ${hasJa(q.e)?'lang="ja"':''}>${esc(q.e)}</div>
+      <div class="src">Source: ${esc(q.s)}</div></div>
+      <div class="actions"></div>`;
+    return ok;
+  }
+  if (answered !== null) { reveal(answered); }
+  btns.forEach(b => b.addEventListener("click", () => {
+    const ok = reveal(b.dataset.v);
+    record(q, ok, mode);
+    onDone && onDone(ok, b.dataset.v, el.querySelector(".actions"));
+  }));
+  // keyboard 1-4 / a-d
+  el.tabIndex = -1;
+  return el;
+}
+document.addEventListener("keydown", e => {
+  if (e.target.matches("input,textarea,select")) return;
+  const map = {"1":0,"2":1,"3":2,"4":3,"a":0,"b":1,"c":2,"d":3};
+  const btns = [...document.querySelectorAll(".choice:not([disabled])")];
+  if (e.key in map && btns[map[e.key]]) { btns[map[e.key]].click(); return; }
+  if (e.key === "Enter") { const n = document.querySelector(".actions .btn:not(.ghost)"); n && n.click(); }
+});
+
+// ---------- views ----------
+let tab = "today";
+function setTab(t){ tab=t; document.querySelectorAll("nav.tabs button").forEach(b=>b.setAttribute("aria-selected", b.dataset.tab===t)); render(); window.scrollTo({top:0}); }
+document.querySelectorAll("nav.tabs button").forEach(b => b.addEventListener("click", () => setTab(b.dataset.tab)));
+
+function stepsBar(subjects, rec, currentKey){
+  return `<div class="steps">${subjects.map(s=>`<span class="step ${s.key in rec.r ? "done" : (s.key===currentKey?"current":"")}" style="--c:var(--${s.key})"></span>`).join("")}</div>`;
+}
+
+function renderToday(){
+  const subjects = activeSubjects();
+  const rec = todayRec();
+  const next = subjects.find(s => !(s.key in rec.r));
+  if (!subjects.length) { view.innerHTML = `<div class="card empty"><h2>No questions yet</h2><p>Add notes to get started.</p></div>`; return; }
+  if (!next) return renderSummary();
+  const q = dailyQuestion(next.key);
+  const card = questionCard(q, {mode:"daily", stepsHtml:stepsBar(subjects, rec, next.key), onDone:(ok, chosen, actions)=>{
+    rec.r[next.key] = {ok, chosen}; save(); updateChrome();
+    const more = subjects.find(s => !(s.key in rec.r));
+    actions.innerHTML = `<button class="btn">${more ? "Next: "+esc(more.name)+" →" : "See today’s results"}</button>`;
+    actions.querySelector(".btn").onclick = () => { renderToday(); window.scrollTo({top:0}); };
+  }});
+  view.replaceChildren(card);
+}
+
+function renderSummary(){
+  const rec = todayRec();
+  const subjects = SUBJECTS;
+  const got = Object.values(rec.r).filter(r=>r.ok).length, tot = Object.keys(rec.r).length;
+  const due = dueReviews().length;
+  view.innerHTML = `<div class="card">
+    <div class="empty" style="padding:10px 0 0">
+      <h2>${got === tot ? "Clean sweep." : got >= tot/2 ? "Nice work today." : "Done for today."}</h2>
+      <p>${got} of ${tot} correct. Missed questions come back in Review tomorrow, then again 3, 7 and 16 days later.</p>
+    </div>
+    <div class="summary-grid">${subjects.map(s => {
+      const r = rec.r[s.key]; const has = (BANK[s.key]||[]).length;
+      return `<div class="srow" style="--c:var(--${s.key})"><span class="mark">${esc(s.short.slice(0,1))}</span><span class="name">${esc(s.name)}</span>
+        ${r ? `<button class="btn ghost small" data-see="${s.key}">Revisit</button><span class="res ${r.ok?"ok":"no"}">${r.ok?"✓":"✗"}</span>` : `<span class="res na">${has ? "—" : "Coming soon"}</span>`}</div>`;
+    }).join("")}</div>
+    <div class="actions">
+      ${due ? `<button class="btn ghost" id="goReview">Review ${due} due</button>` : ""}
+      <button class="btn" id="goPractice">Keep practicing</button>
+    </div></div>`;
+  view.querySelectorAll("[data-see]").forEach(b => b.onclick = () => {
+    const k = b.dataset.see, q = dailyQuestion(k);
+    const card = questionCard(q, {mode:"view", answered: rec.r[k].chosen});
+    card.querySelector(".actions").innerHTML = `<button class="btn ghost">← Back</button>`;
+    card.querySelector(".actions .btn").onclick = renderSummary;
+    view.replaceChildren(card);
+  });
+  const gr = $("#goReview"); gr && (gr.onclick = () => setTab("review"));
+  $("#goPractice").onclick = () => setTab("practice");
+}
+
+function renderReview(){
+  const due = dueReviews();
+  if (!due.length) {
+    const upcoming = Object.values(state.review).length;
+    view.innerHTML = `<div class="card empty"><h2>Nothing due</h2><p>${upcoming ? `${upcoming} missed question${upcoming>1?"s are":" is"} scheduled for later.` : "Questions you miss will show up here for spaced review."}</p></div>`;
+    return;
+  }
+  const q = due[0];
+  const card = questionCard(q, {mode:"review", salt:TODAY, stepsHtml:`<div class="small muted" style="margin-bottom:10px">${due.length} due for review</div>`, onDone:(ok, chosen, actions)=>{
+    updateChrome();
+    actions.innerHTML = `<span class="small muted" style="margin-right:auto">${ok ? (state.review[q.id] ? "Next review in "+REVIEW_STEPS[state.review[q.id].step]+" days." : "Cleared from review.") : "You'll see this again tomorrow."}</span><button class="btn">Next →</button>`;
+    actions.querySelector(".btn").onclick = renderReview;
+  }});
+  view.replaceChildren(card);
+}
+
+let practice = {subject:null, topic:"all", queue:[], stats:{n:0,c:0}};
+function renderPractice(){
+  const counts = s => (BANK[s.key]||[]).length;
+  if (!practice.subject) {
+    view.innerHTML = `<div class="card"><div class="subj" style="--c:var(--ink)">Practice</div>
+      <p class="muted" style="margin:6px 0 14px">Unlimited questions. Pick a class, and optionally a single reading or lesson.</p>
+      <div class="pick-grid">${SUBJECTS.map(s=>`<button class="pick ${counts(s)?"":"soon"}" data-s="${s.key}" style="--c:var(--${s.key})" ${counts(s)?"":"disabled"}>
+        <div class="subj"><span class="dot"></span>${esc(s.name)}</div><div class="n">${counts(s) ? counts(s)+" questions" : "Coming soon"}</div></button>`).join("")}</div></div>`;
+    view.querySelectorAll(".pick[data-s]").forEach(b => b.onclick = () => { practice = {subject:b.dataset.s, topic:"all", queue:[], stats:{n:0,c:0}}; renderPractice(); });
+    return;
+  }
+  const s = subj(practice.subject);
+  const all = BANK[s.key];
+  const topics = [...new Set(all.map(q=>q.t))];
+  const pool = practice.topic === "all" ? all : all.filter(q=>q.t===practice.topic);
+  if (!practice.queue.length) practice.queue = shuffled(pool.map(q=>q.id), Date.now());
+  const q = BY_ID[practice.queue[0]];
+  const head = document.createElement("div");
+  head.className = "card"; head.style.marginBottom = "12px"; head.style.setProperty("--c", `var(--${s.key})`);
+  head.innerHTML = `<div class="row"><div class="subj" style="flex:1"><span class="dot"></span>${esc(s.name)} practice</div>
+    <span class="small muted">${practice.stats.c}/${practice.stats.n} this session</span>
+    <button class="btn ghost small" id="pBack">Change class</button></div>
+    <select id="pTopic"><option value="all">All topics (${all.length})</option>${topics.map(t=>`<option ${t===practice.topic?"selected":""} value="${esc(t)}">${esc(t)} (${all.filter(q=>q.t===t).length})</option>`).join("")}</select>`;
+  const card = questionCard(q, {mode:"practice", salt:String(practice.stats.n), onDone:(ok, chosen, actions)=>{
+    practice.stats.n++; if (ok) practice.stats.c++;
+    practice.queue.shift(); updateChrome();
+    actions.innerHTML = `<button class="btn">Next →</button>`;
+    actions.querySelector(".btn").onclick = renderPractice;
+  }});
+  view.replaceChildren(head, card);
+  $("#pBack").onclick = () => { practice.subject = null; renderPractice(); };
+  $("#pTopic").onchange = e => { practice.topic = e.target.value; practice.queue = []; renderPractice(); };
+}
+
+function renderStats(){
+  const st = streak();
+  const daysDone = Object.values(state.days).filter(d => d.r && Object.keys(d.r).length).length;
+  const totalN = Object.values(state.log).reduce((a,l)=>a+l.n,0), totalC = Object.values(state.log).reduce((a,l)=>a+l.c,0);
+  const cells = []; for (let i=27;i>=0;i--){ const d=addDays(TODAY,-i); const r=state.days[d]; const n=r&&r.r?Object.values(r.r).filter(x=>x.ok).length:0; const any=r&&r.r&&Object.keys(r.r).length;
+    cells.push(`<span title="${d}: ${any?n+" correct":"no activity"}" class="${any?(n>=3?"l3":n>=2?"l2":"l1"):""} ${d===TODAY?"today":""}"></span>`); }
+  view.innerHTML = `<div class="stats">
+      <div class="stat"><div class="v">${st}</div><div class="l">day streak</div></div>
+      <div class="stat"><div class="v">${daysDone}</div><div class="l">days studied</div></div>
+      <div class="stat"><div class="v">${totalN?Math.round(100*totalC/totalN):0}%</div><div class="l">overall accuracy</div></div>
+    </div>
+    <div class="card" style="margin-top:12px"><div class="row"><strong style="flex:1">Last 4 weeks</strong><span class="small muted">darker = more correct</span></div><div class="cal">${cells.join("")}</div></div>
+    <h2 class="section-title">By class</h2>
+    <div class="summary-grid" style="margin-top:0">${SUBJECTS.map(s=>{ const l=state.log[s.key]||{n:0,c:0}; const pct=l.n?Math.round(100*l.c/l.n):0; const pending=Object.keys(state.review).filter(id=>BY_ID[id]&&BY_ID[id].subject===s.key).length;
+      return `<div class="srow" style="--c:var(--${s.key});display:block"><div class="row"><span class="name">${esc(s.name)}</span><span class="small muted">${l.n ? `${l.c}/${l.n} correct · ${pending} in review` : ((BANK[s.key]||[]).length ? "No answers yet" : "Coming soon")}</span></div><div class="bar"><span style="width:${pct}%"></span></div></div>`; }).join("")}</div>`;
+}
+
+function renderSync(){
+  const code = btoa(unescape(encodeURIComponent(JSON.stringify(state))));
+  view.innerHTML = `<div class="card"><div class="subj" style="--c:var(--ink)">Sync devices</div>
+    <p class="muted small" style="margin:6px 0 0">Progress is saved in this browser only. To move it to another device, copy this code there and paste it under “Load progress.”</p>
+    <textarea id="code" readonly>${code}</textarea>
+    <div class="actions" style="justify-content:flex-start"><button class="btn" id="copy">Copy code</button></div>
+    <h2 class="section-title" style="margin-top:18px">Load progress</h2>
+    <textarea id="paste" placeholder="Paste a code from your other device"></textarea>
+    <div class="actions" style="justify-content:flex-start"><button class="btn ghost" id="load">Replace this device’s progress</button><button class="btn ghost" id="back">Done</button></div></div>`;
+  $("#copy").onclick = async () => { try { await navigator.clipboard.writeText(code); toast("Copied"); } catch(e){ $("#code").select(); toast("Select and copy the code"); } };
+  $("#load").onclick = () => { try { const s = JSON.parse(decodeURIComponent(escape(atob($("#paste").value.trim())))); if (!s.days) throw 0; state = Object.assign(blank(), s); save(); updateChrome(); toast("Progress loaded"); setTab("today"); } catch(e){ toast("That code didn't work"); } };
+  $("#back").onclick = () => setTab(tab);
+}
+
+function render(){ ({today:renderToday, review:renderReview, practice:renderPractice, stats:renderStats})[tab](); }
+function updateChrome(){
+  $("#streakNum").textContent = streak();
+  const n = dueReviews().length, b = $("#reviewBadge");
+  b.hidden = !n; b.textContent = n;
+}
+function applyTheme(){ if (state.theme) document.documentElement.setAttribute("data-theme", state.theme); else document.documentElement.removeAttribute("data-theme"); }
+$("#themeBtn").onclick = () => { const order=[null,"light","dark"]; state.theme = order[(order.indexOf(state.theme)+1)%3]; save(); applyTheme(); toast("Theme: "+(state.theme||"system")); };
+$("#syncBtn").onclick = renderSync;
+
+$("#dateLine").textContent = new Date().toLocaleDateString(undefined,{weekday:"long", month:"long", day:"numeric"});
+$("#bankLine").textContent = SUBJECTS.map(s => `${s.short} ${(BANK[s.key]||[]).length}`).join(" · ");
+applyTheme(); updateChrome(); render();
+})();
+</script>
+</body>
+</html>

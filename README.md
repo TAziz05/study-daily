@@ -1,0 +1,22 @@
+# Study Daily
+
+A personal daily study quiz. Each day it gives one question per class: Philosophy, Data Mining, Data Visualization and Japanese.
+
+- **Today**: four questions, one per class. They stay the same all day on a given device.
+- **Review**: missed questions come back 1, 3, 7 and 16 days later.
+- **Practice**: unlimited questions for any class, filterable by reading or lesson.
+- **Sync devices**: progress lives in each browser. Copy the sync code to move it to another device.
+
+## Adding questions
+
+Questions live in `data/src/*.json`. The file prefix sets the class: `phil_`, `dm_`, `dv_` or `jp_`. Each question looks like:
+
+```json
+{"t": "Topic", "s": "Source (lecture/reading + section)", "q": "Question", "a": "Correct answer", "w": ["Wrong 1", "Wrong 2", "Wrong 3"], "e": "Explanation"}
+```
+
+Japanese kanji questions are generated from `build/kanji_data.txt`. After editing, rebuild `questions.js` with:
+
+```
+python3 build/build.py
+```
