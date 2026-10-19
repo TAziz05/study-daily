@@ -1,89 +1,1601 @@
 [
-{"t":"01 – Introduction","s":"Data Viz 01 – Introduction","q":"\"The purpose of visualization is insight, not pictures.\" Who said it?","a":"Ben Shneiderman","w":["John Tukey","Edward Tufte","Francis Anscombe"],"e":"Tukey: 'The greatest value of a picture is when it forces us to notice what we never expected to see.'"},
-{"t":"01 – Introduction","s":"Data Viz 01 – Introduction","q":"\"The greatest value of a picture is when it forces us to notice what we never expected to see.\" Who said it?","a":"John Tukey","w":["Ben Shneiderman","Hal Varian","Florence Nightingale"],"e":"Anscombe: 'A computer should make both calculations and graphs.'"},
-{"t":"01 – Introduction","s":"Data Viz 01 – Introduction","q":"Which is NOT one of the four visualization goals listed in lecture?","a":"Replace statistical analysis entirely","w":["Record information","Analyze data to support reasoning","Communicate ideas to others"],"e":"The four goals: record information, analyze data to support reasoning, confirm hypotheses, and communicate ideas to others."},
-{"t":"01 – Introduction","s":"Data Viz 01 – Introduction","q":"John Snow's 1854 map of the London cholera outbreak is the lecture's example of which goal?","a":"Confirm hypotheses","w":["Record information","Communicate ideas to others","Enjoy"],"e":"Nightingale (1856) and Minard (1861) are the examples for communicating ideas."},
-{"t":"01 – Introduction","s":"Data Viz 01 – Introduction","q":"Florence Nightingale (1856) and Joseph Minard (1861) are examples of visualization used to:","a":"Communicate ideas to others","w":["Confirm hypotheses","Record information","Analyze to support reasoning"],"e":"Minard's chart shows Napoleon's march on Moscow."},
-{"t":"01 – Introduction","s":"Data Viz 01 – Introduction","q":"Why does visualization work, according to the lecture?","a":"Cognition and memory are limited; visualization uses perception and pictures to enhance working memory","w":["Computers can't do arithmetic","Pictures are always accurate","People prefer colors to numbers"],"e":"Examples: the 'find the most common number' and multiplication exercises. But visualization can also deceive you."},
-{"t":"03 – Perception","s":"Data Viz 03 – Perception","q":"Approximately how many rods and cones does the human eye have?","a":"About 120 million rods and 5–6 million cones","w":["About 5 million rods and 120 million cones","About 1 million of each","About 100 rods and 6 cones"],"e":"Cones handle color. Rods handle low light."},
-{"t":"03 – Perception","s":"Data Viz 03 – Perception","q":"Saccadic eye movements are:","a":"Rapid involuntary eye movements (20–100 ms), between fixations of 200–600 ms","w":["Slow voluntary tracking movements","Blinks","Movements only during sleep"],"e":"Our vision at any moment is limited, and the brain 'fills in the missing pieces'."},
-{"t":"03 – Perception","s":"Data Viz 03 – Perception","q":"Takeaway from foveation, saccades and the blind spot:","a":"Be careful placing too much data on the screen; crisp, clear visualizations work best","w":["Use as much data as possible","Vision captures everything at once","Blur is helpful"],"e":"Our high-acuity vision covers only a small area at a time."},
-{"t":"03 – Perception","s":"Data Viz 03 – Perception","q":"The Hermann grid, Cornsweet illusion and Mach banding show that our visual system:","a":"Is attracted to edges and sensitive to differences, not absolute values","w":["Measures absolute luminance precisely","Ignores edges","Only sees color"],"e":"Takeaway: maximize contrast with the background if shape outlines matter."},
-{"t":"03 – Perception","s":"Data Viz 03 – Perception","q":"Weber's Law says we judge based on:","a":"Relative, not absolute, differences","w":["Absolute differences","Only color differences","Only position"],"e":"That's why an axis of alignment or reference lines help comparisons."},
-{"t":"03 – Perception","s":"Data Viz 03 – Perception","q":"The checker-shadow illusion (same gray looks different in shadow) demonstrates:","a":"Simultaneous contrast: judgments are relative to local context","w":["Pre-attentive popout","Gestalt closure","Color blindness"],"e":"Takeaway: don't place data in difficult contexts. Choose position and orientation carefully."},
-{"t":"03 – Perception","s":"Data Viz 03 – Perception","q":"Pre-attentive processing (popout) is:","a":"Very fast (<200 ms), and what matters most is contrast between features","w":["Slow and deliberate","Only for text","Independent of contrast"],"e":"Despite the name, it still requires some attention."},
-{"t":"03 – Perception","s":"Data Viz 03 – Perception","q":"Why use a single channel at a time to make a target pop out?","a":"Conjunctions of features (e.g., red AND circle) don't pop out; they require serial search","w":["Multiple channels are illegal","Single channels use less ink","Color can't pop out"],"e":"Use color and shape sparingly to make the important information pop out."},
-{"t":"03 – Perception","s":"Data Viz 03 – Perception","q":"The Gestalt principle that things visually close together are perceived as related is:","a":"Proximity","w":["Similarity","Closure","Common fate"],"e":"Similarity is about looking alike (size, color, shape)."},
-{"t":"03 – Perception","s":"Data Viz 03 – Perception","q":"We see incomplete shapes as complete. Which Gestalt principle?","a":"Closure","w":["Continuity","Proximity","Figure/ground"],"e":"Continuity: we complete hidden objects into simple, familiar shapes."},
-{"t":"03 – Perception","s":"Data Viz 03 – Perception","q":"Elements moving in the same direction are perceived as a unit. Which Gestalt principle?","a":"Common fate","w":["Connection","Similarity","Enclosure"],"e":"'Gestalt' is German for 'form'. Patterns transcend the stimuli that produced them."},
-{"t":"03 – Perception","s":"Data Viz 03 – Perception","q":"Which Gestalt grouping principle is the lecture's example of the strongest cue (lines between dots)?","a":"Connection (connectedness)","w":["Similarity","Common fate","Closure"],"e":"Grouping cues: similarity, connection, enclosure, proximity. Poor use can make viewers see things that aren't there."},
-{"t":"04 – Color","s":"Data Viz 04 – Color","q":"Color is NOT simply wavelength; it is:","a":"A combination of wavelengths and energy, interpreted by our cones","w":["A single wavelength","Determined only by brightness","The same for every device"],"e":"The CIE color space comes from 1920s–30s experiments showing humans can match any visible light with three primaries."},
-{"t":"04 – Color","s":"Data Viz 04 – Color","q":"Additive color (light) uses primaries ___; subtractive color (print ink) uses primaries ___.","a":"RGB; CMY (plus K for true black)","w":["CMY; RGB","RYB; CMYK","HSV; LAB"],"e":"Approximate black = C+M+Y. True black uses K. Both are device-dependent."},
-{"t":"04 – Color","s":"Data Viz 04 – Color","q":"A drawback of the RGB color space:","a":"It's not perceptually uniform (and actual color is device-dependent)","w":["It can't represent red","It's subtractive","It has only two channels"],"e":"HSV is a polar representation of RGB that's more intuitive for tuning."},
-{"t":"04 – Color","s":"Data Viz 04 – Color","q":"In HSV, saturation corresponds to:","a":"The amount of white mixed in","w":["The amount of black mixed in","What people think of as 'color'","Wavelength"],"e":"Hue is 'the color'. Luminance/value is the amount of black mixed in."},
-{"t":"04 – Color","s":"Data Viz 04 – Color","q":"CIE LAB is:","a":"A perceptually based space: L* = lightness, a = red–green, b = yellow–blue","w":["A print-only CMYK variant","Device-dependent RGB","A colorblindness test"],"e":"It's mathematically defined to include all perceivable colors."},
-{"t":"04 – Color","s":"Data Viz 04 – Color","q":"Roughly how common is color deficiency among people of European descent?","a":"5–8% of men and about 0.5% of women","w":["50% of everyone","Equal in men and women","Under 0.01% of men"],"e":"The photopigment genes are on the X chromosome."},
-{"t":"04 – Color","s":"Data Viz 04 – Color","q":"Deuteranopia is:","a":"Dichromacy with green receptors absent","w":["Absence of red receptors","Absence of blue receptors","Total color blindness"],"e":"Protanopia = no red, tritanopia = no blue. Monochromacy = 1-D color vision (very rare)."},
-{"t":"04 – Color","s":"Data Viz 04 – Color","q":"The most common form of color deficiency is:","a":"Deuteranomaly (shift in green; poor red–green discrimination)","w":["Tritanopia","Rod monochromacy","Protanopia"],"e":"Anomalous trichromacy means one cone is shifted in sensitivity (impairment rather than loss)."},
-{"t":"04 – Color","s":"Data Viz 04 – Color","q":"We have higher contrast sensitivity in which channel, so it's preferred for encoding detail?","a":"Luminance (rather than chrominance)","w":["Hue","Saturation","Chrominance"],"e":"'Get it right in black and white.' (Maureen Stone)"},
-{"t":"04 – Color","s":"Data Viz 04 – Color","q":"Minimum and ideal luminance contrast ratios for text:","a":"3:1 minimum, 10:1 ideal","w":["1:1 minimum, 2:1 ideal","10:1 minimum, 100:1 ideal","There is no guideline"],"e":"Color is relative, so put ordinal color encodings on a solid, neutral background."},
-{"t":"04 – Color","s":"Data Viz 04 – Color","q":"Bertin: 'the smaller the mark, ___'.","a":"The less distinguishable are the colors","w":["The brighter it looks","The more salient it is","The more colors you can use"],"e":"Use bright, saturated colors in small regions and low-saturation pastels for large regions and backgrounds."},
-{"t":"04 – Color","s":"Data Viz 04 – Color","q":"How many simultaneous colors can people reliably distinguish (for categories)?","a":"About 6–12","w":["About 2","About 50","Unlimited"],"e":"Categorical colors are easier to remember if they're nameable."},
-{"t":"04 – Color","s":"Data Viz 04 – Color","q":"For ORDINAL data, which color properties work best?","a":"Luminance and saturation (they have an inherent ordering)","w":["Hue","Random colors","Rainbow hues"],"e":"Hue is great for categorical data because it has no inherent ordering."},
-{"t":"04 – Color","s":"Data Viz 04 – Color","q":"Which is a known problem with rainbow colormaps?","a":"Uneven perceived contrast and no explicit zero crossing","w":["They have too few colors","They're grayscale","They're perceptually uniform"],"e":"See Borland 2007. Rainbows create artificial bands and hide structure."},
-{"t":"04 – Color","s":"Data Viz 04 – Color","q":"Bivariate colormaps are difficult to interpret unless:","a":"At least one of the variables is binary","w":["Both variables are continuous","They use rainbow hues","They're on a black background"],"e":"Colormap types: categorical vs. ordered, sequential vs. diverging, segmented vs. continuous, univariate vs. bivariate."},
-{"t":"04 – Color","s":"Data Viz 04 – Color","q":"Which color harmony uses hues often found in nature that are harmonious and pleasing?","a":"Analogous","w":["Complementary","Triad","Rectangle"],"e":"Complementary = high contrast. Split-complementary = strong contrast with less tension."},
-{"t":"04 – Color","s":"Data Viz 04 – Color","q":"Which tool is listed for choosing colormaps for maps and charts?","a":"ColorBrewer (colorbrewer2.org)","w":["Photoshop only","Excel default palette","MATLAB jet"],"e":"Others: paletton.com, Vischeck (colorblind simulation), Color Buddy."},
-{"t":"07 – Data Abstraction","s":"Data Viz 07 – Data","q":"The what-why-how framework asks:","a":"What is shown (data), why the user is looking (task), how it's shown (encoding/interaction)","w":["Who made it, when, and where","What it costs, why it's slow, how to speed it up","What color, which font, how large"],"e":"Its abstract vocabulary avoids domain-specific terms."},
-{"t":"07 – Data Abstraction","s":"Data Viz 07 – Data","q":"The five basic data types are:","a":"Items, attributes, links, positions, grids","w":["Rows, columns, cells, sheets, files","Points, lines, areas, volumes, time","Nominal, ordinal, interval, ratio, binary"],"e":"These combine into dataset types such as tables, networks/trees, and fields."},
-{"t":"07 – Data Abstraction","s":"Data Viz 07 – Data","q":"In a table dataset, each row is an ___ and each column is an ___.","a":"Item; attribute","w":["Attribute; item","Link; position","Cell; grid"],"e":"A cell holds the value for one item and one attribute."},
-{"t":"07 – Data Abstraction","s":"Data Viz 07 – Data","q":"Networks and trees consist of:","a":"Items (nodes), links, and attributes","w":["Grids and positions","Only attributes","Cells and fields"],"e":"Fields have grids, positions and attributes. Tables have items and attributes."},
-{"t":"07 – Data Abstraction","s":"Data Viz 07 – Data","q":"Field attributes at each cell can be scalar, vector, or:","a":"Tensor","w":["Network","Ordinal","Categorical"],"e":"Scalar = one value, vector = direction + magnitude, tensor = an array of values."},
-{"t":"07 – Data Abstraction","s":"Data Viz 07 – Data","q":"Which grid type is listed?","a":"Uniform, rectilinear, structured, and unstructured","w":["Only uniform","Tabular and hierarchical","Sequential and diverging"],"e":"Grid choices affect how continuous data is interpreted."},
-{"t":"07 – Data Abstraction","s":"Data Viz 07 – Data","q":"The two key considerations for continuous field data are:","a":"Sampling (where attributes are measured) and interpolation (modeling values in between)","w":["Color and size","Filtering and sorting","Hue and saturation"],"e":"Grid choices (uniform, rectilinear, structured, unstructured) affect both."},
-{"t":"07 – Data Abstraction","s":"Data Viz 07 – Data","q":"Attributes with a meaningful magnitude, where arithmetic makes sense, are:","a":"Quantitative","w":["Categorical","Ordinal","Nominal"],"e":"Categorical (nominal) attributes have no implicit ordering. Ordinal ones are ordered without meaningful magnitude."},
-{"t":"07 – Data Abstraction","s":"Data Viz 07 – Data","q":"T-shirt sizes (S, M, L, XL) are an example of which attribute type?","a":"Ordinal","w":["Categorical","Quantitative","Diverging"],"e":"They're ordered, but you can't meaningfully subtract them."},
-{"t":"07 – Data Abstraction","s":"Data Viz 07 – Data","q":"Ordered attributes can further be:","a":"Sequential, divergent, or cyclic","w":["Nominal, binary, or random","Additive or subtractive","Scalar or tensor"],"e":"Diverging data has a meaningful midpoint (e.g., 0). Cyclic data wraps around (e.g., days of the week)."},
-{"t":"07 – Data Abstraction","s":"Data Viz 07 – Data","q":"Turning temperatures (−32.52, 54.06...) into 'hot, warm, cold' creates:","a":"A derived attribute (quantitative → ordinal), using the conceptual model","w":["A new raw attribute","A network","A grid"],"e":"The data model is a mathematical abstraction. The conceptual model adds semantics and motivates abstraction choices."},
-{"t":"07 – Data Abstraction","s":"Data Viz 07 – Data","q":"'Above freezing / below freezing' as a derived attribute is what type?","a":"Categorical","w":["Quantitative","Ordinal","Tensor"],"e":"Same data, different abstractions: quantitative, ordinal (hot/warm/cold), categorical (above/below freezing)."},
-{"t":"09 – Visual Encoding","s":"Data Viz 09 – Visual Encoding","q":"Marks are graphical elements classified by number of spatial dimensions. Which list is correct?","a":"Points (0D), lines (1D), areas (2D)","w":["Points (1D), lines (2D), areas (3D)","Colors, shapes, sizes","Items, links, grids"],"e":"Marks can represent items (nodes) or links (via containment or connection)."},
-{"t":"09 – Visual Encoding","s":"Data Viz 09 – Visual Encoding","q":"Channels are:","a":"Parameters that control the appearance of marks (position, color, size, shape...)","w":["Data sources","Network links","Interaction techniques"],"e":"Identity channels tell 'what or where'. Magnitude channels tell 'how much'."},
-{"t":"09 – Visual Encoding","s":"Data Viz 09 – Visual Encoding","q":"Which channel type is shape?","a":"Identity (what/where): good for categorical attributes","w":["Magnitude (how much)","Both identity and magnitude","Neither"],"e":"Size and tilt are magnitude channels. Position and color can serve as both."},
-{"t":"09 – Visual Encoding","s":"Data Viz 09 – Visual Encoding","q":"The expressiveness principle says:","a":"Match channel type to attribute type: magnitude channels for ordered data, identity channels for categorical","w":["Use the most colorful channel","Always use position","Use as many channels as possible"],"e":"The effectiveness principle says to encode the most important attributes with the most effective channels."},
-{"t":"09 – Visual Encoding","s":"Data Viz 09 – Visual Encoding","q":"The MOST effective magnitude channel for ordered attributes is:","a":"Position on a common scale","w":["Color luminance","Area (2D size)","Volume (3D size)"],"e":"Then position on an unaligned scale, length, tilt, area, depth, luminance/saturation, curvature, and volume."},
-{"t":"09 – Visual Encoding","s":"Data Viz 09 – Visual Encoding","q":"The LEAST effective magnitude channels in the ranking are:","a":"Curvature and volume (3D size)","w":["Position and length","Length and tilt","Spatial region and hue"],"e":"Area beats volume. Luminance and saturation are ranked about the same."},
-{"t":"09 – Visual Encoding","s":"Data Viz 09 – Visual Encoding","q":"The most effective identity channel for categorical attributes is:","a":"Spatial region","w":["Shape","Motion","Color hue"],"e":"Order: spatial region, color hue, motion, shape."},
-{"t":"09 – Visual Encoding","s":"Data Viz 09 – Visual Encoding","q":"Cleveland & McGill (1985) and Heer & Bostock (2010, Mechanical Turk) are sources of:","a":"Empirical rankings of channel effectiveness","w":["Color harmony rules","Gestalt principles","Task taxonomies"],"e":"Bertin (1967) and Mackinlay (1986) also contributed."},
-{"t":"09 – Visual Encoding","s":"Data Viz 09 – Visual Encoding","q":"Separable vs. integral channels: which pair is INTEGRAL (perceived holistically)?","a":"Width and height (x-size | y-size)","w":["Color and location","Position and hue","Size and orientation"],"e":"Pairs run from separable (color/location) toward integral (x-size/y-size, red-green/yellow-blue)."},
-{"t":"09 – Visual Encoding","s":"Data Viz 09 – Visual Encoding","q":"Discriminability asks:","a":"Can differences in a channel actually be discerned?","w":["Is the channel colorful?","Is the data categorical?","Is the chart memorable?"],"e":"There's a limit to how many distinct steps a channel can show."},
-{"t":"09 – Visual Encoding","s":"Data Viz 09 – Visual Encoding","q":"Why is 3D generally a poor choice for encoding data?","a":"We see the world in 2.5D; perspective interferes with size/color, causes occlusion, and hurts text legibility","w":["Computers can't render 3D","3D uses too little ink","3D is always more accurate"],"e":"The power of planar position doesn't extend to 3D depth."},
-{"t":"09 – Visual Encoding","s":"Data Viz 09 – Visual Encoding","q":"Animation is GOOD for which use?","a":"Storytelling and transitions","w":["Comparing complex state changes over time","Showing multiple states with multiple changes","Precise value comparison"],"e":"For multiple states with multiple changes, use small multiples instead."},
-{"t":"09 – Visual Encoding","s":"Data Viz 09 – Visual Encoding","q":"Why are small multiples better than animation for comparing many states?","a":"Comparing views by moving your eyes (external memory) is easier than comparing to memory of what you saw","w":["Animation can't show data","Small multiples use color","Animation uses less space"],"e":"Visualization works partly by enhancing working memory."},
-{"t":"11 – Design","s":"Data Viz 11 – Design","q":"Tufte's graphical excellence: give the viewer the greatest number of ideas in the shortest time with:","a":"The least ink in the smallest space","w":["The most colors","The largest graphics","3D effects"],"e":"Einstein: 'An explanation should be as simple as possible, but no simpler.'"},
-{"t":"11 – Design","s":"Data Viz 11 – Design","q":"Tufte's Lie Factor equals:","a":"Size of effect shown in graphic ÷ size of effect in data","w":["Data-ink ÷ total ink","Entries ÷ area","Width ÷ height"],"e":"Ideally it's 1."},
-{"t":"11 – Design","s":"Data Viz 11 – Design","q":"Tufte's integrity principle: the representation of numbers as physically measured on the graphic should be:","a":"Directly proportional to the numerical quantities represented","w":["Logarithmic","Exaggerated for emphasis","Independent of the data"],"e":"Also: show data variation, not design variation."},
-{"t":"11 – Design","s":"Data Viz 11 – Design","q":"When scaling circles by DIAMETER instead of area, the visual effect is:","a":"Exaggerated, because area grows with the square of the diameter","w":["Perfectly accurate","Understated","Unchanged"],"e":"Unintended size coding is a common distortion (e.g., pictogram bars)."},
-{"t":"11 – Design","s":"Data Viz 11 – Design","q":"When is truncating the y-axis (non-zero baseline) acceptable, per lecture?","a":"When zero doesn't make sense, to emphasize relative position, or when it's the norm (e.g., stock charts)","w":["Never","Always, to save space","Only for pie charts"],"e":"Missing scales and missing baselines can mislead badly."},
-{"t":"11 – Design","s":"Data Viz 11 – Design","q":"Which is NOT one of the listed options for handling outliers?","a":"Delete them from the dataset silently","w":["Clip them out","Use scale breaks","Use log scales"],"e":"The three options are clipping, scale breaks, and log scales."},
-{"t":"11 – Design","s":"Data Viz 11 – Design","q":"Data-ink ratio = ?","a":"Data-ink ÷ total ink used in the graphic","w":["Total ink ÷ data-ink","Entries ÷ area","Effect shown ÷ effect in data"],"e":"Tufte says to maximize it. A counterpoint EEG study found the most minimal box plot was the hardest to interpret."},
-{"t":"11 – Design","s":"Data Viz 11 – Design","q":"Bateman et al. (CHI 2010) found that embellished 'chart junk' charts, compared to plain ones:","a":"Had similar accuracy, but significantly better long-term recall (2–3 weeks)","w":["Were much less accurate","Were forgotten faster","Were rated less attractive"],"e":"Viewers also saw value messages more often and enjoyed them more (e.g., Nigel Holmes' TIME graphics)."},
-{"t":"11 – Design","s":"Data Viz 11 – Design","q":"Borkin et al.'s 'What Makes a Visualization Memorable?' found that:","a":"Color and human-recognizable objects enhance memorability; common graphs are less memorable than unique types","w":["Bar charts are most memorable","Minimal charts are most memorable","Memorability is random across people"],"e":"Observers were consistent about which visualizations they remembered. Verdict on chart junk: it depends."},
-{"t":"11 – Design","s":"Data Viz 11 – Design","q":"Data density = ?","a":"Number of entries in the data array ÷ area of the data graphic","w":["Data-ink ÷ total ink","Colors ÷ marks","Effect shown ÷ effect in data"],"e":"Maximize it by shrinking graphics: small multiples and sparklines."},
-{"t":"11 – Design","s":"Data Viz 11 – Design","q":"Trellis plots subdivide space for comparison across plots, typically using which variables as subdivision dimensions?","a":"Nominal or ordinal variables","w":["Only quantitative variables","Random variables","Time only"],"e":"They're a form of small multiples."},
-{"t":"11 – Design","s":"Data Viz 11 – Design","q":"'Overestimate of breadth' in illusions of visual bandwidth means designers believe:","a":"Viewers can take in all (or most) of the details of a scene at once","w":["Viewers attend to every region of the display","Attending to an object gives deep understanding","Viewers see nothing"],"e":"'Countenance' is the overestimate of how much of the display users attend to. 'Depth' is the overestimate of how deep their understanding goes."},
-{"t":"11 – Design","s":"Data Viz 11 – Design","q":"The 3D Apple smartphone-share pie chart (Steve Jobs keynote) misled because:","a":"3D perspective made Apple's 19.5% slice look larger than RIM's 21.2%","w":["The numbers were fake","It used too few colors","It had no title"],"e":"A plain bar chart sorted by value shows the true ranking."},
-{"t":"11 – Design","s":"Data Viz 11 – Design","q":"Why are dual-axis charts risky (e.g., the 2015 Planned Parenthood chart)?","a":"Independent scales can make lines cross or diverge arbitrarily, implying false relationships","w":["They use too much color","They can't show time","They're always 3D"],"e":"That chart also lacked an axis and context ('insufficient context', Alberto Cairo's How Charts Lie)."},
-{"t":"12 – Tasks & Interaction","s":"Data Viz 12 – Tasks & Interaction","q":"In Munzner's framework, tasks are abstracted as:","a":"{action, target} pairs (e.g., discover distribution, compare trends, locate outliers)","w":["{mark, channel} pairs","{item, attribute} pairs","{hue, luminance} pairs"],"e":"Actions describe why. Targets describe what in the data."},
-{"t":"12 – Tasks & Interaction","s":"Data Viz 12 – Tasks & Interaction","q":"Under 'Analyze → Consume', the three goals are:","a":"Discover, present, enjoy","w":["Annotate, record, derive","Lookup, browse, locate","Identify, compare, summarize"],"e":"'Produce' includes annotate, record, and derive."},
-{"t":"12 – Tasks & Interaction","s":"Data Viz 12 – Tasks & Interaction","q":"Search when you know the target but NOT its location is called:","a":"Locate","w":["Lookup","Browse","Explore"],"e":"Lookup = target and location known. Browse = location known, target unknown. Explore = both unknown."},
-{"t":"12 – Tasks & Interaction","s":"Data Viz 12 – Tasks & Interaction","q":"Search when neither the target nor its location is known:","a":"Explore","w":["Browse","Locate","Lookup"],"e":"Query actions: identify (one), compare (some), summarize (all)."},
-{"t":"12 – Tasks & Interaction","s":"Data Viz 12 – Tasks & Interaction","q":"Query actions scale from one target to all targets as:","a":"Identify → compare → summarize","w":["Summarize → compare → identify","Lookup → locate → explore","Filter → sort → cluster"],"e":"These are the 'how many targets' levels of a query."},
-{"t":"12 – Tasks & Interaction","s":"Data Viz 12 – Tasks & Interaction","q":"Targets for 'all data' include:","a":"Trends, outliers, and features","w":["Nodes and links","Distribution and extremes","Shape"],"e":"Attribute targets: distribution and extremes (one), dependency/correlation/similarity (many). Network: topology and paths. Spatial: shape."},
-{"t":"12 – Tasks & Interaction","s":"Data Viz 12 – Tasks & Interaction","q":"Amar et al.'s low-level task 'Find Extremum' is:","a":"Find data cases with an extreme value of an attribute (e.g., car with the highest MPG)","w":["Find clusters of similar values","Rank cases by an ordinal metric","Find the correlation between attributes"],"e":"Amar et al. (InfoVis 2005) list 10 tasks: retrieve value, filter, compute derived value, find extremum, sort, determine range, characterize distribution, find anomalies, cluster, correlate."},
-{"t":"12 – Tasks & Interaction","s":"Data Viz 12 – Tasks & Interaction","q":"'What is the average calorie content of Post cereals?' is which Amar et al. task?","a":"Compute derived value","w":["Retrieve value","Characterize distribution","Filter"],"e":"It computes an aggregate over a set of cases."},
-{"t":"12 – Tasks & Interaction","s":"Data Viz 12 – Tasks & Interaction","q":"'Are there any outliers in protein?' is which Amar et al. task?","a":"Find anomalies","w":["Find extremum","Cluster","Determine range"],"e":"It identifies cases unexpected relative to a relationship or expectation."},
-{"t":"12 – Tasks & Interaction","s":"Data Viz 12 – Tasks & Interaction","q":"'Which Kellogg's cereals have high fiber?' is which Amar et al. task?","a":"Filter","w":["Sort","Retrieve value","Correlate"],"e":"It finds data cases satisfying concrete conditions."},
-{"t":"12 – Tasks & Interaction","s":"Data Viz 12 – Tasks & Interaction","q":"Which is NOT one of the interaction types listed in lecture?","a":"Compression","w":["Linking","Filtering","Selection & highlighting"],"e":"The list: change over time, rearranging, selection & highlighting, linking, filtering, navigation."},
-{"t":"12 – Tasks & Interaction","s":"Data Viz 12 – Tasks & Interaction","q":"Geometric vs. semantic zooming:","a":"Geometric just magnifies; semantic changes what is shown (level of detail) as you zoom","w":["They're identical","Semantic only pans","Geometric changes the data shown"],"e":"For example, a map that reveals street names only when zoomed in is semantic zooming."},
-{"t":"12 – Tasks & Interaction","s":"Data Viz 12 – Tasks & Interaction","q":"Crossfilter (Square) is the lecture's example of which interaction?","a":"Filtering","w":["Navigation","Rotation","Animated transition"],"e":"Linking is shown with GeogTreeMaps, and selection with the NYT movie revenue graphic."}
+ {
+  "t": "01 – Introduction",
+  "T": "Goals of visualization",
+  "s": "Data Viz 01 – Introduction",
+  "q": "A doctor plots patient cases on a map to check whether a suspected water source explains an outbreak. Which visualization goal is this?",
+  "a": "Confirm a hypothesis",
+  "w": [
+   "Record information",
+   "Communicate ideas to others",
+   "Enjoy"
+  ],
+  "e": "You already have a guess (the water source) and use the picture to test it, like John Snow's cholera map."
+ },
+ {
+  "t": "01 – Introduction",
+  "T": "Goals of visualization",
+  "s": "Data Viz 01 – Introduction",
+  "q": "A journalist designs a chart so readers instantly grasp how many soldiers died of disease versus wounds. Which goal is this?",
+  "a": "Communicate ideas to others",
+  "w": [
+   "Confirm a hypothesis",
+   "Record information",
+   "Analyze data to support reasoning"
+  ],
+  "e": "The insight is already known; the chart's job is to get it across to an audience (like Nightingale's diagrams)."
+ },
+ {
+  "t": "01 – Introduction",
+  "T": "Goals of visualization",
+  "s": "Data Viz 01 – Introduction",
+  "q": "An analyst explores a migration dataset with no specific question, looking for patterns worth investigating. Which goal fits best?",
+  "a": "Analyze data to support reasoning",
+  "w": [
+   "Communicate ideas to others",
+   "Record information",
+   "Confirm a hypothesis"
+  ],
+  "e": "Open-ended exploration to support reasoning, rather than testing a specific guess or presenting a finished message."
+ },
+ {
+  "t": "01 – Introduction",
+  "T": "Goals of visualization",
+  "s": "Data Viz 01 – Introduction",
+  "q": "Sketching a specimen or photographing motion frames (like Muybridge's horse) mainly serves which goal?",
+  "a": "Record information",
+  "w": [
+   "Confirm a hypothesis",
+   "Analyze data to support reasoning",
+   "Communicate ideas to others"
+  ],
+  "e": "Recording captures information so it can be kept and studied later."
+ },
+ {
+  "t": "01 – Introduction",
+  "T": "Why visualization works",
+  "s": "Data Viz 01 – Introduction",
+  "q": "Why is finding the most frequent number faster in a bar chart than in a grid of numbers?",
+  "a": "Perception does the work in parallel instead of reading and counting values one by one",
+  "w": [
+   "Bar charts contain more data than tables",
+   "Tables cannot store repeated values",
+   "Numbers are harder to print than bars"
+  ],
+  "e": "Visualization offloads work from limited cognition and working memory onto fast visual perception."
+ },
+ {
+  "t": "01 – Introduction",
+  "T": "Why visualization works",
+  "s": "Data Viz 01 – Introduction",
+  "q": "Visualization 'enhances working memory' mainly because:",
+  "a": "The picture acts as external memory you can look back at instead of holding values in your head",
+  "w": [
+   "It permanently increases how much you can remember",
+   "It removes the need to look at the data",
+   "It compresses the data into fewer values"
+  ],
+  "e": "Like doing multiplication on paper, the display stores intermediate information for you."
+ },
+ {
+  "t": "01 – Introduction",
+  "T": "Why visualization works",
+  "s": "Data Viz 01 – Introduction",
+  "q": "The lecture warns that perception can point out interesting things 'but can also deceive you.' What's the practical lesson?",
+  "a": "Design choices can create patterns that aren't in the data, so encodings must be chosen carefully",
+  "w": [
+   "Visualization should be avoided for important decisions",
+   "Only statistics can be trusted, never charts",
+   "Perception is too slow for large datasets"
+  ],
+  "e": "The same power that makes patterns pop out can make false patterns pop out."
+ },
+ {
+  "t": "01 – Introduction",
+  "T": "Why visualization works",
+  "s": "Data Viz 01 – Introduction",
+  "q": "Anscombe argued computers should produce both calculations and graphs. What's the main reason?",
+  "a": "Datasets with identical summary statistics can look completely different when plotted",
+  "w": [
+   "Graphs are always more accurate than statistics",
+   "Calculations are too slow without graphs",
+   "Graphs replace the need for statistics"
+  ],
+  "e": "Summary statistics can hide structure (outliers, curves, clusters) that a plot reveals."
+ },
+ {
+  "t": "03 – Perception",
+  "T": "The eye: foveation & saccades",
+  "s": "Data Viz 03 – Perception",
+  "q": "Because only the fovea sees sharply and the eye jumps between fixations, what design advice follows?",
+  "a": "Avoid cramming too much data on screen; crisp, clear visuals are interpreted best",
+  "w": [
+   "Use as much detail as possible since the eye scans everything",
+   "Put key information at the edges of the screen",
+   "Use blur to guide attention away from the center"
+  ],
+  "e": "We only see a small area in detail at a time, and the brain fills in the rest."
+ },
+ {
+  "t": "03 – Perception",
+  "T": "The eye: foveation & saccades",
+  "s": "Data Viz 03 – Perception",
+  "q": "Your brain 'fills in' the blind spot and peripheral blur. What does this imply for reading a visualization?",
+  "a": "Viewers may believe they saw details they never actually looked at",
+  "w": [
+   "Viewers always notice every mark",
+   "Peripheral vision is best for reading labels",
+   "The blind spot only matters in 3D charts"
+  ],
+  "e": "Vision is limited at any moment; the brain reconstructs the rest."
+ },
+ {
+  "t": "03 – Perception",
+  "T": "Edges & relative judgments",
+  "s": "Data Viz 03 – Perception",
+  "q": "Mach bands and the Cornsweet illusion show that the visual system mainly responds to:",
+  "a": "Edges and differences, not absolute brightness",
+  "w": [
+   "Absolute luminance values",
+   "The average color of a region",
+   "Only moving objects"
+  ],
+  "e": "Receptive fields enhance edges, so perceived brightness depends on contrast at boundaries."
+ },
+ {
+  "t": "03 – Perception",
+  "T": "Edges & relative judgments",
+  "s": "Data Viz 03 – Perception",
+  "q": "If the outlines of shapes are important in your chart, the lecture advises you to:",
+  "a": "Maximize contrast with the background",
+  "w": [
+   "Use a gradient background",
+   "Match the shape color to the background",
+   "Use thin, low-contrast outlines"
+  ],
+  "e": "Since we're tuned to edges, strong contrast makes boundaries clear."
+ },
+ {
+  "t": "03 – Perception",
+  "T": "Edges & relative judgments",
+  "s": "Data Viz 03 – Perception",
+  "q": "Weber's law says we judge relative differences. Which comparison is EASIEST?",
+  "a": "Two bars sitting on a common baseline next to each other",
+  "w": [
+   "Two bars on different baselines far apart",
+   "Two unaligned bars of nearly equal length",
+   "Two circles of slightly different area"
+  ],
+  "e": "Aligning items on a common axis turns the judgment into a small, relative difference that's easy to see."
+ },
+ {
+  "t": "03 – Perception",
+  "T": "Edges & relative judgments",
+  "s": "Data Viz 03 – Perception",
+  "q": "Two identical gray squares look different because one sits on a dark background and one on a light one. This is:",
+  "a": "Simultaneous contrast",
+  "w": [
+   "Pre-attentive popout",
+   "Common fate",
+   "Foveation"
+  ],
+  "e": "Judgments of brightness and color are relative to the local surroundings."
+ },
+ {
+  "t": "03 – Perception",
+  "T": "Edges & relative judgments",
+  "s": "Data Viz 03 – Perception",
+  "q": "Given simultaneous contrast, what should you do when encoding values with gray levels or color?",
+  "a": "Avoid placing marks on varying or busy backgrounds; keep the context neutral",
+  "w": [
+   "Use a rainbow background to boost contrast",
+   "Put each mark on a different colored background",
+   "Rely on viewers judging absolute brightness"
+  ],
+  "e": "Do your best not to place data in difficult contexts; choose position and background carefully."
+ },
+ {
+  "t": "03 – Perception",
+  "T": "Pre-attentive processing",
+  "s": "Data Viz 03 – Perception",
+  "q": "You want one important point to stand out among hundreds. Which approach works best?",
+  "a": "Make it differ in a single strong channel, like a unique color",
+  "w": [
+   "Make it differ in both color and shape from different distractors",
+   "Make it slightly larger than the rest",
+   "Hide it among similar shapes with a label"
+  ],
+  "e": "Popout works on one strong feature contrast; conjunctions of features need slow serial search."
+ },
+ {
+  "t": "03 – Perception",
+  "T": "Pre-attentive processing",
+  "s": "Data Viz 03 – Perception",
+  "q": "A target is the only red circle among red squares and blue circles. Why is it slow to find?",
+  "a": "It's a conjunction of features, which requires serial search instead of popping out",
+  "w": [
+   "Red is a weak pre-attentive channel",
+   "Circles can't pop out",
+   "There are too few distractors"
+  ],
+  "e": "Each distractor shares one feature with the target, so no single channel separates it."
+ },
+ {
+  "t": "03 – Perception",
+  "T": "Pre-attentive processing",
+  "s": "Data Viz 03 – Perception",
+  "q": "What matters most for something to pop out pre-attentively?",
+  "a": "Strong contrast between the target's feature and the surrounding features",
+  "w": [
+   "The total number of colors used",
+   "The size of the whole chart",
+   "Whether the viewer reads the legend"
+  ],
+  "e": "Pop-out depends on feature contrast, not on how much is on screen."
+ },
+ {
+  "t": "03 – Perception",
+  "T": "Pre-attentive processing",
+  "s": "Data Viz 03 – Perception",
+  "q": "Why should color and shape be used sparingly for highlighting?",
+  "a": "If many things are highlighted, nothing stands out",
+  "w": [
+   "Color is slow to perceive",
+   "Shapes are hard to print",
+   "Browsers limit the number of colors"
+  ],
+  "e": "Popout depends on contrast with everything else; overusing it destroys that contrast."
+ },
+ {
+  "t": "03 – Perception",
+  "T": "Gestalt principles",
+  "s": "Data Viz 03 – Perception",
+  "q": "In a scatterplot, you draw a box around a cluster of points to show they belong together. Which Gestalt principle are you using?",
+  "a": "Enclosure",
+  "w": [
+   "Closure",
+   "Common fate",
+   "Figure/ground"
+  ],
+  "e": "Elements inside a common boundary are perceived as a group."
+ },
+ {
+  "t": "03 – Perception",
+  "T": "Gestalt principles",
+  "s": "Data Viz 03 – Perception",
+  "q": "A line chart connects each country's yearly points with a line, so we read them as one series. Which principle?",
+  "a": "Connection",
+  "w": [
+   "Similarity",
+   "Proximity",
+   "Closure"
+  ],
+  "e": "Visually connected elements are perceived as related, and connection is a very strong grouping cue."
+ },
+ {
+  "t": "03 – Perception",
+  "T": "Gestalt principles",
+  "s": "Data Viz 03 – Perception",
+  "q": "Using the same color for all bars belonging to one category relies on:",
+  "a": "Similarity",
+  "w": [
+   "Proximity",
+   "Continuity",
+   "Common fate"
+  ],
+  "e": "Things that look alike (color, size, shape) are perceived as related."
+ },
+ {
+  "t": "03 – Perception",
+  "T": "Gestalt principles",
+  "s": "Data Viz 03 – Perception",
+  "q": "Leaving extra space between groups of bars in a grouped bar chart uses which principle?",
+  "a": "Proximity",
+  "w": [
+   "Similarity",
+   "Closure",
+   "Connection"
+  ],
+  "e": "Items close together are seen as a group; gaps separate groups."
+ },
+ {
+  "t": "03 – Perception",
+  "T": "Gestalt principles",
+  "s": "Data Viz 03 – Perception",
+  "q": "In an animated chart, points that move together are seen as a cluster. Which principle?",
+  "a": "Common fate",
+  "w": [
+   "Continuity",
+   "Proximity",
+   "Figure/ground"
+  ],
+  "e": "Elements moving in the same direction are perceived as a unit."
+ },
+ {
+  "t": "03 – Perception",
+  "T": "Gestalt principles",
+  "s": "Data Viz 03 – Perception",
+  "q": "A line passes behind a label, but viewers still see one continuous line. Which principle?",
+  "a": "Continuity",
+  "w": [
+   "Closure",
+   "Enclosure",
+   "Similarity"
+  ],
+  "e": "We complete hidden objects into simple, familiar shapes."
+ },
+ {
+  "t": "03 – Perception",
+  "T": "Gestalt principles",
+  "s": "Data Viz 03 – Perception",
+  "q": "A busy background makes it unclear which marks are data and which are decoration. Which principle is being violated?",
+  "a": "Figure/ground",
+  "w": [
+   "Common fate",
+   "Proximity",
+   "Closure"
+  ],
+  "e": "Elements are perceived as either figure or background; data should clearly be the figure."
+ },
+ {
+  "t": "03 – Perception",
+  "T": "Gestalt principles",
+  "s": "Data Viz 03 – Perception",
+  "q": "What's the risk of using Gestalt principles carelessly?",
+  "a": "Viewers may see groupings or relationships that aren't in the data",
+  "w": [
+   "Charts will render more slowly",
+   "Colors will look washed out",
+   "Viewers will ignore the legend"
+  ],
+  "e": "Poor use may cause users to see things that aren't there."
+ },
+ {
+  "t": "04 – Color",
+  "T": "Color models",
+  "s": "Data Viz 04 – Color",
+  "q": "You're tuning a chart color by hand and want to make it 'less vivid' without changing what color it is. Which model makes that easiest?",
+  "a": "HSV/HSL (reduce saturation)",
+  "w": [
+   "RGB (lower one channel)",
+   "CMYK (add black)",
+   "Raw wavelength"
+  ],
+  "e": "HSV is more intuitive for tuning: hue = which color, saturation = how much white, value/lightness = how much black."
+ },
+ {
+  "t": "04 – Color",
+  "T": "Color models",
+  "s": "Data Viz 04 – Color",
+  "q": "Why is RGB a poor space for building a colormap where equal steps should look equally different?",
+  "a": "It isn't perceptually uniform, and the actual color depends on the device",
+  "w": [
+   "It can't represent gray",
+   "It only works for print",
+   "It has too few colors"
+  ],
+  "e": "Equal numeric steps in RGB don't produce equal perceived steps."
+ },
+ {
+  "t": "04 – Color",
+  "T": "Color models",
+  "s": "Data Viz 04 – Color",
+  "q": "Which color space is designed so distances roughly match perceived differences?",
+  "a": "CIE LAB",
+  "w": [
+   "RGB",
+   "CMY",
+   "HSV"
+  ],
+  "e": "LAB is mathematically defined and perceptually based: L* lightness, a red–green, b yellow–blue."
+ },
+ {
+  "t": "04 – Color",
+  "T": "Color models",
+  "s": "Data Viz 04 – Color",
+  "q": "Printing a chart on paper uses which kind of color mixing?",
+  "a": "Subtractive (CMY + K)",
+  "w": [
+   "Additive (RGB)",
+   "Perceptual (LAB)",
+   "Polar (HSV)"
+  ],
+  "e": "Ink absorbs light, so print is subtractive; K gives a true black."
+ },
+ {
+  "t": "04 – Color",
+  "T": "Color models",
+  "s": "Data Viz 04 – Color",
+  "q": "In HSV terms, a pastel color is one with:",
+  "a": "Low saturation (more white mixed in)",
+  "w": [
+   "High saturation",
+   "Low hue",
+   "High value only"
+  ],
+  "e": "Saturation is the amount of white mixed in; pastels have little saturation."
+ },
+ {
+  "t": "04 – Color",
+  "T": "Color deficiency",
+  "s": "Data Viz 04 – Color",
+  "q": "A chart uses red for 'loss' and green for 'gain' and nothing else. What's the main accessibility problem?",
+  "a": "The most common color deficiencies make red and green hard to tell apart",
+  "w": [
+   "Red and green print poorly",
+   "Red always means danger",
+   "Green has low luminance contrast with white"
+  ],
+  "e": "Deuteranomaly (most common) and protanomaly both impair red–green discrimination."
+ },
+ {
+  "t": "04 – Color",
+  "T": "Color deficiency",
+  "s": "Data Viz 04 – Color",
+  "q": "Which fix best makes a red/green chart readable for colorblind viewers?",
+  "a": "Also vary luminance or add a second cue like shape or labels",
+  "w": [
+   "Make the red and green more saturated",
+   "Switch to a rainbow colormap",
+   "Use a darker background"
+  ],
+  "e": "Design with colorblindness in mind: vary hue, saturation and brightness, or use cues besides color."
+ },
+ {
+  "t": "04 – Color",
+  "T": "Color deficiency",
+  "s": "Data Viz 04 – Color",
+  "q": "Maureen Stone's advice 'get it right in black and white' means:",
+  "a": "The chart should still work if color is removed, so luminance carries the key structure",
+  "w": [
+   "Always publish charts in grayscale",
+   "Avoid using white backgrounds",
+   "Black and white printers are the target audience"
+  ],
+  "e": "If it works without hue, luminance differences are doing the heavy lifting, which also helps colorblind viewers."
+ },
+ {
+  "t": "04 – Color",
+  "T": "Contrast & luminance",
+  "s": "Data Viz 04 – Color",
+  "q": "You need fine detail (thin lines, small text) to be readable. Which channel should carry it?",
+  "a": "Luminance (light vs. dark contrast)",
+  "w": [
+   "Hue alone",
+   "Saturation alone",
+   "Transparency"
+  ],
+  "e": "We have higher contrast sensitivity for luminance than for chrominance."
+ },
+ {
+  "t": "04 – Color",
+  "T": "Contrast & luminance",
+  "s": "Data Viz 04 – Color",
+  "q": "Gray text on a slightly lighter gray background is hard to read. What does the lecture's guideline say?",
+  "a": "Aim for about 10:1 luminance contrast, never below 3:1",
+  "w": [
+   "Any contrast is fine if the hue differs",
+   "Use 1:1 contrast for elegance",
+   "Contrast only matters for print"
+  ],
+  "e": "Text needs strong luminance contrast to be legible."
+ },
+ {
+  "t": "04 – Color",
+  "T": "Contrast & luminance",
+  "s": "Data Viz 04 – Color",
+  "q": "Small scatterplot points in pale colors are hard to tell apart. Why?",
+  "a": "The smaller the mark, the harder colors are to distinguish",
+  "w": [
+   "Pale colors can't be printed",
+   "Small marks have no hue",
+   "Scatterplots shouldn't use color"
+  ],
+  "e": "Bertin: color differences shrink with mark size. Use brighter, more saturated colors for small marks."
+ },
+ {
+  "t": "04 – Color",
+  "T": "Contrast & luminance",
+  "s": "Data Viz 04 – Color",
+  "q": "Which saturation choice fits each use: large background areas vs. small points?",
+  "a": "Low-saturation pastels for large areas; bright, saturated colors for small marks",
+  "w": [
+   "Saturated colors for large areas; pastels for small marks",
+   "Saturated colors everywhere",
+   "Pastels everywhere"
+  ],
+  "e": "Large saturated areas are overwhelming; small marks need saturation to be visible."
+ },
+ {
+  "t": "04 – Color",
+  "T": "Colormaps",
+  "s": "Data Viz 04 – Color",
+  "q": "You're coloring countries by political party (5 parties). What kind of colormap fits?",
+  "a": "Categorical hues, one distinct hue per party",
+  "w": [
+   "A sequential light-to-dark ramp",
+   "A diverging map centered on zero",
+   "A rainbow ramp ordered by party size"
+  ],
+  "e": "Hue has no inherent order, which suits categorical data. Keep it to about 6–12 hues."
+ },
+ {
+  "t": "04 – Color",
+  "T": "Colormaps",
+  "s": "Data Viz 04 – Color",
+  "q": "You're coloring counties by median income. Which colormap fits?",
+  "a": "Sequential: vary luminance and/or saturation from low to high",
+  "w": [
+   "Categorical hues",
+   "Random pastel colors",
+   "A rainbow from red to violet"
+  ],
+  "e": "Ordered data needs a channel with an inherent order, like luminance or saturation."
+ },
+ {
+  "t": "04 – Color",
+  "T": "Colormaps",
+  "s": "Data Viz 04 – Color",
+  "q": "You're showing temperature change relative to a baseline, with warmer and cooler values. Which colormap fits?",
+  "a": "Diverging: two hues meeting at a neutral midpoint for zero change",
+  "w": [
+   "Sequential single hue",
+   "Categorical hues",
+   "Rainbow"
+  ],
+  "e": "A diverging map makes the meaningful midpoint (zero change) explicit."
+ },
+ {
+  "t": "04 – Color",
+  "T": "Colormaps",
+  "s": "Data Viz 04 – Color",
+  "q": "Why are rainbow colormaps discouraged for continuous data?",
+  "a": "Perceived contrast is uneven and they have no explicit midpoint or natural order",
+  "w": [
+   "They use too few colors",
+   "They only work in print",
+   "They are too dark"
+  ],
+  "e": "Rainbow creates false boundaries and hides others; people don't agree on its order."
+ },
+ {
+  "t": "04 – Color",
+  "T": "Colormaps",
+  "s": "Data Viz 04 – Color",
+  "q": "A design uses 20 different hues to label 20 categories. What's the problem?",
+  "a": "People can only reliably tell apart about 6–12 colors at once",
+  "w": [
+   "Hue can't encode categories",
+   "20 colors exceed screen limits",
+   "Categorical data needs luminance"
+  ],
+  "e": "Beyond about 6–12 hues, categories become confusable; consider grouping or other channels."
+ },
+ {
+  "t": "04 – Color",
+  "T": "Colormaps",
+  "s": "Data Viz 04 – Color",
+  "q": "Why are nameable colors (red, blue, orange) better for categories than subtle shades?",
+  "a": "They're easier to remember and refer to",
+  "w": [
+   "They print more accurately",
+   "They have higher luminance",
+   "They are perceptually uniform"
+  ],
+  "e": "Categorical colors are easier to remember if they're nameable."
+ },
+ {
+  "t": "04 – Color",
+  "T": "Colormaps",
+  "s": "Data Viz 04 – Color",
+  "q": "A bivariate colormap mixes two continuous variables into one color. When does this work reasonably?",
+  "a": "When at least one of the variables is binary",
+  "w": [
+   "When both variables are continuous",
+   "When using a rainbow for each",
+   "Never, under any conditions"
+  ],
+  "e": "Bivariate colormaps are hard to read unless one variable has only two values."
+ },
+ {
+  "t": "04 – Color",
+  "T": "Colormaps",
+  "s": "Data Viz 04 – Color",
+  "q": "'Expressiveness' for colormaps means:",
+  "a": "Match the colormap type to the attribute type (categorical, sequential, diverging)",
+  "w": [
+   "Use as many colors as possible",
+   "Always use the brand palette",
+   "Prefer bright colors for everything"
+  ],
+  "e": "The colormap should express exactly the structure the data has, no more and no less."
+ },
+ {
+  "t": "04 – Color",
+  "T": "Using color well",
+  "s": "Data Viz 04 – Color",
+  "q": "A dashboard uses five bright colors equally for everything. What does the 'simplicity' guideline suggest?",
+  "a": "Pick one base color used in larger amounts and use others sparingly for interest",
+  "w": [
+   "Add more colors for balance",
+   "Make all colors equally saturated",
+   "Use complementary colors everywhere"
+  ],
+  "e": "Be selective about the base color and use accents sparingly."
+ },
+ {
+  "t": "04 – Color",
+  "T": "Using color well",
+  "s": "Data Viz 04 – Color",
+  "q": "When color isn't needed, what does the lecture suggest instead?",
+  "a": "Use neutrals and other channels like size, shape or position",
+  "w": [
+   "Use a rainbow to be safe",
+   "Use only red",
+   "Remove all marks"
+  ],
+  "e": "Avoidance of color: neutrals work with any scheme, and diagrammatic marks may be better channels."
+ },
+ {
+  "t": "04 – Color",
+  "T": "Using color well",
+  "s": "Data Viz 04 – Color",
+  "q": "Ordinal data is encoded with color. Where should the marks be placed?",
+  "a": "On a solid, neutral background",
+  "w": [
+   "On a gradient background",
+   "On a photo",
+   "On alternating colored stripes"
+  ],
+  "e": "Color is relative; a neutral background avoids contrast effects shifting perceived values."
+ },
+ {
+  "t": "07 – Data Abstraction",
+  "T": "What-why-how",
+  "s": "Data Viz 07 – Data",
+  "q": "Why describe data in abstract terms (items, attributes) instead of domain terms (patients, genes)?",
+  "a": "It lets you reuse design knowledge across domains and reason systematically about the design space",
+  "w": [
+   "Domain terms are always inaccurate",
+   "It makes datasets smaller",
+   "It hides the meaning from users"
+  ],
+  "e": "Abstract vocabulary avoids domain-specific terms, so the what-why-how framework applies anywhere."
+ },
+ {
+  "t": "07 – Data Abstraction",
+  "T": "What-why-how",
+  "s": "Data Viz 07 – Data",
+  "q": "In the what-why-how framework, choosing between a bar chart and a heatmap is part of:",
+  "a": "How (the encoding and interaction)",
+  "w": [
+   "What (the data)",
+   "Why (the task)",
+   "Who (the audience)"
+  ],
+  "e": "What = data, why = the user's task, how = the visual encoding and interaction."
+ },
+ {
+  "t": "07 – Data Abstraction",
+  "T": "Data & dataset types",
+  "s": "Data Viz 07 – Data",
+  "q": "A spreadsheet of students with columns for name, age and major. What are the rows and columns?",
+  "a": "Rows are items; columns are attributes",
+  "w": [
+   "Rows are attributes; columns are items",
+   "Rows are links; columns are positions",
+   "Rows are grids; columns are fields"
+  ],
+  "e": "In a table, each row is an item and each column is an attribute."
+ },
+ {
+  "t": "07 – Data Abstraction",
+  "T": "Data & dataset types",
+  "s": "Data Viz 07 – Data",
+  "q": "A social network of friendships between people is which dataset type?",
+  "a": "Network: items (nodes) connected by links",
+  "w": [
+   "Table",
+   "Field",
+   "Geometry"
+  ],
+  "e": "Networks consist of items (nodes) and links, both of which can have attributes."
+ },
+ {
+  "t": "07 – Data Abstraction",
+  "T": "Data & dataset types",
+  "s": "Data Viz 07 – Data",
+  "q": "Wind measurements (speed and direction) at every point of a weather grid are best described as:",
+  "a": "A field with vector attributes",
+  "w": [
+   "A table with categorical attributes",
+   "A network",
+   "A tree"
+  ],
+  "e": "Fields have values at cells across continuous space; direction plus magnitude is a vector."
+ },
+ {
+  "t": "07 – Data Abstraction",
+  "T": "Data & dataset types",
+  "s": "Data Viz 07 – Data",
+  "q": "Temperature measured at every cell of a 3D grid is a field with what kind of attribute?",
+  "a": "Scalar",
+  "w": [
+   "Vector",
+   "Tensor",
+   "Categorical link"
+  ],
+  "e": "A single number per cell is scalar; direction+magnitude is a vector; a matrix per cell is a tensor."
+ },
+ {
+  "t": "07 – Data Abstraction",
+  "T": "Data & dataset types",
+  "s": "Data Viz 07 – Data",
+  "q": "When visualizing a continuous field from sampled points, which two choices shape what viewers see?",
+  "a": "Sampling (where values are measured) and interpolation (how values in between are modeled)",
+  "w": [
+   "Font size and color",
+   "Axis labels and legend",
+   "Animation speed and zoom"
+  ],
+  "e": "Grid choices affect how continuous data is interpreted."
+ },
+ {
+  "t": "07 – Data Abstraction",
+  "T": "Attribute types",
+  "s": "Data Viz 07 – Data",
+  "q": "Blood type (A, B, AB, O) is which attribute type?",
+  "a": "Categorical",
+  "w": [
+   "Ordinal",
+   "Quantitative",
+   "Diverging"
+  ],
+  "e": "There's no inherent order among blood types."
+ },
+ {
+  "t": "07 – Data Abstraction",
+  "T": "Attribute types",
+  "s": "Data Viz 07 – Data",
+  "q": "Survey answers 'disagree, neutral, agree' are which attribute type?",
+  "a": "Ordinal",
+  "w": [
+   "Categorical",
+   "Quantitative",
+   "Cyclic"
+  ],
+  "e": "They have a clear order, but the 'distance' between levels isn't a meaningful number."
+ },
+ {
+  "t": "07 – Data Abstraction",
+  "T": "Attribute types",
+  "s": "Data Viz 07 – Data",
+  "q": "Height in centimeters is which attribute type?",
+  "a": "Quantitative",
+  "w": [
+   "Ordinal",
+   "Categorical",
+   "Nominal"
+  ],
+  "e": "It has a meaningful magnitude, so arithmetic (differences, averages) makes sense."
+ },
+ {
+  "t": "07 – Data Abstraction",
+  "T": "Attribute types",
+  "s": "Data Viz 07 – Data",
+  "q": "Which test tells ordinal and quantitative apart?",
+  "a": "Whether arithmetic like differences and averages is meaningful",
+  "w": [
+   "Whether values can be sorted",
+   "Whether values are text",
+   "Whether there are more than 5 values"
+  ],
+  "e": "Both can be ordered; only quantitative data has meaningful magnitudes."
+ },
+ {
+  "t": "07 – Data Abstraction",
+  "T": "Attribute types",
+  "s": "Data Viz 07 – Data",
+  "q": "Month of the year (Jan … Dec, then back to Jan) is an ordered attribute that is:",
+  "a": "Cyclic",
+  "w": [
+   "Diverging",
+   "Sequential",
+   "Categorical"
+  ],
+  "e": "It wraps around, so the end connects back to the start."
+ },
+ {
+  "t": "07 – Data Abstraction",
+  "T": "Attribute types",
+  "s": "Data Viz 07 – Data",
+  "q": "Profit, where values range from losses through zero to gains, is an ordered attribute that is:",
+  "a": "Diverging",
+  "w": [
+   "Cyclic",
+   "Categorical",
+   "Sequential with no midpoint"
+  ],
+  "e": "There's a meaningful midpoint (zero) with values going in two directions."
+ },
+ {
+  "t": "07 – Data Abstraction",
+  "T": "Derived attributes",
+  "s": "Data Viz 07 – Data",
+  "q": "You convert exact temperatures into 'hot, warm, cold'. What have you created, and why might you?",
+  "a": "A derived ordinal attribute that simplifies the data for the task",
+  "w": [
+   "A new dataset type",
+   "A categorical attribute with no order",
+   "A field from a table"
+  ],
+  "e": "Derived attributes are computed from the originals; the transformation is an abstraction choice."
+ },
+ {
+  "t": "07 – Data Abstraction",
+  "T": "Derived attributes",
+  "s": "Data Viz 07 – Data",
+  "q": "Turning temperature into 'above freezing / below freezing' produces which attribute type?",
+  "a": "Categorical (binary)",
+  "w": [
+   "Quantitative",
+   "Ordinal with many levels",
+   "Cyclic"
+  ],
+  "e": "Two groups with no meaningful magnitude between them."
+ },
+ {
+  "t": "07 – Data Abstraction",
+  "T": "Derived attributes",
+  "s": "Data Viz 07 – Data",
+  "q": "What's the difference between the data model and the conceptual model?",
+  "a": "The data model is the math type (e.g., floats); the conceptual model is what the values mean (e.g., temperature)",
+  "w": [
+   "They are the same thing",
+   "The data model is the chart; the conceptual model is the file",
+   "The conceptual model is the database schema"
+  ],
+  "e": "Knowing the meaning (conceptual model) motivates which abstraction to choose."
+ },
+ {
+  "t": "09 – Visual Encoding",
+  "T": "Marks & channels",
+  "s": "Data Viz 09 – Visual Encoding",
+  "q": "In a scatterplot, what are the marks and what are the channels?",
+  "a": "Points are the marks; horizontal and vertical position are the channels",
+  "w": [
+   "Axes are the marks; points are the channels",
+   "Colors are the marks; lines are the channels",
+   "Labels are the marks; the grid is the channel"
+  ],
+  "e": "Marks are graphical elements; channels control their appearance."
+ },
+ {
+  "t": "09 – Visual Encoding",
+  "T": "Marks & channels",
+  "s": "Data Viz 09 – Visual Encoding",
+  "q": "In a bar chart, what are the marks and which channel encodes the value?",
+  "a": "Lines (bars) as marks; length/vertical position encodes the value",
+  "w": [
+   "Points as marks; color encodes the value",
+   "Areas as marks; shape encodes the value",
+   "Text as marks; angle encodes the value"
+  ],
+  "e": "Each bar is a mark whose length shows the quantity."
+ },
+ {
+  "t": "09 – Visual Encoding",
+  "T": "Marks & channels",
+  "s": "Data Viz 09 – Visual Encoding",
+  "q": "A choropleth map uses which mark type for regions?",
+  "a": "Areas (2D)",
+  "w": [
+   "Points (0D)",
+   "Lines (1D)",
+   "Volumes (3D)"
+  ],
+  "e": "Marks are classified by spatial dimension: points 0D, lines 1D, areas 2D."
+ },
+ {
+  "t": "09 – Visual Encoding",
+  "T": "Expressiveness & effectiveness",
+  "s": "Data Viz 09 – Visual Encoding",
+  "q": "You need to show product categories (no order). Which channel type fits?",
+  "a": "An identity channel like hue, shape or spatial region",
+  "w": [
+   "A magnitude channel like length",
+   "Luminance from light to dark",
+   "Area size"
+  ],
+  "e": "Expressiveness: identity channels for categorical data, magnitude channels for ordered data."
+ },
+ {
+  "t": "09 – Visual Encoding",
+  "T": "Expressiveness & effectiveness",
+  "s": "Data Viz 09 – Visual Encoding",
+  "q": "Why is encoding a quantitative value with shape a bad idea?",
+  "a": "Shape has no inherent order or magnitude, so it can't express 'how much'",
+  "w": [
+   "Shapes are hard to draw",
+   "Shape is the most accurate channel",
+   "Shapes take too much space"
+  ],
+  "e": "Shape is an identity channel; it can't convey magnitude."
+ },
+ {
+  "t": "09 – Visual Encoding",
+  "T": "Expressiveness & effectiveness",
+  "s": "Data Viz 09 – Visual Encoding",
+  "q": "You want viewers to compare values as accurately as possible. Which channel should you use?",
+  "a": "Position on a common scale",
+  "w": [
+   "Area",
+   "Color saturation",
+   "Angle"
+  ],
+  "e": "Position on a common scale is the most effective magnitude channel."
+ },
+ {
+  "t": "09 – Visual Encoding",
+  "T": "Expressiveness & effectiveness",
+  "s": "Data Viz 09 – Visual Encoding",
+  "q": "Why is a bar chart usually more accurate than a pie chart for comparing values?",
+  "a": "Length/position is judged more accurately than angle or area",
+  "w": [
+   "Bar charts use more colors",
+   "Pie charts can't show percentages",
+   "Bars are always sorted"
+  ],
+  "e": "In the effectiveness ranking, position and length outrank angle and area."
+ },
+ {
+  "t": "09 – Visual Encoding",
+  "T": "Expressiveness & effectiveness",
+  "s": "Data Viz 09 – Visual Encoding",
+  "q": "Which magnitude channel ranks lowest in effectiveness?",
+  "a": "Volume (3D size)",
+  "w": [
+   "Position on a common scale",
+   "Length",
+   "Angle"
+  ],
+  "e": "Curvature and volume are at the bottom of the ranking."
+ },
+ {
+  "t": "09 – Visual Encoding",
+  "T": "Expressiveness & effectiveness",
+  "s": "Data Viz 09 – Visual Encoding",
+  "q": "Effectiveness says the most important attribute should get:",
+  "a": "The most effective channel (e.g., position)",
+  "w": [
+   "The most colorful channel",
+   "Whichever channel is left over",
+   "The least effective channel, to save space"
+  ],
+  "e": "Rank attributes by importance and assign the best channels to the most important ones."
+ },
+ {
+  "t": "09 – Visual Encoding",
+  "T": "Expressiveness & effectiveness",
+  "s": "Data Viz 09 – Visual Encoding",
+  "q": "Channel effectiveness rankings mostly come from:",
+  "a": "Perception experiments measuring how accurately people judge each channel",
+  "w": [
+   "Designers' personal preferences",
+   "Software defaults",
+   "The order channels were invented"
+  ],
+  "e": "Rankings come from studies like Cleveland & McGill and crowdsourced experiments."
+ },
+ {
+  "t": "09 – Visual Encoding",
+  "T": "Discriminability & separability",
+  "s": "Data Viz 09 – Visual Encoding",
+  "q": "You encode 15 levels of a variable using line width. What's the concern?",
+  "a": "Discriminability: viewers can't reliably tell that many widths apart",
+  "w": [
+   "Line width is an identity channel",
+   "Line width can't be ordered",
+   "Width is integral with color"
+  ],
+  "e": "Each channel supports only a limited number of distinguishable steps."
+ },
+ {
+  "t": "09 – Visual Encoding",
+  "T": "Discriminability & separability",
+  "s": "Data Viz 09 – Visual Encoding",
+  "q": "You map one variable to a rectangle's width and another to its height. What happens?",
+  "a": "They're integral, so viewers see overall area/shape instead of each variable separately",
+  "w": [
+   "Each is read independently with no interference",
+   "Width becomes a categorical channel",
+   "Height outranks width"
+  ],
+  "e": "Width and height are integral channels, perceived holistically."
+ },
+ {
+  "t": "09 – Visual Encoding",
+  "T": "Discriminability & separability",
+  "s": "Data Viz 09 – Visual Encoding",
+  "q": "Which pair of channels is separable, so each can be read independently?",
+  "a": "Color and position",
+  "w": [
+   "Width and height",
+   "Red–green and yellow–blue",
+   "Size and area"
+  ],
+  "e": "Separable channels can be judged individually; integral ones fuse."
+ },
+ {
+  "t": "09 – Visual Encoding",
+  "T": "3D & animation",
+  "s": "Data Viz 09 – Visual Encoding",
+  "q": "A 3D bar chart makes back bars look smaller and hides some behind others. Which problems are these?",
+  "a": "Perspective distortion of size and occlusion",
+  "w": [
+   "Low data-ink ratio and chart junk",
+   "Poor color harmony",
+   "Gestalt closure"
+  ],
+  "e": "3D adds perspective cues that interfere with size and color, plus occlusion and poor text legibility."
+ },
+ {
+  "t": "09 – Visual Encoding",
+  "T": "3D & animation",
+  "s": "Data Viz 09 – Visual Encoding",
+  "q": "When is animation a GOOD choice?",
+  "a": "Storytelling and smooth transitions between views",
+  "w": [
+   "Comparing many states with many changes",
+   "Showing exact values",
+   "Replacing a legend"
+  ],
+  "e": "Animation is good for narrative and transitions, bad for detailed comparison."
+ },
+ {
+  "t": "09 – Visual Encoding",
+  "T": "3D & animation",
+  "s": "Data Viz 09 – Visual Encoding",
+  "q": "You want readers to compare how 12 regions changed across 10 years. Which is better?",
+  "a": "Small multiples, so they can compare by moving their eyes",
+  "w": [
+   "An animation that plays each year",
+   "A single 3D chart",
+   "A pie chart per year shown one at a time"
+  ],
+  "e": "Comparing views side by side uses the display as external memory; animation forces comparison against memory."
+ },
+ {
+  "t": "11 – Design",
+  "T": "Graphical integrity",
+  "s": "Data Viz 11 – Design",
+  "q": "A chart shows a 20% increase in the data, but the bar grows to look 100% bigger. What's the Lie Factor?",
+  "a": "5 (100% ÷ 20%)",
+  "w": [
+   "0.2",
+   "1",
+   "20"
+  ],
+  "e": "Lie Factor = size of effect shown in the graphic ÷ size of effect in the data. Ideally it's 1."
+ },
+ {
+  "t": "11 – Design",
+  "T": "Graphical integrity",
+  "s": "Data Viz 11 – Design",
+  "q": "Icons are scaled by height (diameter) to show values twice as large. What goes wrong?",
+  "a": "Area grows four times, so the difference looks exaggerated",
+  "w": [
+   "Nothing; height scaling is exact",
+   "The difference looks smaller than it is",
+   "The icons lose their color"
+  ],
+  "e": "Area scales with the square of the linear size, so scale by area, not by diameter."
+ },
+ {
+  "t": "11 – Design",
+  "T": "Graphical integrity",
+  "s": "Data Viz 11 – Design",
+  "q": "A bar chart's y-axis starts at 95 instead of 0, making a small change look dramatic. When is a non-zero baseline acceptable?",
+  "a": "When zero isn't meaningful, to show relative position, or where it's the norm (like stock charts)",
+  "w": [
+   "Always, to save space",
+   "Never, under any circumstances",
+   "Only for pie charts"
+  ],
+  "e": "Bars encode length from a baseline, so truncation distorts them unless zero doesn't make sense."
+ },
+ {
+  "t": "11 – Design",
+  "T": "Graphical integrity",
+  "s": "Data Viz 11 – Design",
+  "q": "A chart shows numbers without any axis or baseline. Why is that a problem?",
+  "a": "Without a scale or baseline, viewers can't judge the true size of differences",
+  "w": [
+   "It uses too much ink",
+   "It reduces color contrast",
+   "It breaks Gestalt closure"
+  ],
+  "e": "Missing scales hide distortion; clear labeling defeats ambiguity."
+ },
+ {
+  "t": "11 – Design",
+  "T": "Graphical integrity",
+  "s": "Data Viz 11 – Design",
+  "q": "'Show data variation, not design variation' warns against:",
+  "a": "Changing visual design (like icon size or style) in ways that look like changes in data",
+  "w": [
+   "Using any color",
+   "Showing variation in data",
+   "Using more than one chart"
+  ],
+  "e": "Unintended size coding makes design differences read as data differences."
+ },
+ {
+  "t": "11 – Design",
+  "T": "Graphical integrity",
+  "s": "Data Viz 11 – Design",
+  "q": "A chart shows a stock dropping sharply, but the full history shows it's a small dip. What's missing?",
+  "a": "Context (a longer time range or comparison)",
+  "w": [
+   "Color",
+   "3D perspective",
+   "Chart junk"
+  ],
+  "e": "Insufficient context can make normal variation look like a crash."
+ },
+ {
+  "t": "11 – Design",
+  "T": "Outliers & scales",
+  "s": "Data Viz 11 – Design",
+  "q": "One value is 100× bigger than the rest and squashes everything else flat. Which is a reasonable fix?",
+  "a": "Use a log scale or a scale break (or clip it and say so)",
+  "w": [
+   "Delete it silently",
+   "Make the chart 3D",
+   "Switch to a pie chart"
+  ],
+  "e": "Clipping, scale breaks and log scales are the lecture's options. Always be transparent."
+ },
+ {
+  "t": "11 – Design",
+  "T": "Outliers & scales",
+  "s": "Data Viz 11 – Design",
+  "q": "Why use a log scale when data spans several orders of magnitude?",
+  "a": "Equal distances show equal ratios, so small and large values are both readable",
+  "w": [
+   "It makes all values look equal",
+   "It removes outliers",
+   "It makes the chart colorful"
+  ],
+  "e": "Log scales show multiplicative change and keep small values from being flattened."
+ },
+ {
+  "t": "11 – Design",
+  "T": "Data-ink & chart junk",
+  "s": "Data Viz 11 – Design",
+  "q": "Removing heavy gridlines, borders and shading while keeping the data is an example of:",
+  "a": "Maximizing the data-ink ratio",
+  "w": [
+   "Increasing the Lie Factor",
+   "Adding chart junk",
+   "Lowering data density"
+  ],
+  "e": "Data-ink ratio = ink used for data ÷ total ink. Erase non-data ink when it adds nothing."
+ },
+ {
+  "t": "11 – Design",
+  "T": "Data-ink & chart junk",
+  "s": "Data Viz 11 – Design",
+  "q": "A study found the most minimal box plot (highest data-ink ratio) was hardest to interpret. What's the lesson?",
+  "a": "Maximizing data-ink isn't always best; some 'redundant' ink helps comprehension",
+  "w": [
+   "Box plots should never be used",
+   "More decoration is always better",
+   "Data-ink ratio is unrelated to design"
+  ],
+  "e": "The counterpoint shows data-ink is a guideline, not a law."
+ },
+ {
+  "t": "11 – Design",
+  "T": "Data-ink & chart junk",
+  "s": "Data Viz 11 – Design",
+  "q": "Research on embellished 'chart junk' found it can help with:",
+  "a": "Long-term memorability and engagement",
+  "w": [
+   "Precise value reading",
+   "Space efficiency",
+   "Unbiased analysis"
+  ],
+  "e": "Embellished charts were recalled better weeks later; the cons are interpretability, trust and space."
+ },
+ {
+  "t": "11 – Design",
+  "T": "Data-ink & chart junk",
+  "s": "Data Viz 11 – Design",
+  "q": "When is chart junk most defensible?",
+  "a": "When the goal is persuasion, memorability or engagement rather than careful analysis",
+  "w": [
+   "When readers need exact values",
+   "When space is very limited",
+   "When the audience is analysts"
+  ],
+  "e": "Chart junk? It depends: pros are persuasion, memorability and engagement."
+ },
+ {
+  "t": "11 – Design",
+  "T": "Data density & small multiples",
+  "s": "Data Viz 11 – Design",
+  "q": "Data density = data entries ÷ area of the graphic. How does Tufte suggest increasing it?",
+  "a": "Shrink the graphics, e.g., with small multiples or sparklines",
+  "w": [
+   "Add more decoration",
+   "Use 3D",
+   "Spread the data over more pages"
+  ],
+  "e": "Show more data in the same space."
+ },
+ {
+  "t": "11 – Design",
+  "T": "Data density & small multiples",
+  "s": "Data Viz 11 – Design",
+  "q": "A trellis plot splits data into a grid of small charts. Which variables usually define the grid?",
+  "a": "Categorical or ordinal variables",
+  "w": [
+   "The main quantitative variable",
+   "Random groupings",
+   "The color palette"
+  ],
+  "e": "Subdivide by nominal/ordinal variables so each panel compares like with like."
+ },
+ {
+  "t": "11 – Design",
+  "T": "Visual bandwidth",
+  "s": "Data Viz 11 – Design",
+  "q": "A designer adds many extra visual features, assuming viewers will take it all in at once. Which illusion is this?",
+  "a": "Overestimate of breadth",
+  "w": [
+   "Overestimate of depth",
+   "Overestimate of countenance",
+   "Lie Factor"
+  ],
+  "e": "Viewers can't absorb everything at once, and extra features make specific information harder to find."
+ },
+ {
+  "t": "11 – Design",
+  "T": "Visual bandwidth",
+  "s": "Data Viz 11 – Design",
+  "q": "A designer assumes users will look at every part of a dashboard, but they only look where they expect. Which illusion?",
+  "a": "Overestimate of countenance",
+  "w": [
+   "Overestimate of breadth",
+   "Overestimate of depth",
+   "Simultaneous contrast"
+  ],
+  "e": "Users attend to less of the display than designers think."
+ },
+ {
+  "t": "11 – Design",
+  "T": "Visual bandwidth",
+  "s": "Data Viz 11 – Design",
+  "q": "A designer assumes that because users looked at a chart, they understood it fully. Which illusion?",
+  "a": "Overestimate of depth",
+  "w": [
+   "Overestimate of breadth",
+   "Overestimate of countenance",
+   "Weber's law"
+  ],
+  "e": "Attending to something doesn't mean deep understanding."
+ },
+ {
+  "t": "11 – Design",
+  "T": "Misleading charts",
+  "s": "Data Viz 11 – Design",
+  "q": "A 3D pie chart makes a smaller slice in front look bigger than a larger slice behind it. Why?",
+  "a": "Perspective distorts slice areas, so front slices look larger",
+  "w": [
+   "Pie charts can't show percentages",
+   "The colors were too similar",
+   "The legend was missing"
+  ],
+  "e": "3D perspective changes apparent size; a flat bar chart avoids it."
+ },
+ {
+  "t": "11 – Design",
+  "T": "Misleading charts",
+  "s": "Data Viz 11 – Design",
+  "q": "Why are dual-axis charts risky?",
+  "a": "Each axis can be scaled independently, so lines can be made to cross or diverge to suggest false relationships",
+  "w": [
+   "They use too much ink",
+   "They can't show time",
+   "They require 3D"
+  ],
+  "e": "The crossing point is an artifact of the chosen scales, not of the data."
+ },
+ {
+  "t": "11 – Design",
+  "T": "Graphical excellence",
+  "s": "Data Viz 11 – Design",
+  "q": "Tufte's graphical excellence aims to give viewers:",
+  "a": "The most ideas, in the shortest time, with the least ink, in the smallest space",
+  "w": [
+   "The most colors in the largest space",
+   "The most decoration for engagement",
+   "The fewest ideas for clarity"
+  ],
+  "e": "It's about efficient communication: as simple as possible, but no simpler."
+ },
+ {
+  "t": "12 – Tasks & Interaction",
+  "T": "Task abstraction",
+  "s": "Data Viz 12 – Tasks & Interaction",
+  "q": "'Find which states have unusually high unemployment' as an {action, target} pair is:",
+  "a": "{locate/identify, outliers}",
+  "w": [
+   "{present, trends}",
+   "{enjoy, topology}",
+   "{summarize, distribution}"
+  ],
+  "e": "Tasks are abstracted as an action plus a target."
+ },
+ {
+  "t": "12 – Tasks & Interaction",
+  "T": "Task abstraction",
+  "s": "Data Viz 12 – Tasks & Interaction",
+  "q": "A news graphic that tells readers a finished story serves which consume goal?",
+  "a": "Present",
+  "w": [
+   "Discover",
+   "Enjoy",
+   "Explore"
+  ],
+  "e": "Present = communicate something already known; discover = find new insight; enjoy = casual interest."
+ },
+ {
+  "t": "12 – Tasks & Interaction",
+  "T": "Task abstraction",
+  "s": "Data Viz 12 – Tasks & Interaction",
+  "q": "A researcher uses a tool to find new patterns nobody knew about. Which consume goal?",
+  "a": "Discover",
+  "w": [
+   "Present",
+   "Enjoy",
+   "Annotate"
+  ],
+  "e": "Discover means generating or verifying new hypotheses."
+ },
+ {
+  "t": "12 – Tasks & Interaction",
+  "T": "Task abstraction",
+  "s": "Data Viz 12 – Tasks & Interaction",
+  "q": "A beautiful live wind map people browse just for fun serves which goal?",
+  "a": "Enjoy",
+  "w": [
+   "Present",
+   "Discover",
+   "Derive"
+  ],
+  "e": "Casual, curiosity-driven use with no specific task."
+ },
+ {
+  "t": "12 – Tasks & Interaction",
+  "T": "Search",
+  "s": "Data Viz 12 – Tasks & Interaction",
+  "q": "You know the name of the city you're looking for but not where it is on the map. Which search task?",
+  "a": "Locate",
+  "w": [
+   "Lookup",
+   "Browse",
+   "Explore"
+  ],
+  "e": "Target known, location unknown = locate."
+ },
+ {
+  "t": "12 – Tasks & Interaction",
+  "T": "Search",
+  "s": "Data Viz 12 – Tasks & Interaction",
+  "q": "You know both what you're looking for and where it is (e.g., a specific cell in a table). Which search task?",
+  "a": "Lookup",
+  "w": [
+   "Locate",
+   "Browse",
+   "Explore"
+  ],
+  "e": "Target known, location known = lookup."
+ },
+ {
+  "t": "12 – Tasks & Interaction",
+  "T": "Search",
+  "s": "Data Viz 12 – Tasks & Interaction",
+  "q": "You scan a particular region of a chart without a specific target in mind. Which search task?",
+  "a": "Browse",
+  "w": [
+   "Lookup",
+   "Locate",
+   "Explore"
+  ],
+  "e": "Location known, target unknown = browse."
+ },
+ {
+  "t": "12 – Tasks & Interaction",
+  "T": "Search",
+  "s": "Data Viz 12 – Tasks & Interaction",
+  "q": "You have no specific target and don't know where to look. Which search task?",
+  "a": "Explore",
+  "w": [
+   "Browse",
+   "Locate",
+   "Lookup"
+  ],
+  "e": "Neither target nor location known = explore."
+ },
+ {
+  "t": "12 – Tasks & Interaction",
+  "T": "Query",
+  "s": "Data Viz 12 – Tasks & Interaction",
+  "q": "You look at one data point, then two, then the whole set. These query actions are:",
+  "a": "Identify → compare → summarize",
+  "w": [
+   "Lookup → locate → explore",
+   "Discover → present → enjoy",
+   "Filter → sort → zoom"
+  ],
+  "e": "Queries scale from one target, to some, to all."
+ },
+ {
+  "t": "12 – Tasks & Interaction",
+  "T": "Low-level tasks",
+  "s": "Data Viz 12 – Tasks & Interaction",
+  "q": "'Which car has the highest horsepower?' is which low-level task?",
+  "a": "Find extremum",
+  "w": [
+   "Filter",
+   "Sort",
+   "Characterize distribution"
+  ],
+  "e": "Find data cases with an extreme value of an attribute."
+ },
+ {
+  "t": "12 – Tasks & Interaction",
+  "T": "Low-level tasks",
+  "s": "Data Viz 12 – Tasks & Interaction",
+  "q": "'What's the average price of houses in this neighborhood?' is which low-level task?",
+  "a": "Compute derived value",
+  "w": [
+   "Retrieve value",
+   "Find extremum",
+   "Correlate"
+  ],
+  "e": "It computes a new number from the data."
+ },
+ {
+  "t": "12 – Tasks & Interaction",
+  "T": "Low-level tasks",
+  "s": "Data Viz 12 – Tasks & Interaction",
+  "q": "'Show only movies released after 2010' is which low-level task?",
+  "a": "Filter",
+  "w": [
+   "Sort",
+   "Cluster",
+   "Determine range"
+  ],
+  "e": "Find data cases that satisfy a condition."
+ },
+ {
+  "t": "12 – Tasks & Interaction",
+  "T": "Low-level tasks",
+  "s": "Data Viz 12 – Tasks & Interaction",
+  "q": "'Is there a relationship between study hours and exam score?' is which low-level task?",
+  "a": "Correlate",
+  "w": [
+   "Cluster",
+   "Filter",
+   "Retrieve value"
+  ],
+  "e": "Determine useful relationships between attributes."
+ },
+ {
+  "t": "12 – Tasks & Interaction",
+  "T": "Low-level tasks",
+  "s": "Data Viz 12 – Tasks & Interaction",
+  "q": "'Are there groups of similar customers?' is which low-level task?",
+  "a": "Cluster",
+  "w": [
+   "Correlate",
+   "Sort",
+   "Find anomalies"
+  ],
+  "e": "Find clusters of similar attribute values."
+ },
+ {
+  "t": "12 – Tasks & Interaction",
+  "T": "Low-level tasks",
+  "s": "Data Viz 12 – Tasks & Interaction",
+  "q": "'What's the spread of salaries from lowest to highest?' is which low-level task?",
+  "a": "Determine range",
+  "w": [
+   "Find extremum",
+   "Compute derived value",
+   "Filter"
+  ],
+  "e": "Find the span of values for an attribute."
+ },
+ {
+  "t": "12 – Tasks & Interaction",
+  "T": "Interaction",
+  "s": "Data Viz 12 – Tasks & Interaction",
+  "q": "Clicking a county on a map highlights the same county in a linked bar chart. Which interaction is this?",
+  "a": "Linking (brushing across views)",
+  "w": [
+   "Filtering",
+   "Semantic zooming",
+   "Rearranging"
+  ],
+  "e": "Linked views share selections so you can see one item across multiple representations."
+ },
+ {
+  "t": "12 – Tasks & Interaction",
+  "T": "Interaction",
+  "s": "Data Viz 12 – Tasks & Interaction",
+  "q": "Dragging a slider to hide all flights shorter than 500 miles is:",
+  "a": "Filtering",
+  "w": [
+   "Linking",
+   "Navigation",
+   "Change over time"
+  ],
+  "e": "Filtering removes items that don't meet a condition (e.g., Crossfilter)."
+ },
+ {
+  "t": "12 – Tasks & Interaction",
+  "T": "Interaction",
+  "s": "Data Viz 12 – Tasks & Interaction",
+  "q": "Zooming into a map makes street names and buildings appear that weren't shown before. This is:",
+  "a": "Semantic zooming",
+  "w": [
+   "Geometric zooming",
+   "Filtering",
+   "Linking"
+  ],
+  "e": "Semantic zoom changes what's shown (level of detail); geometric zoom only magnifies."
+ },
+ {
+  "t": "12 – Tasks & Interaction",
+  "T": "Interaction",
+  "s": "Data Viz 12 – Tasks & Interaction",
+  "q": "Switching a view from a bar chart to a sorted dot plot is which kind of interaction?",
+  "a": "Rearranging (changing the encoding)",
+  "w": [
+   "Selection & highlighting",
+   "Navigation",
+   "Filtering"
+  ],
+  "e": "Rearranging changes how the same data is encoded or ordered."
+ },
+ {
+  "t": "12 – Tasks & Interaction",
+  "T": "Interaction",
+  "s": "Data Viz 12 – Tasks & Interaction",
+  "q": "Smoothly animating bars to their new positions when the sort order changes helps because:",
+  "a": "Animated transitions let viewers track items as the view changes",
+  "w": [
+   "Animation shows exact values",
+   "It hides changes from the viewer",
+   "It reduces data-ink"
+  ],
+  "e": "Change over time: transitions preserve context between states."
+ },
+ {
+  "t": "12 – Tasks & Interaction",
+  "T": "Interaction",
+  "s": "Data Viz 12 – Tasks & Interaction",
+  "q": "Panning and rotating a view are examples of:",
+  "a": "Navigation",
+  "w": [
+   "Filtering",
+   "Linking",
+   "Deriving"
+  ],
+  "e": "Navigation changes the viewpoint (pan, translate, rotate, zoom)."
+ }
 ]

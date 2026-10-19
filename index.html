@@ -348,7 +348,7 @@ function renderSummary(){
     <div class="summary-grid">${subjects.map(s => {
       const r = rec.r[s.key]; const has = slotPool(s).length;
       return `<div class="srow" style="--c:var(--${s.subject})"><span class="mark" ${s.subject==="japanese"?'lang="ja"':''}>${esc(s.mark)}</span><span class="name">${esc(s.name)}</span>
-        ${r ? `<button class="btn ghost small" data-see="${s.key}">Revisit</button><span class="res ${r.ok?"ok":"no"}">${r.ok?"✓":"✗"}</span>` : `<span class="res na">${has ? "—" : "Coming soon"}</span>`}</div>`;
+        ${r ? `${BY_ID[rec.q[s.key]] ? `<button class="btn ghost small" data-see="${s.key}">Revisit</button>` : ""}<span class="res ${r.ok?"ok":"no"}">${r.ok?"✓":"✗"}</span>` : `<span class="res na">${has ? "—" : "Coming soon"}</span>`}</div>`;
     }).join("")}</div>
     <div class="actions">
       ${due ? `<button class="btn ghost" id="goReview">Review ${due} due</button>` : ""}
