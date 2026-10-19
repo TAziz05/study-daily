@@ -1,0 +1,425 @@
+# lesson|word|reading|meaning   (reading blank = same as word)
+# Genki II (3rd ed.) main vocabulary lists, L13–L23
+G2L13|アルバイト||part-time job
+G2L13|お菓子|おかし|snack; sweets
+G2L13|顔|かお|face
+G2L13|着物|きもの|kimono
+G2L13|今朝|けさ|this morning
+G2L13|ケーキ||cake
+G2L13|ごみ||garbage
+G2L13|魚|さかな|fish
+G2L13|将来|しょうらい|future
+G2L13|ステーキ||steak
+G2L13|外国語|がいこくご|foreign language
+G2L13|性格|せいかく|personality
+G2L13|専門|せんもん|major; area of specialization
+G2L13|宝くじ|たからくじ|lottery
+G2L13|ちょうど||just; exactly
+G2L13|手袋|てぶくろ|gloves
+G2L13|ネクタイ||necktie
+G2L13|恥ずかしい|はずかしい|embarrassing; to feel embarrassed
+G2L13|辛い|からい|hot and spicy; salty
+G2L13|怖い|こわい|scary
+G2L13|すごい||incredible; awesome
+G2L13|眠い|ねむい|sleepy
+G2L13|優しい|やさしい|kind
+G2L13|甘い|あまい|sweet
+G2L13|悲しい|かなしい|sad
+G2L13|嬉しい|うれしい|glad
+G2L13|大切|たいせつ|important; precious
+G2L13|編む|あむ|to knit
+G2L13|動く|うごく|to move
+G2L13|貸す|かす|to lend; to rent
+G2L13|勝つ|かつ|to win
+G2L13|込む|こむ|to get crowded
+G2L13|約束を守る|やくそくをまもる|to keep a promise
+G2L13|かぶる||to put on (a hat)
+G2L13|はく||to put on (items below the waist)
+G2L13|開く|あく|(something) opens
+G2L13|ためる||to save money
+G2L13|一日に|いちにちに|per day
+G2L13|～回|～かい|... times
+G2L13|～月に|～げつに|per month
+G2L13|～週間に|～しゅうかんに|per week
+G2L13|～年に|～ねんに|per year
+G2L13|～時間に|～じかんに|per hour
+G2L13|～ぐらい||approximately
+G2L13|～し||and what's more
+G2L14|赤ちゃん|あかちゃん|baby
+G2L14|アクセサリー||accessory
+G2L14|ガールフレンド||girlfriend
+G2L14|ボーイフレンド||boyfriend
+G2L14|クリスマス||Christmas
+G2L14|化粧品|けしょうひん|cosmetics
+G2L14|財布|さいふ|wallet
+G2L14|シャツ||shirt
+G2L14|スマホ||smartphone
+G2L14|セーター||sweater
+G2L14|ぬいぐるみ||stuffed animal
+G2L14|ネックレス||necklace
+G2L14|ハンカチ||handkerchief
+G2L14|マフラー||winter scarf
+G2L14|指輪|ゆびわ|ring
+G2L14|夫婦|ふうふ|husband and wife
+G2L14|お返し|おかえし|return (as a token of gratitude)
+G2L14|お礼|おれい|expression of gratitude
+G2L14|～年生|～ねんせい|...-year student
+G2L14|欲しい|ほしい|to want (a thing)
+G2L14|けち||stingy; cheapskate
+G2L14|あげる||to give (to others)
+G2L14|くれる||to give (me)
+G2L14|似合う|にあう|to look good (on somebody)
+G2L14|考える|かんがえる|to think (about); to consider
+G2L14|あきらめる||to give up
+G2L14|振る|ふる|to reject (a romantic partner)
+G2L14|相談する|そうだんする|to consult
+G2L14|プロポーズする||to propose marriage
+G2L14|あまりに||too much
+G2L14|まだ||still
+G2L14|～しか||only ...
+G2L14|～冊|～さつ|counter for bound volumes
+G2L14|～本|～ほん|counter for long objects
+G2L14|～足|～そく|counter for shoes
+G2L14|～ドル||... dollars
+G2L14|去年|きょねん|last year
+G2L14|彼|かれ|he; boyfriend
+G2L15|生き物|いきもの|living thing
+G2L15|宇宙人|うちゅうじん|space alien
+G2L15|会場|かいじょう|venue
+G2L15|外国|がいこく|foreign country
+G2L15|ガイドブック||guidebook
+G2L15|教会|きょうかい|church
+G2L15|旅館|りょかん|Japanese inn
+G2L15|ホテル||hotel
+G2L15|ビール||beer
+G2L15|保険|ほけん|insurance
+G2L15|予定|よてい|schedule; plan
+G2L15|招待|しょうたい|invitation
+G2L15|運動|うんどう|exercise
+G2L15|計画|けいかく|plan
+G2L15|地図|ちず|map
+G2L15|海外|かいがい|overseas
+G2L15|近所|きんじょ|neighborhood
+G2L15|お寺|おてら|temple
+G2L15|神社|じんじゃ|shrine
+G2L15|映画館|えいがかん|movie theater
+G2L15|おしゃれ||fashionable; stylish
+G2L15|安全|あんぜん|safe
+G2L15|集める|あつめる|to collect
+G2L15|調べる|しらべる|to look into (a matter)
+G2L15|見つける|みつける|to find
+G2L15|入れる|いれる|to put (something) in
+G2L15|決める|きめる|to decide
+G2L15|続ける|つづける|to continue
+G2L15|探す|さがす|to look for
+G2L15|死ぬ|しぬ|to die
+G2L15|泊まる|とまる|to stay (at a hotel)
+G2L15|就職する|しゅうしょくする|to get a full-time job
+G2L15|予約する|よやくする|to reserve
+G2L15|紹介する|しょうかいする|to introduce
+G2L15|貯金する|ちょきんする|to save money
+G2L15|この辺|このへん|this area
+G2L15|せっかく||taking the trouble to ...
+G2L15|～について||about ...
+G2L15|ほかの||other
+G2L16|朝寝坊|あさねぼう|oversleeping
+G2L16|おごる||to treat (someone) to a meal
+G2L16|落とす|おとす|to drop (something)
+G2L16|起こす|おこす|to wake (someone) up
+G2L16|片付ける|かたづける|to tidy up
+G2L16|案内する|あんないする|to show (someone) around
+G2L16|翻訳する|ほんやくする|to translate
+G2L16|説明する|せつめいする|to explain
+G2L16|遅刻する|ちこくする|to be late (for an appointment)
+G2L16|心配する|しんぱいする|to worry
+G2L16|直す|なおす|to correct; to fix
+G2L16|貸す|かす|to lend
+G2L16|返す|かえす|to return (a thing)
+G2L16|連れていく|つれていく|to take (someone) somewhere
+G2L16|送る|おくる|to walk/drive (someone); to send
+G2L16|出す|だす|to take (something) out; to hand in
+G2L16|取る|とる|to take (a class); to get
+G2L16|入院する|にゅういんする|to be hospitalized
+G2L16|晴れる|はれる|to become sunny
+G2L16|道|みち|way; road; directions
+G2L16|期末試験|きまつしけん|final examination
+G2L16|教科書|きょうかしょ|textbook
+G2L16|授業|じゅぎょう|class
+G2L16|レポート||report; paper
+G2L16|ゼミ||seminar
+G2L16|自分|じぶん|oneself
+G2L16|文法|ぶんぽう|grammar
+G2L16|宿題|しゅくだい|homework
+G2L16|大家族|だいかぞく|large family
+G2L16|ペット||pet
+G2L16|お弁当|おべんとう|boxed lunch
+G2L16|この間|このあいだ|the other day
+G2L16|今度|こんど|near future; next time
+G2L16|これから||from now on
+G2L16|今学期|こんがっき|this semester
+G2L16|～ごろ||around (time)
+G2L16|わかりにくい||hard to understand
+G2L16|気分|きぶん|feeling
+G2L16|戸|と|door
+G2L17|女性|じょせい|woman
+G2L17|男性|だんせい|man
+G2L17|美容院|びよういん|beauty parlor
+G2L17|おしゃれ||fashionable
+G2L17|ひげ||beard
+G2L17|ニュース||news
+G2L17|化粧|けしょう|makeup
+G2L17|離婚|りこん|divorce
+G2L17|国籍|こくせき|nationality
+G2L17|ごみ||garbage
+G2L17|給料|きゅうりょう|salary
+G2L17|ボーナス||bonus
+G2L17|サラリーマン||salaryman; office worker
+G2L17|気持ち|きもち|feeling
+G2L17|日記|にっき|diary
+G2L17|コンタクト||contact lenses
+G2L17|ほとんど||almost
+G2L17|いっぱい||a lot
+G2L17|寝坊する|ねぼうする|to oversleep
+G2L17|化粧する|けしょうする|to put makeup on
+G2L17|生まれる|うまれる|to be born
+G2L17|そる||to shave
+G2L17|出す|だす|to take (something) out
+G2L17|似ている|にている|to look alike
+G2L17|やめる||to quit
+G2L17|太る|ふとる|to gain weight
+G2L17|捨てる|すてる|to throw away
+G2L17|引っ越す|ひっこす|to move (to another place)
+G2L17|うらやましい||envious
+G2L17|すごい||incredible
+G2L17|～って||(casual quote)
+G2L17|～みたい||looks like ...
+G2L17|～後|～ご|in ... time; after ...
+G2L17|～前に|～まえに|before ...
+G2L17|～てから||after doing ...
+G2L18|カーテン||curtain
+G2L18|ガソリン||gasoline
+G2L18|ガラス||glass
+G2L18|電気|でんき|light; electricity
+G2L18|服|ふく|clothes
+G2L18|冷蔵庫|れいぞうこ|refrigerator
+G2L18|ろうそく||candle
+G2L18|お湯|おゆ|hot water
+G2L18|お皿|おさら|plate; dish
+G2L18|財布|さいふ|wallet
+G2L18|洗濯機|せんたくき|washing machine
+G2L18|窓|まど|window
+G2L18|ドア||door
+G2L18|乗り物|のりもの|vehicle
+G2L18|雪|ゆき|snow
+G2L18|開く|あく|(something) opens
+G2L18|開ける|あける|to open (something)
+G2L18|閉まる|しまる|(something) closes
+G2L18|閉める|しめる|to close (something)
+G2L18|つく||(something) turns on
+G2L18|つける||to turn (something) on
+G2L18|消える|きえる|(something) goes off
+G2L18|消す|けす|to turn (something) off
+G2L18|壊れる|こわれる|(something) breaks
+G2L18|壊す|こわす|to break (something)
+G2L18|汚れる|よごれる|to become dirty
+G2L18|汚す|よごす|to make (something) dirty
+G2L18|落ちる|おちる|(something) drops
+G2L18|落とす|おとす|to drop (something)
+G2L18|入る|はいる|(something) enters
+G2L18|入れる|いれる|to put (something) in
+G2L18|出る|でる|(something) goes out
+G2L18|出す|だす|to take (something) out
+G2L18|始まる|はじまる|(something) begins
+G2L18|始める|はじめる|to begin (something)
+G2L18|お湯を沸かす|おゆをわかす|to boil water
+G2L18|片付ける|かたづける|to tidy up
+G2L18|こぼす||to spill
+G2L18|開く|ひらく|to open (a book, etc.)
+G2L18|明るい|あかるい|bright
+G2L18|暗い|くらい|dark
+G2L18|自分で|じぶんで|by oneself
+G2L18|足りる|たりる|to be sufficient
+G2L18|～ながら||while ...ing
+G2L19|お嬢さん|おじょうさん|(someone's) daughter
+G2L19|息子|むすこ|son
+G2L19|娘|むすめ|daughter
+G2L19|お宅|おたく|(someone's) house
+G2L19|お土産|おみやげ|souvenir
+G2L19|お辞儀|おじぎ|bowing
+G2L19|会議|かいぎ|meeting
+G2L19|地元|じもと|local
+G2L19|就職|しゅうしょく|getting a full-time job
+G2L19|空港|くうこう|airport
+G2L19|気|き|mood; feeling
+G2L19|小説|しょうせつ|novel
+G2L19|大学院|だいがくいん|graduate school
+G2L19|サンダル||sandals
+G2L19|スーツ||suit
+G2L19|お辞儀する|おじぎする|to bow
+G2L19|いらっしゃる||(honorific) to be; to go; to come
+G2L19|おっしゃる||(honorific) to say
+G2L19|ご覧になる|ごらんになる|(honorific) to see
+G2L19|召し上がる|めしあがる|(honorific) to eat; to drink
+G2L19|なさる||(honorific) to do
+G2L19|お休みになる|おやすみになる|(honorific) to sleep
+G2L19|くださる||(honorific) to give (me)
+G2L19|ご存知だ|ごぞんじだ|(honorific) to know
+G2L19|迎えに行く|むかえにいく|to go to pick up (someone)
+G2L19|遅れる|おくれる|to become late
+G2L19|伝える|つたえる|to convey (a message)
+G2L19|気をつける|きをつける|to be cautious; to be careful
+G2L19|寄る|よる|to stop by
+G2L19|喜ぶ|よろこぶ|to be delighted
+G2L19|乗り換える|のりかえる|to change (trains)
+G2L19|心配|しんぱい|worry
+G2L19|お祝い|おいわい|celebration
+G2L19|もうすぐ||very soon
+G2L19|はず||should be ...; supposed to be ...
+G2L19|丁寧|ていねい|polite
+G2L19|～家|～け|the ... family
+G2L20|押し入れ|おしいれ|closet (Japanese-style)
+G2L20|おつり||change (money)
+G2L20|お客様|おきゃくさま|customer; guest
+G2L20|お名前|おなまえ|(someone's) name
+G2L20|クレジットカード||credit card
+G2L20|現金|げんきん|cash
+G2L20|乗り物|のりもの|vehicle
+G2L20|ご主人|ごしゅじん|husband
+G2L20|昔|むかし|old times; past
+G2L20|景色|けしき|scenery
+G2L20|今度|こんど|this time; next time
+G2L20|郵便局|ゆうびんきょく|post office
+G2L20|住所|じゅうしょ|address
+G2L20|ストーブ||heater
+G2L20|首|くび|neck
+G2L20|～様|～さま|Mr./Ms. ... (honorific)
+G2L20|参る|まいる|(extra-modest) to go; to come
+G2L20|おる||(extra-modest) to be
+G2L20|申す|もうす|(extra-modest) to say
+G2L20|いただく||(humble) to eat; to drink; to receive
+G2L20|いたす||(extra-modest) to do
+G2L20|ござる||(extra-modest) to be; to exist
+G2L20|拝見する|はいけんする|(humble) to see
+G2L20|伺う|うかがう|(humble) to visit; to ask
+G2L20|差し上げる|さしあげる|(humble) to give
+G2L20|お目にかかる|おめにかかる|(humble) to meet
+G2L20|存じる|ぞんじる|(humble) to know
+G2L20|払う|はらう|to pay
+G2L20|戻る|もどる|to return; to come back
+G2L20|届ける|とどける|to deliver
+G2L20|間違える|まちがえる|to make a mistake
+G2L20|わかりやすい||easy to understand
+G2L20|生き方|いきかた|way of life
+G2L20|～ずつ||... each
+G2L20|～中|～ちゅう|in the middle of ...
+G2L20|～ほど||about ...
+G2L21|泥棒|どろぼう|thief; burglar
+G2L21|警察|けいさつ|police
+G2L21|事故|じこ|accident
+G2L21|空気|くうき|air
+G2L21|お巡りさん|おまわりさん|police officer
+G2L21|ゴキブリ||cockroach
+G2L21|においがする||to smell
+G2L21|あざ||bruise
+G2L21|パジャマ||pajamas
+G2L21|ポスター||poster
+G2L21|文句|もんく|complaint
+G2L21|夢|ゆめ|dream
+G2L21|犯人|はんにん|criminal
+G2L21|お金持ち|おかねもち|rich person
+G2L21|ばか||fool; stupid
+G2L21|変|へん|strange; weird
+G2L21|盗む|ぬすむ|to steal
+G2L21|殴る|なぐる|to strike; to hit
+G2L21|踏む|ふむ|to step on
+G2L21|笑う|わらう|to laugh
+G2L21|刺す|さす|to sting; to stab
+G2L21|噛む|かむ|to bite
+G2L21|蹴る|ける|to kick
+G2L21|叱る|しかる|to scold
+G2L21|いじめる||to bully
+G2L21|育てる|そだてる|to raise; to bring up
+G2L21|呼ぶ|よぶ|to call (name)
+G2L21|貼る|はる|to post; to paste
+G2L21|飾る|かざる|to decorate
+G2L21|かける||to hang; to put (glasses) on
+G2L21|置く|おく|to put; to leave
+G2L21|書く|かく|to write
+G2L21|ほめる||to praise
+G2L21|閉める|しめる|to close
+G2L21|片付ける|かたづける|to tidy up
+G2L21|～間に|～あいだに|while ...
+G2L21|今度|こんど|next time
+G2L21|ひどい||awful
+G2L21|恥ずかしい|はずかしい|embarrassed
+G2L22|子供|こども|child
+G2L22|部長|ぶちょう|department manager
+G2L22|部下|ぶか|subordinate
+G2L22|後輩|こうはい|junior member of a group
+G2L22|先輩|せんぱい|senior member of a group
+G2L22|書類|しょるい|document
+G2L22|塾|じゅく|cram school
+G2L22|大人|おとな|adult
+G2L22|お菓子|おかし|sweets
+G2L22|食器|しょっき|dishes
+G2L22|毎週|まいしゅう|every week
+G2L22|事務所|じむしょ|office
+G2L22|日記|にっき|diary
+G2L22|迎える|むかえる|to go to pick up
+G2L22|言うことを聞く|いうことをきく|to listen to (someone); to obey
+G2L22|コピーする||to copy
+G2L22|拾う|ひろう|to pick up (something)
+G2L22|運ぶ|はこぶ|to carry
+G2L22|習う|ならう|to learn
+G2L22|任せる|まかせる|to leave (a matter) to someone
+G2L22|やり直す|やりなおす|to do over
+G2L22|植える|うえる|to plant
+G2L22|頼む|たのむ|to ask (a favor)
+G2L22|頼る|たよる|to rely on
+G2L22|自由|じゆう|free; not restricted
+G2L22|大事|だいじ|important; precious
+G2L22|無理|むり|impossible
+G2L22|～のに||even though ...
+G2L22|～ように||(do) like ...; so that ...
+G2L22|～なさい||(command) do ...
+G2L22|～ば||if ...
+G2L22|好きなように|すきなように|as one likes
+G2L22|生き物|いきもの|living things
+G2L23|教育|きょういく|education
+G2L23|面接|めんせつ|interview
+G2L23|顔|かお|face
+G2L23|最低|さいてい|the worst
+G2L23|最高|さいこう|the best
+G2L23|思い出|おもいで|memory (of something)
+G2L23|写真|しゃしん|photograph
+G2L23|手|て|hand
+G2L23|習慣|しゅうかん|custom; habit
+G2L23|首相|しゅしょう|prime minister
+G2L23|大統領|だいとうりょう|president (of a country)
+G2L23|両親|りょうしん|parents
+G2L23|涙|なみだ|tear
+G2L23|別れ|わかれ|farewell
+G2L23|世話|せわ|care
+G2L23|お世話になる|おせわになる|to be in someone's care
+G2L23|我慢する|がまんする|to be tolerant; to endure
+G2L23|見送る|みおくる|to see (someone) off
+G2L23|離れる|はなれる|to be separated; to leave
+G2L23|乾杯する|かんぱいする|to toast
+G2L23|感動する|かんどうする|to be moved; to be touched
+G2L23|成長する|せいちょうする|to grow up
+G2L23|卒業する|そつぎょうする|to graduate
+G2L23|就職する|しゅうしょくする|to get a full-time job
+G2L23|努力する|どりょくする|to make efforts
+G2L23|反対する|はんたいする|to oppose
+G2L23|やり直す|やりなおす|to do over
+G2L23|決める|きめる|to decide
+G2L23|今まで|いままで|until now
+G2L23|これまで||so far
+G2L23|～方|～かた|how to ...
+G2L23|～まで||until ...
+G2L23|一生懸命|いっしょうけんめい|very hard; with utmost effort
+G2L23|立派|りっぱ|splendid; admirable
+G2L23|きつい||tight; harsh
+G2L23|しっかり||firmly; steadily
+G2L23|最後|さいご|last; final
+G2L23|悪口|わるぐち|speaking ill of someone

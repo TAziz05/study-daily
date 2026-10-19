@@ -122,6 +122,8 @@ textarea{width:100%;min-height:90px;border-radius:10px;border:1.5px solid var(--
 .small{font-size:13px}
 .row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
 footer{margin-top:28px;color:var(--muted);font-size:13px;text-align:center}
+label.field{display:block;font-weight:600;font-size:13px;color:var(--muted);margin:14px 0 6px}
+label.field + select{margin-top:0}
 footer .credit{display:inline-block;margin-top:8px;opacity:.85}
 footer button{background:none;border:0;color:inherit;text-decoration:underline;cursor:pointer;font:inherit}
 .toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:10px;font-size:14px;opacity:0;transition:opacity .2s;pointer-events:none}
@@ -200,10 +202,11 @@ function choicesFor(q, salt=""){ return shuffled([q.a, ...q.w], hash(q.id+salt))
 // ---------- daily selection ----------
 function poolFor(subject, day){
   let qs = BANK[subject] || [];
-  if (subject === "japanese") { // alternate grammar and kanji days
-    const kanji = qs.filter(q => q.t.includes("Kanji")), grammar = qs.filter(q => !q.t.includes("Kanji"));
-    qs = (dayNum(day) % 2 === 0 ? grammar : kanji);
-    if (!qs.length) qs = BANK[subject];
+  if (subject === "japanese") { // rotate grammar, kanji, vocabulary and katakana days
+    const kinds = ["grammar", "kanji", "vocab", "kana"].filter(k => qs.some(q => q.k === k));
+    const k = kinds[dayNum(day) % kinds.length];
+    const sub = qs.filter(q => q.k === k);
+    if (sub.length) qs = sub;
   }
   return qs;
 }
@@ -369,29 +372,69 @@ function renderReview(){
   view.replaceChildren(card);
 }
 
-let practice = {subject:null, topic:"all", queue:[], stats:{n:0,c:0}};
+let practice = {subject:null, lesson:"all", topic:"all", queue:[], stats:{n:0,c:0}};
+const LESSONS = window.LESSONS || {};
+const KIND_LABEL = {grammar:"All grammar", kanji:"Kanji", vocab:"Vocabulary", kana:"Katakana"};
+function practicePool(){
+  let qs = BANK[practice.subject] || [];
+  if (practice.lesson !== "all") qs = qs.filter(q => q.L === practice.lesson);
+  if (practice.topic !== "all") {
+    const [kind, val] = [practice.topic.slice(0,2), practice.topic.slice(2)];
+    qs = qs.filter(q => kind === "k:" ? q.k === val : q.T === val);
+  }
+  return qs;
+}
+function lessonOptions(key){
+  const all = BANK[key], cnt = L => all.filter(q => q.L === L).length;
+  const ls = LESSONS[key] || [];
+  let html = `<option value="all">All lessons (${all.length})</option>`, group = null;
+  for (const l of ls) {
+    if (l.g !== group) { if (group !== null) html += `</optgroup>`; if (l.g) html += `<optgroup label="${esc(l.g)}">`; group = l.g; }
+    html += `<option value="${esc(l.L)}" ${l.L === practice.lesson ? "selected" : ""}>${esc(l.L)} (${cnt(l.L)})</option>`;
+  }
+  if (group) html += `</optgroup>`;
+  return html;
+}
+function topicOptions(key){
+  if (practice.lesson === "all") return "";
+  const l = (LESSONS[key] || []).find(x => x.L === practice.lesson);
+  const qs = BANK[key].filter(q => q.L === practice.lesson);
+  const opt = (v, label, n) => `<option value="${esc(v)}" ${v === practice.topic ? "selected" : ""}>${esc(label)} (${n})</option>`;
+  let html = opt("all", "Entire lesson", qs.length);
+  const kinds = [...new Set(qs.map(q => q.k).filter(Boolean))];
+  let topics = (l && l.topics) || [];
+  if (kinds.length > 1) {   // Japanese lessons: grammar / kanji / vocabulary sections, then single grammar points
+    html += `<optgroup label="Sections">` + kinds.map(k => opt("k:" + k, KIND_LABEL[k], qs.filter(q => q.k === k).length)).join("") + `</optgroup>`;
+    topics = topics.filter(t => qs.some(q => q.T === t && q.k === "grammar"));
+    if (topics.length) html += `<optgroup label="Grammar points">` + topics.map(t => opt("t:" + t, t, qs.filter(q => q.T === t).length)).join("") + `</optgroup>`;
+    return html;
+  }
+  if (!topics.length) return "";
+  return html + topics.map(t => opt("t:" + t, t, qs.filter(q => q.T === t).length)).join("");
+}
 function renderPractice(){
   const counts = s => (BANK[s.key]||[]).length;
   if (!practice.subject) {
     view.innerHTML = `<div class="card"><div class="subj" style="--c:var(--ink)">Practice</div>
-      <p class="muted" style="margin:6px 0 14px">Unlimited questions. Pick a class, and optionally a single reading or lesson.</p>
+      <p class="muted" style="margin:6px 0 14px">Unlimited questions. Pick a class, then a lesson, then the whole lesson or a single topic.</p>
       <div class="pick-grid">${SUBJECTS.map(s=>`<button class="pick ${counts(s)?"":"soon"}" data-s="${s.key}" style="--c:var(--${s.key})" ${counts(s)?"":"disabled"}>
-        <div class="subj"><span class="dot"></span>${esc(s.name)}</div><div class="n">${counts(s) ? counts(s)+" questions" : "Coming soon"}</div></button>`).join("")}</div></div>`;
-    view.querySelectorAll(".pick[data-s]").forEach(b => b.onclick = () => { practice = {subject:b.dataset.s, topic:"all", queue:[], stats:{n:0,c:0}}; renderPractice(); });
+        <div class="subj"><span class="dot"></span>${esc(s.name)}</div><div class="n">${counts(s) ? counts(s)+" questions · "+(LESSONS[s.key]||[]).length+" lessons" : "Coming soon"}</div></button>`).join("")}</div></div>`;
+    view.querySelectorAll(".pick[data-s]").forEach(b => b.onclick = () => { practice = {subject:b.dataset.s, lesson:"all", topic:"all", queue:[], stats:{n:0,c:0}}; renderPractice(); });
     return;
   }
   const s = subj(practice.subject);
-  const all = BANK[s.key];
-  const topics = [...new Set(all.map(q=>q.t))];
-  const pool = practice.topic === "all" ? all : all.filter(q=>q.t===practice.topic);
+  let pool = practicePool();
+  if (!pool.length) { practice.topic = "all"; practice.queue = []; pool = practicePool(); }
   if (!practice.queue.length) practice.queue = shuffled(pool.map(q=>q.id), Date.now());
   const q = BY_ID[practice.queue[0]];
+  const topicHtml = topicOptions(s.key);
   const head = document.createElement("div");
   head.className = "card"; head.style.marginBottom = "12px"; head.style.setProperty("--c", `var(--${s.key})`);
   head.innerHTML = `<div class="row"><div class="subj" style="flex:1"><span class="dot"></span>${esc(s.name)} practice</div>
     <span class="small muted">${practice.stats.c}/${practice.stats.n} this session</span>
     <button class="btn ghost small" id="pBack">Change class</button></div>
-    <select id="pTopic"><option value="all">All topics (${all.length})</option>${topics.map(t=>`<option ${t===practice.topic?"selected":""} value="${esc(t)}">${esc(t)} (${all.filter(q=>q.t===t).length})</option>`).join("")}</select>`;
+    <label class="field" for="pLesson">Lesson</label><select id="pLesson">${lessonOptions(s.key)}</select>
+    ${topicHtml ? `<label class="field" for="pTopic">Topic</label><select id="pTopic">${topicHtml}</select>` : ""}`;
   const card = questionCard(q, {mode:"practice", salt:String(practice.stats.n), onDone:(ok, chosen, actions)=>{
     practice.stats.n++; if (ok) practice.stats.c++;
     practice.queue.shift(); updateChrome();
@@ -400,7 +443,8 @@ function renderPractice(){
   }});
   view.replaceChildren(head, card);
   $("#pBack").onclick = () => { practice.subject = null; renderPractice(); };
-  $("#pTopic").onchange = e => { practice.topic = e.target.value; practice.queue = []; renderPractice(); };
+  $("#pLesson").onchange = e => { practice.lesson = e.target.value; practice.topic = "all"; practice.queue = []; renderPractice(); };
+  const pt = $("#pTopic"); if (pt) pt.onchange = e => { practice.topic = e.target.value; practice.queue = []; renderPractice(); };
 }
 
 function renderStats(){
