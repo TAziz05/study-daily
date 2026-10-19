@@ -1,8 +1,8 @@
 # Study Daily
 
-A personal daily study quiz. Each day it gives one question per class: Philosophy, Data Mining, Data Visualization and Japanese.
+A personal daily study quiz. Each day it gives one question each for Philosophy, Data Mining and Data Visualization, plus four for Japanese (grammar, kanji, vocabulary and katakana).
 
-- **Today**: four questions, one per class. They stay the same all day on a given device.
+- **Today**: seven questions: one each for Philosophy, Data Mining and Data Visualization, and one each of Japanese grammar, kanji, vocabulary and katakana. They stay the same all day on a given device.
 - **Review**: missed questions come back 1, 3, 7 and 16 days later.
 - **Practice**: unlimited questions for any class. Pick a lesson (or reading), then the entire lesson or a single topic. Japanese lessons split into grammar, kanji and vocabulary, plus a Katakana section.
 - **Sync devices**: progress lives in each browser. Copy the sync code to move it to another device.
@@ -15,7 +15,7 @@ Questions live in `data/src/*.json`. The file prefix sets the class: `phil_`, `d
 {"t": "Topic", "s": "Source (lecture/reading + section)", "q": "Question", "a": "Correct answer", "w": ["Wrong 1", "Wrong 2", "Wrong 3"], "e": "Explanation"}
 ```
 
-Japanese kanji questions are generated from `build/kanji_data.txt`, vocabulary from `build/vocab_genki1.txt` and `build/vocab_genki2.txt` (`lesson|word|reading|meaning`), and katakana practice from `build/katakana.py`. On the daily quiz, Japanese rotates through grammar, kanji, vocabulary and katakana. After editing, rebuild `questions.js` with:
+Japanese kanji questions are generated from `build/kanji_data.txt`, vocabulary from `build/vocab_genki1.txt` and `build/vocab_genki2.txt` (`lesson|word|reading|meaning`), and katakana practice from `build/katakana.py`. After editing, rebuild `questions.js` with:
 
 ```
 python3 build/build.py

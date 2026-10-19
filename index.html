@@ -7,7 +7,7 @@
 <meta name="theme-color" content="#f6f1e7">
 <link rel="icon" type="image/png" href="favicon.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<meta name="description" content="One question from every class, every day: Philosophy, Data Mining, Data Visualization and Japanese.">
+<meta name="description" content="A daily study quiz: Philosophy, Data Mining, Data Visualization, and Japanese grammar, kanji, vocab and katakana.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Study Daily">
 <meta property="og:description" content="One question from every class, every day.">
@@ -176,6 +176,16 @@ const SUBJECTS = [
   {key:"japanese",   name:"Japanese", short:"日本語"},
 ];
 const BANK = window.QUESTION_BANK || {};
+// Daily slots: one question per class, and four for Japanese (grammar, kanji, vocab, katakana)
+const SLOTS = [
+  {key:"philosophy", subject:"philosophy", name:"Philosophy", mark:"P"},
+  {key:"datamining", subject:"datamining", name:"Data Mining", mark:"D"},
+  {key:"dataviz",    subject:"dataviz",    name:"Data Visualization", mark:"V"},
+  {key:"jp-grammar", subject:"japanese", kind:"grammar", name:"Japanese · Grammar", mark:"文"},
+  {key:"jp-kanji",   subject:"japanese", kind:"kanji",   name:"Japanese · Kanji", mark:"漢"},
+  {key:"jp-vocab",   subject:"japanese", kind:"vocab",   name:"Japanese · Vocabulary", mark:"語"},
+  {key:"jp-kana",    subject:"japanese", kind:"kana",    name:"Japanese · Katakana", mark:"カ"},
+];
 const BY_ID = {};
 for (const s of SUBJECTS) for (const q of (BANK[s.key]||[])) { q.subject = s.key; BY_ID[q.id] = q; }
 const STORE_KEY = "studyDaily.v1";
@@ -200,33 +210,30 @@ function shuffled(arr, seed){ const r=rng(seed), a=arr.slice(); for(let i=a.leng
 function choicesFor(q, salt=""){ return shuffled([q.a, ...q.w], hash(q.id+salt)); }
 
 // ---------- daily selection ----------
-function poolFor(subject, day){
-  let qs = BANK[subject] || [];
-  if (subject === "japanese") { // rotate grammar, kanji, vocabulary and katakana days
-    const kinds = ["grammar", "kanji", "vocab", "kana"].filter(k => qs.some(q => q.k === k));
-    const k = kinds[dayNum(day) % kinds.length];
-    const sub = qs.filter(q => q.k === k);
-    if (sub.length) qs = sub;
-  }
-  return qs;
+function slotPool(slot){
+  const qs = BANK[slot.subject] || [];
+  return slot.kind ? qs.filter(q => q.k === slot.kind) : qs;
 }
 function seenInDaily(){ const s=new Set(); for (const d of Object.values(state.days)) for (const id of Object.values(d.q||{})) s.add(id); return s; }
-function dailyQuestion(subject, day=TODAY){
+function dailyQuestion(key, day=TODAY){
   const rec = state.days[day];
-  if (rec && rec.q && rec.q[subject] && BY_ID[rec.q[subject]]) return BY_ID[rec.q[subject]];
-  const pool = poolFor(subject, day);
+  if (rec && rec.q && rec.q[key] && BY_ID[rec.q[key]]) return BY_ID[rec.q[key]];
+  const slot = SLOTS.find(x => x.key === key); if (!slot) return null;
+  const pool = slotPool(slot);
   if (!pool.length) return null;
-  const order = shuffled(pool.map(q=>q.id).sort(), hash("order:"+subject));
+  const order = shuffled(pool.map(q=>q.id).sort(), hash("order:"+key));
   const seen = seenInDaily();
   const start = dayNum(day) % order.length;
   let pick = order[start];
   for (let i=0;i<order.length;i++){ const id=order[(start+i)%order.length]; if(!seen.has(id)){ pick=id; break; } }
   state.days[day] = state.days[day] || {q:{}, r:{}};
-  state.days[day].q[subject] = pick; save();
+  state.days[day].q[key] = pick; save();
   return BY_ID[pick];
 }
 function todayRec(){ state.days[TODAY] = state.days[TODAY] || {q:{}, r:{}}; return state.days[TODAY]; }
-function activeSubjects(){ return SUBJECTS.filter(s => (BANK[s.key]||[]).length); }
+function activeSlots(){ return SLOTS.filter(s => slotPool(s).length); }
+// Older days used one "japanese" slot; drop today's unanswered leftovers so they don't block the streak
+(() => { const r = state.days[TODAY]; if (!r || !r.q) return; for (const k of Object.keys(r.q)) if (!SLOTS.some(s => s.key === k) && !(r.r && k in r.r)) delete r.q[k]; })();
 
 // ---------- recording answers ----------
 function record(q, correct, mode){
@@ -244,7 +251,9 @@ function record(q, correct, mode){
 function dueReviews(){ return Object.entries(state.review).filter(([id,r]) => BY_ID[id] && r.due <= TODAY).map(([id]) => BY_ID[id]); }
 
 function streak(){
-  const done = d => { const r=state.days[d]; return r && activeSubjects().every(s => r.r && s.key in r.r); };
+  const done = d => { const r=state.days[d]; if (!r || !r.r) return false;
+    const keys = d === TODAY ? activeSlots().map(s => s.key) : Object.keys(r.q || {});
+    return keys.length > 0 && keys.every(k => k in r.r); };
   let n=0, d=TODAY;
   if (!done(d)) d = addDays(d,-1);
   while (done(d)) { n++; d = addDays(d,-1); }
@@ -306,12 +315,12 @@ let tab = "today";
 function setTab(t){ tab=t; document.querySelectorAll("nav.tabs button").forEach(b=>b.setAttribute("aria-selected", b.dataset.tab===t)); render(); window.scrollTo({top:0}); }
 document.querySelectorAll("nav.tabs button").forEach(b => b.addEventListener("click", () => setTab(b.dataset.tab)));
 
-function stepsBar(subjects, rec, currentKey){
-  return `<div class="steps">${subjects.map(s=>`<span class="step ${s.key in rec.r ? "done" : (s.key===currentKey?"current":"")}" style="--c:var(--${s.key})"></span>`).join("")}</div>`;
+function stepsBar(slots, rec, currentKey){
+  return `<div class="steps">${slots.map(s=>`<span class="step ${s.key in rec.r ? "done" : (s.key===currentKey?"current":"")}" style="--c:var(--${s.subject})"></span>`).join("")}</div>`;
 }
 
 function renderToday(){
-  const subjects = activeSubjects();
+  const subjects = activeSlots();
   const rec = todayRec();
   const next = subjects.find(s => !(s.key in rec.r));
   if (!subjects.length) { view.innerHTML = `<div class="card empty"><h2>No questions yet</h2><p>Add notes to get started.</p></div>`; return; }
@@ -328,7 +337,7 @@ function renderToday(){
 
 function renderSummary(){
   const rec = todayRec();
-  const subjects = SUBJECTS;
+  const subjects = activeSlots();
   const got = Object.values(rec.r).filter(r=>r.ok).length, tot = Object.keys(rec.r).length;
   const due = dueReviews().length;
   view.innerHTML = `<div class="card">
@@ -337,8 +346,8 @@ function renderSummary(){
       <p>${got} of ${tot} correct. Missed questions come back in Review tomorrow, then again 3, 7 and 16 days later.</p>
     </div>
     <div class="summary-grid">${subjects.map(s => {
-      const r = rec.r[s.key]; const has = (BANK[s.key]||[]).length;
-      return `<div class="srow" style="--c:var(--${s.key})"><span class="mark">${esc(s.short.slice(0,1))}</span><span class="name">${esc(s.name)}</span>
+      const r = rec.r[s.key]; const has = slotPool(s).length;
+      return `<div class="srow" style="--c:var(--${s.subject})"><span class="mark" ${s.subject==="japanese"?'lang="ja"':''}>${esc(s.mark)}</span><span class="name">${esc(s.name)}</span>
         ${r ? `<button class="btn ghost small" data-see="${s.key}">Revisit</button><span class="res ${r.ok?"ok":"no"}">${r.ok?"✓":"✗"}</span>` : `<span class="res na">${has ? "—" : "Coming soon"}</span>`}</div>`;
     }).join("")}</div>
     <div class="actions">
@@ -452,7 +461,7 @@ function renderStats(){
   const daysDone = Object.values(state.days).filter(d => d.r && Object.keys(d.r).length).length;
   const totalN = Object.values(state.log).reduce((a,l)=>a+l.n,0), totalC = Object.values(state.log).reduce((a,l)=>a+l.c,0);
   const cells = []; for (let i=27;i>=0;i--){ const d=addDays(TODAY,-i); const r=state.days[d]; const n=r&&r.r?Object.values(r.r).filter(x=>x.ok).length:0; const any=r&&r.r&&Object.keys(r.r).length;
-    cells.push(`<span title="${d}: ${any?n+" correct":"no activity"}" class="${any?(n>=3?"l3":n>=2?"l2":"l1"):""} ${d===TODAY?"today":""}"></span>`); }
+    cells.push(`<span title="${d}: ${any?n+" correct":"no activity"}" class="${any?(n>=5?"l3":n>=3?"l2":"l1"):""} ${d===TODAY?"today":""}"></span>`); }
   view.innerHTML = `<div class="stats">
       <div class="stat"><div class="v">${st}</div><div class="l">day streak</div></div>
       <div class="stat"><div class="v">${daysDone}</div><div class="l">days studied</div></div>
