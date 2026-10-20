@@ -28,6 +28,60 @@ def qid(q):
     return hashlib.sha1((q["q"] + "|" + q["a"]).encode("utf-8")).hexdigest()[:10]
 
 
+KANA = re.compile(r"[ぁ-ゖー]+")
+
+
+def segments(word, reading):
+    """Split a word into kanji runs and kana runs, and align the reading.
+    Returns (template, stems): template is a list like [1, 'れる'] (number = a run of that many kanji),
+    stems are the readings of each kanji run, e.g. ['わか']. (None, None) if it can't be aligned."""
+    parts = re.findall(r"[ぁ-ゖー]+|[^ぁ-ゖー]+", word)
+    template = [p if KANA.fullmatch(p) else len(p) for p in parts]
+    rx = "^" + "".join(re.escape(p) if isinstance(p, str) else "(.+?)" for p in template) + "$"
+    m = re.match(rx, reading)
+    return (template, list(m.groups())) if m else (None, None)
+
+
+def reading_distractors(r, rows, rng):
+    """Wrong readings that keep the same okurigana/kana as the real word, so the kana can't give it away."""
+    template, stems = segments(r["word"], r["reading"])
+    if template is None:
+        return []
+    key = tuple(template)
+    seg = {x["word"]: segments(x["word"], x["reading"]) for x in rows}
+    out = []
+    # real words with exactly the same shape (e.g. other one-kanji ～れる verbs, other two-kanji compounds)
+    same = {x["reading"] for x in rows if x["reading"] != r["reading"] and seg[x["word"]][0] is not None and tuple(seg[x["word"]][0]) == key}
+    same = sorted(same, key=lambda v: (abs(len(v) - len(r["reading"])), rng.random()))
+    out += same[:3]
+    # made-up readings: swap one kanji run's reading for another reading of a run with the same kanji count
+    runs = {}
+    for x in rows:
+        t, st = seg[x["word"]]
+        if t is None:
+            continue
+        for n, v in zip([p for p in t if not isinstance(p, str)], st):
+            runs.setdefault(n, set()).add(v)
+    tries = 0
+    while len(out) < 3 and tries < 400:
+        tries += 1
+        i = rng.randrange(len(stems))
+        n = [p for p in template if not isinstance(p, str)][i]
+        cand = sorted(v for v in runs.get(n, ()) if v != stems[i] and abs(len(v) - len(stems[i])) <= 1)
+        if not cand:
+            continue
+        ns = stems[:]; ns[i] = rng.choice(cand)
+        it = iter(ns)
+        v = "".join(p if isinstance(p, str) else next(it) for p in template)
+        if v != r["reading"] and v not in out:
+            out.append(v)
+    return out[:3]
+
+
+def is_verb(m):
+    return m.startswith("to ") or "; to " in m
+
+
 def kanji_questions():
     rows = []
     for line in open(os.path.join(ROOT, "build", "kanji_data.txt"), encoding="utf-8"):
@@ -45,23 +99,27 @@ def kanji_questions():
         topic = f"{r['book']} L{r['num']} – Kanji"
         src = f"{r['book']}, Lesson {r['num']} kanji"
         pool = list({x["meaning"] for x in same_book if x["meaning"] != r["meaning"]})
-        rng.shuffle(pool)
+        pool.sort(key=lambda m: (is_verb(m) != is_verb(r["meaning"]), rng.random()))
         out.append(dict(t=topic, s=src, q=f"What does the kanji 「{r['k']}」 mean?",
                         a=r["meaning"], w=pool[:3],
                         e=f"{r['k']} = {r['meaning']}. Example: {r['word']}（{r['reading']}）: {r['wmeaning']}."))
         if r["word"] not in seen_words:
             seen_words.add(r["word"])
-            pool = list({x["reading"] for x in same_book if x["reading"] != r["reading"]})
-            pool.sort(key=lambda s: (abs(len(s) - len(r["reading"])), rng.random()))
-            out.append(dict(t=topic, s=src, q=f"How do you read 「{r['word']}」?",
-                            a=r["reading"], w=pool[:3],
-                            e=f"{r['word']} is read {r['reading']} and means '{r['wmeaning']}'."))
-            pool = list({x["wmeaning"] for x in same_book if x["wmeaning"] != r["wmeaning"]})
-            rng.shuffle(pool)
+            w = reading_distractors(r, rows, rng)
+            if len(w) == 3:
+                out.append(dict(t=topic, s=src, q=f"How do you read 「{r['word']}」?",
+                                a=r["reading"], w=w,
+                                e=f"{r['word']} is read {r['reading']} and means '{r['wmeaning']}'."))
+            pool = list({x["wmeaning"] for x in rows if x["wmeaning"] != r["wmeaning"] and x["word"] != r["word"]})
+            pool.sort(key=lambda m: (is_verb(m) != is_verb(r["wmeaning"]), x_book(m, rows) != r["book"], rng.random()))
             out.append(dict(t=topic, s=src, q=f"What does 「{r['word']}」 mean?",
                             a=r["wmeaning"], w=pool[:3],
                             e=f"{r['word']}（{r['reading']}）= {r['wmeaning']}. Kanji: {r['k']} ({r['meaning']})."))
     return out
+
+
+def x_book(meaning, rows):
+    return next((x["book"] for x in rows if x["wmeaning"] == meaning), "")
 
 
 def vocab_questions():

@@ -1,17 +1,182 @@
 [
-{"t":"Putnam – Brains and Behavior","s":"Putnam, 'Brains and Behavior'","q":"Logical behaviorism was modeled on Russell and Whitehead's treatment of numbers as:","a":"Logical constructions out of sets","w":["Brain states","Platonic forms","Behavioral dispositions"],"e":"Just as numbers were constructions out of sets, mental events were said to be logical constructions out of actual and possible behavior."},
-{"t":"Putnam – Brains and Behavior","s":"Putnam, 'Brains and Behavior'","q":"What does the logical behaviorist share with the dualist, per Putnam?","a":"What goes on in the brain has nothing to do with what we MEAN by 'pain'","w":["Belief in Cartesian souls","Belief that pain is a brain state","Rejection of all behavior talk"],"e":"Yet the behaviorist is as 'tough-minded' as the materialist in denying a Cartesian Mind-substance."},
-{"t":"Putnam – Brains and Behavior","s":"Putnam, 'Brains and Behavior'","q":"Putnam famously says of logical behaviorism: 'I come to ______ logical behaviorism, not to ______ it.'","a":"Bury; praise","w":["Praise; bury","Defend; refute","Explain; criticize"],"e":"He argues that even the weakened forms (analytic entailments, near-translation) are incorrect."},
-{"t":"Putnam – Brains and Behavior","s":"Putnam, 'Brains and Behavior'","q":"Putnam says 'pain' is a cluster-concept. What does he mean?","a":"Its application is controlled by a cluster of criteria, all of which are synthetic","w":["Pain is just a cluster of behaviors","Pain has no meaning","Pain is defined by one necessary condition"],"e":"The behaviorist would say 'pain stands for a cluster of phenomena'. That is NOT what Putnam means."},
-{"t":"Putnam – Brains and Behavior","s":"Putnam, 'Brains and Behavior'","q":"Putnam's disease analogy (polio, multiple sclerosis) is meant to show that:","a":"Causes are not logical constructions out of their effects","w":["Diseases are mental states","Pain is a virus","Symptoms define diseases by meaning"],"e":"'Multiple sclerosis' means the disease normally responsible for certain symptoms, not the symptoms. Likewise pain normally causes pain behavior."},
-{"t":"Putnam – Brains and Behavior","s":"Putnam, 'Brains and Behavior'","q":"Putnam's conclusion about the relation of pains to responses is that pains:","a":"Are not clusters of responses, but (normally) the causes of clusters of responses","w":["Are identical to clusters of responses","Have no relation to responses","Are caused by responses"],"e":"This is an empirical fact, and it doesn't rule out worlds where pains produce different responses or none."},
-{"t":"Putnam – Brains and Behavior","s":"Putnam, 'Brains and Behavior'","q":"'Super-spartans' are people who:","a":"Feel pain but suppress all involuntary pain behavior","w":["Feel no pain at all","Exaggerate their pain","Only feel pain in magnetic fields"],"e":"They admit pain only in calm, well-modulated voices. It would be absurd to say they can't feel pain."},
-{"t":"Putnam – Brains and Behavior","s":"Putnam, 'Brains and Behavior'","q":"In the 'X-world', the super-super-spartans:","a":"Suppress even verbal reports of pain and pretend not to know the word","w":["Lack brains","Feel only pleasure","Communicate only by V-waves"],"e":"If pains were logical constructions out of behavior, X-worlders would behave so as not to have pains. But they do have them."},
-{"t":"Putnam – Brains and Behavior","s":"Putnam, 'Brains and Behavior'","q":"If the X-world story isn't self-contradictory, Putnam says this refutes even logical behaviorism's FIRST (weakest) thesis, which is:","a":"There exist analytic entailments between mind-statements and behavior-statements","w":["Mental talk is exactly translatable into behavior talk","Minds are brains","Behavior causes pain"],"e":"From 'X has a pain' by itself, no behavioral statement follows, not even one with 'normally' or 'probably'."},
-{"t":"Putnam – Brains and Behavior","s":"Putnam, 'Brains and Behavior'","q":"'Last night at midnight everything doubled in length.' Putnam uses this 'pseudo-hypothesis' to argue that:","a":"It actually has testable consequences (e.g., an apparent halving of the speed of light)","w":["It is truly meaningless","Length is a mental property","Behaviorism is correct"],"e":"It's the worst example of an untestable hypothesis. Things in philosophy are rarely as simple as they seem."},
-{"t":"Putnam – Brains and Behavior","s":"Putnam, 'Brains and Behavior'","q":"Why do 'V-waves' that decode into coherent English give better evidence than 'brain spikes'?","a":"Spikes could have almost any cause, but coherent language can't arise by chance","w":["V-waves are louder","Spikes don't exist","V-waves are behavior"],"e":"The 'null hypothesis' of chance can be dismissed, and coherence and simplicity then do real verifying work."},
-{"t":"Putnam – Brains and Behavior","s":"Putnam, 'Brains and Behavior'","q":"Putnam compares inferring X-worlders' pain via theory to inferring what from spectral lines in sunlight?","a":"Cadmium on the sun","w":["Water on Mars","Life on other planets","Gravity on the moon"],"e":"We don't need to heat cadmium on the sun to verify it. Coherence with a vast body of theory is scientific verification."},
-{"t":"Putnam – Brains and Behavior","s":"Putnam, 'Brains and Behavior'","q":"The 'W-waves' (decoded as 'Ho, ho! are we fooling those Earthians!') show that:","a":"Even the brain-state = pain principle could reasonably be given up, so it isn't a tautology","w":["X-worlders don't exist","V-waves are reliable","Behaviorism is true"],"e":"What's necessarily true is only: an organism in the same state as a human in pain in ALL relevant respects is in pain."},
-{"t":"Putnam – Brains and Behavior","s":"Putnam, 'Brains and Behavior'","q":"Putnam says the logical behaviorist's two escape moves ('change of meaning' and 'untestable') are, respectively:","a":"Unreasonable linguistics and unreasonable scientific method","w":["Sound logic and sound science","Dualism and materialism","Analytic and synthetic"],"e":"They're mutually supporting. 'The circle of reason is to be preferred to any of the many circles of unreason.'"},
-{"t":"Putnam – Brains and Behavior","s":"Putnam, 'Brains and Behavior' (note 2)","q":"In a footnote, Putnam sketches a fourth alternative (beyond dualism, materialism, behaviorism) in which states like pain are defined by:","a":"Functional organization, which can be built into many possible physical constitutions","w":["Overt behavior","Physical-chemical constitution","Divine decree"],"e":"This is the seed of functionalism. 'Prefers A to B' doesn't tell us if a creature is carbon, silicon, or even disembodied."}
+ {
+  "t": "Putnam – Brains and Behavior",
+  "s": "Putnam, 'Brains and Behavior'",
+  "q": "Logical behaviorism was modeled on Russell and Whitehead's treatment of numbers as:",
+  "a": "Logical constructions out of sets",
+  "w": [
+   "States of the mathematician's brain",
+   "Eternal Platonic forms",
+   "Dispositions to count"
+  ],
+  "e": "Just as numbers were constructions out of sets, mental events were said to be logical constructions out of actual and possible behavior."
+ },
+ {
+  "t": "Putnam – Brains and Behavior",
+  "s": "Putnam, 'Brains and Behavior'",
+  "q": "What does the logical behaviorist share with the dualist, per Putnam?",
+  "a": "Brain events aren't part of what 'pain' means",
+  "w": [
+   "Both believe in an immaterial Cartesian soul",
+   "Both hold that pain is just a brain state",
+   "Both reject all talk about behavior"
+  ],
+  "e": "What goes on in the brain has nothing to do with what we MEAN by 'pain'. Yet the behaviorist is as 'tough-minded' as the materialist in denying a Cartesian Mind-substance."
+ },
+ {
+  "t": "Putnam – Brains and Behavior",
+  "s": "Putnam, 'Brains and Behavior'",
+  "q": "Putnam famously says of logical behaviorism: 'I come to ______ logical behaviorism, not to ______ it.'",
+  "a": "Bury; praise",
+  "w": [
+   "Praise; bury",
+   "Defend; refute",
+   "Explain; criticize"
+  ],
+  "e": "He argues that even the weakened forms (analytic entailments, near-translation) are incorrect."
+ },
+ {
+  "t": "Putnam – Brains and Behavior",
+  "s": "Putnam, 'Brains and Behavior'",
+  "q": "Putnam says 'pain' is a cluster-concept. What does he mean?",
+  "a": "It's applied using several synthetic criteria",
+  "w": [
+   "Pain is nothing but a cluster of behaviors",
+   "The word 'pain' has no meaning at all",
+   "Pain is defined by one necessary condition"
+  ],
+  "e": "Its application is controlled by a cluster of criteria, all of which are synthetic. The behaviorist would say 'pain stands for a cluster of phenomena'. That is NOT what Putnam means."
+ },
+ {
+  "t": "Putnam – Brains and Behavior",
+  "s": "Putnam, 'Brains and Behavior'",
+  "q": "Putnam's disease analogy (polio, multiple sclerosis) is meant to show that:",
+  "a": "Causes aren't logical constructions of effects",
+  "w": [
+   "Diseases are really mental states in disguise",
+   "Pain is caused by a virus like polio",
+   "Symptoms define diseases by their meaning"
+  ],
+  "e": "Causes are not logical constructions out of their effects. 'Multiple sclerosis' means the disease normally responsible for certain symptoms, not the symptoms. Likewise pain normally causes pain behavior."
+ },
+ {
+  "t": "Putnam – Brains and Behavior",
+  "s": "Putnam, 'Brains and Behavior'",
+  "q": "Putnam's conclusion about the relation of pains to responses is that pains:",
+  "a": "Normally cause clusters of responses",
+  "w": [
+   "Are identical to clusters of responses",
+   "Have no relation to responses at all",
+   "Are caused by clusters of responses"
+  ],
+  "e": "Are not clusters of responses, but (normally) the causes of clusters of responses. This is an empirical fact, and it doesn't rule out worlds where pains produce different responses or none."
+ },
+ {
+  "t": "Putnam – Brains and Behavior",
+  "s": "Putnam, 'Brains and Behavior'",
+  "q": "'Super-spartans' are people who:",
+  "a": "Feel pain but hide the behavior",
+  "w": [
+   "Feel no pain at all, ever",
+   "Exaggerate every little pain",
+   "Feel pain only in strong fields"
+  ],
+  "e": "Feel pain but suppress all involuntary pain behavior. They admit pain only in calm, well-modulated voices. It would be absurd to say they can't feel pain."
+ },
+ {
+  "t": "Putnam – Brains and Behavior",
+  "s": "Putnam, 'Brains and Behavior'",
+  "q": "In the 'X-world', the super-super-spartans:",
+  "a": "Suppress even verbal reports of pain",
+  "w": [
+   "Have no brains inside their heads",
+   "Feel only pleasure and never pain",
+   "Communicate only by sending V-waves"
+  ],
+  "e": "Suppress even verbal reports of pain and pretend not to know the word. If pains were logical constructions out of behavior, X-worlders would behave so as not to have pains. But they do have them."
+ },
+ {
+  "t": "Putnam – Brains and Behavior",
+  "s": "Putnam, 'Brains and Behavior'",
+  "q": "If the X-world story isn't self-contradictory, Putnam says this refutes even logical behaviorism's FIRST (weakest) thesis, which is:",
+  "a": "Mind and behavior statements have analytic links",
+  "w": [
+   "Mental talk can be translated exactly into behavior talk",
+   "Minds are nothing more than brains and their states",
+   "Behavior is the cause of pain and other sensations"
+  ],
+  "e": "There exist analytic entailments between mind-statements and behavior-statements. From 'X has a pain' by itself, no behavioral statement follows, not even one with 'normally' or 'probably'."
+ },
+ {
+  "t": "Putnam – Brains and Behavior",
+  "s": "Putnam, 'Brains and Behavior'",
+  "q": "'Last night at midnight everything doubled in length.' Putnam uses this 'pseudo-hypothesis' to argue that:",
+  "a": "It actually has testable consequences",
+  "w": [
+   "It is genuinely meaningless nonsense",
+   "Length turns out to be a mental property",
+   "It shows that behaviorism is correct"
+  ],
+  "e": "It actually has testable consequences (e.g., an apparent halving of the speed of light). It's the worst example of an untestable hypothesis. Things in philosophy are rarely as simple as they seem."
+ },
+ {
+  "t": "Putnam – Brains and Behavior",
+  "s": "Putnam, 'Brains and Behavior'",
+  "q": "Why do 'V-waves' that decode into coherent English give better evidence than 'brain spikes'?",
+  "a": "Coherent language can't arise by chance",
+  "w": [
+   "V-waves are louder and easier to detect",
+   "Brain spikes don't actually exist at all",
+   "V-waves are a kind of outward behavior"
+  ],
+  "e": "Spikes could have almost any cause, but coherent language can't arise by chance. The 'null hypothesis' of chance can be dismissed, and coherence and simplicity then do real verifying work."
+ },
+ {
+  "t": "Putnam – Brains and Behavior",
+  "s": "Putnam, 'Brains and Behavior'",
+  "q": "Putnam compares inferring X-worlders' pain via theory to inferring what from spectral lines in sunlight?",
+  "a": "Cadmium on the sun",
+  "w": [
+   "Water on Mars",
+   "Life on other planets",
+   "Gravity on the moon"
+  ],
+  "e": "We don't need to heat cadmium on the sun to verify it. Coherence with a vast body of theory is scientific verification."
+ },
+ {
+  "t": "Putnam – Brains and Behavior",
+  "s": "Putnam, 'Brains and Behavior'",
+  "q": "The 'W-waves' (decoded as 'Ho, ho! are we fooling those Earthians!') show that:",
+  "a": "Even brain-state principles can be given up",
+  "w": [
+   "The X-worlders don't really exist at all",
+   "V-waves are a perfectly reliable signal",
+   "Logical behaviorism is true after all"
+  ],
+  "e": "Even the brain-state = pain principle could reasonably be given up, so it isn't a tautology. What's necessarily true is only: an organism in the same state as a human in pain in ALL relevant respects is in pain."
+ },
+ {
+  "t": "Putnam – Brains and Behavior",
+  "s": "Putnam, 'Brains and Behavior'",
+  "q": "Putnam says the logical behaviorist's two escape moves ('change of meaning' and 'untestable') are, respectively:",
+  "a": "Bad linguistics and bad scientific method",
+  "w": [
+   "Sound logic and equally sound science",
+   "Dualism and materialism, respectively",
+   "Analytic truths and synthetic truths"
+  ],
+  "e": "Unreasonable linguistics and unreasonable scientific method. They're mutually supporting. 'The circle of reason is to be preferred to any of the many circles of unreason.'"
+ },
+ {
+  "t": "Putnam – Brains and Behavior",
+  "s": "Putnam, 'Brains and Behavior' (note 2)",
+  "q": "In a footnote, Putnam sketches a fourth alternative (beyond dualism, materialism, behaviorism) in which states like pain are defined by:",
+  "a": "Functional organization",
+  "w": [
+   "Overt behavior",
+   "Physical-chemical makeup",
+   "Divine decree"
+  ],
+  "e": "Functional organization, which can be built into many possible physical constitutions. This is the seed of functionalism. 'Prefers A to B' doesn't tell us if a creature is carbon, silicon, or even disembodied."
+ }
 ]

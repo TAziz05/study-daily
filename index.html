@@ -268,6 +268,12 @@ const subj = k => SUBJECTS.find(s => s.key === k);
 function toast(msg){ const t=$("#toast"); t.textContent=msg; t.classList.add("show"); clearTimeout(toast._t); toast._t=setTimeout(()=>t.classList.remove("show"),1800); }
 const hasJa = s => /[぀-ヿ一-龯]/.test(s);
 
+// Before answering, show only the lesson so the topic name can't give the answer away
+function topicBefore(q){
+  if (q.k === "kana") return "Katakana";
+  if (q.k) return `${q.L} · ${({grammar:"Grammar", kanji:"Kanji", vocab:"Vocabulary"})[q.k]}`;
+  return q.L || q.t;
+}
 function questionCard(q, {stepsHtml="", mode, onDone, answered=null, salt=""}){
   const s = subj(q.subject);
   const opts = choicesFor(q, salt);
@@ -276,13 +282,14 @@ function questionCard(q, {stepsHtml="", mode, onDone, answered=null, salt=""}){
   el.style.setProperty("--c", `var(--${q.subject})`);
   el.innerHTML = `${stepsHtml}
     <div class="subj"><span class="dot"></span>${esc(s.name)}</div>
-    <div class="topic">${esc(q.t)}</div>
+    <div class="topic">${esc(answered !== null ? q.t : topicBefore(q))}</div>
     <div class="question" ${hasJa(q.q)?'lang="ja"':''}>${esc(q.q)}</div>
     <div class="choices">${opts.map((o,i)=>`<button class="choice" data-v="${esc(o)}" ${hasJa(o)?'lang="ja"':''}><span class="key">${"ABCD"[i]}</span><span>${esc(o)}</span></button>`).join("")}</div>
     <div class="fb"></div>`;
   const btns = [...el.querySelectorAll(".choice")];
   function reveal(chosen){
     const ok = chosen === q.a;
+    el.querySelector(".topic").textContent = q.t;
     btns.forEach(b => { b.disabled = true; const v=b.dataset.v;
       if (v===q.a) b.classList.add("right"); else if (v===chosen) b.classList.add("wrong"); else b.classList.add("dim"); });
     el.querySelector(".fb").innerHTML = `<div class="feedback">

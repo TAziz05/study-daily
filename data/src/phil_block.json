@@ -1,24 +1,266 @@
 [
-{"t":"Block – Troubles with Functionalism","s":"Block (1978), intro","q":"Block says functionalism replaces behaviorism's 'sensory inputs' with:","a":"'Sensory inputs and mental states', and 'disposition to act' with 'disposition to act and have certain mental states'","w":["'Brain states'","'Qualia'","'Physical behavior only'"],"e":"Functionalists individuate mental states partly by their causal relations to other mental states."},
-{"t":"Block – Troubles with Functionalism","s":"Block (1978), intro","q":"From the functionalist's point of view, behaviorism is guilty of:","a":"Liberalism: ascribing mental properties to things that lack them","w":["Chauvinism","Dualism","Eliminativism"],"e":"A system could have the right input-output relations without the right internal states."},
-{"t":"Block – Troubles with Functionalism","s":"Block (1978), intro","q":"From the functionalist's point of view, physicalism (pain = a brain state) is guilty of:","a":"Chauvinism: withholding mental properties from systems that have them","w":["Liberalism","Behaviorism","Epiphenomenalism"],"e":"It 'unfairly excludes those poor brainless creatures who nonetheless have minds'."},
-{"t":"Block – Troubles with Functionalism","s":"Block (1978), intro","q":"Block's two major theses are that functionalism is guilty of liberalism, and that:","a":"Any version that avoids liberalism falls into chauvinism","w":["Functionalism is identical to dualism","Physicalism is liberal","Behaviorism is correct"],"e":"So no version of functionalism can avoid both."},
-{"t":"Block – Troubles with Functionalism","s":"Block (1978), intro","q":"Why does Block say functionalism only 'tacks down' mental states at the periphery?","a":"Its inputs and outputs are specified in physical/nonmental terms, while internal states are defined only by their roles","w":["It only applies to the skin","It ignores inputs entirely","It defines mental states by brain chemistry"],"e":"This is why it inherits behaviorism's liberalism problem."},
-{"t":"Block – Troubles with Functionalism","s":"Block (1978), intro","q":"Block says the argument against physicalism isn't merely that one Turing machine can be made of wood, metal or glass, because:","a":"That would be like arguing temperature can't be microphysical since different materials share it","w":["Turing machines can only be made of silicon","Materials don't matter","Physicalism is obviously true"],"e":"The real point: it's hard to find any nontrivial physical property common to ALL possible realizations."},
-{"t":"Block – Troubles with Functionalism","s":"Block (1978), §1.1","q":"What's the difference between Functionalism and Psychofunctionalism?","a":"Functionalism uses a common-sense psychological theory; Psychofunctionalism uses a scientific psychological theory","w":["Psychofunctionalism is a form of dualism","Functionalism only applies to computers","There is none"],"e":"Both identify mental states with their 'Ramsey functional correlates' relative to some theory."},
-{"t":"Block – Troubles with Functionalism","s":"Block (1978), §1.1","q":"In Lewis's version, mental terms are defined using a modification of whose method, eliminating mental vocabulary but keeping input/output terms?","a":"Ramsey's","w":["Turing's","Carnap's","Frege's"],"e":"Replace the mental terms in a theory with variables and existentially quantify: the Ramsey sentence."},
-{"t":"Block – Troubles with Functionalism","s":"Block (1978), §1.2","q":"In the first homunculi-headed robot, little men inside the head each:","a":"Implement one 'square' (quadruple) of your machine table, e.g., if card reads G and light I17 is on, press O191 and change card to M","w":["Simulate one neuron's chemistry","Experience one of your feelings","Translate Chinese"],"e":"Despite each man's low intelligence, the whole system realizes your functional organization."},
-{"t":"Block – Troubles with Functionalism","s":"Block (1978), §1.2","q":"In the China version, what replaces the bulletin board?","a":"Letters displayed on satellites visible from anywhere in China","w":["Television broadcasts","Newspapers","Telephone calls"],"e":"Each person gets a two-way radio connecting them to others and to the artificial body."},
-{"t":"Block – Troubles with Functionalism","s":"Block (1978), §1.2","q":"How does Block reply to the objection that a flood of the Yangtze could disrupt the Chinese system?","a":"Whoever specifies the system decides what counts as inputs; a flood is like a bomb in a computer","w":["Floods are inputs","China has no rivers","The system is flood-proof"],"e":"Neural signals in Chungking residents no more count as inputs than tape jammed by a saboteur into a computer's relays."},
-{"t":"Block – Troubles with Functionalism","s":"Block (1978), §1.2","q":"Block's reply to 'the Chinese system would be too slow' involves imagining:","a":"Beings we could only communicate with via time-lapse photography","w":["Speeding up the Chinese people","A faster country","Using computers instead"],"e":"Taking time scale as all-important 'seems crudely behavioristic'. Metaphysical possibility is all his argument needs."},
-{"t":"Block – Troubles with Functionalism","s":"Block (1978), §1.2","q":"When asked what qualia are, Block quotes:","a":"Louis Armstrong on jazz: 'If you got to ask, you ain't never gonna get to know'","w":["Nagel on bats","Descartes on wax","Wittgenstein on beetles"],"e":"Qualitative states, 'raw feels', or what it's like (Nagel) to be the system."},
-{"t":"Block – Troubles with Functionalism","s":"Block (1978), §1.2","q":"The Absent Qualia Argument runs: machine functionalism says qualitative state Q = machine state Sq. But if there's nothing it's like to be the homunculi-head, then:","a":"It can't be in Q even when in Sq, so there's prima facie doubt that Q = Sq","w":["It must be in Q","Q doesn't exist","Sq doesn't exist"],"e":"Block argues this intuition has a rational basis, not just raw intuition."},
-{"t":"Block – Troubles with Functionalism","s":"Block (1978), §1.5","q":"Putnam stipulated that no pain-feeler can decompose into parts that themselves have the relevant description. His aim was to rule out:","a":"Swarms of bees as single pain-feelers","w":["Computers","Martians","Brains"],"e":"Block argues requiring NO sentient parts would wrongly exclude pregnant women and people with sentient parasites."},
-{"t":"Block – Troubles with Functionalism","s":"Block (1978), §1.5","q":"In the 'elementary-particle people' example, tiny beings pilot spaceships mimicking our particles, and you come to be made of their 'matter'. Block's verdict:","a":"You'd still feel pain, since your synapses' electrochemical mechanisms are unchanged","w":["You'd lose all mental states","You'd become the tiny people","You'd become a zombie"],"e":"So it isn't the parts' mentality per se that bothers us. It's how their mentality contributes to the whole."},
-{"t":"Block – Troubles with Functionalism","s":"Block (1978), §1.5","q":"What key difference between elementary-particle people and the original homunculi-heads explains our differing intuitions?","a":"The particle-people change only your microphysics, not your psychology or neurophysiology","w":["Particle-people are smaller","Homunculi are smarter","There is no difference"],"e":"Our mental states plausibly depend on having the psychology and/or neurophysiology we have."},
-{"t":"Block – Troubles with Functionalism","s":"Block (1978), §1.6","q":"If no physical mechanism (not even a brain) seems intuitively like a seat of qualia, why may we disregard doubts about brain-headed systems but NOT homunculi-heads?","a":"We know we are brain-headed and have qualia","w":["Brains are larger","Homunculi are visible","Brains are made of meat"],"e":"This makes the argument partly empirical, but it's knowledge we actually have."},
-{"t":"Block – Troubles with Functionalism","s":"Block (1978), §1.6","q":"Why does Block say inference to the best explanation doesn't support homunculi-heads having pain?","a":"The best explanation of their winces is that they were designed to mimic ours","w":["They don't wince","They really do feel pain","Explanation is impossible"],"e":"We, by contrast, weren't designed to mimic anything."},
-{"t":"Block – Troubles with Functionalism","s":"Block (1978), §1.6","q":"Block's machine that stores all 'smart speakable strings' (sensible hour-long conversations) and looks up replies shows that:","a":"A system could pass the Turing Test with no mental states at all (just a list-searcher plus tape recorder)","w":["The Turing Test is a perfect test of mind","Conversation requires consciousness","English is infinite"],"e":"Taking complex behavior as sufficient for qualia 'is just crude behaviorism'."},
-{"t":"Block – Troubles with Functionalism","s":"Block (1978), §1.6","q":"'The horse raced past the barn fell' is used by Block to make what point?","a":"Intuitions can be overridden by theory: the sentence feels ungrammatical but is grammatical","w":["English grammar is broken","Horses can't fall","Intuitions are always right"],"e":"Intuitions unsupported by principle aren't bedrock. Yet Block argues his anti-homunculi intuition IS supported."},
-{"t":"Block – Troubles with Functionalism","s":"Block (1978), note 19","q":"Block notes each homunculus could be provably replaced by:","a":"A McCulloch-Pitts 'and' neuron: two inputs, fires only if both receive a signal","w":["A transistor","A human brain","A Turing machine"],"e":"So the argument doesn't depend on the homunculi's own mentality at all."}
+ {
+  "t": "Block – Troubles with Functionalism",
+  "s": "Block (1978), intro",
+  "q": "Block says functionalism replaces behaviorism's 'sensory inputs' with:",
+  "a": "'Sensory inputs and mental states'",
+  "w": [
+   "'Neural firings and bodily states'",
+   "'Environmental stimuli and their causes'",
+   "'Behavioral outputs and dispositions'"
+  ],
+  "e": "'Sensory inputs and mental states', and 'disposition to act' with 'disposition to act and have certain mental states'. Functionalists individuate mental states partly by their causal relations to other mental states."
+ },
+ {
+  "t": "Block – Troubles with Functionalism",
+  "s": "Block (1978), intro",
+  "q": "From the functionalist's point of view, behaviorism is guilty of:",
+  "a": "Liberalism",
+  "w": [
+   "Chauvinism",
+   "Dualism",
+   "Eliminativism"
+  ],
+  "e": "Liberalism: ascribing mental properties to things that lack them. A system could have the right input-output relations without the right internal states."
+ },
+ {
+  "t": "Block – Troubles with Functionalism",
+  "s": "Block (1978), intro",
+  "q": "From the functionalist's point of view, physicalism (pain = a brain state) is guilty of:",
+  "a": "Chauvinism",
+  "w": [
+   "Liberalism",
+   "Behaviorism",
+   "Epiphenomenalism"
+  ],
+  "e": "Chauvinism: withholding mental properties from systems that have them. It 'unfairly excludes those poor brainless creatures who nonetheless have minds'."
+ },
+ {
+  "t": "Block – Troubles with Functionalism",
+  "s": "Block (1978), intro",
+  "q": "Block's two major theses are that functionalism is guilty of liberalism, and that:",
+  "a": "Any version that avoids liberalism falls into chauvinism",
+  "w": [
+   "Any version that avoids chauvinism collapses into dualism",
+   "Its account of inputs is circular because it uses mental terms",
+   "It can't explain how beliefs produce behavior"
+  ],
+  "e": "So no version of functionalism can avoid both."
+ },
+ {
+  "t": "Block – Troubles with Functionalism",
+  "s": "Block (1978), intro",
+  "q": "Why does Block say functionalism only 'tacks down' mental states at the periphery?",
+  "a": "Inputs and outputs are physical; internal states are defined only by role",
+  "w": [
+   "Mental states are defined by the brain chemistry at the periphery",
+   "Only the sensory organs are given a functional description",
+   "Outputs are mental while inputs are described physically"
+  ],
+  "e": "Its inputs and outputs are specified in physical/nonmental terms, while internal states are defined only by their roles. This is why it inherits behaviorism's liberalism problem."
+ },
+ {
+  "t": "Block – Troubles with Functionalism",
+  "s": "Block (1978), intro",
+  "q": "Block says the argument against physicalism isn't merely that one Turing machine can be made of wood, metal or glass, because:",
+  "a": "Temperature would then fail to be microphysical too",
+  "w": [
+   "Different materials always compute different functions",
+   "A wooden machine can't run the same program as a metal one",
+   "Only biological materials can realize a machine table"
+  ],
+  "e": "Then temperature couldn't be microphysical either, since many materials share it. That would be like arguing temperature can't be microphysical since different materials share it. The real point: it's hard to find any nontrivial physical property common to ALL possible realizations."
+ },
+ {
+  "t": "Block – Troubles with Functionalism",
+  "s": "Block (1978), §1.1",
+  "q": "What's the difference between Functionalism and Psychofunctionalism?",
+  "a": "Common-sense vs. scientific psychology",
+  "w": [
+   "Human minds vs. machine minds",
+   "Behavioral outputs vs. internal brain states",
+   "Type identity vs. token identity of states"
+  ],
+  "e": "Common-sense psychology vs. scientific psychology. Functionalism uses a common-sense psychological theory; Psychofunctionalism uses a scientific psychological theory. Both identify mental states with their 'Ramsey functional correlates' relative to some theory."
+ },
+ {
+  "t": "Block – Troubles with Functionalism",
+  "s": "Block (1978), §1.1",
+  "q": "In Lewis's version, mental terms are defined using a modification of whose method, eliminating mental vocabulary but keeping input/output terms?",
+  "a": "Ramsey's",
+  "w": [
+   "Turing's",
+   "Carnap's",
+   "Frege's"
+  ],
+  "e": "Replace the mental terms in a theory with variables and existentially quantify: the Ramsey sentence."
+ },
+ {
+  "t": "Block – Troubles with Functionalism",
+  "s": "Block (1978), §1.2",
+  "q": "In the first homunculi-headed robot, little men inside the head each:",
+  "a": "Carry out one line of your machine table",
+  "w": [
+   "Simulate the chemistry of one neuron",
+   "Experience one of your feelings for you",
+   "Translate one word into another language"
+  ],
+  "e": "Implement one 'square' (quadruple) of your machine table, e.g., if card reads G and light I17 is on, press O191 and change card to M. Despite each man's low intelligence, the whole system realizes your functional organization."
+ },
+ {
+  "t": "Block – Troubles with Functionalism",
+  "s": "Block (1978), §1.2",
+  "q": "In the China version, what replaces the bulletin board?",
+  "a": "Letters displayed on satellites",
+  "w": [
+   "Nationwide television broadcasts",
+   "Daily newspaper headlines",
+   "A network of telephone calls"
+  ],
+  "e": "Letters displayed on satellites visible from anywhere in China. Each person gets a two-way radio connecting them to others and to the artificial body."
+ },
+ {
+  "t": "Block – Troubles with Functionalism",
+  "s": "Block (1978), §1.2",
+  "q": "How does Block reply to the objection that a flood of the Yangtze could disrupt the Chinese system?",
+  "a": "Whoever specifies the system decides what counts as input",
+  "w": [
+   "Floods are legitimate inputs, so the system would feel them",
+   "The system would be built far from any rivers that could flood",
+   "Any interruption shows the system never had mental states"
+  ],
+  "e": "The designer decides what counts as input; a flood is like a bomb hitting a computer. Whoever specifies the system decides what counts as inputs; a flood is like a bomb in a computer. Neural signals in Chungking residents no more count as inputs than tape jammed by a saboteur into a computer's relays."
+ },
+ {
+  "t": "Block – Troubles with Functionalism",
+  "s": "Block (1978), §1.2",
+  "q": "Block's reply to 'the Chinese system would be too slow' involves imagining:",
+  "a": "Beings we could only talk to via time-lapse photography",
+  "w": [
+   "Speeding up every single person in the Chinese system",
+   "Using a much smaller country with fewer people instead",
+   "Replacing every person in the system with fast computers"
+  ],
+  "e": "Taking time scale as all-important 'seems crudely behavioristic'. Metaphysical possibility is all his argument needs."
+ },
+ {
+  "t": "Block – Troubles with Functionalism",
+  "s": "Block (1978), §1.2",
+  "q": "When asked what qualia are, Block quotes:",
+  "a": "Louis Armstrong on jazz",
+  "w": [
+   "Nagel on bats",
+   "Descartes on wax",
+   "Wittgenstein on beetles"
+  ],
+  "e": "Louis Armstrong on jazz: 'If you got to ask, you ain't never gonna get to know'. Qualitative states, 'raw feels', or what it's like (Nagel) to be the system."
+ },
+ {
+  "t": "Block – Troubles with Functionalism",
+  "s": "Block (1978), §1.2",
+  "q": "The Absent Qualia Argument runs: machine functionalism says qualitative state Q = machine state Sq. But if there's nothing it's like to be the homunculi-head, then:",
+  "a": "There's prima facie doubt that Q = Sq",
+  "w": [
+   "It must be in Q whenever it's in Sq",
+   "Q must not exist for anyone",
+   "Sq must not be a real machine state"
+  ],
+  "e": "It can't be in Q even when in Sq, so there's prima facie doubt that Q = Sq. Block argues this intuition has a rational basis, not just raw intuition."
+ },
+ {
+  "t": "Block – Troubles with Functionalism",
+  "s": "Block (1978), §1.5",
+  "q": "Putnam stipulated that no pain-feeler can decompose into parts that themselves have the relevant description. His aim was to rule out:",
+  "a": "Swarms of bees counting as one pain-feeler",
+  "w": [
+   "Digital computers counting as pain-feelers",
+   "Silicon-based Martians counting as pain-feelers",
+   "Damaged human brains counting as pain-feelers"
+  ],
+  "e": "Block argues requiring NO sentient parts would wrongly exclude pregnant women and people with sentient parasites."
+ },
+ {
+  "t": "Block – Troubles with Functionalism",
+  "s": "Block (1978), §1.5",
+  "q": "In the 'elementary-particle people' example, tiny beings pilot spaceships mimicking our particles, and you come to be made of their 'matter'. Block's verdict:",
+  "a": "You'd still feel pain",
+  "w": [
+   "You'd lose all your mental states",
+   "Your mind would pass to the tiny people",
+   "You'd become a zombie with no qualia"
+  ],
+  "e": "You'd still feel pain, since your synapses' electrochemical mechanisms are unchanged. So it isn't the parts' mentality per se that bothers us. It's how their mentality contributes to the whole."
+ },
+ {
+  "t": "Block – Troubles with Functionalism",
+  "s": "Block (1978), §1.5",
+  "q": "What key difference between elementary-particle people and the original homunculi-heads explains our differing intuitions?",
+  "a": "They change only your microphysics, not your psychology",
+  "w": [
+   "They are far smaller than the homunculi in the head",
+   "They are much less intelligent than the homunculi",
+   "They are conscious beings, while the homunculi are not"
+  ],
+  "e": "The particle-people change only your microphysics, not your psychology or neurophysiology. Our mental states plausibly depend on having the psychology and/or neurophysiology we have."
+ },
+ {
+  "t": "Block – Troubles with Functionalism",
+  "s": "Block (1978), §1.6",
+  "q": "If no physical mechanism (not even a brain) seems intuitively like a seat of qualia, why may we disregard doubts about brain-headed systems but NOT homunculi-heads?",
+  "a": "We know we are brain-headed and have qualia",
+  "w": [
+   "Brains are larger and far more complex than homunculi",
+   "Homunculi can be seen and examined from the outside",
+   "Brains are made of living tissue rather than people"
+  ],
+  "e": "This makes the argument partly empirical, but it's knowledge we actually have."
+ },
+ {
+  "t": "Block – Troubles with Functionalism",
+  "s": "Block (1978), §1.6",
+  "q": "Why does Block say inference to the best explanation doesn't support homunculi-heads having pain?",
+  "a": "Their winces are best explained by being designed to mimic ours",
+  "w": [
+   "They don't wince when damaged",
+   "Their pain behavior is too unreliable to explain",
+   "Inference to the best explanation never applies to minds"
+  ],
+  "e": "The best explanation of their winces is that they were designed to mimic ours. We, by contrast, weren't designed to mimic anything."
+ },
+ {
+  "t": "Block – Troubles with Functionalism",
+  "s": "Block (1978), §1.6",
+  "q": "Block's machine that stores all 'smart speakable strings' (sensible hour-long conversations) and looks up replies shows that:",
+  "a": "Passing the Turing Test doesn't require mental states",
+  "w": [
+   "The Turing Test is a perfect test of whether a system has a mind",
+   "Holding a sensible conversation always requires consciousness",
+   "No finite machine could ever hold an hour-long conversation"
+  ],
+  "e": "A system could pass the Turing Test with no mental states at all (just a list-searcher plus tape recorder). Taking complex behavior as sufficient for qualia 'is just crude behaviorism'."
+ },
+ {
+  "t": "Block – Troubles with Functionalism",
+  "s": "Block (1978), §1.6",
+  "q": "'The horse raced past the barn fell' is used by Block to make what point?",
+  "a": "Theory can override intuition",
+  "w": [
+   "English grammar is inconsistent",
+   "Some sentences are both grammatical and not",
+   "Intuitions about grammar are always right"
+  ],
+  "e": "Intuitions can be overridden by theory: the sentence feels ungrammatical but is grammatical. Intuitions unsupported by principle aren't bedrock. Yet Block argues his anti-homunculi intuition IS supported."
+ },
+ {
+  "t": "Block – Troubles with Functionalism",
+  "s": "Block (1978), note 19",
+  "q": "Block notes each homunculus could be provably replaced by:",
+  "a": "A McCulloch-Pitts 'and' neuron",
+  "w": [
+   "A single silicon transistor",
+   "A small human brain",
+   "A full Turing machine"
+  ],
+  "e": "A McCulloch-Pitts 'and' neuron: two inputs, fires only if both receive a signal. So the argument doesn't depend on the homunculi's own mentality at all."
+ }
 ]

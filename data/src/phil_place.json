@@ -1,16 +1,170 @@
 [
-{"t":"Place – Is Consciousness a Brain Process?","s":"Place (1956), §I","q":"For which concepts does Place think a behavioral-disposition analysis (à la Ryle and Wittgenstein) is fundamentally sound?","a":"Cognitive and volitional concepts like knowing, believing, wanting, intending","w":["Sensations and mental imagery","All mental concepts without exception","None: he rejects behaviorism entirely"],"e":"For consciousness, experience, sensation and imagery there's an 'intractable residue' where an inner-process story is unavoidable."},
-{"t":"Place – Is Consciousness a Brain Process?","s":"Place (1956), §I–II","q":"Place's status claim for 'consciousness is a process in the brain' is that it is:","a":"A reasonable scientific hypothesis: neither self-contradictory nor self-evident","w":["True by definition","Logically necessary","Logically impossible"],"e":"Just as 'lightning is a motion of electric charges' is a reasonable scientific hypothesis."},
-{"t":"Place – Is Consciousness a Brain Process?","s":"Place (1956), §II","q":"Place denies that statements about sensations MEAN statements about brain processes. Which reason does he give?","a":"You can describe your sensations without knowing anything about your brain","w":["Brains don't exist","Sensations are immaterial","Neuroscience is incomplete"],"e":"Also, the two kinds of statement are verified differently, and 'X has a pain but nothing's going on in his brain' isn't self-contradictory."},
-{"t":"Place – Is Consciousness a Brain Process?","s":"Place (1956), §II","q":"'His table is an old packing case' is an example of the:","a":"'Is' of composition: contingent, verified by observation","w":["'Is' of definition: necessary, true by meaning","'Is' of predication","'Is' of existence"],"e":"Contrast 'a square is an equilateral rectangle', the 'is' of definition. Place says consciousness = brain process uses the 'is' of composition."},
-{"t":"Place – Is Consciousness a Brain Process?","s":"Place (1956), §II","q":"What test does Place say distinguishes definition/composition 'is' statements from predication?","a":"You can sensibly add 'and nothing else'","w":["They can be verified by introspection","They contain a proper name","They are always false"],"e":"'Her hat is a bundle of straw and nothing else' makes sense. 'Her hat is red and nothing else' is nonsense."},
-{"t":"Place – Is Consciousness a Brain Process?","s":"Place (1956), §III","q":"Place says we're normally justified in inferring ontological independence from logical independence of expressions, but this breaks down when:","a":"The observations verifying each description can seldom if ever be performed simultaneously","w":["The objects are very small","The expressions are synonyms","One of the objects is fictional"],"e":"Example: you can't observe a cloud's fleecy shape and its microstructure at once. Up close, a cloud becomes 'fog' or 'mist'."},
-{"t":"Place – Is Consciousness a Brain Process?","s":"Place (1956), §III","q":"In Place's cloud example, what happens to the cloud when you're enveloped by it?","a":"We call it a fog or mist","w":["It disappears entirely","It becomes a solid","It turns into lightning"],"e":"The experiences are so different we use different words, yet there's only one thing: a mass of tiny particles."},
-{"t":"Place – Is Consciousness a Brain Process?","s":"Place (1956), §IV","q":"Why does Place need the lightning example in addition to the cloud?","a":"In the cloud case observations are continuous as you approach; lightning, like consciousness, has no such continuity","w":["Lightning is easier to see than clouds","Clouds aren't physical","Lightning is a mental event"],"e":"Introspection will never reveal nerve impulses, just as staring at lightning never reveals electric charges."},
-{"t":"Place – Is Consciousness a Brain Process?","s":"Place (1956), §IV","q":"Tides and phases of the moon are systematically correlated. Why don't we say they're the same event?","a":"The moon causes the tides, not our observations of tidal measurements","w":["They aren't actually correlated","The moon is too far away","Tides are mental events"],"e":"We identify two sets of observations when the scientific account directly explains the ordinary observations."},
-{"t":"Place – Is Consciousness a Brain Process?","s":"Place (1956), §IV","q":"Place's criterion for treating two sets of observations as observations of the same event is that:","a":"The scientific observations, in context of theory, provide an immediate explanation of the everyday observations","w":["They are perfectly correlated","They occur at the same time","They're described with the same words"],"e":"Moving charges explain why observers report a flash. So we identify consciousness with brain processes if brain processes explain introspective reports."},
-{"t":"Place – Is Consciousness a Brain Process?","s":"Place (1956), §V","q":"Sherrington's worry about the brain producing the 'seen' sun involves vision's strange property of:","a":"Projection: what's seen seems to be at a distance from the seeing self","w":["Inversion","Divisibility","Multiple realizability"],"e":"Sherrington concluded there are two series of events, physico-chemical and psychical."},
-{"t":"Place – Is Consciousness a Brain Process?","s":"Place (1956), §V","q":"The 'phenomenological fallacy' is the mistake of thinking that describing your experience means:","a":"Describing literal properties of objects on an internal 'phenomenal field' (a mental cinema screen)","w":["Describing the brain","Describing behavior","Saying nothing at all"],"e":"E.g., thinking a green after-image is a literally green object inside you, which has no place in physics."},
-{"t":"Place – Is Consciousness a Brain Process?","s":"Place (1956), §V","q":"According to Place, when you say your after-image is green, you're really saying:","a":"You're having the sort of experience you normally have when looking at a green patch of light","w":["There is a green object in your brain","There's a green object in front of you","Your brain is emitting green light"],"e":"We learn to describe real things first, and describe experience by reference to them, not the reverse."},
-{"t":"Place – Is Consciousness a Brain Process?","s":"Place (1956), §V","q":"To explain introspection physiologically, Place says we need to explain how a subject learns to:","a":"Preface ordinary descriptions with 'it appears', 'seems', 'looks' when they may not be appropriate","w":["See inside their own brain","Stop describing experience","Translate experiences into behavior"],"e":"E.g., a stationary light that appears to move: the brain process is the kind that normally occurs when seeing an actual moving object."}
+ {
+  "t": "Place – Is Consciousness a Brain Process?",
+  "s": "Place (1956), §I",
+  "q": "For which concepts does Place think a behavioral-disposition analysis (à la Ryle and Wittgenstein) is fundamentally sound?",
+  "a": "Cognitive and volitional ones, like believing",
+  "w": [
+   "Sensations and mental imagery, like after-images",
+   "Every mental concept without any exception",
+   "None, since he rejects behaviorism entirely"
+  ],
+  "e": "Cognitive and volitional concepts like knowing, believing, wanting, intending. For consciousness, experience, sensation and imagery there's an 'intractable residue' where an inner-process story is unavoidable."
+ },
+ {
+  "t": "Place – Is Consciousness a Brain Process?",
+  "s": "Place (1956), §I–II",
+  "q": "Place's status claim for 'consciousness is a process in the brain' is that it is:",
+  "a": "A reasonable scientific hypothesis",
+  "w": [
+   "True by definition of the words",
+   "A logically necessary truth",
+   "Logically impossible to state"
+  ],
+  "e": "A reasonable scientific hypothesis: neither self-contradictory nor self-evident. Just as 'lightning is a motion of electric charges' is a reasonable scientific hypothesis."
+ },
+ {
+  "t": "Place – Is Consciousness a Brain Process?",
+  "s": "Place (1956), §II",
+  "q": "Place denies that statements about sensations MEAN statements about brain processes. Which reason does he give?",
+  "a": "You can describe sensations knowing nothing of brains",
+  "w": [
+   "Brains don't exist as separate objects at all",
+   "Sensations are immaterial and can't be in the brain",
+   "Neuroscience is still too incomplete to tell"
+  ],
+  "e": "You can describe your sensations without knowing anything about your brain. Also, the two kinds of statement are verified differently, and 'X has a pain but nothing's going on in his brain' isn't self-contradictory."
+ },
+ {
+  "t": "Place – Is Consciousness a Brain Process?",
+  "s": "Place (1956), §II",
+  "q": "'His table is an old packing case' is an example of the:",
+  "a": "'Is' of composition",
+  "w": [
+   "'Is' of definition",
+   "'Is' of predication",
+   "'Is' of existence"
+  ],
+  "e": "'Is' of composition: contingent, verified by observation. Contrast 'a square is an equilateral rectangle', the 'is' of definition. Place says consciousness = brain process uses the 'is' of composition."
+ },
+ {
+  "t": "Place – Is Consciousness a Brain Process?",
+  "s": "Place (1956), §II",
+  "q": "What test does Place say distinguishes definition/composition 'is' statements from predication?",
+  "a": "You can sensibly add 'and nothing else'",
+  "w": [
+   "They can be verified by introspection",
+   "They contain a proper name",
+   "They are always false"
+  ],
+  "e": "'Her hat is a bundle of straw and nothing else' makes sense. 'Her hat is red and nothing else' is nonsense."
+ },
+ {
+  "t": "Place – Is Consciousness a Brain Process?",
+  "s": "Place (1956), §III",
+  "q": "Place says we're normally justified in inferring ontological independence from logical independence of expressions, but this breaks down when:",
+  "a": "The two kinds of observation can't be made together",
+  "w": [
+   "The objects involved are extremely small in size",
+   "The two expressions are actually exact synonyms",
+   "One of the two objects described is purely fictional"
+  ],
+  "e": "The observations verifying each description can seldom if ever be performed simultaneously. Example: you can't observe a cloud's fleecy shape and its microstructure at once. Up close, a cloud becomes 'fog' or 'mist'."
+ },
+ {
+  "t": "Place – Is Consciousness a Brain Process?",
+  "s": "Place (1956), §III",
+  "q": "In Place's cloud example, what happens to the cloud when you're enveloped by it?",
+  "a": "We call it a fog or mist",
+  "w": [
+   "It disappears entirely",
+   "It becomes a solid",
+   "It turns into lightning"
+  ],
+  "e": "The experiences are so different we use different words, yet there's only one thing: a mass of tiny particles."
+ },
+ {
+  "t": "Place – Is Consciousness a Brain Process?",
+  "s": "Place (1956), §IV",
+  "q": "Why does Place need the lightning example in addition to the cloud?",
+  "a": "Lightning, unlike a cloud, has no continuous approach",
+  "w": [
+   "Lightning is much easier to see than clouds are",
+   "Clouds turn out not to be physical things after all",
+   "Lightning is really a kind of mental event, like pain"
+  ],
+  "e": "In the cloud case observations are continuous as you approach; lightning, like consciousness, has no such continuity. Introspection will never reveal nerve impulses, just as staring at lightning never reveals electric charges."
+ },
+ {
+  "t": "Place – Is Consciousness a Brain Process?",
+  "s": "Place (1956), §IV",
+  "q": "Tides and phases of the moon are systematically correlated. Why don't we say they're the same event?",
+  "a": "The moon causes the tides",
+  "w": [
+   "They aren't actually correlated",
+   "The moon is far too distant",
+   "Tides are partly mental events"
+  ],
+  "e": "The moon causes the tides, not our observations of tidal measurements. We identify two sets of observations when the scientific account directly explains the ordinary observations."
+ },
+ {
+  "t": "Place – Is Consciousness a Brain Process?",
+  "s": "Place (1956), §IV",
+  "q": "Place's criterion for treating two sets of observations as observations of the same event is that:",
+  "a": "The science immediately explains the everyday observations",
+  "w": [
+   "The two sets of observations are perfectly correlated",
+   "Both sets of observations occur at exactly the same time",
+   "Both sets of observations are described with the same words"
+  ],
+  "e": "The scientific observations, in context of theory, provide an immediate explanation of the everyday observations. Moving charges explain why observers report a flash. So we identify consciousness with brain processes if brain processes explain introspective reports."
+ },
+ {
+  "t": "Place – Is Consciousness a Brain Process?",
+  "s": "Place (1956), §V",
+  "q": "Sherrington's worry about the brain producing the 'seen' sun involves vision's strange property of:",
+  "a": "Projection",
+  "w": [
+   "Inversion",
+   "Divisibility",
+   "Multiple realizability"
+  ],
+  "e": "Projection: what's seen seems to be at a distance from the seeing self. Sherrington concluded there are two series of events, physico-chemical and psychical."
+ },
+ {
+  "t": "Place – Is Consciousness a Brain Process?",
+  "s": "Place (1956), §V",
+  "q": "The 'phenomenological fallacy' is the mistake of thinking that describing your experience means:",
+  "a": "Describing objects on an inner 'mental screen'",
+  "w": [
+   "Describing the physical processes in your brain",
+   "Describing your outward behavior and dispositions",
+   "Saying nothing at all, since it's meaningless"
+  ],
+  "e": "Describing literal properties of objects on an internal 'phenomenal field' (a mental cinema screen). E.g., thinking a green after-image is a literally green object inside you, which has no place in physics."
+ },
+ {
+  "t": "Place – Is Consciousness a Brain Process?",
+  "s": "Place (1956), §V",
+  "q": "According to Place, when you say your after-image is green, you're really saying:",
+  "a": "It's like the experience of seeing a green patch",
+  "w": [
+   "There is a small green object inside your brain",
+   "There is a green object out in front of you",
+   "Your brain is giving off a faint green light"
+  ],
+  "e": "You're having the sort of experience you normally have when looking at a green patch of light. We learn to describe real things first, and describe experience by reference to them, not the reverse."
+ },
+ {
+  "t": "Place – Is Consciousness a Brain Process?",
+  "s": "Place (1956), §V",
+  "q": "To explain introspection physiologically, Place says we need to explain how a subject learns to:",
+  "a": "Say 'it seems' or 'it looks' when appropriate",
+  "w": [
+   "See directly inside their own brain as it works",
+   "Stop describing their experiences altogether",
+   "Translate each experience into outward behavior"
+  ],
+  "e": "Preface ordinary descriptions with 'it appears', 'seems', 'looks' when they may not be appropriate. E.g., a stationary light that appears to move: the brain process is the kind that normally occurs when seeing an actual moving object."
+ }
 ]

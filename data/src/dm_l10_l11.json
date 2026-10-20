@@ -1,24 +1,266 @@
 [
-{"t":"L10 – Spectral Clustering","s":"Data Mining L10 intro","q":"The three broad types of clustering are bottom-up, assignment-based, and top-down. Spectral clustering is:","a":"Top-down: find the best cut into two pieces, then recurse","w":["Bottom-up, like HAC","Assignment-based, like k-means","None of these"],"e":"HAC is bottom-up. k-means and k-center are assignment-based."},
-{"t":"L10 – Graph Clustering","s":"Data Mining L10 §10.2","q":"The normalized cut is NCut(S,T) = ?","a":"Cut(S,T)/Vol(S) + Cut(S,T)/Vol(T)","w":["Cut(S,T)","Vol(S) + Vol(T)","Cut(S,T) / (Vol(S)·Vol(T))"],"e":"Dividing by volume stops S or T from being too small. The cut on top forces a large split."},
-{"t":"L10 – Graph Clustering","s":"Data Mining L10 §10.2","q":"In the L10 example, why isn't S′ = {h} (a single leaf vertex) the best cut even though its Cut is just 1?","a":"Its tiny volume makes NCut large (1.1) vs. 0.367 for S = {a,b,c,d}","w":["h has no edges","Single vertices can't be clusters","Its cut is actually 0"],"e":"Normalization penalizes lopsided cuts."},
-{"t":"L10 – Laplacian","s":"Data Mining L10 §10.2.1–2","q":"The (unnormalized) graph Laplacian is L₀ = ?","a":"D − A (degree matrix minus adjacency matrix)","w":["A − D","D·A","A²"],"e":"Each row and column sums to 0, like water: as much flows in (D) as flows out (A)."},
-{"t":"L10 – Laplacian","s":"Data Mining L10 §10.2.4","q":"The first (smallest) eigenvalue of a graph Laplacian is always:","a":"0","w":["1","The number of vertices","Negative"],"e":"The corresponding eigenvector is constant (e.g., 1/√8 for 8 vertices)."},
-{"t":"L10 – Fiedler Vector","s":"Data Mining L10 §10.2.3","q":"The second eigenvector of the Laplacian, used to cut the graph, is called the:","a":"Fiedler vector","w":["Perron vector","Principal component","Gram vector"],"e":"Split vertices by sign: S = {v : v₂(v) < 0}. You can also try other thresholds along v₂ and keep the best NCut."},
-{"t":"L10 – Fiedler Vector","s":"Data Mining L10 §10.2.3","q":"How can the 2nd and 3rd eigenvectors together be used?","a":"Lay out vertices in ℝ² and make a 4-way cut by sign quadrants","w":["They must be ignored","Only for directed graphs","To count edges"],"e":"For layouts, scale each axis by 1/√λᵢ."},
-{"t":"L10 – Normalized Laplacian","s":"Data Mining L10 §10.2.4","q":"The normalized Laplacian is L = ?","a":"I − D^(−1/2) A D^(−1/2)  (= D^(−1/2) L₀ D^(−1/2))","w":["D − A","A D⁻¹","I − A"],"e":"It normalizes each edge by the flow in and out of its endpoints' degrees."},
-{"t":"L10 – Normalized Laplacian","s":"Data Mining L10 §10.2.4","q":"Why is the normalized Laplacian almost always preferred for spectral clustering?","a":"Its second eigenvector is the optimal continuous relaxation of the Normalized Cut problem","w":["It's always smaller","It has no eigenvalues","It's faster to write down"],"e":"The real cut is binary. The eigenvector solves the relaxed version with continuous values."},
-{"t":"L10 – Spectral Embedding","s":"Data Mining L10 §10.2.4","q":"After embedding vertices with the first few eigenvectors (scaled by 1/√λᵢ), you can:","a":"Run any Euclidean clustering, e.g., Lloyd's for k-means","w":["Only cut by the first eigenvector","Compute MinHash","Nothing more"],"e":"Smaller eigenvalues correspond to more important directions."},
-{"t":"L10 – Affinity Matrix","s":"Data Mining L10 §10.2.4","q":"A common affinity for spectral clustering on data in ℝᵈ is:","a":"s(a,b) = exp(−‖a − b‖² / σ²)","w":["s(a,b) = ‖a − b‖₁","s(a,b) = JS(a,b) only","s(a,b) = 1 always"],"e":"σ sets what 'close' means (beyond about 2σ is 'far'). Rounding tiny similarities to 0 speeds things up."},
-{"t":"L10 – Affinity Matrix","s":"Data Mining L10 §10.2.4","q":"Spectral embedding with a Gaussian affinity and the UNNORMALIZED Laplacian is called:","a":"Laplacian Eigenmaps","w":["PCA","t-SNE","DBScan"],"e":"It's a form of non-linear dimensionality reduction."},
-{"t":"L11 – Choosing k","s":"Data Mining L11 intro","q":"Is there a definitive rule for choosing k in clustering?","a":"No; clustering is unsupervised, and methods trade human judgement for model assumptions","w":["Yes, always k = √n","Yes, always pick the lowest-cost k","Yes, k = 2"],"e":"More automated methods require more assumptions about the clustering and the data."},
-{"t":"L11 – Drawing Pictures","s":"Data Mining L11 §11.1","q":"What does the lecture call data with denser regions but no well-defined separation?","a":"A 'smear' (like cream cheese on a bagel)","w":["A blob","A moon","An elbow"],"e":"Clustering a smear doesn't add much value. Plot first, using dimensionality reduction if d > 2."},
-{"t":"L11 – Elbow Method","s":"Data Mining L11 §11.2","q":"Why can't you just pick the k with the lowest clustering cost?","a":"Cost always decreases as k increases (reaching 0 at k = n)","w":["Cost increases with k","Cost is random","Cost doesn't depend on k"],"e":"Every point can be its own center."},
-{"t":"L11 – Elbow Method","s":"Data Mining L11 §11.2","q":"The 'elbow' in a cost-vs-k plot is where:","a":"Cost changes from decreasing rapidly to decreasing slowly","w":["Cost reaches 0","Cost is highest","Cost starts increasing"],"e":"Caveats: it's not always obvious, and nested clusters can create two elbows (either may be fine)."},
-{"t":"L11 – Silhouette","s":"Data Mining L11 §11.3","q":"In the silhouette score, a(i) and b(i) are:","a":"a(i) = avg distance to others in its own cluster; b(i) = smallest avg distance to another cluster","w":["a(i) = distance to nearest point; b(i) = distance to farthest point","a(i) = cluster size; b(i) = number of clusters","a(i) = cost; b(i) = k"],"e":"s(i) = (b(i) − a(i)) / max{a(i), b(i)}."},
-{"t":"L11 – Silhouette","s":"Data Mining L11 §11.3","q":"Silhouette s(i) lies in what range, and what does s(i) > 0 mean?","a":"[−1, 1]; the point is better off in its own cluster than its next-best one","w":["[0, ∞); it's an outlier","[0, 1]; it should switch clusters","[−∞, ∞); nothing"],"e":"For singleton clusters, s(i) = 0. Choose the k with the highest average silhouette."},
-{"t":"L11 – Silhouette","s":"Data Mining L11 §11.3","q":"For which methods might the silhouette score NOT be meaningful?","a":"Density-based clustering (DBScan) or single-link HAC","w":["k-means","k-medoid","Mean-link HAC"],"e":"It assumes a k-means-like model of what a good cluster is."},
-{"t":"L11 – BIC","s":"Data Mining L11 §11.4","q":"The Bayesian Information Criterion for a model with m parameters on n observations is:","a":"BIC = −2 ln(f(M)) + m ln(n)","w":["BIC = ln(f(M)) − m","BIC = m / n","BIC = −ln(f(M)) · m"],"e":"Choose the k that minimizes BIC."},
-{"t":"L11 – BIC","s":"Data Mining L11 §11.4","q":"How many parameters does a k-means clustering in ℝᵈ have (for BIC)?","a":"kd (each of the k centers has d coordinates)","w":["k","d","k + d"],"e":"So the penalty kd ln|X| grows linearly with k, while the negative log-likelihood decreases."},
-{"t":"L11 – BIC","s":"Data Mining L11 §11.4","q":"When each cluster is fit with an isotropic Gaussian, the maximum-likelihood center is:","a":"The mean of the cluster's points","w":["The median","A random point","The farthest point"],"e":"BIC needs a well-defined likelihood. That works for mixtures of Gaussians and k-means ('X-means'), but is hard for spectral or DBScan."}
+ {
+  "t": "L10 – Spectral Clustering",
+  "s": "Data Mining L10 intro",
+  "q": "The three broad types of clustering are bottom-up, assignment-based, and top-down. Spectral clustering is:",
+  "a": "Top-down",
+  "w": [
+   "Bottom-up",
+   "Assignment-based",
+   "None of these"
+  ],
+  "e": "Top-down: find the best cut into two pieces, then recurse. HAC is bottom-up. k-means and k-center are assignment-based."
+ },
+ {
+  "t": "L10 – Graph Clustering",
+  "s": "Data Mining L10 §10.2",
+  "q": "The normalized cut is NCut(S,T) = ?",
+  "a": "Cut(S,T)/Vol(S) + Cut(S,T)/Vol(T)",
+  "w": [
+   "Cut(S,T) / (Vol(S) + Vol(T))",
+   "Vol(S)/Cut(S,T) + Vol(T)/Cut(S,T)",
+   "Cut(S,T) / (Vol(S) · Vol(T))"
+  ],
+  "e": "Dividing by volume stops S or T from being too small. The cut on top forces a large split."
+ },
+ {
+  "t": "L10 – Graph Clustering",
+  "s": "Data Mining L10 §10.2",
+  "q": "In the L10 example, why isn't S′ = {h} (a single leaf vertex) the best cut even though its Cut is just 1?",
+  "a": "Its tiny volume makes NCut large",
+  "w": [
+   "h has no edges at all",
+   "A single vertex can't be a cluster",
+   "Its cut is actually 0"
+  ],
+  "e": "Its tiny volume makes NCut large (1.1) vs. 0.367 for S = {a,b,c,d}. Normalization penalizes lopsided cuts."
+ },
+ {
+  "t": "L10 – Laplacian",
+  "s": "Data Mining L10 §10.2.1–2",
+  "q": "The (unnormalized) graph Laplacian is L₀ = ?",
+  "a": "D − A",
+  "w": [
+   "A − D",
+   "D · A",
+   "A²"
+  ],
+  "e": "D − A (degree matrix minus adjacency matrix). Each row and column sums to 0, like water: as much flows in (D) as flows out (A)."
+ },
+ {
+  "t": "L10 – Laplacian",
+  "s": "Data Mining L10 §10.2.4",
+  "q": "The first (smallest) eigenvalue of a graph Laplacian is always:",
+  "a": "0",
+  "w": [
+   "1",
+   "The number of vertices",
+   "Negative"
+  ],
+  "e": "The corresponding eigenvector is constant (e.g., 1/√8 for 8 vertices)."
+ },
+ {
+  "t": "L10 – Fiedler Vector",
+  "s": "Data Mining L10 §10.2.3",
+  "q": "The second eigenvector of the Laplacian, used to cut the graph, is called the:",
+  "a": "Fiedler vector",
+  "w": [
+   "Perron vector",
+   "Principal component",
+   "Gram vector"
+  ],
+  "e": "Split vertices by sign: S = {v : v₂(v) < 0}. You can also try other thresholds along v₂ and keep the best NCut."
+ },
+ {
+  "t": "L10 – Fiedler Vector",
+  "s": "Data Mining L10 §10.2.3",
+  "q": "How can the 2nd and 3rd eigenvectors together be used?",
+  "a": "Lay out vertices in 2-D and cut by sign quadrants",
+  "w": [
+   "They must be ignored when making the clustering",
+   "They are only useful for directed graphs",
+   "They are used to count the edges in the graph"
+  ],
+  "e": "Lay out vertices in ℝ² and make a 4-way cut by sign quadrants. For layouts, scale each axis by 1/√λᵢ."
+ },
+ {
+  "t": "L10 – Normalized Laplacian",
+  "s": "Data Mining L10 §10.2.4",
+  "q": "The normalized Laplacian is L = ?",
+  "a": "I − D^(−1/2) A D^(−1/2)",
+  "w": [
+   "D − A, then divide by n",
+   "I − D⁻¹ A D⁻¹ for all edges",
+   "D^(−1/2) A D^(1/2) − I"
+  ],
+  "e": "I − D^(−1/2) A D^(−1/2)  (= D^(−1/2) L₀ D^(−1/2)). It normalizes each edge by the flow in and out of its endpoints' degrees."
+ },
+ {
+  "t": "L10 – Normalized Laplacian",
+  "s": "Data Mining L10 §10.2.4",
+  "q": "Why is the normalized Laplacian almost always preferred for spectral clustering?",
+  "a": "Its 2nd eigenvector relaxes the Normalized Cut",
+  "w": [
+   "It always has smaller entries than L₀ does",
+   "It has no eigenvalues that need computing",
+   "It's faster to write down and store by hand"
+  ],
+  "e": "Its second eigenvector is the optimal continuous relaxation of the Normalized Cut problem. The real cut is binary. The eigenvector solves the relaxed version with continuous values."
+ },
+ {
+  "t": "L10 – Spectral Embedding",
+  "s": "Data Mining L10 §10.2.4",
+  "q": "After embedding vertices with the first few eigenvectors (scaled by 1/√λᵢ), you can:",
+  "a": "Run any Euclidean clustering",
+  "w": [
+   "Only cut by the first eigenvector",
+   "Compute MinHash signatures",
+   "Do nothing more with them"
+  ],
+  "e": "Run any Euclidean clustering, e.g., Lloyd's for k-means. Smaller eigenvalues correspond to more important directions."
+ },
+ {
+  "t": "L10 – Affinity Matrix",
+  "s": "Data Mining L10 §10.2.4",
+  "q": "A common affinity for spectral clustering on data in ℝᵈ is:",
+  "a": "exp(−‖a − b‖² / σ²)",
+  "w": [
+   "‖a − b‖₁ / σ",
+   "JS(a, b) only for sets",
+   "1 for every pair a, b"
+  ],
+  "e": "σ sets what 'close' means (beyond about 2σ is 'far'). Rounding tiny similarities to 0 speeds things up."
+ },
+ {
+  "t": "L10 – Affinity Matrix",
+  "s": "Data Mining L10 §10.2.4",
+  "q": "Spectral embedding with a Gaussian affinity and the UNNORMALIZED Laplacian is called:",
+  "a": "Laplacian Eigenmaps",
+  "w": [
+   "Principal Component Analysis",
+   "t-SNE neighbor embedding",
+   "DBScan density mapping"
+  ],
+  "e": "It's a form of non-linear dimensionality reduction."
+ },
+ {
+  "t": "L11 – Choosing k",
+  "s": "Data Mining L11 intro",
+  "q": "Is there a definitive rule for choosing k in clustering?",
+  "a": "No; it trades judgement for assumptions",
+  "w": [
+   "Yes, always use k = √n for n points",
+   "Yes, pick the k with the lowest cost",
+   "Yes, always use k = 2 and recurse"
+  ],
+  "e": "No; clustering is unsupervised, and methods trade human judgement for model assumptions. More automated methods require more assumptions about the clustering and the data."
+ },
+ {
+  "t": "L11 – Drawing Pictures",
+  "s": "Data Mining L11 §11.1",
+  "q": "What does the lecture call data with denser regions but no well-defined separation?",
+  "a": "A 'smear'",
+  "w": [
+   "A blob",
+   "A moon",
+   "An elbow"
+  ],
+  "e": "A 'smear' (like cream cheese on a bagel). Clustering a smear doesn't add much value. Plot first, using dimensionality reduction if d > 2."
+ },
+ {
+  "t": "L11 – Elbow Method",
+  "s": "Data Mining L11 §11.2",
+  "q": "Why can't you just pick the k with the lowest clustering cost?",
+  "a": "Cost always drops as k grows",
+  "w": [
+   "Cost increases with k",
+   "Cost is random in k",
+   "Cost doesn't depend on k"
+  ],
+  "e": "Cost always decreases as k increases (reaching 0 at k = n). Every point can be its own center."
+ },
+ {
+  "t": "L11 – Elbow Method",
+  "s": "Data Mining L11 §11.2",
+  "q": "The 'elbow' in a cost-vs-k plot is where:",
+  "a": "Cost goes from falling fast to falling slowly",
+  "w": [
+   "Cost finally reaches exactly zero for that k",
+   "Cost is at its highest value over all k",
+   "Cost stops falling and starts increasing again"
+  ],
+  "e": "Cost changes from decreasing rapidly to decreasing slowly. Caveats: it's not always obvious, and nested clusters can create two elbows (either may be fine)."
+ },
+ {
+  "t": "L11 – Silhouette",
+  "s": "Data Mining L11 §11.3",
+  "q": "In the silhouette score, a(i) and b(i) are:",
+  "a": "a = avg to own cluster; b = smallest avg to another",
+  "w": [
+   "a = distance to nearest point; b = to farthest point",
+   "a = size of the cluster; b = total number of clusters",
+   "a = total clustering cost; b = the number k"
+  ],
+  "e": "a(i) = avg distance to others in its own cluster; b(i) = smallest avg distance to another cluster. s(i) = (b(i) − a(i)) / max{a(i), b(i)}."
+ },
+ {
+  "t": "L11 – Silhouette",
+  "s": "Data Mining L11 §11.3",
+  "q": "Silhouette s(i) lies in what range, and what does s(i) > 0 mean?",
+  "a": "[−1, 1]; it fits its own cluster better",
+  "w": [
+   "[0, ∞); the point is probably an outlier",
+   "[0, 1]; the point should switch clusters",
+   "(−∞, ∞); the sign carries no meaning"
+  ],
+  "e": "[−1, 1]; the point is better off in its own cluster than its next-best one. For singleton clusters, s(i) = 0. Choose the k with the highest average silhouette."
+ },
+ {
+  "t": "L11 – Silhouette",
+  "s": "Data Mining L11 §11.3",
+  "q": "For which methods might the silhouette score NOT be meaningful?",
+  "a": "DBScan or single-link HAC",
+  "w": [
+   "k-means with Lloyd's algorithm",
+   "k-medoid clustering",
+   "Mean-link hierarchical clustering"
+  ],
+  "e": "Density-based clustering (DBScan) or single-link HAC. It assumes a k-means-like model of what a good cluster is."
+ },
+ {
+  "t": "L11 – BIC",
+  "s": "Data Mining L11 §11.4",
+  "q": "The Bayesian Information Criterion for a model with m parameters on n observations is:",
+  "a": "−2 ln(f(M)) + m ln(n)",
+  "w": [
+   "ln(f(M)) − m ln(n)",
+   "−2 ln(f(M)) · m / n",
+   "m ln(f(M)) + 2 ln(n)"
+  ],
+  "e": "Choose the k that minimizes BIC."
+ },
+ {
+  "t": "L11 – BIC",
+  "s": "Data Mining L11 §11.4",
+  "q": "How many parameters does a k-means clustering in ℝᵈ have (for BIC)?",
+  "a": "kd",
+  "w": [
+   "k",
+   "d",
+   "k + d"
+  ],
+  "e": "kd (each of the k centers has d coordinates). So the penalty kd ln|X| grows linearly with k, while the negative log-likelihood decreases."
+ },
+ {
+  "t": "L11 – BIC",
+  "s": "Data Mining L11 §11.4",
+  "q": "When each cluster is fit with an isotropic Gaussian, the maximum-likelihood center is:",
+  "a": "The mean of its points",
+  "w": [
+   "The median of its points",
+   "A random point in it",
+   "Its farthest point"
+  ],
+  "e": "BIC needs a well-defined likelihood. That works for mixtures of Gaussians and k-means ('X-means'), but is hard for spectral or DBScan."
+ }
 ]

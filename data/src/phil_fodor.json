@@ -1,20 +1,218 @@
 [
-{"t":"Fodor – Propositional Attitudes","s":"Fodor (1978), intro","q":"Fodor argues his a priori conditions on propositional attitudes (PAs) demand treating them as:","a":"Relations between organisms and internal representations","w":["Behavioral dispositions","Relations to natural-language sentences","Brain states with no structure"],"e":"This converges with what cognitive psychologists arrived at independently, which he takes as a reason to think it's true."},
-{"t":"Fodor – Propositional Attitudes","s":"Fodor (1978), Condition I","q":"Condition I says PAs should be analyzed as relations. What's the only known alternative, which Fodor calls hopeless?","a":"The 'fusion' view: 'believes-it's-raining' is a single unstructured predicate","w":["The operator view","Functionalism","Eliminativism"],"e":"On fusion, 'John believes it's raining' is atomic, like 'John is purple'. 'Talk about counter-intuitive!'"},
-{"t":"Fodor – Propositional Attitudes","s":"Fodor (1978), Condition I","q":"Which is one of Fodor's objections to the fusion view?","a":"There are infinitely many 'a believes ___' sentences, so if each were atomic, how could English be learned?","w":["It makes belief a relation","It explains opacity too well","It requires internal representations"],"e":"Davidson's learnability point. Also: on fusion, it's an accident that 'it will rain' appears in both 'fears' and 'believes' sentences."},
-{"t":"Fodor – Propositional Attitudes","s":"Fodor (1978), Condition II","q":"'Vendler's Condition' requires a theory of PAs to explain:","a":"The parallelism between verbs of propositional attitude and verbs of saying","w":["The opacity of belief contexts","The logical form of beliefs","How animals have beliefs"],"e":"What we can believe/hope/doubt are the very things we can assert/inquire/demand."},
-{"t":"Fodor – Propositional Attitudes","s":"Fodor (1978), Condition III","q":"'Frege's Condition' requires a theory of PAs to account for their:","a":"Opacity: substitution of identicals and existential generalization can fail inside belief contexts","w":["Logical form","Causal powers","Parallel with verbs of saying"],"e":"Fodor notes fusion does satisfy this one, which shows Frege's condition alone under-constrains a theory."},
-{"t":"Fodor – Propositional Attitudes","s":"Fodor (1978), Condition IV","q":"'Aristotle's Condition' says the objects of PAs have logical form. The paradigm example is:","a":"The practical syllogism (John believes washing his car will make it rain, wants rain, so washes his car)","w":["The Cogito","The Chinese Room","Modus tollens"],"e":"Mental states interact causally in virtue of their content, and the generalizations refer to their form."},
-{"t":"Fodor – Propositional Attitudes","s":"Fodor (1978), Condition IV digression","q":"Answering 'if John believes P & Q, P & Q is inferentially inert', Fodor distinguishes:","a":"What's entailed by what's believed vs. what's entailed by believing it","w":["Syntax vs. semantics","Types vs. tokens","Analytic vs. synthetic"],"e":"P & Q always entails P. It's 'John believes P & Q' that isn't subject to simplification of conjunction."},
-{"t":"Fodor – Propositional Attitudes","s":"Fodor (1978), Condition V","q":"Condition V requires a theory of PAs to:","a":"Mesh with empirical accounts of mental processes (e.g., 'cost accounting' of complexity)","w":["Be provable a priori","Reduce to physics","Avoid all reference to the brain"],"e":"Analogy: 'water is H2O' must, with empirical premises, explain water's properties."},
-{"t":"Fodor – Propositional Attitudes","s":"Fodor (1978), Carnap's theory","q":"Carnap's theory construes PAs as relations between people and:","a":"Natural-language sentences they're disposed to utter","w":["Propositions","Brain states","Internal formulae"],"e":"It handles conditions I–V surprisingly well, but runs into objections 1–7."},
-{"t":"Fodor – Propositional Attitudes","s":"Fodor (1978), Carnap's theory","q":"Brown and Lenneberg's 'codability' experiments found that:","a":"Colors with simpler English descriptions were easier to recognize and recall","w":["Colors are innate","Language plays no role in memory","Dani speakers can't see color"],"e":"This fits Carnap: what you (opaquely) remember is the description."},
-{"t":"Fodor – Propositional Attitudes","s":"Fodor (1978), objections to Carnap","q":"Which is the easiest objection to Carnap to fix, per Fodor?","a":"His account of the belief relation is behavioristic (dispositions to utter)","w":["Dogs have beliefs without language","First languages must be learned","Some beliefs may be inexpressible"],"e":"The fix is to turn functionalist: a token of 'it's raining' plays a certain causal role."},
-{"t":"Fodor – Propositional Attitudes","s":"Fodor (1978), objections to Carnap","q":"The Dani findings are 'a shock' for Carnap's theory because:","a":"English codability predicted recall for Dani speakers, whose language has no chromatic color vocabulary","w":["Dani speakers had perfect color memory","Dani speakers couldn't recall any colors","Dani is identical to English"],"e":"How could English sentences be objects of a monolingual Dani's attitudes?"},
-{"t":"Fodor – Propositional Attitudes","s":"Fodor (1978), objections to Carnap","q":"Objection 7 against Carnap is circularity about:","a":"First-language learning, which itself requires beliefs, hypotheses and expectations","w":["Opacity","Logical form","Verbs of saying"],"e":"So some PAs must not be relations to natural-language sentences."},
-{"t":"Fodor – Propositional Attitudes","s":"Fodor (1978)","q":"Fodor's solution keeps which part of Carnap's theory and drops which part?","a":"Keeps: objects of PAs are sentences. Drops: they're NATURAL-language sentences.","w":["Keeps behaviorism, drops sentences","Keeps natural language, drops sentences","Drops everything"],"e":"Objects of PAs are formulae in an Internal Representational System, a language of thought."},
-{"t":"Fodor – Propositional Attitudes","s":"Fodor (1978)","q":"Fodor assumes the internal representational system is:","a":"Innate and universal (to the extent an organism shares our mental processes)","w":["Learned from English","Unique to each person","Identical to Mandarin"],"e":"That would explain the Dani data and language learning. If Whorf-Sapir turned out true, the theory could fail."},
-{"t":"Fodor – Propositional Attitudes","s":"Fodor (1978)","q":"What does Fodor's 'they are flying planes' example show?","a":"Psycholinguistics needs a grammar that speakers internally represent, so internal representations are required anyway","w":["English is unambiguous","Grammar is Platonic","Sentences have no structure"],"e":"Why the grammar and not some 'schmamar'? Only because G-proper is the system speakers actually use to represent sentences."},
-{"t":"Fodor – Propositional Attitudes","s":"Fodor (1978), Objection 1","q":"Why won't Fodor just say 'PAs are relations to propositions. Punkt!'?","a":"Propositions lack form (bad for computation), and he can't see how organisms relate to them except via internal formulae","w":["Propositions don't exist","Propositions are brain states","Frege proved it impossible"],"e":"Propositions can be MEDIATE objects of PAs, with internal representations doing the mediating."},
-{"t":"Fodor – Propositional Attitudes","s":"Fodor (1978), conclusion","q":"Fodor says if the representational theory of mind is true, the main remaining problem for philosophy of mind is:","a":"What relates internal representations to the world (their semantic interpretation)","w":["Whether brains exist","How to define 'belief'","Whether animals have minds"],"e":"'Psychology is all the philosophy of mind that we are likely to get.'"}
+ {
+  "t": "Fodor – Propositional Attitudes",
+  "s": "Fodor (1978), intro",
+  "q": "Fodor argues his a priori conditions on propositional attitudes (PAs) demand treating them as:",
+  "a": "Relations to internal representations",
+  "w": [
+   "Dispositions to behave in certain ways",
+   "Relations to natural-language sentences",
+   "Brain states with no internal structure"
+  ],
+  "e": "Relations between organisms and internal representations. This converges with what cognitive psychologists arrived at independently, which he takes as a reason to think it's true."
+ },
+ {
+  "t": "Fodor – Propositional Attitudes",
+  "s": "Fodor (1978), Condition I",
+  "q": "Condition I says PAs should be analyzed as relations. What's the only known alternative, which Fodor calls hopeless?",
+  "a": "The 'fusion' view",
+  "w": [
+   "The operator view",
+   "Functionalism",
+   "Eliminativism"
+  ],
+  "e": "The 'fusion' view: 'believes-it's-raining' is a single unstructured predicate. On fusion, 'John believes it's raining' is atomic, like 'John is purple'. 'Talk about counter-intuitive!'"
+ },
+ {
+  "t": "Fodor – Propositional Attitudes",
+  "s": "Fodor (1978), Condition I",
+  "q": "Which is one of Fodor's objections to the fusion view?",
+  "a": "Infinitely many atomic predicates would be unlearnable",
+  "w": [
+   "It wrongly makes belief a relation to something",
+   "It explains the opacity of belief contexts too well",
+   "It requires us to posit internal representations"
+  ],
+  "e": "There are infinitely many 'a believes ___' sentences, so if each were atomic, how could English be learned?. Davidson's learnability point. Also: on fusion, it's an accident that 'it will rain' appears in both 'fears' and 'believes' sentences."
+ },
+ {
+  "t": "Fodor – Propositional Attitudes",
+  "s": "Fodor (1978), Condition II",
+  "q": "'Vendler's Condition' requires a theory of PAs to explain:",
+  "a": "The parallel between attitude verbs and saying verbs",
+  "w": [
+   "The opacity of belief contexts to substitution",
+   "The logical form of the objects of belief",
+   "How animals without language can have beliefs"
+  ],
+  "e": "The parallelism between verbs of propositional attitude and verbs of saying. What we can believe/hope/doubt are the very things we can assert/inquire/demand."
+ },
+ {
+  "t": "Fodor – Propositional Attitudes",
+  "s": "Fodor (1978), Condition III",
+  "q": "'Frege's Condition' requires a theory of PAs to account for their:",
+  "a": "Opacity",
+  "w": [
+   "Logical form",
+   "Causal powers",
+   "Parallel with verbs of saying"
+  ],
+  "e": "Opacity: substitution of identicals and existential generalization can fail inside belief contexts. Fodor notes fusion does satisfy this one, which shows Frege's condition alone under-constrains a theory."
+ },
+ {
+  "t": "Fodor – Propositional Attitudes",
+  "s": "Fodor (1978), Condition IV",
+  "q": "'Aristotle's Condition' says the objects of PAs have logical form. The paradigm example is:",
+  "a": "The practical syllogism",
+  "w": [
+   "Descartes' Cogito",
+   "Searle's Chinese Room",
+   "A modus tollens argument"
+  ],
+  "e": "The practical syllogism (John believes washing his car will make it rain, wants rain, so washes his car). Mental states interact causally in virtue of their content, and the generalizations refer to their form."
+ },
+ {
+  "t": "Fodor – Propositional Attitudes",
+  "s": "Fodor (1978), Condition IV digression",
+  "q": "Answering 'if John believes P & Q, P & Q is inferentially inert', Fodor distinguishes:",
+  "a": "What's entailed by the belief vs. by believing it",
+  "w": [
+   "The syntax of a belief vs. its semantic content",
+   "Belief types vs. the individual belief tokens",
+   "Analytic beliefs vs. synthetic beliefs about facts"
+  ],
+  "e": "What's entailed by what's believed vs. what's entailed by believing it. P & Q always entails P. It's 'John believes P & Q' that isn't subject to simplification of conjunction."
+ },
+ {
+  "t": "Fodor – Propositional Attitudes",
+  "s": "Fodor (1978), Condition V",
+  "q": "Condition V requires a theory of PAs to:",
+  "a": "Fit with empirical accounts of mental processes",
+  "w": [
+   "Be provable entirely a priori, without experiment",
+   "Reduce completely and directly to physics",
+   "Avoid all reference to the brain and its parts"
+  ],
+  "e": "Mesh with empirical accounts of mental processes (e.g., 'cost accounting' of complexity). Analogy: 'water is H2O' must, with empirical premises, explain water's properties."
+ },
+ {
+  "t": "Fodor – Propositional Attitudes",
+  "s": "Fodor (1978), Carnap's theory",
+  "q": "Carnap's theory construes PAs as relations between people and:",
+  "a": "Sentences they're disposed to utter",
+  "w": [
+   "Abstract, language-independent propositions",
+   "The states of their brains at the time",
+   "Formulae in an innate internal code"
+  ],
+  "e": "Natural-language sentences they're disposed to utter. It handles conditions I–V surprisingly well, but runs into objections 1–7."
+ },
+ {
+  "t": "Fodor – Propositional Attitudes",
+  "s": "Fodor (1978), Carnap's theory",
+  "q": "Brown and Lenneberg's 'codability' experiments found that:",
+  "a": "Easily described colors were easier to remember",
+  "w": [
+   "Color categories are entirely innate and fixed",
+   "Language plays no role at all in color memory",
+   "Dani speakers cannot perceive color differences"
+  ],
+  "e": "Colors with simpler English descriptions were easier to recognize and recall. This fits Carnap: what you (opaquely) remember is the description."
+ },
+ {
+  "t": "Fodor – Propositional Attitudes",
+  "s": "Fodor (1978), objections to Carnap",
+  "q": "Which is the easiest objection to Carnap to fix, per Fodor?",
+  "a": "That it's behavioristic",
+  "w": [
+   "That dogs have beliefs without language",
+   "That first languages must be learned",
+   "That some beliefs may be inexpressible"
+  ],
+  "e": "His account of the belief relation is behavioristic (dispositions to utter). The fix is to turn functionalist: a token of 'it's raining' plays a certain causal role."
+ },
+ {
+  "t": "Fodor – Propositional Attitudes",
+  "s": "Fodor (1978), objections to Carnap",
+  "q": "The Dani findings are 'a shock' for Carnap's theory because:",
+  "a": "English codability predicted Dani speakers' recall",
+  "w": [
+   "Dani speakers had perfect memory for every color",
+   "Dani speakers couldn't recall any colors at all",
+   "The Dani language turned out to be like English"
+  ],
+  "e": "English codability predicted recall for Dani speakers, whose language has no chromatic color vocabulary. How could English sentences be objects of a monolingual Dani's attitudes?"
+ },
+ {
+  "t": "Fodor – Propositional Attitudes",
+  "s": "Fodor (1978), objections to Carnap",
+  "q": "Objection 7 against Carnap is circularity about:",
+  "a": "Learning a first language",
+  "w": [
+   "The opacity of belief contexts",
+   "The logical form of beliefs",
+   "The parallel with verbs of saying"
+  ],
+  "e": "First-language learning, which itself requires beliefs, hypotheses and expectations. So some PAs must not be relations to natural-language sentences."
+ },
+ {
+  "t": "Fodor – Propositional Attitudes",
+  "s": "Fodor (1978)",
+  "q": "Fodor's solution keeps which part of Carnap's theory and drops which part?",
+  "a": "Keeps sentences, drops 'natural language'",
+  "w": [
+   "Keeps behaviorism, drops sentences",
+   "Keeps natural language, drops sentences",
+   "Keeps dispositions, drops relations"
+  ],
+  "e": "Keeps: objects of PAs are sentences. Drops: they're NATURAL-language sentences. Objects of PAs are formulae in an Internal Representational System, a language of thought."
+ },
+ {
+  "t": "Fodor – Propositional Attitudes",
+  "s": "Fodor (1978)",
+  "q": "Fodor assumes the internal representational system is:",
+  "a": "Innate and universal",
+  "w": [
+   "Learned from English",
+   "Unique to each person",
+   "Identical to Mandarin"
+  ],
+  "e": "Innate and universal (to the extent an organism shares our mental processes). That would explain the Dani data and language learning. If Whorf-Sapir turned out true, the theory could fail."
+ },
+ {
+  "t": "Fodor – Propositional Attitudes",
+  "s": "Fodor (1978)",
+  "q": "What does Fodor's 'they are flying planes' example show?",
+  "a": "Speakers must internally represent a grammar",
+  "w": [
+   "English sentences are never truly ambiguous",
+   "Grammars are abstract Platonic objects only",
+   "Sentences have no internal structure at all"
+  ],
+  "e": "Psycholinguistics needs a grammar that speakers internally represent, so internal representations are required anyway. Why the grammar and not some 'schmamar'? Only because G-proper is the system speakers actually use to represent sentences."
+ },
+ {
+  "t": "Fodor – Propositional Attitudes",
+  "s": "Fodor (1978), Objection 1",
+  "q": "Why won't Fodor just say 'PAs are relations to propositions. Punkt!'?",
+  "a": "Propositions lack form needed for computation",
+  "w": [
+   "Propositions simply don't exist at all",
+   "Propositions are just states of the brain",
+   "Frege proved such a view is impossible"
+  ],
+  "e": "Propositions lack form (bad for computation), and he can't see how organisms relate to them except via internal formulae. Propositions can be MEDIATE objects of PAs, with internal representations doing the mediating."
+ },
+ {
+  "t": "Fodor – Propositional Attitudes",
+  "s": "Fodor (1978), conclusion",
+  "q": "Fodor says if the representational theory of mind is true, the main remaining problem for philosophy of mind is:",
+  "a": "How internal representations relate to the world",
+  "w": [
+   "Whether brains really exist outside of our minds",
+   "How we should define the ordinary word 'belief'",
+   "Whether animals have minds like our own"
+  ],
+  "e": "What relates internal representations to the world (their semantic interpretation). 'Psychology is all the philosophy of mind that we are likely to get.'"
+ }
 ]

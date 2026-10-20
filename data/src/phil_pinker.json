@@ -1,20 +1,218 @@
 [
-{"t":"Pinker – Computational Theory of Mind","s":"Pinker, How the Mind Works (1997)","q":"Pinker says 'there will never be a Decade of the Pancreas' to make the point that:","a":"The mind is not the brain but what the brain does: information processing","w":["The pancreas is more important than the brain","Neuroscience is overrated","Organs don't process information"],"e":"The brain's special status comes from the special thing it does: computation."},
-{"t":"Pinker – Computational Theory of Mind","s":"Pinker, How the Mind Works","q":"The telephone message example (air → wire → silicon → fiber optics → neurons) illustrates that information:","a":"Is independent of the physical medium carrying it","w":["Is destroyed by each conversion","Only exists in brains","Is identical to electricity"],"e":"Similarly, a program can run on vacuum tubes, transistors, or 'well-trained pigeons'."},
-{"t":"Pinker – Computational Theory of Mind","s":"Pinker, How the Mind Works","q":"'Why did Bill get on the bus?' Pinker uses this to show the paradox the computational theory resolves:","a":"Colorless, odorless beliefs and desires are causes of physical events","w":["Buses are conscious","Grandmothers don't exist","Behavior has no causes"],"e":"Beliefs and desires are information incarnated as configurations of symbols, physical states that cause other states."},
-{"t":"Pinker – Computational Theory of Mind","s":"Pinker, How the Mind Works","q":"Pinker says birds and airplanes both fly by principles of lift and drag, but this doesn't commit us to:","a":"An 'Airplane Metaphor' for birds, complete with jet engines and beverage service","w":["Physics","Evolution","Aerodynamics"],"e":"Likewise, the computational theory isn't the 'computer metaphor'. Brains and computers embody intelligence for some of the same reasons."},
-{"t":"Pinker – Computational Theory of Mind","s":"Pinker, How the Mind Works","q":"Pinker says the typical imperative from biology is not 'Thou shalt...' but:","a":"'If... then... else'","w":["'Thou shalt not...'","'Always...'","'Never...'"],"e":"Evolution could equip us with a neural computer running a complicated program, not just rigid reflexes."},
-{"t":"Pinker – Computational Theory of Mind","s":"Pinker, How the Mind Works","q":"Pinker thinks the mind is:","a":"A system of organs: specialized mental modules","w":["A single general-purpose learner","A blank slate shaped by culture","An immaterial soul"],"e":"Formless notions like 'general intelligence' will go the way of protoplasm in biology and earth/air/fire/water in physics."},
-{"t":"Pinker – Computational Theory of Mind","s":"Pinker, How the Mind Works","q":"Pinker's objection to Searle's view that brain tissue 'produces' mind as breast tissue produces milk:","a":"The same neural tissue with the same chemistry is found in brain tumors and dishes, which aren't intelligent","w":["Breast tissue doesn't produce milk","Searle is a dualist","Brain tissue is unique to humans"],"e":"Physical properties are necessary but not sufficient, like bricks for architecture. The patterning matters."},
-{"t":"Pinker – Computational Theory of Mind","s":"Pinker, How the Mind Works","q":"Pinker defines information as:","a":"A correlation between two things produced by a lawful process","w":["Any physical object","Meaning in someone's head","Electrical signals"],"e":"Tree rings carry information about a tree's age because the correlation is caused by how trees grow."},
-{"t":"Pinker – Computational Theory of Mind","s":"Pinker, How the Mind Works","q":"The tree-ring machine (burn a mark per ring of stump 1, sand one off per ring of stump 2) shows a rational machine owes its rationality to symbols that:","a":"Both carry information AND cause things to happen","w":["Are made of wood","Are conscious","Are random"],"e":"No special matter or energy: just a contrived chain of physical events whose first link carries information."},
-{"t":"Pinker – Computational Theory of Mind","s":"Pinker, How the Mind Works","q":"Is the human brain a Turing machine, per Pinker?","a":"Certainly not; Turing only proved some arrangement of gadgets could be an intelligent symbol-processor","w":["Yes, exactly","Yes, but a slow one","No, because brains don't process symbols"],"e":"Turing machines are too clumsy, too slow, and too hard to program to use in practice. Weizenbaum showed how to build one from a die, rocks and toilet paper."},
-{"t":"Pinker – Computational Theory of Mind","s":"Pinker, How the Mind Works","q":"In a production system, the 'demons' are:","a":"Simple reflexes that wait for a notice on the memory 'bulletin board' and post their own","w":["Evil spirits","Programmers","Neurons in the cortex"],"e":"It eliminates the most unbiological feature of commercial computers: a single ordered list of steps."},
-{"t":"Pinker – Computational Theory of Mind","s":"Pinker, How the Mind Works","q":"The printer troubleshooting dialogue ('the program still thinks it's talking to the dot-matrix...') shows that:","a":"Computation has demystified mentalistic terms; even the most precise machines need them","w":["Computer scientists are sloppy thinkers","Printers have minds","Behaviorism is correct"],"e":"Beliefs are inscriptions in memory, desires are goal inscriptions, perceptions are sensor-triggered inscriptions."},
-{"t":"Pinker – Computational Theory of Mind","s":"Pinker, How the Mind Works","q":"Pinker 'rehabilitates' the homunculus by arguing that:","a":"Each homunculus only reacts in a few circumscribed ways, not duplicating the whole system's intelligence","w":["Homunculi literally exist in the brain","There's an infinite regress, and that's fine","Homunculi are conscious"],"e":"Dennett: 'One discharges fancy homunculi... by organizing armies of idiots to do the work.'"},
-{"t":"Pinker – Computational Theory of Mind","s":"Pinker, How the Mind Works","q":"Pinker's 'floor wax and dessert topping' joke supports which theory of meaning?","a":"Causal and inferential roles together determine what a symbol represents","w":["Only causal role determines meaning","Only inferential role determines meaning","Meaning is impossible"],"e":"The two tend to be in sync because natural selection designed perception and inference to work accurately in this world."},
-{"t":"Pinker – Computational Theory of Mind","s":"Pinker, How the Mind Works","q":"Pinker says the proper label for the study of mind informed by computers is not 'Artificial Intelligence' but:","a":"Natural Computation","w":["Cognitive Neuroscience","Machine Learning","Folk Psychology"],"e":"Scientific understanding and technological achievement are only loosely connected, like artificial hips vs. artificial hearts."},
-{"t":"Pinker – Computational Theory of Mind","s":"Pinker, How the Mind Works","q":"Why are 'How do we see right-side up if the retinal image is inverted?' and similar questions pseudo-questions?","a":"They're about brain properties that make no difference to information transmission and processing","w":["The retina isn't inverted","We actually see upside down","Neuroscience can't answer them yet"],"e":"Likewise, the experience of a green cube doesn't need green, cube-shaped neurons."},
-{"t":"Pinker – Computational Theory of Mind","s":"Pinker, How the Mind Works","q":"Pinker calls explanations like 'people found it harder because it was more difficult' or '...because they were similar' what?","a":"Scams: difficulty, similarity and salience are in the mind of the beholder, which is what needs explaining","w":["Rigorous explanations","Behaviorist explanations","Neurological explanations"],"e":"At the level of representations, we can count symbols and demons, which makes for rigorous predictions."},
-{"t":"Pinker – Computational Theory of Mind","s":"Pinker, How the Mind Works","q":"Why did Roman numerals not survive except as decoration, per Pinker?","a":"The form of a representation determines what's easy to infer, and arithmetic is far harder with them","w":["They were too beautiful","Rome fell","They can't represent large numbers"],"e":"Arabic numerals allow addition with a few 'dronelike' operations: table lookups and carrying."}
+ {
+  "t": "Pinker – Computational Theory of Mind",
+  "s": "Pinker, How the Mind Works (1997)",
+  "q": "Pinker says 'there will never be a Decade of the Pancreas' to make the point that:",
+  "a": "The mind is what the brain does",
+  "w": [
+   "The pancreas matters more than the brain",
+   "Neuroscience as a field is overrated",
+   "Organs other than the brain do no processing"
+  ],
+  "e": "The mind is not the brain but what the brain does: information processing. The brain's special status comes from the special thing it does: computation."
+ },
+ {
+  "t": "Pinker – Computational Theory of Mind",
+  "s": "Pinker, How the Mind Works",
+  "q": "The telephone message example (air → wire → silicon → fiber optics → neurons) illustrates that information:",
+  "a": "Is independent of the medium carrying it",
+  "w": [
+   "Is destroyed by each conversion along the way",
+   "Only really exists inside of brains",
+   "Is identical to electrical current"
+  ],
+  "e": "Similarly, a program can run on vacuum tubes, transistors, or 'well-trained pigeons'."
+ },
+ {
+  "t": "Pinker – Computational Theory of Mind",
+  "s": "Pinker, How the Mind Works",
+  "q": "'Why did Bill get on the bus?' Pinker uses this to show the paradox the computational theory resolves:",
+  "a": "Intangible beliefs and desires cause physical events",
+  "w": [
+   "Buses and other machines might be conscious too",
+   "Bill's grandmother doesn't really exist at all",
+   "Human behavior ultimately has no causes at all"
+  ],
+  "e": "Colorless, odorless beliefs and desires are causes of physical events. Beliefs and desires are information incarnated as configurations of symbols, physical states that cause other states."
+ },
+ {
+  "t": "Pinker – Computational Theory of Mind",
+  "s": "Pinker, How the Mind Works",
+  "q": "Pinker says birds and airplanes both fly by principles of lift and drag, but this doesn't commit us to:",
+  "a": "An 'Airplane Metaphor' for birds",
+  "w": [
+   "The laws of physics",
+   "The theory of evolution",
+   "The science of aerodynamics"
+  ],
+  "e": "An 'Airplane Metaphor' for birds, complete with jet engines and beverage service. Likewise, the computational theory isn't the 'computer metaphor'. Brains and computers embody intelligence for some of the same reasons."
+ },
+ {
+  "t": "Pinker – Computational Theory of Mind",
+  "s": "Pinker, How the Mind Works",
+  "q": "Pinker says the typical imperative from biology is not 'Thou shalt...' but:",
+  "a": "'If... then... else'",
+  "w": [
+   "'Thou shalt not...'",
+   "'Always...'",
+   "'Never...'"
+  ],
+  "e": "Evolution could equip us with a neural computer running a complicated program, not just rigid reflexes."
+ },
+ {
+  "t": "Pinker – Computational Theory of Mind",
+  "s": "Pinker, How the Mind Works",
+  "q": "Pinker thinks the mind is:",
+  "a": "A system of specialized organs",
+  "w": [
+   "A single general-purpose learner",
+   "A blank slate shaped by culture",
+   "An immaterial, indivisible soul"
+  ],
+  "e": "A system of organs: specialized mental modules. Formless notions like 'general intelligence' will go the way of protoplasm in biology and earth/air/fire/water in physics."
+ },
+ {
+  "t": "Pinker – Computational Theory of Mind",
+  "s": "Pinker, How the Mind Works",
+  "q": "Pinker's objection to Searle's view that brain tissue 'produces' mind as breast tissue produces milk:",
+  "a": "The same tissue in a dish isn't intelligent",
+  "w": [
+   "Breast tissue doesn't actually produce milk",
+   "Searle is secretly a substance dualist",
+   "Brain tissue is found only in humans"
+  ],
+  "e": "The same neural tissue with the same chemistry is found in brain tumors and dishes, which aren't intelligent. Physical properties are necessary but not sufficient, like bricks for architecture. The patterning matters."
+ },
+ {
+  "t": "Pinker – Computational Theory of Mind",
+  "s": "Pinker, How the Mind Works",
+  "q": "Pinker defines information as:",
+  "a": "A lawful correlation between two things",
+  "w": [
+   "Any physical object, whatever its shape",
+   "The meaning that's inside someone's head",
+   "The electrical signals that travel in wires"
+  ],
+  "e": "A correlation between two things produced by a lawful process. Tree rings carry information about a tree's age because the correlation is caused by how trees grow."
+ },
+ {
+  "t": "Pinker – Computational Theory of Mind",
+  "s": "Pinker, How the Mind Works",
+  "q": "The tree-ring machine (burn a mark per ring of stump 1, sand one off per ring of stump 2) shows a rational machine owes its rationality to symbols that:",
+  "a": "Carry information and cause things to happen",
+  "w": [
+   "Are carved from the wood of the stumps",
+   "Are conscious of the information they hold",
+   "Are produced at random by the machine"
+  ],
+  "e": "No special matter or energy: just a contrived chain of physical events whose first link carries information."
+ },
+ {
+  "t": "Pinker – Computational Theory of Mind",
+  "s": "Pinker, How the Mind Works",
+  "q": "Is the human brain a Turing machine, per Pinker?",
+  "a": "No; Turing only showed one could exist",
+  "w": [
+   "Yes, exactly a Turing machine",
+   "Yes, but a very slow one",
+   "No, because brains don't use symbols"
+  ],
+  "e": "Certainly not; Turing only proved some arrangement of gadgets could be an intelligent symbol-processor. Turing machines are too clumsy, too slow, and too hard to program to use in practice. Weizenbaum showed how to build one from a die, rocks and toilet paper."
+ },
+ {
+  "t": "Pinker – Computational Theory of Mind",
+  "s": "Pinker, How the Mind Works",
+  "q": "In a production system, the 'demons' are:",
+  "a": "Simple reflexes reading a shared 'bulletin board'",
+  "w": [
+   "Evil spirits that disrupt the computation",
+   "The programmers who write the system's rules",
+   "Individual neurons firing in the cerebral cortex"
+  ],
+  "e": "Simple reflexes that wait for a notice on the memory 'bulletin board' and post their own. It eliminates the most unbiological feature of commercial computers: a single ordered list of steps."
+ },
+ {
+  "t": "Pinker – Computational Theory of Mind",
+  "s": "Pinker, How the Mind Works",
+  "q": "The printer troubleshooting dialogue ('the program still thinks it's talking to the dot-matrix...') shows that:",
+  "a": "Mental terms are useful even for precise machines",
+  "w": [
+   "Computer scientists are generally sloppy thinkers",
+   "Printers really do have minds of their own",
+   "Behaviorism is the correct theory of mind"
+  ],
+  "e": "Computation has demystified mentalistic terms; even the most precise machines need them. Beliefs are inscriptions in memory, desires are goal inscriptions, perceptions are sensor-triggered inscriptions."
+ },
+ {
+  "t": "Pinker – Computational Theory of Mind",
+  "s": "Pinker, How the Mind Works",
+  "q": "Pinker 'rehabilitates' the homunculus by arguing that:",
+  "a": "Each homunculus does only a few simple things",
+  "w": [
+   "Homunculi literally exist inside the brain",
+   "An infinite regress is fine and harmless",
+   "Each homunculus is fully conscious"
+  ],
+  "e": "Each homunculus only reacts in a few circumscribed ways, not duplicating the whole system's intelligence. Dennett: 'One discharges fancy homunculi... by organizing armies of idiots to do the work.'"
+ },
+ {
+  "t": "Pinker – Computational Theory of Mind",
+  "s": "Pinker, How the Mind Works",
+  "q": "Pinker's 'floor wax and dessert topping' joke supports which theory of meaning?",
+  "a": "Causal and inferential roles together",
+  "w": [
+   "Causal role alone, nothing else",
+   "Inferential role alone, nothing else",
+   "Neither, since meaning is impossible"
+  ],
+  "e": "Causal and inferential roles together determine what a symbol represents. The two tend to be in sync because natural selection designed perception and inference to work accurately in this world."
+ },
+ {
+  "t": "Pinker – Computational Theory of Mind",
+  "s": "Pinker, How the Mind Works",
+  "q": "Pinker says the proper label for the study of mind informed by computers is not 'Artificial Intelligence' but:",
+  "a": "Natural Computation",
+  "w": [
+   "Cognitive Neuroscience",
+   "Machine Learning",
+   "Folk Psychology"
+  ],
+  "e": "Scientific understanding and technological achievement are only loosely connected, like artificial hips vs. artificial hearts."
+ },
+ {
+  "t": "Pinker – Computational Theory of Mind",
+  "s": "Pinker, How the Mind Works",
+  "q": "Why are 'How do we see right-side up if the retinal image is inverted?' and similar questions pseudo-questions?",
+  "a": "Those brain properties don't affect the information",
+  "w": [
+   "The image on the retina isn't really inverted",
+   "We actually do see the world upside down",
+   "Neuroscience simply can't answer them yet"
+  ],
+  "e": "They're about brain properties that make no difference to information transmission and processing. Likewise, the experience of a green cube doesn't need green, cube-shaped neurons."
+ },
+ {
+  "t": "Pinker – Computational Theory of Mind",
+  "s": "Pinker, How the Mind Works",
+  "q": "Pinker calls explanations like 'people found it harder because it was more difficult' or '...because they were similar' what?",
+  "a": "Scams",
+  "w": [
+   "Rigorous explanations",
+   "Behaviorist explanations",
+   "Neurological explanations"
+  ],
+  "e": "Scams: difficulty, similarity and salience are in the mind of the beholder, which is what needs explaining. At the level of representations, we can count symbols and demons, which makes for rigorous predictions."
+ },
+ {
+  "t": "Pinker – Computational Theory of Mind",
+  "s": "Pinker, How the Mind Works",
+  "q": "Why did Roman numerals not survive except as decoration, per Pinker?",
+  "a": "Arithmetic is much harder with them",
+  "w": [
+   "They were considered too beautiful to use",
+   "The Roman Empire fell and took them with it",
+   "They can't represent very large numbers"
+  ],
+  "e": "The form of a representation determines what's easy to infer, and arithmetic is far harder with them. Arabic numerals allow addition with a few 'dronelike' operations: table lookups and carrying."
+ }
 ]

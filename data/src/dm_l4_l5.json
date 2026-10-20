@@ -1,36 +1,410 @@
 [
-{"t":"L4 – Metrics","s":"Data Mining L4 §4.1","q":"Which is NOT one of the four metric properties?","a":"d(a, b) ≤ 1 (boundedness)","w":["d(a, b) = d(b, a) (symmetry)","d(a, b) = 0 iff a = b (identity)","d(a, b) ≤ d(a, c) + d(c, b) (triangle inequality)"],"e":"The four are non-negativity, identity, symmetry, and the triangle inequality."},
-{"t":"L4 – Metrics","s":"Data Mining L4 §4.1","q":"A distance satisfying non-negativity, symmetry and triangle inequality, but NOT necessarily identity (M2), is a:","a":"Pseudometric","w":["Quasimetric","Metric","Divergence"],"e":"A quasimetric drops symmetry (M3) instead."},
-{"t":"L4 – Metrics","s":"Data Mining L4 §4.1","q":"A distance satisfying M1, M2 and M4 but not necessarily symmetry is a:","a":"Quasimetric","w":["Pseudometric","Metric","Similarity"],"e":"Example: a one-way street network, where a→b ≠ b→a."},
-{"t":"L4 – Lp Distances","s":"Data Mining L4 §4.2.1","q":"Which Lp distance is the only one invariant to rotation of the coordinate system?","a":"L2 (Euclidean)","w":["L1 (Manhattan)","L∞","L0"],"e":"L2 is the 'straight-line' distance and is often the default."},
-{"t":"L4 – Lp Distances","s":"Data Mining L4 §4.2.1","q":"The L1 distance is also called:","a":"Manhattan distance (or, in this class, the 'SLC distance')","w":["Hamming distance","Chebyshev distance","Mahalanobis distance"],"e":"It's the sum of |aᵢ − bᵢ|, like walking city blocks."},
-{"t":"L4 – Lp Distances","s":"Data Mining L4 §4.2.1","q":"L0 distance on 0/1 vectors is known as:","a":"Hamming distance","w":["Jaccard distance","Edit distance","Cosine distance"],"e":"L0 counts the coordinates where a and b differ. It isn't convex."},
-{"t":"L4 – Lp Distances","s":"Data Mining L4 §4.2.1","q":"The L∞ distance between a and b is:","a":"maxᵢ |aᵢ − bᵢ|: the largest deviation in any one coordinate","w":["Σ |aᵢ − bᵢ|","The number of differing coordinates","√Σ (aᵢ − bᵢ)²"],"e":"Geometrically it's a rotation of L1, so L1 algorithms can often be adapted to it."},
-{"t":"L4 – Lp Distances","s":"Data Mining L4 §4.2.1","q":"Comparing the unit balls in ℝ²: as p gets smaller...","a":"The unit ball gets smaller (and for p < 1 it's not convex)","w":["The unit ball gets larger","All unit balls are the same circle","The ball becomes a square"],"e":"All of them touch the points at distance 1 along each axis. L∞ is a square, L2 a circle, L1 a diamond."},
-{"t":"L4 – Lp Distances","s":"Data Mining L4 §4.2.1","q":"Why shouldn't you use Lp distance on (height in inches, weight in lbs, income in $)?","a":"Coordinates with different units let one (e.g., income) dominate, and changing units changes the result","w":["Lp can't handle 3 dimensions","Lp only works on integers","Incomes are negative"],"e":"Normalizing to [0,1] or to mean/variance are 'hacks, not solutions'. Otherwise you're 'comparing apples to oranges'."},
-{"t":"L4 – Mahalanobis Distance","s":"Data Mining L4 §4.2.2","q":"Mahalanobis distance d_M(a,b) = √((a−b)ᵀM(a−b)) reduces to Euclidean distance when:","a":"M = I (the identity matrix)","w":["M = 0","M is diagonal with negative entries","M is any symmetric matrix"],"e":"M skews space. It's a metric when M is positive definite (all eigenvalues positive and real)."},
-{"t":"L4 – Cosine Distance","s":"Data Mining L4 §4.2.3","q":"Cosine distance is d_cos(a,b) = ?","a":"1 − ⟨a,b⟩ / (‖a‖‖b‖)","w":["‖a − b‖","arccos(‖a‖)","⟨a,b⟩ − 1"],"e":"It only cares about direction, not magnitude."},
-{"t":"L4 – Cosine Distance","s":"Data Mining L4 §4.2.3","q":"Why is cosine distance only a pseudometric?","a":"a and 2a have distance 0 but aren't equal (M2 fails); the triangle inequality also fails","w":["It can be negative","It isn't symmetric","It's always 0"],"e":"Angular distance arccos(⟨a,b⟩) on normalized vectors is a true metric (a geodesic on the sphere)."},
-{"t":"L4 – Cosine Distance","s":"Data Mining L4 §4.2.3","q":"The LSH function for cosine distance with random vector v is:","a":"h_v(a) = +1 if ⟨v,a⟩ > 0, else −1","w":["h(a) = a mod m","h(a) = min-hash of a","h(a) = ⌊⟨v,a⟩⌋"],"e":"It records which side of a random hyperplane a falls on. v ∈ {−1,+1}ᵈ is sufficient."},
-{"t":"L4 – Jaccard Distance","s":"Data Mining L4 §4.2.4","q":"Jaccard distance d_J(A,B) equals:","a":"1 − |A∩B| / |A∪B|  (equivalently |AΔB| / |A∪B|)","w":["|A∩B| / |A∪B|","|A| − |B|","|A∪B| / |A∩B|"],"e":"It's a true metric. The symmetric-difference form helps prove the triangle inequality."},
-{"t":"L4 – KL Divergence","s":"Data Mining L4 §4.2.5","q":"Which metric properties does KL divergence violate?","a":"Symmetry (M3) and the triangle inequality (M4)","w":["Only non-negativity","Only identity","None; it's a metric"],"e":"d_KL(P‖Q) = Σ pᵢ ln(pᵢ/qᵢ) = H(P,Q) − H(P): extra bits to express P given knowledge of Q."},
-{"t":"L4 – Edit Distance","s":"Data Mining L4 §4.2.6","q":"Edit distance (insert/delete only) between 'mines' and 'smiles' is:","a":"3","w":["1","2","5"],"e":"Insert s → smines, delete n → smies, insert l → smiles."},
-{"t":"L4 – Edit Distance","s":"Data Mining L4 §4.2.6","q":"Why is edit distance poor for large text documents?","a":"It's slow, and removing one sentence can create a large distance without changing meaning","w":["It isn't a metric","It only works on numbers","It's always 0 for documents"],"e":"It's great for short strings like spelling correction. An edit distance > 3 is already 'pretty large'."},
-{"t":"L4 – Graph Distance","s":"Data Mining L4 §4.2.7","q":"Hop distance between two vertices in an undirected graph is:","a":"The fewest edges on any path connecting them","w":["The number of vertices in the graph","The total edge weight of all paths","The degree of the vertex"],"e":"It's a metric. A shortcut through c would contradict 'shortest', which gives the triangle inequality."},
-{"t":"L5 – ANN Setup","s":"Data Mining L5 intro","q":"What's the key idea for answering 'which items are near query q?' without checking all n items?","a":"Pre-computation: build a data structure D_P on the dataset first","w":["Check all n² pairs","Sort by name","Sample one point at random"],"e":"Then queries like D_P(q, r) or nearest neighbor φ_P(q) can be answered fast."},
-{"t":"L5 – ANN Setup","s":"Data Mining L5 §5.1","q":"Nearest neighbor in 1 dimension takes about log n time using:","a":"A balanced binary tree (or a B-tree for cache efficiency)","w":["A Voronoi diagram in 128D","LSH","Brute force"],"e":"In a B-tree, each node splits into B pieces, where B is the cache block size."},
-{"t":"L5 – Small Dimensions","s":"Data Mining L5 §5.1.1","q":"Why aren't Voronoi diagrams used for exact NN in high dimensions?","a":"Their complexity can grow as Θ(n^⌈d/2⌉), exponential in d","w":["They don't give exact answers","They need labels","They only work in 1D"],"e":"In d = 2 or 3 they give about log n query time."},
-{"t":"L5 – ANN","s":"Data Mining L5 §5.1.2","q":"p is an ε-approximate nearest neighbor of q if:","a":"d(p,q) ≤ (1+ε) · d(φ_P(q), q)","w":["d(p,q) ≤ ε","d(p,q) = d(φ_P(q), q)","p is within ε of every point"],"e":"Since distance is a modeling choice, returning any 'close enough' point is often fine, and much faster."},
-{"t":"L5 – Medium Dimensions","s":"Data Mining L5 §5.1.3","q":"A kd-tree splits boxes by:","a":"Alternating dimensions, splitting at the median point (so it's balanced, log₂ n levels, size 2n)","w":["Dividing each box into 2ᵈ equal pieces around its center","Possibly overlapping rectangles","Random hyperplanes"],"e":"Quad-trees split into 2ᵈ boxes at the geometric center. R-trees use possibly-overlapping rectangles."},
-{"t":"L5 – Medium Dimensions","s":"Data Mining L5 §5.1.3","q":"Which structure do most algorithms with theoretical guarantees use (O(log n) leaf finding, O(n) size)?","a":"Compressed quad-tree","w":["R-tree","Naive kd-tree","Voronoi diagram"],"e":"R-trees adapt well in practice but lack strong guarantees."},
-{"t":"L5 – Medium Dimensions","s":"Data Mining L5 §5.1.3","q":"In hierarchical ANN search, a sibling box Bᵢ can be skipped when:","a":"min distance from q to Bᵢ ≥ τ/(1+ε), where τ is the current best distance","w":["It contains more than 10 points","It is larger than the leaf box","It is at the root"],"e":"No point inside could be a sufficiently better neighbor."},
-{"t":"L5 – High Dimensions","s":"Data Mining L5 §5.1.4","q":"As d → ∞, the volume of the unit ball ____ while the unit cube (side 2) ____.","a":"Goes to 0; goes to ∞ (as 2ᵈ)","w":["Goes to ∞; goes to 0","Both stay constant","Both go to ∞"],"e":"Box-based search returns everything in the box when you want the ball, and the gap explodes."},
-{"t":"L5 – High Dimensions","s":"Data Mining L5 §5.1.4","q":"What's the basic problem with nearest neighbors in high dimensions (d > 12)?","a":"Almost all distances look about the same","w":["Distances become negative","There are no neighbors","Computers can't store high-dimensional data"],"e":"In random data in a cube or ball, most points are about the same distance apart."},
-{"t":"L5 – High Dimensions","s":"Data Mining L5 §5.1.4","q":"Clustering kd-trees (David Lowe, inventor of SIFT) split each node using:","a":"A 2-means clustering, putting each cluster in one subtree","w":["The median of the x-coordinate","A random hash","The Voronoi diagram"],"e":"It worked very well in ℝ¹²⁸. Like random-rotation kd-trees, it adapts to the data's intrinsic dimension."},
-{"t":"L5 – LSH for ANN","s":"Data Mining L5 §5.1.4","q":"For 2-approximate NN, LSH query time is roughly O(n^ρ) with ρ = ?","a":"1/7","w":["1/2","1","log n"],"e":"For n = 10 billion, n^(1/7) ≈ 10. Storage is roughly O(n^(1+ρ))."},
-{"t":"L5 – LSH for ANN","s":"Data Mining L5 §5.1.4","q":"LSH is theoretically optimal in high dimensions, but in practice:","a":"It tends to work less well than graph-based approaches like HNSW","w":["It's always the fastest method","It can't be implemented","It requires labels"],"e":"FALCONN is a well-engineered LSH library."},
-{"t":"L5 – Graph Search","s":"Data Mining L5 §5.1.4","q":"In basic neighborhood-graph search, when do you stop?","a":"When no neighbor of the current point is closer to q than the current point","w":["After exactly log n steps","When you reach a leaf","When all points are visited"],"e":"It's a greedy 'graph gradient descent' over the k-NN graph."},
-{"t":"L5 – Graph Search","s":"Data Mining L5 §5.1.4","q":"Beam search improves graph search by:","a":"Keeping K > 1 candidates at each step, making it robust to local minima","w":["Using one candidate only","Removing edges","Hashing each node"],"e":"Even K = 5 dramatically improves results with little overhead."},
-{"t":"L5 – HNSW","s":"Data Mining L5 §5.1.4","q":"What does the 'hierarchical' part of HNSW provide?","a":"Top layers with diverse, long-range links for fast early movement; a k-NN graph at the bottom for local convergence","w":["Exact answers guaranteed","A Voronoi diagram per layer","Random hashing at each level"],"e":"It's like a generalized skip list, with a constant number of steps per layer."},
-{"t":"L5 – HNSW","s":"Data Mining L5 §5.1.4","q":"FAISS speeds up graph-based ANN on GPUs using:","a":"Quantization (a vector compression trick)","w":["Voronoi diagrams","Edit distance","PPMI vectors"],"e":"Other libraries: hnswlib, DiskANN, and Pinecone's write-ups."}
+ {
+  "t": "L4 – Metrics",
+  "s": "Data Mining L4 §4.1",
+  "q": "Which is NOT one of the four metric properties?",
+  "a": "d(a, b) ≤ 1 (boundedness)",
+  "w": [
+   "d(a, b) = d(b, a) (symmetry)",
+   "d(a, b) = 0 iff a = b (identity)",
+   "d(a, b) ≤ d(a, c) + d(c, b) (triangle inequality)"
+  ],
+  "e": "The four are non-negativity, identity, symmetry, and the triangle inequality."
+ },
+ {
+  "t": "L4 – Metrics",
+  "s": "Data Mining L4 §4.1",
+  "q": "A distance satisfying non-negativity, symmetry and triangle inequality, but NOT necessarily identity (M2), is a:",
+  "a": "Pseudometric",
+  "w": [
+   "Quasimetric",
+   "Metric",
+   "Divergence"
+  ],
+  "e": "A quasimetric drops symmetry (M3) instead."
+ },
+ {
+  "t": "L4 – Metrics",
+  "s": "Data Mining L4 §4.1",
+  "q": "A distance satisfying M1, M2 and M4 but not necessarily symmetry is a:",
+  "a": "Quasimetric",
+  "w": [
+   "Pseudometric",
+   "Metric",
+   "Similarity"
+  ],
+  "e": "Example: a one-way street network, where a→b ≠ b→a."
+ },
+ {
+  "t": "L4 – Lp Distances",
+  "s": "Data Mining L4 §4.2.1",
+  "q": "Which Lp distance is the only one invariant to rotation of the coordinate system?",
+  "a": "L2 (Euclidean)",
+  "w": [
+   "L1 (Manhattan)",
+   "L∞",
+   "L0"
+  ],
+  "e": "L2 is the 'straight-line' distance and is often the default."
+ },
+ {
+  "t": "L4 – Lp Distances",
+  "s": "Data Mining L4 §4.2.1",
+  "q": "The L1 distance is also called:",
+  "a": "Manhattan distance",
+  "w": [
+   "Hamming distance",
+   "Chebyshev's angle",
+   "Mahalanobis distance"
+  ],
+  "e": "Manhattan distance (or, in this class, the 'SLC distance'). It's the sum of |aᵢ − bᵢ|, like walking city blocks."
+ },
+ {
+  "t": "L4 – Lp Distances",
+  "s": "Data Mining L4 §4.2.1",
+  "q": "L0 distance on 0/1 vectors is known as:",
+  "a": "Hamming distance",
+  "w": [
+   "Jaccard distance",
+   "Edit distance",
+   "Cosine distance"
+  ],
+  "e": "L0 counts the coordinates where a and b differ. It isn't convex."
+ },
+ {
+  "t": "L4 – Lp Distances",
+  "s": "Data Mining L4 §4.2.1",
+  "q": "The L∞ distance between a and b is:",
+  "a": "maxᵢ |aᵢ − bᵢ|",
+  "w": [
+   "Σᵢ |aᵢ − bᵢ|",
+   "Σᵢ 1[aᵢ ≠ bᵢ]",
+   "√Σᵢ (aᵢ − bᵢ)²"
+  ],
+  "e": "maxᵢ |aᵢ − bᵢ|: the largest deviation in any one coordinate. Geometrically it's a rotation of L1, so L1 algorithms can often be adapted to it."
+ },
+ {
+  "t": "L4 – Lp Distances",
+  "s": "Data Mining L4 §4.2.1",
+  "q": "Comparing the unit balls in ℝ²: as p gets smaller...",
+  "a": "The unit ball gets smaller",
+  "w": [
+   "The unit ball gets larger",
+   "All unit balls are the same circle",
+   "The ball turns into a square"
+  ],
+  "e": "The unit ball gets smaller (and for p < 1 it's not convex). All of them touch the points at distance 1 along each axis. L∞ is a square, L2 a circle, L1 a diamond."
+ },
+ {
+  "t": "L4 – Lp Distances",
+  "s": "Data Mining L4 §4.2.1",
+  "q": "Why shouldn't you use Lp distance on (height in inches, weight in lbs, income in $)?",
+  "a": "Units differ, so one coordinate can dominate",
+  "w": [
+   "Lp distances can't handle three dimensions",
+   "Lp distances only work on integer values",
+   "Incomes can be negative, which breaks Lp"
+  ],
+  "e": "Coordinates with different units let one (e.g., income) dominate, and changing units changes the result. Normalizing to [0,1] or to mean/variance are 'hacks, not solutions'. Otherwise you're 'comparing apples to oranges'."
+ },
+ {
+  "t": "L4 – Mahalanobis Distance",
+  "s": "Data Mining L4 §4.2.2",
+  "q": "Mahalanobis distance d_M(a,b) = √((a−b)ᵀM(a−b)) reduces to Euclidean distance when:",
+  "a": "M = I (the identity matrix)",
+  "w": [
+   "M = 0",
+   "M is diagonal with negative entries",
+   "M is any symmetric matrix"
+  ],
+  "e": "M skews space. It's a metric when M is positive definite (all eigenvalues positive and real)."
+ },
+ {
+  "t": "L4 – Cosine Distance",
+  "s": "Data Mining L4 §4.2.3",
+  "q": "Cosine distance is d_cos(a,b) = ?",
+  "a": "1 − ⟨a,b⟩ / (‖a‖‖b‖)",
+  "w": [
+   "‖a − b‖ / (‖a‖ + ‖b‖)",
+   "arccos(‖a‖ · ‖b‖) / π",
+   "⟨a,b⟩ / (‖a‖‖b‖) − 1"
+  ],
+  "e": "It only cares about direction, not magnitude."
+ },
+ {
+  "t": "L4 – Cosine Distance",
+  "s": "Data Mining L4 §4.2.3",
+  "q": "Why is cosine distance only a pseudometric?",
+  "a": "a and 2a have distance 0 but differ",
+  "w": [
+   "It can produce negative distances",
+   "It isn't symmetric in a and b",
+   "It always evaluates to exactly 0"
+  ],
+  "e": "a and 2a have distance 0 but aren't equal (M2 fails); the triangle inequality also fails. Angular distance arccos(⟨a,b⟩) on normalized vectors is a true metric (a geodesic on the sphere)."
+ },
+ {
+  "t": "L4 – Cosine Distance",
+  "s": "Data Mining L4 §4.2.3",
+  "q": "The LSH function for cosine distance with random vector v is:",
+  "a": "+1 if ⟨v,a⟩ > 0, else −1",
+  "w": [
+   "⌊⟨v,a⟩⌋ mod m for bucket m",
+   "The minimum hash over a's set",
+   "+1 if ‖a‖ > ‖v‖, else −1"
+  ],
+  "e": "It records which side of a random hyperplane a falls on. v ∈ {−1,+1}ᵈ is sufficient."
+ },
+ {
+  "t": "L4 – Jaccard Distance",
+  "s": "Data Mining L4 §4.2.4",
+  "q": "Jaccard distance d_J(A,B) equals:",
+  "a": "1 − |A∩B| / |A∪B|",
+  "w": [
+   "|A∩B| / |A∪B|",
+   "|A ∪ B| − |A ∩ B|",
+   "|A∪B| / |A∩B| − 1"
+  ],
+  "e": "1 − |A∩B| / |A∪B|  (equivalently |AΔB| / |A∪B|). It's a true metric. The symmetric-difference form helps prove the triangle inequality."
+ },
+ {
+  "t": "L4 – KL Divergence",
+  "s": "Data Mining L4 §4.2.5",
+  "q": "Which metric properties does KL divergence violate?",
+  "a": "Symmetry and the triangle inequality",
+  "w": [
+   "Only non-negativity of distances",
+   "Only the identity of indiscernibles",
+   "None of them; it's a true metric"
+  ],
+  "e": "d_KL(P‖Q) = Σ pᵢ ln(pᵢ/qᵢ) = H(P,Q) − H(P): extra bits to express P given knowledge of Q."
+ },
+ {
+  "t": "L4 – Edit Distance",
+  "s": "Data Mining L4 §4.2.6",
+  "q": "Edit distance (insert/delete only) between 'mines' and 'smiles' is:",
+  "a": "3",
+  "w": [
+   "1",
+   "2",
+   "5"
+  ],
+  "e": "Insert s → smines, delete n → smies, insert l → smiles."
+ },
+ {
+  "t": "L4 – Edit Distance",
+  "s": "Data Mining L4 §4.2.6",
+  "q": "Why is edit distance poor for large text documents?",
+  "a": "It's slow and too sensitive to small edits",
+  "w": [
+   "It isn't actually a metric on strings",
+   "It only works on numeric data like vectors",
+   "It always evaluates to 0 for long documents"
+  ],
+  "e": "It's slow, and removing one sentence can create a large distance without changing meaning. It's great for short strings like spelling correction. An edit distance > 3 is already 'pretty large'."
+ },
+ {
+  "t": "L4 – Graph Distance",
+  "s": "Data Mining L4 §4.2.7",
+  "q": "Hop distance between two vertices in an undirected graph is:",
+  "a": "The fewest edges on a path between them",
+  "w": [
+   "The number of vertices in the whole graph",
+   "The total weight of every connecting path",
+   "The degree of the starting vertex"
+  ],
+  "e": "It's a metric. A shortcut through c would contradict 'shortest', which gives the triangle inequality."
+ },
+ {
+  "t": "L5 – ANN Setup",
+  "s": "Data Mining L5 intro",
+  "q": "What's the key idea for answering 'which items are near query q?' without checking all n items?",
+  "a": "Pre-compute a data structure",
+  "w": [
+   "Check all n² pairs",
+   "Sort the items by name",
+   "Sample one point at random"
+  ],
+  "e": "Pre-computation: build a data structure D_P on the dataset first. Then queries like D_P(q, r) or nearest neighbor φ_P(q) can be answered fast."
+ },
+ {
+  "t": "L5 – ANN Setup",
+  "s": "Data Mining L5 §5.1",
+  "q": "Nearest neighbor in 1 dimension takes about log n time using:",
+  "a": "A balanced binary tree",
+  "w": [
+   "A 128-D Voronoi diagram",
+   "Locality-sensitive hashing",
+   "Brute-force linear scan"
+  ],
+  "e": "A balanced binary tree (or a B-tree for cache efficiency). In a B-tree, each node splits into B pieces, where B is the cache block size."
+ },
+ {
+  "t": "L5 – Small Dimensions",
+  "s": "Data Mining L5 §5.1.1",
+  "q": "Why aren't Voronoi diagrams used for exact NN in high dimensions?",
+  "a": "Their complexity grows exponentially in d",
+  "w": [
+   "They never give exact nearest neighbors",
+   "They require labeled training points",
+   "They only work for one-dimensional data"
+  ],
+  "e": "Their complexity can grow as Θ(n^⌈d/2⌉), exponential in d. In d = 2 or 3 they give about log n query time."
+ },
+ {
+  "t": "L5 – ANN",
+  "s": "Data Mining L5 §5.1.2",
+  "q": "p is an ε-approximate nearest neighbor of q if:",
+  "a": "d(p,q) ≤ (1+ε) · d(φ_P(q), q)",
+  "w": [
+   "d(p,q) ≤ ε",
+   "d(p,q) = d(φ_P(q), q)",
+   "p is within ε of every point"
+  ],
+  "e": "Since distance is a modeling choice, returning any 'close enough' point is often fine, and much faster."
+ },
+ {
+  "t": "L5 – Medium Dimensions",
+  "s": "Data Mining L5 §5.1.3",
+  "q": "A kd-tree splits boxes by:",
+  "a": "Alternating dimensions at the median",
+  "w": [
+   "Into 2ᵈ equal pieces around the center",
+   "Into possibly overlapping rectangles",
+   "Along random hyperplanes at each level"
+  ],
+  "e": "Alternating dimensions, splitting at the median point (so it's balanced, log₂ n levels, size 2n). Quad-trees split into 2ᵈ boxes at the geometric center. R-trees use possibly-overlapping rectangles."
+ },
+ {
+  "t": "L5 – Medium Dimensions",
+  "s": "Data Mining L5 §5.1.3",
+  "q": "Which structure do most algorithms with theoretical guarantees use (O(log n) leaf finding, O(n) size)?",
+  "a": "Compressed quad-tree",
+  "w": [
+   "R-tree",
+   "Naive kd-tree",
+   "Voronoi diagram"
+  ],
+  "e": "R-trees adapt well in practice but lack strong guarantees."
+ },
+ {
+  "t": "L5 – Medium Dimensions",
+  "s": "Data Mining L5 §5.1.3",
+  "q": "In hierarchical ANN search, a sibling box Bᵢ can be skipped when:",
+  "a": "Its min distance to q is ≥ τ/(1+ε)",
+  "w": [
+   "It contains more than 10 data points",
+   "It is larger than the current leaf box",
+   "It sits at the root of the tree"
+  ],
+  "e": "min distance from q to Bᵢ ≥ τ/(1+ε), where τ is the current best distance. No point inside could be a sufficiently better neighbor."
+ },
+ {
+  "t": "L5 – High Dimensions",
+  "s": "Data Mining L5 §5.1.4",
+  "q": "As d → ∞, the volume of the unit ball ____ while the unit cube (side 2) ____.",
+  "a": "Goes to 0; goes to ∞",
+  "w": [
+   "Goes to ∞; goes to 0",
+   "Both stay constant",
+   "Both go to ∞"
+  ],
+  "e": "Box-based search returns everything in the box when you want the ball, and the gap explodes."
+ },
+ {
+  "t": "L5 – High Dimensions",
+  "s": "Data Mining L5 §5.1.4",
+  "q": "What's the basic problem with nearest neighbors in high dimensions (d > 12)?",
+  "a": "Almost all distances look about the same",
+  "w": [
+   "Distances become negative",
+   "There are no neighbors",
+   "Computers can't store high-dimensional data"
+  ],
+  "e": "In random data in a cube or ball, most points are about the same distance apart."
+ },
+ {
+  "t": "L5 – High Dimensions",
+  "s": "Data Mining L5 §5.1.4",
+  "q": "Clustering kd-trees (David Lowe, inventor of SIFT) split each node using:",
+  "a": "A 2-means clustering",
+  "w": [
+   "The median x-coordinate",
+   "A random hash function",
+   "The Voronoi diagram"
+  ],
+  "e": "A 2-means clustering, putting each cluster in one subtree. It worked very well in ℝ¹²⁸. Like random-rotation kd-trees, it adapts to the data's intrinsic dimension."
+ },
+ {
+  "t": "L5 – LSH for ANN",
+  "s": "Data Mining L5 §5.1.4",
+  "q": "For 2-approximate NN, LSH query time is roughly O(n^ρ) with ρ = ?",
+  "a": "1/7",
+  "w": [
+   "1/2",
+   "1",
+   "log n"
+  ],
+  "e": "For n = 10 billion, n^(1/7) ≈ 10. Storage is roughly O(n^(1+ρ))."
+ },
+ {
+  "t": "L5 – LSH for ANN",
+  "s": "Data Mining L5 §5.1.4",
+  "q": "LSH is theoretically optimal in high dimensions, but in practice:",
+  "a": "It tends to lose to graph methods like HNSW",
+  "w": [
+   "It is always the fastest method available",
+   "It can't actually be implemented efficiently",
+   "It requires labeled data for every query"
+  ],
+  "e": "It tends to work less well than graph-based approaches like HNSW. FALCONN is a well-engineered LSH library."
+ },
+ {
+  "t": "L5 – Graph Search",
+  "s": "Data Mining L5 §5.1.4",
+  "q": "In basic neighborhood-graph search, when do you stop?",
+  "a": "When no neighbor is closer to q",
+  "w": [
+   "After exactly log n steps",
+   "When you reach a leaf node",
+   "When every point has been visited"
+  ],
+  "e": "When no neighbor of the current point is closer to q than the current point. It's a greedy 'graph gradient descent' over the k-NN graph."
+ },
+ {
+  "t": "L5 – Graph Search",
+  "s": "Data Mining L5 §5.1.4",
+  "q": "Beam search improves graph search by:",
+  "a": "Keeping K > 1 candidates per step",
+  "w": [
+   "Keeping only one candidate per step",
+   "Removing edges from the graph",
+   "Hashing each node before searching"
+  ],
+  "e": "Keeping K > 1 candidates at each step, making it robust to local minima. Even K = 5 dramatically improves results with little overhead."
+ },
+ {
+  "t": "L5 – HNSW",
+  "s": "Data Mining L5 §5.1.4",
+  "q": "What does the 'hierarchical' part of HNSW provide?",
+  "a": "Long-range links up top, local links at the bottom",
+  "w": [
+   "Exact answers guaranteed at every single layer",
+   "A separate Voronoi diagram for each of the layers",
+   "Random hashing at each level instead of edges"
+  ],
+  "e": "Top layers with diverse, long-range links for fast early movement; a k-NN graph at the bottom for local convergence. It's like a generalized skip list, with a constant number of steps per layer."
+ },
+ {
+  "t": "L5 – HNSW",
+  "s": "Data Mining L5 §5.1.4",
+  "q": "FAISS speeds up graph-based ANN on GPUs using:",
+  "a": "Quantization",
+  "w": [
+   "Voronoi cells",
+   "Edit distance",
+   "PPMI vectors"
+  ],
+  "e": "Quantization (a vector compression trick). Other libraries: hnswlib, DiskANN, and Pinecone's write-ups."
+ }
 ]

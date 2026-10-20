@@ -1,29 +1,326 @@
 [
-{"t":"L8 – Clustering Basics","s":"Data Mining L8 intro","q":"The consistent theme about clustering algorithms, per L8:","a":"When data is easily clusterable, most algorithms work well; when it isn't, no algorithm finds good clusters","w":["k-means always finds the best clusters","Hierarchical clustering is always best","Clustering is a solved problem"],"e":"That's why the course doesn't spend more time on clustering."},
-{"t":"L8 – Clustering Basics","s":"Data Mining L8 §8.1","q":"In hard clustering, the two goals are:","a":"Small 'width' (points within a cluster are close) and large 'split' (points in different clusters are far)","w":["Equal cluster sizes and few clusters","Maximize width and minimize split","Many clusters and no outliers"],"e":"Overall we want split/width (or split − width) to be large."},
-{"t":"L8 – Clustering Basics","s":"Data Mining L8 §8.1","q":"Which hard-clustering condition is relaxed in SOFT clustering?","a":"Clusters must be disjoint (Sᵢ ∩ Sⱼ = ∅)","w":["Every cluster is a subset of X","The clusters' union is all of X","There must be k clusters"],"e":"In soft clustering, a point can partially belong to several clusters (e.g., EM)."},
-{"t":"L8 – Hierarchical Clustering","s":"Data Mining L8 §8.2","q":"The basic hierarchical agglomerative clustering loop is:","a":"Start with every point as its own cluster; repeatedly merge the two closest clusters while they're 'close enough'","w":["Start with one cluster and split it","Pick k random centers and reassign","Hash points into buckets"],"e":"You must define both 'closest' (an inter-cluster distance) and 'close enough' (a stopping rule)."},
-{"t":"L8 – Hierarchical Clustering","s":"Data Mining L8 §8.2","q":"Which is NOT a listed option for the distance between clusters?","a":"Number of points in the larger cluster","w":["Distance between closest pair of points","Distance between furthest pair of points","Average distance over all cross-cluster pairs"],"e":"Others: distance between centers (mean, centerpoint, MEB center), radius of the merged MEB, etc. Ties can drastically change results."},
-{"t":"L8 – Hierarchical Clustering","s":"Data Mining L8 §8.2","q":"Stopping when the merged cluster's density increases too much compared to the single clusters is a variant of the:","a":"'Elbow' technique","w":["k-means++ technique","Banding technique","Gonzalez technique"],"e":"Other stopping rules: an absolute threshold τ, diameter/radius thresholds, density thresholds, or reaching k clusters."},
-{"t":"L8 – Hierarchical Clustering","s":"Data Mining L8 §8.2.1","q":"What's the advantage of recording the full merge hierarchy?","a":"You don't need to choose when to stop up front; you can 'chop off the top of the tree' later","w":["It's faster than k-means","It needs no distance function","It produces exactly k clusters"],"e":"The most famous example is phylogenetic trees."},
-{"t":"L8 – Hierarchical Clustering","s":"Data Mining L8 §8.2.2","q":"Naive centroid-based HAC on n points takes O(n³). With a priority queue it takes:","a":"O(n² log n)","w":["O(n log n)","O(kn)","O(n)"],"e":"Centroids update in O(1) by storing count and center, then merging via weighted average. Still slow compared to other methods."},
-{"t":"L8 – DBScan","s":"Data Mining L8 §8.3","q":"In DBScan, a point x is a core point if:","a":"At least τ (minPts) points are within radius r (ε) of x","w":["It's the mean of its cluster","It has the largest coordinate","It's farthest from all others"],"e":"All core points end up in clusters."},
-{"t":"L8 – DBScan","s":"Data Mining L8 §8.3","q":"In DBScan's graph, there's an edge between xᵢ and xⱼ when they're within distance r AND:","a":"At least one of them is a core point","w":["Both are core points","Neither is a core point","They have the same label"],"e":"Clusters are connected components. Two nearby non-core points aren't connected, and isolated points belong to no cluster."},
-{"t":"L8 – DBScan","s":"Data Mining L8 §8.3","q":"A main advantage of DBScan is that clusters:","a":"Adapt to the shape of the data, connecting via paths through dense regions","w":["Are always spherical","Are always equal-sized","Need no parameters"],"e":"Downsides: no automatic way to pick r and τ, and it assumes density is consistent across the dataset."},
-{"t":"L8 – DBScan","s":"Data Mining L8 §8.3","q":"DBScan is usually efficient because:","a":"Core-point checks and neighbor finding use fast NN search (e.g., LSH), and it skips building an explicit hierarchy","w":["It always runs in O(log n)","It never computes distances","It uses Lloyd's algorithm"],"e":"Worst case is still quadratic in n."},
-{"t":"L9 – Assignment Clustering","s":"Data Mining L9 intro","q":"Is k-means an algorithm?","a":"No, it's a problem formulation (Lloyd's algorithm is the usual way to attack it)","w":["Yes, it's Lloyd's algorithm","Yes, it's Gonzalez's algorithm","Yes, it's DBScan"],"e":"k-means minimizes Σ d(φ_C(x), x)²."},
-{"t":"L9 – Assignment Clustering","s":"Data Mining L9 §9.1","q":"Match the objective: minimize the MAXIMUM assignment distance.","a":"k-center","w":["k-means","k-median","k-medoid"],"e":"k-means minimizes the sum of squared distances, and k-median the sum of distances. k-medoid is like k-median with centers restricted to data points."},
-{"t":"L9 – Assignment Clustering","s":"Data Mining L9 §9.1","q":"Which formulation is most robust to outliers but has no simple iterative algorithm like Lloyd's or Gonzalez?","a":"k-median","w":["k-center","k-means","Mixture of Gaussians"],"e":"Its recentering step is the Fermat-Weber problem, which is surprisingly complicated (approximate it with gradient descent)."},
-{"t":"L9 – Gonzalez","s":"Data Mining L9 §9.2","q":"Gonzalez's greedy algorithm for k-center picks each new center as:","a":"The point furthest from its currently assigned center","w":["A random point","The mean of the data","The point closest to all others"],"e":"'Be greedy, and avoid your neighbors!'"},
-{"t":"L9 – Gonzalez","s":"Data Mining L9 §9.2","q":"Gonzalez's algorithm gives what guarantee for k-center, and in what time?","a":"A 2-approximation in O(kn) time, for any metric","w":["Exact optimum in O(n log n)","O(log n)-approximation in O(n³)","No guarantee"],"e":"Finding better than a factor 2 is NP-hard in general metrics. Downside: centers biased to the 'edges' of the data."},
-{"t":"L9 – Lloyd's Algorithm","s":"Data Mining L9 §9.3","q":"Lloyd's algorithm alternates which two steps?","a":"Assign each point to its nearest center; then move each center to the average of its assigned points","w":["Split the largest cluster; merge the smallest","Hash points; band them","Pick the furthest point; add it as a center"],"e":"It repeats until the centers stop changing. That takes roughly Rnk steps for R rounds."},
-{"t":"L9 – Lloyd's Algorithm","s":"Data Mining L9 §9.3","q":"Why must Lloyd's algorithm terminate?","a":"Cost strictly decreases, and there are finitely many (≈ nᵏ) possible clusterings","w":["It runs exactly 10 rounds","The data shrinks each round","It doesn't always terminate"],"e":"Worst-case it could be exponential, but usually R ≈ 10 is fine."},
-{"t":"L9 – Lloyd's Algorithm","s":"Data Mining L9 §9.3.1","q":"Does Lloyd's algorithm 'solve' the k-means problem?","a":"No: it can get stuck in a local optimum, so it's typically re-run with random initializations","w":["Yes, always optimally","Yes, but only in 2-D","No, it doesn't decrease the cost"],"e":"Keep the lowest-cost result over several runs."},
-{"t":"L9 – Initialization","s":"Data Mining L9 §9.3.2","q":"Why is initializing Lloyd's with a random partition's averages a poor choice?","a":"It biases all initial centers toward the center of the whole dataset (Central Limit Theorem)","w":["It's too slow","It always picks outliers","It's deterministic"],"e":"Random k points need about k log k (coupon collectors) to hit each cluster. Gonzalez biases toward outliers."},
-{"t":"L9 – k-means++","s":"Data Mining L9 §9.3.2","q":"k-means++ chooses each next center with probability proportional to:","a":"d(x, nearest existing center)²","w":["d(x, nearest center)","1/d(x, nearest center)","Uniformly at random"],"e":"It's like Gonzalez but not fully greedy. It gives an O(log n) approximation and is the default in most libraries."},
-{"t":"L9 – Problems with k-means","s":"Data Mining L9 §9.4","q":"Why does Lloyd's recentering step only work with squared Euclidean distance?","a":"The average is the argmin of Σ‖c − x‖² only for squared Euclidean distance","w":["Averages can't be computed otherwise","Other distances aren't metrics","It needs integer coordinates"],"e":"For other distances, restrict C ⊂ X (k-medoid) or solve harder center problems."},
-{"t":"L9 – Problems with k-means","s":"Data Mining L9 §9.4","q":"All else being equal, k-means tends to produce clusters that are:","a":"Roughly equal-sized (based on distance to centers, not density)","w":["Extremely unbalanced","Shaped like long chains","Density-adaptive"],"e":"It's also more affected by outliers than k-median."},
-{"t":"L9 – Mixture of Gaussians","s":"Data Mining L9 §9.5","q":"A Gaussian mixture model with every covariance Σᵢ = I is equivalent to:","a":"The k-means problem","w":["k-center","DBScan","Spectral clustering"],"e":"In general each cluster is G(µᵢ, Σᵢ), with Σᵢ the sum of outer products (x − µᵢ)(x − µᵢ)ᵀ."},
-{"t":"L9 – EM","s":"Data Mining L9 §9.5.1","q":"In EM for Gaussian mixtures, each point gets weight wᵢ(x) = ?","a":"fᵢ(x) / Σⱼ fⱼ(x): a soft (partial) assignment","w":["1 for its nearest center, 0 otherwise","1/k always","d(x, cᵢ)²"],"e":"Means and covariances are then re-estimated with weighted averages."},
-{"t":"L9 – EM","s":"Data Mining L9 §9.5.1","q":"Expectation-Maximization is useful when:","a":"The true objective is messy/non-convex but splits into alternating steps that each have (near) closed forms","w":["The problem has a single closed-form solution","No data is available","Only one cluster exists"],"e":"EM alternates partial assignment with model (mean and covariance) estimation."}
+ {
+  "t": "L8 – Clustering Basics",
+  "s": "Data Mining L8 intro",
+  "q": "The consistent theme about clustering algorithms, per L8:",
+  "a": "Easy data clusters well with anything; hard data doesn't",
+  "w": [
+   "k-means always finds the best possible clusters",
+   "Hierarchical clustering is always the best choice",
+   "Clustering is a fully solved problem today"
+  ],
+  "e": "When data is easily clusterable, most algorithms work well; when it isn't, no algorithm finds good clusters. That's why the course doesn't spend more time on clustering."
+ },
+ {
+  "t": "L8 – Clustering Basics",
+  "s": "Data Mining L8 §8.1",
+  "q": "In hard clustering, the two goals are:",
+  "a": "Small width and large split",
+  "w": [
+   "Equal sizes and few clusters",
+   "Large width and small split",
+   "Many clusters and no outliers"
+  ],
+  "e": "Small 'width' (points within a cluster are close) and large 'split' (points in different clusters are far). Overall we want split/width (or split − width) to be large."
+ },
+ {
+  "t": "L8 – Clustering Basics",
+  "s": "Data Mining L8 §8.1",
+  "q": "Which hard-clustering condition is relaxed in SOFT clustering?",
+  "a": "Clusters must be disjoint",
+  "w": [
+   "Every cluster is a subset of X",
+   "The clusters' union covers all of X",
+   "There must be exactly k clusters"
+  ],
+  "e": "Clusters must be disjoint (Sᵢ ∩ Sⱼ = ∅). In soft clustering, a point can partially belong to several clusters (e.g., EM)."
+ },
+ {
+  "t": "L8 – Hierarchical Clustering",
+  "s": "Data Mining L8 §8.2",
+  "q": "The basic hierarchical agglomerative clustering loop is:",
+  "a": "Start with singletons; merge the closest pair repeatedly",
+  "w": [
+   "Start with one cluster and repeatedly split the largest",
+   "Pick k random centers and reassign points to them",
+   "Hash all points into buckets and merge the buckets"
+  ],
+  "e": "Start with every point as its own cluster; repeatedly merge the two closest clusters while they're 'close enough'. You must define both 'closest' (an inter-cluster distance) and 'close enough' (a stopping rule)."
+ },
+ {
+  "t": "L8 – Hierarchical Clustering",
+  "s": "Data Mining L8 §8.2",
+  "q": "Which is NOT a listed option for the distance between clusters?",
+  "a": "Number of points in the larger cluster",
+  "w": [
+   "Distance between closest pair of points",
+   "Distance between furthest pair of points",
+   "Average distance over all cross-cluster pairs"
+  ],
+  "e": "Others: distance between centers (mean, centerpoint, MEB center), radius of the merged MEB, etc. Ties can drastically change results."
+ },
+ {
+  "t": "L8 – Hierarchical Clustering",
+  "s": "Data Mining L8 §8.2",
+  "q": "Stopping when the merged cluster's density increases too much compared to the single clusters is a variant of the:",
+  "a": "'Elbow' technique",
+  "w": [
+   "k-means++ technique",
+   "Banding technique",
+   "Gonzalez technique"
+  ],
+  "e": "Other stopping rules: an absolute threshold τ, diameter/radius thresholds, density thresholds, or reaching k clusters."
+ },
+ {
+  "t": "L8 – Hierarchical Clustering",
+  "s": "Data Mining L8 §8.2.1",
+  "q": "What's the advantage of recording the full merge hierarchy?",
+  "a": "You can decide where to cut the tree later",
+  "w": [
+   "It runs faster than k-means on large data",
+   "It doesn't need any distance function",
+   "It always produces exactly k clusters"
+  ],
+  "e": "You don't need to choose when to stop up front; you can 'chop off the top of the tree' later. The most famous example is phylogenetic trees."
+ },
+ {
+  "t": "L8 – Hierarchical Clustering",
+  "s": "Data Mining L8 §8.2.2",
+  "q": "Naive centroid-based HAC on n points takes O(n³). With a priority queue it takes:",
+  "a": "O(n² log n)",
+  "w": [
+   "O(n log n)",
+   "O(kn)",
+   "O(n)"
+  ],
+  "e": "Centroids update in O(1) by storing count and center, then merging via weighted average. Still slow compared to other methods."
+ },
+ {
+  "t": "L8 – DBScan",
+  "s": "Data Mining L8 §8.3",
+  "q": "In DBScan, a point x is a core point if:",
+  "a": "At least τ points lie within radius r",
+  "w": [
+   "It is the mean of its own cluster",
+   "It has the largest coordinate value",
+   "It is the farthest from all others"
+  ],
+  "e": "At least τ (minPts) points are within radius r (ε) of x. All core points end up in clusters."
+ },
+ {
+  "t": "L8 – DBScan",
+  "s": "Data Mining L8 §8.3",
+  "q": "In DBScan's graph, there's an edge between xᵢ and xⱼ when they're within distance r AND:",
+  "a": "At least one is a core point",
+  "w": [
+   "Both are core points",
+   "Neither is a core point",
+   "They share the same label"
+  ],
+  "e": "Clusters are connected components. Two nearby non-core points aren't connected, and isolated points belong to no cluster."
+ },
+ {
+  "t": "L8 – DBScan",
+  "s": "Data Mining L8 §8.3",
+  "q": "A main advantage of DBScan is that clusters:",
+  "a": "Adapt to the shape of the data",
+  "w": [
+   "Are always spherical in shape",
+   "Are always roughly equal-sized",
+   "Need no parameters to be chosen"
+  ],
+  "e": "Adapt to the shape of the data, connecting via paths through dense regions. Downsides: no automatic way to pick r and τ, and it assumes density is consistent across the dataset."
+ },
+ {
+  "t": "L8 – DBScan",
+  "s": "Data Mining L8 §8.3",
+  "q": "DBScan is usually efficient because:",
+  "a": "It uses fast neighbor search and builds no hierarchy",
+  "w": [
+   "It always runs in O(log n) time on any data",
+   "It never computes any distances between points",
+   "It uses Lloyd's algorithm to update centers"
+  ],
+  "e": "Core-point checks and neighbor finding use fast NN search (e.g., LSH), and it skips building an explicit hierarchy. Worst case is still quadratic in n."
+ },
+ {
+  "t": "L9 – Assignment Clustering",
+  "s": "Data Mining L9 intro",
+  "q": "Is k-means an algorithm?",
+  "a": "No, it's a problem formulation",
+  "w": [
+   "Yes, it's Lloyd's algorithm",
+   "Yes, it's Gonzalez's method",
+   "Yes, it's the same as DBScan"
+  ],
+  "e": "No, it's a problem formulation (Lloyd's algorithm is the usual way to attack it). k-means minimizes Σ d(φ_C(x), x)²."
+ },
+ {
+  "t": "L9 – Assignment Clustering",
+  "s": "Data Mining L9 §9.1",
+  "q": "Match the objective: minimize the MAXIMUM assignment distance.",
+  "a": "k-center",
+  "w": [
+   "k-means",
+   "k-median",
+   "k-medoid"
+  ],
+  "e": "k-means minimizes the sum of squared distances, and k-median the sum of distances. k-medoid is like k-median with centers restricted to data points."
+ },
+ {
+  "t": "L9 – Assignment Clustering",
+  "s": "Data Mining L9 §9.1",
+  "q": "Which formulation is most robust to outliers but has no simple iterative algorithm like Lloyd's or Gonzalez?",
+  "a": "k-median",
+  "w": [
+   "k-center",
+   "k-means",
+   "Mixture of Gaussians"
+  ],
+  "e": "Its recentering step is the Fermat-Weber problem, which is surprisingly complicated (approximate it with gradient descent)."
+ },
+ {
+  "t": "L9 – Gonzalez",
+  "s": "Data Mining L9 §9.2",
+  "q": "Gonzalez's greedy algorithm for k-center picks each new center as:",
+  "a": "The point furthest from its current center",
+  "w": [
+   "A point chosen uniformly at random from the data",
+   "The mean of all of the data points so far",
+   "The point closest to all the other points"
+  ],
+  "e": "The point furthest from its currently assigned center. 'Be greedy, and avoid your neighbors!'"
+ },
+ {
+  "t": "L9 – Gonzalez",
+  "s": "Data Mining L9 §9.2",
+  "q": "Gonzalez's algorithm gives what guarantee for k-center, and in what time?",
+  "a": "A 2-approximation in O(kn) time",
+  "w": [
+   "The exact optimum in O(n log n)",
+   "A log n-approximation in O(n³)",
+   "No guarantee and O(n²) time"
+  ],
+  "e": "A 2-approximation in O(kn) time, for any metric. Finding better than a factor 2 is NP-hard in general metrics. Downside: centers biased to the 'edges' of the data."
+ },
+ {
+  "t": "L9 – Lloyd's Algorithm",
+  "s": "Data Mining L9 §9.3",
+  "q": "Lloyd's algorithm alternates which two steps?",
+  "a": "Assign points to nearest centers; recenter at the means",
+  "w": [
+   "Split the largest cluster; merge the two smallest ones",
+   "Hash all the points; then group them into bands",
+   "Pick the furthest point; then add it as a new center"
+  ],
+  "e": "Assign each point to its nearest center; then move each center to the average of its assigned points. It repeats until the centers stop changing. That takes roughly Rnk steps for R rounds."
+ },
+ {
+  "t": "L9 – Lloyd's Algorithm",
+  "s": "Data Mining L9 §9.3",
+  "q": "Why must Lloyd's algorithm terminate?",
+  "a": "Cost strictly decreases over finitely many clusterings",
+  "w": [
+   "It is hard-coded to stop after exactly 10 rounds",
+   "The dataset shrinks a little in every round",
+   "It doesn't always terminate in practice"
+  ],
+  "e": "Cost strictly decreases, and there are finitely many (≈ nᵏ) possible clusterings. Worst-case it could be exponential, but usually R ≈ 10 is fine."
+ },
+ {
+  "t": "L9 – Lloyd's Algorithm",
+  "s": "Data Mining L9 §9.3.1",
+  "q": "Does Lloyd's algorithm 'solve' the k-means problem?",
+  "a": "No, it can get stuck in a local optimum",
+  "w": [
+   "Yes, it always finds the global optimum",
+   "Yes, but only for two-dimensional data",
+   "No, because it never lowers the cost"
+  ],
+  "e": "No: it can get stuck in a local optimum, so it's typically re-run with random initializations. Keep the lowest-cost result over several runs."
+ },
+ {
+  "t": "L9 – Initialization",
+  "s": "Data Mining L9 §9.3.2",
+  "q": "Why is initializing Lloyd's with a random partition's averages a poor choice?",
+  "a": "All initial centers end up near the overall mean",
+  "w": [
+   "It is far too slow on large datasets",
+   "It always picks outliers as centers",
+   "It is deterministic, so it can't be re-run"
+  ],
+  "e": "It biases all initial centers toward the center of the whole dataset (Central Limit Theorem). Random k points need about k log k (coupon collectors) to hit each cluster. Gonzalez biases toward outliers."
+ },
+ {
+  "t": "L9 – k-means++",
+  "s": "Data Mining L9 §9.3.2",
+  "q": "k-means++ chooses each next center with probability proportional to:",
+  "a": "d(x, nearest center)²",
+  "w": [
+   "d(x, nearest center)",
+   "1 / d(x, nearest center)",
+   "A uniform probability"
+  ],
+  "e": "It's like Gonzalez but not fully greedy. It gives an O(log n) approximation and is the default in most libraries."
+ },
+ {
+  "t": "L9 – Problems with k-means",
+  "s": "Data Mining L9 §9.4",
+  "q": "Why does Lloyd's recentering step only work with squared Euclidean distance?",
+  "a": "The mean minimizes only squared Euclidean cost",
+  "w": [
+   "Averages can't be computed for other distances",
+   "Other distances aren't true metrics at all",
+   "It needs points with integer coordinates"
+  ],
+  "e": "The average is the argmin of Σ‖c − x‖² only for squared Euclidean distance. For other distances, restrict C ⊂ X (k-medoid) or solve harder center problems."
+ },
+ {
+  "t": "L9 – Problems with k-means",
+  "s": "Data Mining L9 §9.4",
+  "q": "All else being equal, k-means tends to produce clusters that are:",
+  "a": "Roughly equal-sized",
+  "w": [
+   "Extremely unbalanced",
+   "Long, thin chains",
+   "Density-adaptive"
+  ],
+  "e": "Roughly equal-sized (based on distance to centers, not density). It's also more affected by outliers than k-median."
+ },
+ {
+  "t": "L9 – Mixture of Gaussians",
+  "s": "Data Mining L9 §9.5",
+  "q": "A Gaussian mixture model with every covariance Σᵢ = I is equivalent to:",
+  "a": "The k-means problem",
+  "w": [
+   "k-center",
+   "DBScan",
+   "Spectral clustering"
+  ],
+  "e": "In general each cluster is G(µᵢ, Σᵢ), with Σᵢ the sum of outer products (x − µᵢ)(x − µᵢ)ᵀ."
+ },
+ {
+  "t": "L9 – EM",
+  "s": "Data Mining L9 §9.5.1",
+  "q": "In EM for Gaussian mixtures, each point gets weight wᵢ(x) = ?",
+  "a": "fᵢ(x) / Σⱼ fⱼ(x)",
+  "w": [
+   "1 for the nearest center, 0 else",
+   "1/k for every cluster i",
+   "d(x, cᵢ)² / Σⱼ d(x, cⱼ)²"
+  ],
+  "e": "fᵢ(x) / Σⱼ fⱼ(x): a soft (partial) assignment. Means and covariances are then re-estimated with weighted averages."
+ },
+ {
+  "t": "L9 – EM",
+  "s": "Data Mining L9 §9.5.1",
+  "q": "Expectation-Maximization is useful when:",
+  "a": "A messy objective splits into easy alternating steps",
+  "w": [
+   "The problem has a single closed-form solution already",
+   "There is no data available at all to fit the model",
+   "Only one cluster exists in the whole of the dataset"
+  ],
+  "e": "The true objective is messy/non-convex but splits into alternating steps that each have (near) closed forms. EM alternates partial assignment with model (mean and covariance) estimation."
+ }
 ]

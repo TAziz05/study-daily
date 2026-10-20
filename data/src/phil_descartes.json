@@ -1,19 +1,206 @@
 [
-{"t":"Descartes – Meditations I & II","s":"Descartes, Meditations I (opening)","q":"To overthrow his former opinions, Descartes says he doesn't need to prove each one false. Instead he will:","a":"Reject any opinion in which he finds any occasion for doubt, by attacking their foundations","w":["Examine every belief one by one","Accept only beliefs approved by the Church","Keep beliefs that most people share"],"e":"Once the foundation (the senses) is undermined, everything built on it falls 'of its own accord'."},
-{"t":"Descartes – Meditations I & II","s":"Descartes, Meditations I","q":"What is the main source Descartes says all his previously accepted 'truths' came from?","a":"The senses","w":["Scripture","Mathematics","Teachers and books"],"e":"'Whatever I have hitherto admitted as most true, that I received either from, or by my Senses', and the senses sometimes deceive."},
-{"t":"Descartes – Meditations I & II","s":"Descartes, Meditations I","q":"Descartes' response to 'surely I can't doubt I'm sitting by the fire in my winter gown' is:","a":"He has often dreamed exactly such things while lying in bed","w":["Only madmen doubt such things","God guarantees his senses","He might be a brain in a vat"],"e":"The dreaming argument: there are no sure signs to distinguish waking from sleep."},
-{"t":"Descartes – Meditations I & II","s":"Descartes, Meditations I","q":"Descartes uses the analogy of painters inventing mermaids and satyrs to argue that even dream images are built from:","a":"Simpler, more universal things (extension, shape, quantity, number, place, time)","w":["Divine ideas planted by God","Memories of real mermaids","Nothing at all"],"e":"Even a wholly invented picture uses real colors. Likewise dreams are composed of simple, general things."},
-{"t":"Descartes – Meditations I & II","s":"Descartes, Meditations I","q":"After the dreaming argument, which sciences does Descartes initially think still contain something certain?","a":"Arithmetic and geometry","w":["Physics and medicine","Astronomy","Biology"],"e":"'Whether I sleep or wake, two and three added make five.' Sciences of composite things (physics, astronomy, medicine) are doubtful."},
-{"t":"Descartes – Meditations I & II","s":"Descartes, Meditations I","q":"What possibility makes Descartes doubt even that 2 + 3 = 5?","a":"An omnipotent God (or deceiver) could make him err whenever he adds","w":["He might be dreaming","His teachers may have lied","Numbers might not exist physically"],"e":"The dreaming argument leaves math intact. The deceiver hypothesis extends doubt to math too."},
-{"t":"Descartes – Meditations I & II","s":"Descartes, Meditations I (end)","q":"Descartes compares his tendency to slip back into old opinions to:","a":"A prisoner who dreams of liberty and is afraid to wake","w":["A sailor lost at sea","A child learning to walk","An architect building on sand"],"e":"He willingly falls back into comfortable opinions, fearing the toilsome waking of doubt."},
-{"t":"Descartes – Meditations I & II","s":"Descartes, Meditations II (opening)","q":"Descartes begins Meditation II feeling as though he has:","a":"Fallen into a deep whirlpool/gulf where he can neither touch bottom nor swim to the top","w":["Climbed a mountain","Woken from a long sleep","Been released from prison"],"e":"Yesterday's doubts left him 'plunged on a sudden into a deep gulf'."},
-{"t":"Descartes – Meditations I & II","s":"Descartes, Meditations II","q":"Descartes invokes Archimedes because Archimedes:","a":"Needed only one firm, immovable point to move the whole Earth","w":["Discovered displacement in a bathtub","Proved the value of pi","Doubted the existence of the external world"],"e":"Likewise, Descartes needs just one certain, indisputable truth."},
-{"t":"Descartes – Meditations I & II","s":"Descartes, Meditations II","q":"In Meditation II, 'I am, I exist' is necessarily true:","a":"Whenever it is spoken or thought by me","w":["Only when I perceive my body","Only if God exists","At all times, whether or not I think"],"e":"Even if the deceiver deceives me, I must exist to be deceived. The certainty holds 'whilst I think that I am'."},
-{"t":"Descartes – Meditations I & II","s":"Descartes, Meditations II","q":"Which faculty does Descartes find cannot be separated from himself?","a":"Thought (the cogitative faculty)","w":["Nutrition","Locomotion","Sensation via the body"],"e":"Nutrition and motion need a body, and sensing happens in dreams too. 'Thought, this alone cannot be separated from me.'"},
-{"t":"Descartes – Meditations I & II","s":"Descartes, Meditations II","q":"Descartes concludes he is 'only a thinking thing'. Which of these does he include in thinking?","a":"Doubting, understanding, affirming, denying, willing, imagining, and sensing","w":["Only reasoning and calculation","Only perceiving bodies","Digestion and breathing"],"e":"A thinking thing doubts, understands, affirms, denies, wills, refuses, imagines and perceives."},
-{"t":"Descartes – Meditations I & II","s":"Descartes, Meditations II","q":"Why does Descartes say he can't use imagination to learn what he is?","a":"To imagine is to contemplate the image of a corporeal thing, and bodies are still in doubt","w":["Imagination is always accurate","Imagination is a bodily organ","He has no imagination"],"e":"Using imagination to know the self would be like falling asleep to see something more clearly in a dream."},
-{"t":"Descartes – Meditations I & II","s":"Descartes, Meditations II (wax)","q":"In the wax example, after the wax is melted by the fire, what remains of the wax?","a":"Only something extended, flexible, and changeable","w":["Its smell and color","Its hardness and sound","Nothing at all"],"e":"Every sensory quality changed, yet it's the same wax. So what we know of it isn't given by the senses."},
-{"t":"Descartes – Meditations I & II","s":"Descartes, Meditations II (wax)","q":"The wax example concludes that we know bodies through:","a":"The inspection of the mind (understanding) alone","w":["Sight and touch","Imagination","Memory"],"e":"Imagination can't run through the wax's innumerable possible changes. Only the understanding grasps what the wax is."},
-{"t":"Descartes – Meditations I & II","s":"Descartes, Meditations II (wax)","q":"Descartes looks out the window and 'sees' men in the street, though he only sees hats and coats that could cover automata. The point is:","a":"What we think we see with the eyes, we actually judge with the mind","w":["People are really machines","Vision is perfectly reliable","Clothing reveals one's essence"],"e":"He judges them to be men by his 'judicative faculty', not by sight alone."},
-{"t":"Descartes – Meditations I & II","s":"Descartes, Meditations II (end)","q":"What is the final conclusion of Meditation II?","a":"Nothing can be perceived more easily or evidently than one's own mind","w":["The body is better known than the mind","God exists","The external world is an illusion"],"e":"Every act of perceiving the wax gives even more evidence of the mind doing the perceiving."}
+ {
+  "t": "Descartes – Meditations I & II",
+  "s": "Descartes, Meditations I (opening)",
+  "q": "To overthrow his former opinions, Descartes says he doesn't need to prove each one false. Instead he will:",
+  "a": "Attack the foundations of his opinions",
+  "w": [
+   "Examine every one of his beliefs one by one",
+   "Accept only beliefs approved by the Church",
+   "Keep only beliefs that most people share"
+  ],
+  "e": "Reject any opinion in which he finds any occasion for doubt, by attacking their foundations. Once the foundation (the senses) is undermined, everything built on it falls 'of its own accord'."
+ },
+ {
+  "t": "Descartes – Meditations I & II",
+  "s": "Descartes, Meditations I",
+  "q": "What is the main source Descartes says all his previously accepted 'truths' came from?",
+  "a": "The senses",
+  "w": [
+   "Scripture",
+   "Mathematics",
+   "Teachers and books"
+  ],
+  "e": "'Whatever I have hitherto admitted as most true, that I received either from, or by my Senses', and the senses sometimes deceive."
+ },
+ {
+  "t": "Descartes – Meditations I & II",
+  "s": "Descartes, Meditations I",
+  "q": "Descartes' response to 'surely I can't doubt I'm sitting by the fire in my winter gown' is:",
+  "a": "He has often dreamed exactly such things",
+  "w": [
+   "Only madmen would doubt such obvious things",
+   "God guarantees that his senses are reliable",
+   "He might be a brain in a vat in a lab"
+  ],
+  "e": "He has often dreamed exactly such things while lying in bed. The dreaming argument: there are no sure signs to distinguish waking from sleep."
+ },
+ {
+  "t": "Descartes – Meditations I & II",
+  "s": "Descartes, Meditations I",
+  "q": "Descartes uses the analogy of painters inventing mermaids and satyrs to argue that even dream images are built from:",
+  "a": "Simpler, more universal things like shape and number",
+  "w": [
+   "Divine ideas that God has planted in our minds",
+   "Memories of real creatures seen in distant lands",
+   "Nothing at all, since dreams are made from nothing"
+  ],
+  "e": "Simpler, more universal things (extension, shape, quantity, number, place, time). Even a wholly invented picture uses real colors. Likewise dreams are composed of simple, general things."
+ },
+ {
+  "t": "Descartes – Meditations I & II",
+  "s": "Descartes, Meditations I",
+  "q": "After the dreaming argument, which sciences does Descartes initially think still contain something certain?",
+  "a": "Arithmetic and geometry",
+  "w": [
+   "Physics and medicine",
+   "Astronomy",
+   "Biology"
+  ],
+  "e": "'Whether I sleep or wake, two and three added make five.' Sciences of composite things (physics, astronomy, medicine) are doubtful."
+ },
+ {
+  "t": "Descartes – Meditations I & II",
+  "s": "Descartes, Meditations I",
+  "q": "What possibility makes Descartes doubt even that 2 + 3 = 5?",
+  "a": "An all-powerful deceiver who makes him err",
+  "w": [
+   "The possibility that he is dreaming right now",
+   "His teachers may have lied to him as a child",
+   "Numbers might not exist in the physical world"
+  ],
+  "e": "An omnipotent God (or deceiver) could make him err whenever he adds. The dreaming argument leaves math intact. The deceiver hypothesis extends doubt to math too."
+ },
+ {
+  "t": "Descartes – Meditations I & II",
+  "s": "Descartes, Meditations I (end)",
+  "q": "Descartes compares his tendency to slip back into old opinions to:",
+  "a": "A prisoner who dreams of liberty",
+  "w": [
+   "A sailor lost at sea in a storm",
+   "A child slowly learning to walk",
+   "An architect building on sand"
+  ],
+  "e": "A prisoner who dreams of liberty and is afraid to wake. He willingly falls back into comfortable opinions, fearing the toilsome waking of doubt."
+ },
+ {
+  "t": "Descartes – Meditations I & II",
+  "s": "Descartes, Meditations II (opening)",
+  "q": "Descartes begins Meditation II feeling as though he has:",
+  "a": "Fallen into a deep whirlpool",
+  "w": [
+   "Climbed to the top of a mountain",
+   "Woken from a long, deep sleep",
+   "Been released from a dark prison"
+  ],
+  "e": "Fallen into a deep whirlpool/gulf where he can neither touch bottom nor swim to the top. Yesterday's doubts left him 'plunged on a sudden into a deep gulf'."
+ },
+ {
+  "t": "Descartes – Meditations I & II",
+  "s": "Descartes, Meditations II",
+  "q": "Descartes invokes Archimedes because Archimedes:",
+  "a": "He needed just one firm point to move the Earth",
+  "w": [
+   "He discovered displacement while in his bathtub",
+   "He proved the true value of pi with polygons",
+   "He doubted the existence of the external world"
+  ],
+  "e": "Needed only one firm, immovable point to move the whole Earth. Likewise, Descartes needs just one certain, indisputable truth."
+ },
+ {
+  "t": "Descartes – Meditations I & II",
+  "s": "Descartes, Meditations II",
+  "q": "In Meditation II, 'I am, I exist' is necessarily true:",
+  "a": "Whenever it is spoken or thought by me",
+  "w": [
+   "Only when I perceive my body",
+   "Only if God exists",
+   "At all times, whether or not I think"
+  ],
+  "e": "Even if the deceiver deceives me, I must exist to be deceived. The certainty holds 'whilst I think that I am'."
+ },
+ {
+  "t": "Descartes – Meditations I & II",
+  "s": "Descartes, Meditations II",
+  "q": "Which faculty does Descartes find cannot be separated from himself?",
+  "a": "Thought",
+  "w": [
+   "Nutrition",
+   "Locomotion",
+   "Bodily sensation"
+  ],
+  "e": "Thought (the cogitative faculty). Nutrition and motion need a body, and sensing happens in dreams too. 'Thought, this alone cannot be separated from me.'"
+ },
+ {
+  "t": "Descartes – Meditations I & II",
+  "s": "Descartes, Meditations II",
+  "q": "Descartes concludes he is 'only a thinking thing'. Which of these does he include in thinking?",
+  "a": "Doubting, willing, imagining and sensing",
+  "w": [
+   "Only reasoning and mathematical calculation",
+   "Only the perception of external bodies",
+   "Digestion, breathing and bodily movement"
+  ],
+  "e": "Doubting, understanding, affirming, denying, willing, imagining, and sensing. A thinking thing doubts, understands, affirms, denies, wills, refuses, imagines and perceives."
+ },
+ {
+  "t": "Descartes – Meditations I & II",
+  "s": "Descartes, Meditations II",
+  "q": "Why does Descartes say he can't use imagination to learn what he is?",
+  "a": "Imagining means picturing a body, and bodies are in doubt",
+  "w": [
+   "Imagination is always accurate, so it proves nothing new",
+   "Imagination is a bodily organ that he cannot examine",
+   "He believes he has no faculty of imagination at all"
+  ],
+  "e": "To imagine is to contemplate the image of a corporeal thing, and bodies are still in doubt. Using imagination to know the self would be like falling asleep to see something more clearly in a dream."
+ },
+ {
+  "t": "Descartes – Meditations I & II",
+  "s": "Descartes, Meditations II (wax)",
+  "q": "In the wax example, after the wax is melted by the fire, what remains of the wax?",
+  "a": "Only something extended, flexible and changeable",
+  "w": [
+   "Its smell and color, though both are weaker",
+   "Its hardness and the sound it makes when struck",
+   "Nothing at all, since the wax has disappeared"
+  ],
+  "e": "Every sensory quality changed, yet it's the same wax. So what we know of it isn't given by the senses."
+ },
+ {
+  "t": "Descartes – Meditations I & II",
+  "s": "Descartes, Meditations II (wax)",
+  "q": "The wax example concludes that we know bodies through:",
+  "a": "The mind's inspection alone",
+  "w": [
+   "Sight and touch together",
+   "The faculty of imagination",
+   "Memory of past experience"
+  ],
+  "e": "The inspection of the mind (understanding) alone. Imagination can't run through the wax's innumerable possible changes. Only the understanding grasps what the wax is."
+ },
+ {
+  "t": "Descartes – Meditations I & II",
+  "s": "Descartes, Meditations II (wax)",
+  "q": "Descartes looks out the window and 'sees' men in the street, though he only sees hats and coats that could cover automata. The point is:",
+  "a": "We judge with the mind what we think we see",
+  "w": [
+   "People are really just complicated machines",
+   "Vision is perfectly reliable when we look closely",
+   "Clothing reveals a person's true essence"
+  ],
+  "e": "What we think we see with the eyes, we actually judge with the mind. He judges them to be men by his 'judicative faculty', not by sight alone."
+ },
+ {
+  "t": "Descartes – Meditations I & II",
+  "s": "Descartes, Meditations II (end)",
+  "q": "What is the final conclusion of Meditation II?",
+  "a": "Nothing is known more easily than his own mind",
+  "w": [
+   "His body is better known to him than his mind",
+   "God exists and could never deceive him at all",
+   "The whole external world is only an illusion"
+  ],
+  "e": "Nothing can be perceived more easily or evidently than one's own mind. Every act of perceiving the wax gives even more evidence of the mind doing the perceiving."
+ }
 ]

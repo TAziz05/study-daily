@@ -1,28 +1,314 @@
 [
-{"t":"Lycan – The Mind-Body Problem","s":"Lycan (2003), §2.1","q":"Lycan names two reasons the Cartesian first-person perspective suddenly lost dominance mid-20th century. One was:","a":"The impact of logical positivism and the verification theory of meaning","w":["The discovery of the pineal gland's real function","Descartes' own retraction","The invention of the digital computer"],"e":"Intersubjective verifiability became the criterion of meaning. The other reason was a set of pressing objections to dualism."},
-{"t":"Lycan – The Mind-Body Problem","s":"Lycan (2003), §2.1","q":"Which is NOT one of Lycan's four objections to Cartesian dualism?","a":"Minds are divisible, so they can't be simple substances","w":["Immaterial minds fit poorly with the scientific picture and aren't needed to explain behavior","It's anomalous for evolution to suddenly create immaterial minds","Immaterial mind-body causation would violate conservation laws"],"e":"The four objections are: fits ill with science, evolution/development, the interaction problem, and conservation laws."},
-{"t":"Lycan – The Mind-Body Problem","s":"Lycan (2003), §2.1","q":"What did Descartes suggest as a model for how something immaterial could act on a body?","a":"Gravity","w":["Magnetism","Light","Heat"],"e":"Lycan notes it's a poor model: gravity is intangible but still spatial in nature."},
-{"t":"Lycan – The Mind-Body Problem","s":"Lycan (2003), §2.2","q":"Analytical behaviorism claims that 'Leo is in pain' means:","a":"Leo is behaving, or is disposed to behave, in a wincing and groaning way","w":["Leo's C-fibers are firing","Leo's soul is experiencing pain","Leo is in a functional state that causes wincing"],"e":"Associated with Carnap and Ryle. Mental ascriptions mean things about behavioral responses or dispositions."},
-{"t":"Lycan – The Mind-Body Problem","s":"Lycan (2003), §2.2","q":"Any behaviorist will subscribe to the Turing Test because they hold that:","a":"Psychological differences cannot outrun behavioral tests","w":["Machines can never think","Only verbal behavior matters","Brains are irrelevant to behavior"],"e":"Organisms whose actual and hypothetical behavior is identical are psychologically alike."},
-{"t":"Lycan – The Mind-Body Problem","s":"Lycan (2003), §2.2","q":"The inverted spectrum (from Locke) is an objection to behaviorism because:","a":"Two people could behave identically yet differ in their color experiences","w":["People can't see colors at all","Colors are brain states","It shows behavior causes experience"],"e":"When you see red you might have the experience I have when I see green, with no behavioral difference."},
-{"t":"Lycan – The Mind-Body Problem","s":"Lycan (2003), §2.2","q":"'Leo would shun parsnips only if he doesn't want to die.' This shows behaviorist analyses are:","a":"Circular or radically incomplete, since they presuppose other mental states","w":["Perfectly adequate","Dualist in disguise","Only about verbal behavior"],"e":"Translating a belief into behavior requires assumptions about desires and other beliefs (Chisholm, Geach)."},
-{"t":"Lycan – The Mind-Body Problem","s":"Lycan (2003), §2.3","q":"Who proposed the identity theory as a middle way between dualism and behaviorism?","a":"U.T. Place and J.J.C. Smart","w":["Putnam and Fodor","Ryle and Carnap","Churchland and Feyerabend"],"e":"Mental states are genuinely inner and episodic (against behaviorism) but neurophysiological (against dualism)."},
-{"t":"Lycan – The Mind-Body Problem","s":"Lycan (2003), §2.3","q":"Lewis and Armstrong's deductive argument for the identity theory says: pain is by definition whatever occupies a certain causal role, and science will find that a neural state occupies it. Therefore:","a":"Pain is that neural state","w":["Pain is a behavioral disposition","Pain is non-physical","Pain has no causal role"],"e":"Mental terms are defined causally (the terms of 'folk psychology'), and the role-occupant is found empirically."},
-{"t":"Lycan – The Mind-Body Problem","s":"Lycan (2003), §2.3","q":"'Water = H2O' and 'lightning = electrical discharge' are examples of identities that are:","a":"Synthetic and a posteriori: discovered empirically, not by meaning","w":["Analytic and a priori","True by definition","Merely correlations, not identities"],"e":"So the identity theorist doesn't claim 'pain' MEANS brain state. It's a scientific identity, like the Morning Star being Venus."},
-{"t":"Lycan – The Mind-Body Problem","s":"Lycan (2003), §2.4","q":"Putnam and Fodor's objection to type identity theory is that it commits:","a":"Species chauvinism: only creatures with C-fibers could feel pain","w":["Liberalism: too many things have minds","Dualism","Behaviorism"],"e":"Why must any pain-feeling organism be made of the same chemicals as us?"},
-{"t":"Lycan – The Mind-Body Problem","s":"Lycan (2003), §2.4","q":"According to machine functionalism, the pain TYPE is identified with:","a":"An abstract causal/functional role","w":["C-fiber firing","Wincing behavior","An immaterial sensation"],"e":"Pain TOKENS are identical to particular neural states (token physicalism). The type is the role those states play."},
-{"t":"Lycan – The Mind-Body Problem","s":"Lycan (2003), §2.4","q":"Unlike behaviorism and the identity theory, functionalism:","a":"Doesn't strictly entail that minds are physical","w":["Requires that minds be immaterial","Identifies minds with behavior","Denies multiple realizability"],"e":"Non-physical minds could in principle realize the right program."},
-{"t":"Lycan – The Mind-Body Problem","s":"Lycan (2003), §2.5","q":"In homuncular functionalism, a 'homunculus' is:","a":"A component identified by its function, itself broken down into sub-components until neurophysiology is reached","w":["A tiny person who literally lives in the brain","An immaterial soul","A Turing machine table"],"e":"Like explaining a car by its carburetor, fuel line, etc. Systems are hierarchically organized (Fodor, Dennett, Cummins)."},
-{"t":"Lycan – The Mind-Body Problem","s":"Lycan (2003), §2.5","q":"Why is machine functionalism's criterion of 'realization' (one-to-one correspondence) too liberal?","a":"Almost any physical object has some molecular motions that map onto a given program","w":["Nothing could ever realize a program","Only computers realize programs","It requires biological brains"],"e":"The proposed fix is a teleological requirement: the state must play its role FOR the organism, as its biological purpose."},
-{"t":"Lycan – The Mind-Body Problem","s":"Lycan (2003), §2.5","q":"On the etiological account of biological function, a heart's function is to pump blood because:","a":"Hearts were selected for pumping blood in the past","w":["A designer intended it","It's the only thing hearts can do","People believe it does"],"e":"A trait has function F because it was selected for doing F (Wright, Millikan)."},
-{"t":"Lycan – The Mind-Body Problem","s":"Lycan (2003), §2.5","q":"Brentano distinguished psychological phenomena from physical objects on the grounds that psychological phenomena:","a":"Are directed upon objects, even non-existent ones (intentionality)","w":["Have mass","Are divisible","Are always conscious"],"e":"How could a physical state be 'about' King Arthur or Sherlock Holmes? Bricks aren't about anything."},
-{"t":"Lycan – The Mind-Body Problem","s":"Lycan (2003), §2.6","q":"Nagel and Jackson's anti-materialist argument appeals to:","a":"A disparity in knowledge: you only know what a sensation is like by having it","w":["Conservation of energy","Multiple realizability","The Turing Test"],"e":"No amount of third-person scientific information gives you 'what it is like'. Functionalists reply it's an ability, or a fallacy with Leibniz's Law."},
-{"t":"Lycan – The Mind-Body Problem","s":"Lycan (2003), §2.6","q":"Kripke argued against identity theory using:","a":"Modal distinctions: mental items aren't NECESSARILY identical to neural ones, so they aren't identical at all","w":["Evolutionary biology","Behavioral experiments","Turing machines"],"e":"True identities are necessary. Since pain without C-fibers seems possible, pain ≠ C-fiber firing."},
-{"t":"Lycan – The Mind-Body Problem","s":"Lycan (2003), §2.7","q":"Putnam's Twin Earth examples show that propositional attitude contents are:","a":"'Wide': not determined by the total state of the subject's head","w":["'Narrow': fully determined by brain state","Identical to behavior","Non-existent"],"e":"Molecule-for-molecule twins could differ in beliefs. That's a problem if functional roles are narrow."},
-{"t":"Lycan – The Mind-Body Problem","s":"Lycan (2003), §2.9","q":"Dennett is an instrumentalist about beliefs and desires, meaning:","a":"Belief/desire ascriptions are often true and predictive, but don't describe inner causal mechanisms","w":["Beliefs and desires don't exist and ascriptions are false","Beliefs are brain states","Beliefs are immaterial"],"e":"Like the 'average American homeowner' with 2.2 children. Ascribing a belief is like moving beads on an abacus."},
-{"t":"Lycan – The Mind-Body Problem","s":"Lycan (2003), §2.9","q":"Davidson's anomalous monism differs from Dennett's instrumentalism in that it:","a":"Endorses token physicalism and holds mental tokens are causes","w":["Denies all mental states","Is a form of substance dualism","Identifies mental types with neural types"],"e":"It rejects type-reduction of the attitudes on epistemological grounds, but mental tokens are physical causes."},
-{"t":"Lycan – The Mind-Body Problem","s":"Lycan (2003), §2.10","q":"Eliminativists, identity theorists and functionalists all agree that:","a":"Mental items, if anything, are real inner-causal states; they disagree on whether folk categories match them","w":["Folk psychology is true","Mental ascriptions are mere calculational devices","Dualism is correct"],"e":"They all scorn the instrumentalist's 'sleazy evasion'. Lycan calls the three views an 'eternal triangle'."},
-{"t":"Lycan – The Mind-Body Problem","s":"Lycan (2003), §2.10","q":"Who was the first to openly argue that folk psychology's categories fail to capture anything real?","a":"Paul Feyerabend","w":["Paul Churchland","Richard Rorty","Gilbert Ryle"],"e":"Feyerabend (1963) attracted little following. Churchland (1981) later resurrected eliminativism."},
-{"t":"Lycan – The Mind-Body Problem","s":"Lycan (2003), §2.10","q":"Paul Churchland's main argument for eliminativism is from:","a":"The poverty of folk psychology, compared to abandoned theories like alchemy","w":["The Chinese Room","The inverted spectrum","Conservation laws"],"e":"Bad theories get abandoned, and folk psychology has done as badly as alchemy did."},
-{"t":"Lycan – The Mind-Body Problem","s":"Lycan (2003), §2.10","q":"One way to resist eliminativism (Ryle, Wittgenstein) is to deny that:","a":"Folk psychology is a theory at all","w":["Brains exist","Science is reliable","Behavior can be observed"],"e":"Others (Kitcher; Horgan & Woodward) argue instead that it's not a failed or bad theory."}
+ {
+  "t": "Lycan – The Mind-Body Problem",
+  "s": "Lycan (2003), §2.1",
+  "q": "Lycan names two reasons the Cartesian first-person perspective suddenly lost dominance mid-20th century. One was:",
+  "a": "Logical positivism's verification theory of meaning",
+  "w": [
+   "The discovery of the pineal gland's real function",
+   "Descartes' own late retraction of his dualism",
+   "The invention of the first digital computers"
+  ],
+  "e": "The impact of logical positivism and the verification theory of meaning. Intersubjective verifiability became the criterion of meaning. The other reason was a set of pressing objections to dualism."
+ },
+ {
+  "t": "Lycan – The Mind-Body Problem",
+  "s": "Lycan (2003), §2.1",
+  "q": "Which is NOT one of Lycan's four objections to Cartesian dualism?",
+  "a": "Minds are divisible, so they can't be simple substances",
+  "w": [
+   "Immaterial minds fit poorly with the scientific picture and aren't needed to explain behavior",
+   "It's anomalous for evolution to suddenly create immaterial minds",
+   "Immaterial mind-body causation would violate conservation laws"
+  ],
+  "e": "The four objections are: fits ill with science, evolution/development, the interaction problem, and conservation laws."
+ },
+ {
+  "t": "Lycan – The Mind-Body Problem",
+  "s": "Lycan (2003), §2.1",
+  "q": "What did Descartes suggest as a model for how something immaterial could act on a body?",
+  "a": "Gravity",
+  "w": [
+   "Magnetism",
+   "Light",
+   "Heat"
+  ],
+  "e": "Lycan notes it's a poor model: gravity is intangible but still spatial in nature."
+ },
+ {
+  "t": "Lycan – The Mind-Body Problem",
+  "s": "Lycan (2003), §2.2",
+  "q": "Analytical behaviorism claims that 'Leo is in pain' means:",
+  "a": "He behaves, or is disposed to behave, in pain-ish ways",
+  "w": [
+   "Leo's C-fibers are firing in a particular pattern",
+   "Leo's immaterial soul is experiencing a sensation",
+   "Leo is in a functional state that causes wincing"
+  ],
+  "e": "Leo is behaving, or is disposed to behave, in a wincing and groaning way. Associated with Carnap and Ryle. Mental ascriptions mean things about behavioral responses or dispositions."
+ },
+ {
+  "t": "Lycan – The Mind-Body Problem",
+  "s": "Lycan (2003), §2.2",
+  "q": "Any behaviorist will subscribe to the Turing Test because they hold that:",
+  "a": "Psychological differences can't outrun behavior",
+  "w": [
+   "Machines can never genuinely think or feel",
+   "Only verbal behavior matters for having a mind",
+   "Brains are irrelevant to how we behave"
+  ],
+  "e": "Organisms whose actual and hypothetical behavior is identical are psychologically alike."
+ },
+ {
+  "t": "Lycan – The Mind-Body Problem",
+  "s": "Lycan (2003), §2.2",
+  "q": "The inverted spectrum (from Locke) is an objection to behaviorism because:",
+  "a": "Identical behavior could hide different color experiences",
+  "w": [
+   "People can't actually perceive colors at all",
+   "Color experiences are simply states of the brain",
+   "It shows that behavior causes experience, not vice versa"
+  ],
+  "e": "Two people could behave identically yet differ in their color experiences. When you see red you might have the experience I have when I see green, with no behavioral difference."
+ },
+ {
+  "t": "Lycan – The Mind-Body Problem",
+  "s": "Lycan (2003), §2.2",
+  "q": "'Leo would shun parsnips only if he doesn't want to die.' This shows behaviorist analyses are:",
+  "a": "Circular, because they presuppose other mental states",
+  "w": [
+   "Perfectly adequate as translations of mental talk",
+   "Dualist theories presented in disguise",
+   "Only about verbal behavior, not other actions"
+  ],
+  "e": "Circular or radically incomplete, since they presuppose other mental states. Translating a belief into behavior requires assumptions about desires and other beliefs (Chisholm, Geach)."
+ },
+ {
+  "t": "Lycan – The Mind-Body Problem",
+  "s": "Lycan (2003), §2.3",
+  "q": "Who proposed the identity theory as a middle way between dualism and behaviorism?",
+  "a": "U.T. Place and J.J.C. Smart",
+  "w": [
+   "Putnam and Fodor",
+   "Ryle and Carnap",
+   "Churchland and Feyerabend"
+  ],
+  "e": "Mental states are genuinely inner and episodic (against behaviorism) but neurophysiological (against dualism)."
+ },
+ {
+  "t": "Lycan – The Mind-Body Problem",
+  "s": "Lycan (2003), §2.3",
+  "q": "Lewis and Armstrong's deductive argument for the identity theory says: pain is by definition whatever occupies a certain causal role, and science will find that a neural state occupies it. Therefore:",
+  "a": "Pain is that neural state",
+  "w": [
+   "Pain is a behavioral disposition",
+   "Pain is non-physical",
+   "Pain has no causal role"
+  ],
+  "e": "Mental terms are defined causally (the terms of 'folk psychology'), and the role-occupant is found empirically."
+ },
+ {
+  "t": "Lycan – The Mind-Body Problem",
+  "s": "Lycan (2003), §2.3",
+  "q": "'Water = H2O' and 'lightning = electrical discharge' are examples of identities that are:",
+  "a": "Synthetic and a posteriori",
+  "w": [
+   "Analytic and a priori",
+   "True by definition",
+   "Mere correlations"
+  ],
+  "e": "Synthetic and a posteriori: discovered empirically, not by meaning. So the identity theorist doesn't claim 'pain' MEANS brain state. It's a scientific identity, like the Morning Star being Venus."
+ },
+ {
+  "t": "Lycan – The Mind-Body Problem",
+  "s": "Lycan (2003), §2.4",
+  "q": "Putnam and Fodor's objection to type identity theory is that it commits:",
+  "a": "Species chauvinism",
+  "w": [
+   "Liberalism",
+   "Substance dualism",
+   "Logical behaviorism"
+  ],
+  "e": "Species chauvinism: only creatures with C-fibers could feel pain. Why must any pain-feeling organism be made of the same chemicals as us?"
+ },
+ {
+  "t": "Lycan – The Mind-Body Problem",
+  "s": "Lycan (2003), §2.4",
+  "q": "According to machine functionalism, the pain TYPE is identified with:",
+  "a": "An abstract functional role",
+  "w": [
+   "The firing of C-fibers",
+   "Wincing and groaning behavior",
+   "An immaterial sensation"
+  ],
+  "e": "Pain TOKENS are identical to particular neural states (token physicalism). The type is the role those states play."
+ },
+ {
+  "t": "Lycan – The Mind-Body Problem",
+  "s": "Lycan (2003), §2.4",
+  "q": "Unlike behaviorism and the identity theory, functionalism:",
+  "a": "Doesn't strictly entail that minds are physical",
+  "w": [
+   "Requires that minds be immaterial substances",
+   "Identifies minds directly with outward behavior",
+   "Denies that minds can be multiply realized"
+  ],
+  "e": "Non-physical minds could in principle realize the right program."
+ },
+ {
+  "t": "Lycan – The Mind-Body Problem",
+  "s": "Lycan (2003), §2.5",
+  "q": "In homuncular functionalism, a 'homunculus' is:",
+  "a": "A part defined by its function, broken into sub-parts",
+  "w": [
+   "A tiny person who literally lives inside the brain",
+   "An immaterial soul that controls the body",
+   "A single row in a Turing machine's table"
+  ],
+  "e": "A component identified by its function, itself broken down into sub-components until neurophysiology is reached. Like explaining a car by its carburetor, fuel line, etc. Systems are hierarchically organized (Fodor, Dennett, Cummins)."
+ },
+ {
+  "t": "Lycan – The Mind-Body Problem",
+  "s": "Lycan (2003), §2.5",
+  "q": "Why is machine functionalism's criterion of 'realization' (one-to-one correspondence) too liberal?",
+  "a": "Almost anything has motions that map onto a program",
+  "w": [
+   "Nothing could ever realize a program exactly",
+   "Only digital computers can realize programs",
+   "It requires a biological brain to realize anything"
+  ],
+  "e": "Almost any physical object has some molecular motions that map onto a given program. The proposed fix is a teleological requirement: the state must play its role FOR the organism, as its biological purpose."
+ },
+ {
+  "t": "Lycan – The Mind-Body Problem",
+  "s": "Lycan (2003), §2.5",
+  "q": "On the etiological account of biological function, a heart's function is to pump blood because:",
+  "a": "Hearts were selected for pumping blood",
+  "w": [
+   "A designer intended hearts to pump blood",
+   "Pumping blood is the only thing hearts can do",
+   "People generally believe that hearts pump blood"
+  ],
+  "e": "Hearts were selected for pumping blood in the past. A trait has function F because it was selected for doing F (Wright, Millikan)."
+ },
+ {
+  "t": "Lycan – The Mind-Body Problem",
+  "s": "Lycan (2003), §2.5",
+  "q": "Brentano distinguished psychological phenomena from physical objects on the grounds that psychological phenomena:",
+  "a": "Are directed at objects, even non-existent ones",
+  "w": [
+   "Have mass and take up space",
+   "Can be divided into smaller parts",
+   "Are always fully conscious to the subject"
+  ],
+  "e": "Are directed upon objects, even non-existent ones (intentionality). How could a physical state be 'about' King Arthur or Sherlock Holmes? Bricks aren't about anything."
+ },
+ {
+  "t": "Lycan – The Mind-Body Problem",
+  "s": "Lycan (2003), §2.6",
+  "q": "Nagel and Jackson's anti-materialist argument appeals to:",
+  "a": "Knowing what a sensation is like requires having it",
+  "w": [
+   "The law of conservation of energy in the brain",
+   "Multiple realizability of mental states",
+   "The results of the Turing Test for machines"
+  ],
+  "e": "A disparity in knowledge: you only know what a sensation is like by having it. No amount of third-person scientific information gives you 'what it is like'. Functionalists reply it's an ability, or a fallacy with Leibniz's Law."
+ },
+ {
+  "t": "Lycan – The Mind-Body Problem",
+  "s": "Lycan (2003), §2.6",
+  "q": "Kripke argued against identity theory using:",
+  "a": "Modal distinctions about necessary identity",
+  "w": [
+   "Evolutionary biology and natural selection",
+   "Behavioral experiments on animals and people",
+   "The theory of Turing machines and computation"
+  ],
+  "e": "Modal distinctions: mental items aren't NECESSARILY identical to neural ones, so they aren't identical at all. True identities are necessary. Since pain without C-fibers seems possible, pain ≠ C-fiber firing."
+ },
+ {
+  "t": "Lycan – The Mind-Body Problem",
+  "s": "Lycan (2003), §2.7",
+  "q": "Putnam's Twin Earth examples show that propositional attitude contents are:",
+  "a": "'Wide': not fixed by what's in the head",
+  "w": [
+   "'Narrow': fully fixed by brain state",
+   "Identical to a person's behavior",
+   "Non-existent, strictly speaking"
+  ],
+  "e": "'Wide': not determined by the total state of the subject's head. Molecule-for-molecule twins could differ in beliefs. That's a problem if functional roles are narrow."
+ },
+ {
+  "t": "Lycan – The Mind-Body Problem",
+  "s": "Lycan (2003), §2.9",
+  "q": "Dennett is an instrumentalist about beliefs and desires, meaning:",
+  "a": "Ascriptions predict well but don't describe inner causes",
+  "w": [
+   "Beliefs and desires don't exist and all ascriptions are false",
+   "Beliefs and desires are identical to particular brain states",
+   "Beliefs and desires are states of an immaterial mind"
+  ],
+  "e": "Belief/desire ascriptions are often true and predictive, but don't describe inner causal mechanisms. Like the 'average American homeowner' with 2.2 children. Ascribing a belief is like moving beads on an abacus."
+ },
+ {
+  "t": "Lycan – The Mind-Body Problem",
+  "s": "Lycan (2003), §2.9",
+  "q": "Davidson's anomalous monism differs from Dennett's instrumentalism in that it:",
+  "a": "It holds mental tokens are physical causes",
+  "w": [
+   "It denies that any mental states exist",
+   "It's a form of substance dualism",
+   "It identifies mental types with neural types"
+  ],
+  "e": "Endorses token physicalism and holds mental tokens are causes. It rejects type-reduction of the attitudes on epistemological grounds, but mental tokens are physical causes."
+ },
+ {
+  "t": "Lycan – The Mind-Body Problem",
+  "s": "Lycan (2003), §2.10",
+  "q": "Eliminativists, identity theorists and functionalists all agree that:",
+  "a": "Mental items, if anything, are real inner causes",
+  "w": [
+   "Folk psychology is true and needs no revision",
+   "Mental ascriptions are mere calculational devices",
+   "Dualism is correct about the nature of mind"
+  ],
+  "e": "Mental items, if anything, are real inner-causal states; they disagree on whether folk categories match them. They all scorn the instrumentalist's 'sleazy evasion'. Lycan calls the three views an 'eternal triangle'."
+ },
+ {
+  "t": "Lycan – The Mind-Body Problem",
+  "s": "Lycan (2003), §2.10",
+  "q": "Who was the first to openly argue that folk psychology's categories fail to capture anything real?",
+  "a": "Paul Feyerabend",
+  "w": [
+   "Paul Churchland",
+   "Richard Rorty",
+   "Gilbert Ryle"
+  ],
+  "e": "Feyerabend (1963) attracted little following. Churchland (1981) later resurrected eliminativism."
+ },
+ {
+  "t": "Lycan – The Mind-Body Problem",
+  "s": "Lycan (2003), §2.10",
+  "q": "Paul Churchland's main argument for eliminativism is from:",
+  "a": "Folk psychology's poverty, like alchemy's",
+  "w": [
+   "Searle's Chinese Room thought experiment",
+   "Locke's inverted spectrum example",
+   "Conservation laws in physics"
+  ],
+  "e": "The poverty of folk psychology, compared to abandoned theories like alchemy. Bad theories get abandoned, and folk psychology has done as badly as alchemy did."
+ },
+ {
+  "t": "Lycan – The Mind-Body Problem",
+  "s": "Lycan (2003), §2.10",
+  "q": "One way to resist eliminativism (Ryle, Wittgenstein) is to deny that:",
+  "a": "Folk psychology is a theory at all",
+  "w": [
+   "The brain is the organ of the mind",
+   "Science can tell us about minds",
+   "Behavior can be publicly observed"
+  ],
+  "e": "Others (Kitcher; Horgan & Woodward) argue instead that it's not a failed or bad theory."
+ }
 ]
