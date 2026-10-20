@@ -195,6 +195,11 @@ const REVIEW_STEPS = [1, 3, 7, 16]; // days; clears after the last step
 function blank(){ return {days:{}, log:{}, review:{}, theme:null}; }
 function load(){ try { return Object.assign(blank(), JSON.parse(localStorage.getItem(STORE_KEY)) || {}); } catch(e){ return blank(); } }
 let state = load();
+// Questions that were reworded keep your review schedule and history under their new IDs
+(() => { const A = window.ID_ALIASES || {}; let changed = false;
+  for (const [o, n] of Object.entries(A)) if (state.review[o]) { if (!state.review[n]) state.review[n] = state.review[o]; delete state.review[o]; changed = true; }
+  for (const d of Object.values(state.days)) for (const k of Object.keys(d.q || {})) if (A[d.q[k]]) { d.q[k] = A[d.q[k]]; changed = true; }
+  if (changed) save(); })();
 function save(){ try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); } catch(e){} }
 
 // ---------- dates ----------
