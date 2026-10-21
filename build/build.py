@@ -171,9 +171,9 @@ def annotate(subj, q):
     if subj == "japanese":
         if q.get("k") == "kana":
             return
-        m = re.match(r"^(Genki II|Genki I|Quartet I) (?:L(\d+)|Greetings) – (.*)$", t)
+        m = re.match(r"^(Genki II|Genki I|Quartet I) (L\d+|Greetings|Grammar Check) – (.*)$", t)
         book, num, rest = m.groups()
-        q["g"], q["L"] = book, (f"{book} L{num}" if num else f"{book} Greetings")
+        q["g"], q["L"] = book, f"{book} {num}"
         if rest == "Kanji":
             q["k"], q["T"] = "kanji", "Kanji"
         elif rest == "Vocabulary":

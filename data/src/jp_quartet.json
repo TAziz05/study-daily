@@ -778,5 +778,461 @@
    "大きい声で話せることにします"
   ],
   "e": "ようにする = something you make an effort to do."
+ },
+ {
+  "t": "Quartet I Grammar Check – Written styles (です・ます/だ/である)",
+  "s": "Quartet I, 初級文法チェック",
+  "q": "Which style fits a written report? インターンシップをするためには、推薦状が＿＿。",
+  "a": "必要である",
+  "w": [
+   "必要です",
+   "必要だよ",
+   "必要なんです"
+  ],
+  "e": "Reports and theses use だ or である style. です・ます is for e-mails to teachers; だよ is casual, for friends."
+ },
+ {
+  "t": "Quartet I Grammar Check – Written styles (です・ます/だ/である)",
+  "s": "Quartet I, 初級文法チェック",
+  "q": "Which style fits an e-mail to your teacher?",
+  "a": "推薦状が必要です。",
+  "w": [
+   "推薦状が必要である。",
+   "推薦状が必要だよ。",
+   "推薦状が必要だ。"
+  ],
+  "e": "です・ます style shows respect to the reader. It's used in letters and e-mails to someone superior."
+ },
+ {
+  "t": "Quartet I Grammar Check – Written styles (です・ます/だ/である)",
+  "s": "Quartet I, 初級文法チェック",
+  "q": "である style form of 学生ではない:",
+  "a": "学生ではない (unchanged)",
+  "w": [
+   "学生ではあらない",
+   "学生でないである",
+   "学生でありません"
+  ],
+  "e": "である style only replaces affirmative だ after nouns and な-adjectives (学生である, 学生であった). Negatives stay 学生ではない."
+ },
+ {
+  "t": "Quartet I Grammar Check – Written styles (です・ます/だ/である)",
+  "s": "Quartet I, 初級文法チェック",
+  "q": "である style form of できるだろう:",
+  "a": "できるであろう",
+  "w": [
+   "できるでしょう",
+   "できるだである",
+   "できるであるだろう"
+  ],
+  "e": "だろう → であろう in literary style. The polite version is できるでしょう."
+ },
+ {
+  "t": "Quartet I Grammar Check – Written styles (です・ます/だ/である)",
+  "s": "Quartet I, 初級文法チェック",
+  "q": "Which is TRUE about written styles?",
+  "a": "です・ます and だ style shouldn't be mixed",
+  "w": [
+   "だ style is less formal than です・ます in writing",
+   "である is used in every written sentence",
+   "Blogs must use だ style only"
+  ],
+  "e": "Keep one style throughout. In writing, だ style is considered more formal than です・ます; である is only for emphasis."
+ },
+ {
+  "t": "Quartet I Grammar Check – Written styles (です・ます/だ/である)",
+  "s": "Quartet I, 初級文法チェック",
+  "q": "Written だ style version of 食べちゃった:",
+  "a": "食べてしまった",
+  "w": [
+   "食べちゃったのだ",
+   "食べてしまいました",
+   "食べてた"
+  ],
+  "e": "Contractions like ～ちゃう, ～とく, ～てる are spoken. In writing: ～てしまう, ～ておく, ～ている."
+ },
+ {
+  "t": "Quartet I Grammar Check – Written styles (です・ます/だ/である)",
+  "s": "Quartet I, 初級文法チェック",
+  "q": "Written だ style version of しなきゃいけない:",
+  "a": "しなければいけない",
+  "w": [
+   "しなくちゃいけない",
+   "しないといけないよ",
+   "しなけりゃいけない"
+  ],
+  "e": "しなくちゃ/しなきゃ are spoken contractions. Write しなければいけない or しなくてはいけない."
+ },
+ {
+  "t": "Quartet I Grammar Check – Written styles (です・ます/だ/である)",
+  "s": "Quartet I, 初級文法チェック",
+  "q": "Written version of このパソコンはいいけど、高い。",
+  "a": "このパソコンはいいが、高い。",
+  "w": [
+   "このパソコンはいいでも、高い。",
+   "このパソコンはいいけれど、高いよ。",
+   "このパソコンはいいので、高い。"
+  ],
+  "e": "In writing, けど → が and でも → しかし."
+ },
+ {
+  "t": "Quartet I Grammar Check – Written styles (です・ます/だ/である)",
+  "s": "Quartet I, 初級文法チェック",
+  "q": "Written version of 京都の桜はきれいだって聞いた。",
+  "a": "京都の桜はきれいだと聞いた。",
+  "w": [
+   "京都の桜はきれいって聞いた。",
+   "京都の桜はきれいだそうって聞いた。",
+   "京都の桜はきれいなと聞いた。"
+  ],
+  "e": "って is spoken; write と. Likewise すごく/とっても → 大変/とても."
+ },
+ {
+  "t": "Quartet I Grammar Check – Written styles (です・ます/だ/である)",
+  "s": "Quartet I, 初級文法チェック",
+  "q": "Written だ style version of 来てください:",
+  "a": "来てほしい",
+  "w": [
+   "来てくださいだ",
+   "来なさいである",
+   "来てくれ"
+  ],
+  "e": "Requests in written だ style: 来てほしい or 来てもらいたい."
+ },
+ {
+  "t": "Quartet I Grammar Check – そうだ/らしい/ようだ/みたいだ",
+  "s": "Quartet I, 初級文法チェック",
+  "q": "A is laughing while reading. B: その本、＿＿そうだね。",
+  "a": "おもしろ",
+  "w": [
+   "おもしろい",
+   "おもしろく",
+   "おもしろな"
+  ],
+  "e": "Conjecture from appearance: い-adjective minus い + そうだ (おもしろそう). おもしろいそうだ would be hearsay."
+ },
+ {
+  "t": "Quartet I Grammar Check – そうだ/らしい/ようだ/みたいだ",
+  "s": "Quartet I, 初級文法チェック",
+  "q": "ニュースによると、沖縄に台風が近づいている＿＿ですよ。",
+  "a": "そう",
+  "w": [
+   "よう",
+   "らしく",
+   "みたいな"
+  ],
+  "e": "Hearsay from a direct source (the news): plain form + そうだ."
+ },
+ {
+  "t": "Quartet I Grammar Check – そうだ/らしい/ようだ/みたいだ",
+  "s": "Quartet I, 初級文法チェック",
+  "q": "Tanaka's brother is short with long hair, so from behind he looks like a woman. 女の人＿＿です。",
+  "a": "のよう",
+  "w": [
+   "そう",
+   "らしい",
+   "のそう"
+  ],
+  "e": "He isn't a woman, so it's a simile: Nのようだ. Nらしい would mean he IS one and typical of it."
+ },
+ {
+  "t": "Quartet I Grammar Check – そうだ/らしい/ようだ/みたいだ",
+  "s": "Quartet I, 初級文法チェック",
+  "q": "My sister has long hair and is very feminine. 女＿＿です。",
+  "a": "らしい",
+  "w": [
+   "のよう",
+   "そう",
+   "みたい"
+  ],
+  "e": "She IS a woman with stereotypical qualities: Nらしい. Nのようだ is for something that isn't N."
+ },
+ {
+  "t": "Quartet I Grammar Check – そうだ/らしい/ようだ/みたいだ",
+  "s": "Quartet I, 初級文法チェック",
+  "q": "Which sentence is WRONG?",
+  "a": "あの人はきれいそうだ。",
+  "w": [
+   "雨が降りそうだ。",
+   "この本、難しそう。",
+   "ワンさんはまじめそうです。"
+  ],
+  "e": "そうだ (appearance) can't be used for qualities obvious just by looking, like きれい or かわいい."
+ },
+ {
+  "t": "Quartet I Grammar Check – そうだ/らしい/ようだ/みたいだ",
+  "s": "Quartet I, 初級文法チェック",
+  "q": "Negative conjecture: 'Today's homework doesn't look hard.' 今日の宿題は＿＿そうだ。",
+  "a": "難しくなさ",
+  "w": [
+   "難しくない",
+   "難しなさ",
+   "難しくなく"
+  ],
+  "e": "～ない → ～なさ before そうだ: 難しくなさそうだ."
+ },
+ {
+  "t": "Quartet I Grammar Check – そうだ/らしい/ようだ/みたいだ",
+  "s": "Quartet I, 初級文法チェック",
+  "q": "A store's shutters are still closed at 11. 'It seems to be closed today.' 今日は休み＿＿。",
+  "a": "のようだ",
+  "w": [
+   "らしいだ",
+   "そうだ",
+   "ようだ"
+  ],
+  "e": "ようだ = conjecture from what you've observed. Nouns take の: 休みのようだ."
+ },
+ {
+  "t": "Quartet I Grammar Check – そうだ/らしい/ようだ/みたいだ",
+  "s": "Quartet I, 初級文法チェック",
+  "q": "'I like spicy food such as Thai food.' (giving an example) →",
+  "a": "タイ料理のような辛い料理",
+  "w": [
+   "タイ料理らしい辛い料理",
+   "タイ料理そうな辛い料理",
+   "タイ料理ような辛い料理"
+  ],
+  "e": "N1のようなN2 presents N1 as an example of N2."
+ },
+ {
+  "t": "Quartet I Grammar Check – そうだ/らしい/ようだ/みたいだ",
+  "s": "Quartet I, 初級文法チェック",
+  "q": "Tanaka is 50 but cries a lot. 田中さんは子ども＿＿よく泣く。",
+  "a": "のように",
+  "w": [
+   "らしく",
+   "のような",
+   "そうに"
+  ],
+  "e": "He isn't a child, so it's a simile. Before a verb: のように. (For a real 3-year-old, you'd use 子どもらしい.)"
+ },
+ {
+  "t": "Quartet I Grammar Check – そうだ/らしい/ようだ/みたいだ",
+  "s": "Quartet I, 初級文法チェック",
+  "q": "Friends tell you a cake shop is good, and you conclude: 'It seems tasty.' →",
+  "a": "おいしいらしい",
+  "w": [
+   "おいしそうだ",
+   "おいしいようだ",
+   "おいしいのようだ"
+  ],
+  "e": "Conjecture from what you heard = らしい. Seeing a long line yourself = おいしいようだ/みたいだ. Looking at the cake = おいしそうだ."
+ },
+ {
+  "t": "Quartet I Grammar Check – そうだ/らしい/ようだ/みたいだ",
+  "s": "Quartet I, 初級文法チェック",
+  "q": "Colloquial version of ジョージはモデルのようにかっこいい:",
+  "a": "ジョージはモデルみたいにかっこいい。",
+  "w": [
+   "ジョージはモデルのみたいにかっこいい。",
+   "ジョージはモデルらしくかっこいい。",
+   "ジョージはモデルそうにかっこいい。"
+  ],
+  "e": "みたいだ is the colloquial ようだ, and it doesn't take の after nouns."
+ },
+ {
+  "t": "Quartet I Grammar Check – そうだ/らしい/ようだ/みたいだ",
+  "s": "Quartet I, 初級文法チェック",
+  "q": "Which can ONLY be used at the end of a sentence?",
+  "a": "Hearsay そうだ",
+  "w": [
+   "Appearance そうだ (～そうなN)",
+   "Stereotypical らしい (～らしいN)",
+   "Example ようだ (～のようなN)"
+  ],
+  "e": "Hearsay そうだ, hearsay-based らしい and conjecture ようだ only appear at sentence end. The other uses can modify nouns."
+ },
+ {
+  "t": "Quartet I Grammar Check – Keigo (honorific & humble)",
+  "s": "Quartet I, 初級文法チェック",
+  "q": "部下: 部長、今朝のニュースを＿＿ましたか。",
+  "a": "ご覧になり",
+  "w": [
+   "拝見し",
+   "ご覧し",
+   "お見になり"
+  ],
+  "e": "The boss is doing the seeing, so use honorific ご覧になる. 拝見する is humble, for your own actions."
+ },
+ {
+  "t": "Quartet I Grammar Check – Keigo (honorific & humble)",
+  "s": "Quartet I, 初級文法チェック",
+  "q": "社員A (to a coworker): 社長が今日何時に＿＿か知ってる？",
+  "a": "いらっしゃる",
+  "w": [
+   "参る",
+   "伺う",
+   "おる"
+  ],
+  "e": "The president is coming, so use honorific いらっしゃる. 参る is humble."
+ },
+ {
+  "t": "Quartet I Grammar Check – Keigo (honorific & humble)",
+  "s": "Quartet I, 初級文法チェック",
+  "q": "Which honorific form is WRONG?",
+  "a": "お話しになられる",
+  "w": [
+   "お話しになる",
+   "話される",
+   "おっしゃる"
+  ],
+  "e": "Don't combine two honorific patterns (お～になる + られる) in one verb."
+ },
+ {
+  "t": "Quartet I Grammar Check – Keigo (honorific & humble)",
+  "s": "Quartet I, 初級文法チェック",
+  "q": "Honorific of 使用した:",
+  "a": "ご使用になった",
+  "w": [
+   "お使用になった",
+   "ご使用した",
+   "ご使用された"
+  ],
+  "e": "Sino-Japanese (kango) verbs use ご～になる; native verbs use お～になる."
+ },
+ {
+  "t": "Quartet I Grammar Check – Keigo (honorific & humble)",
+  "s": "Quartet I, 初級文法チェック",
+  "q": "Honorific of 待ってください:",
+  "a": "お待ちください",
+  "w": [
+   "お待ってください",
+   "お待ちになってくれ",
+   "待たれてください"
+  ],
+  "e": "お + stem + ください is the honorific form of ～てください."
+ },
+ {
+  "t": "Quartet I Grammar Check – Keigo (honorific & humble)",
+  "s": "Quartet I, 初級文法チェック",
+  "q": "Honorific of 急いでいますか:",
+  "a": "お急ぎですか",
+  "w": [
+   "お急ぎますか",
+   "ご急ぎですか",
+   "お急ぎになりますか"
+  ],
+  "e": "お + stem + ですか is an honorific way to say ～ていますか."
+ },
+ {
+  "t": "Quartet I Grammar Check – Keigo (honorific & humble)",
+  "s": "Quartet I, 初級文法チェック",
+  "q": "Honorific equivalent of だれ:",
+  "a": "どなた",
+  "w": [
+   "どちら",
+   "どの方々",
+   "おだれ"
+  ],
+  "e": "Others: 人 → 方, 家 → お宅, どう → いかが, あれ → あちら."
+ },
+ {
+  "t": "Quartet I Grammar Check – Keigo (honorific & humble)",
+  "s": "Quartet I, 初級文法チェック",
+  "q": "'After class I went to my teacher's office.' (humble) →",
+  "a": "先生のオフィスに伺いました。",
+  "w": [
+   "先生のオフィスにいらっしゃいました。",
+   "先生のオフィスに参られました。",
+   "先生のオフィスにお行きしました。"
+  ],
+  "e": "Your action affects the teacher: humble Type I, 伺う."
+ },
+ {
+  "t": "Quartet I Grammar Check – Keigo (honorific & humble)",
+  "s": "Quartet I, 初級文法チェック",
+  "q": "Humble of 案内しました (to your teacher):",
+  "a": "ご案内しました",
+  "w": [
+   "お案内しました",
+   "ご案内になりました",
+   "案内されました"
+  ],
+  "e": "Humble Type I: お + stem + する for native verbs, ご + kango + する for Sino-Japanese verbs."
+ },
+ {
+  "t": "Quartet I Grammar Check – Keigo (honorific & humble)",
+  "s": "Quartet I, 初級文法チェック",
+  "q": "Self-introduction: 'I'm called Yu. I came from China.' →",
+  "a": "ユと申します。中国から参りました。",
+  "w": [
+   "ユとおっしゃいます。中国からいらっしゃいました。",
+   "ユと申し上げます。中国から伺いました。",
+   "ユと言います。中国から参られました。"
+  ],
+  "e": "Humble Type II (丁重語) shows respect to the listener: 申す, 参る, おる, いたす, ござる. Always with です・ます."
+ },
+ {
+  "t": "Quartet I Grammar Check – Keigo (honorific & humble)",
+  "s": "Quartet I, 初級文法チェック",
+  "q": "On the phone with another company: 'Is Manager Kawamura in?' You (same company as Kawamura):",
+  "a": "川村はただいま、外出しております。",
+  "w": [
+   "川村部長はただいま、外出していらっしゃいます。",
+   "川村部長はただいま、外出されています。",
+   "川村さんはただいま、外出なさっています。"
+  ],
+  "e": "To an out-group, use humble forms for your in-group, and drop titles like 部長 and さん."
+ },
+ {
+  "t": "Quartet I Grammar Check – Keigo (honorific & humble)",
+  "s": "Quartet I, 初級文法チェック",
+  "q": "Inside your company, a coworker asks: 川村部長はいらっしゃいますか。You reply:",
+  "a": "今日はいらっしゃいませんよ。",
+  "w": [
+   "今日はおりませんよ。",
+   "今日は参りませんよ。",
+   "川村は今日おりませんよ。"
+  ],
+  "e": "Talking within your in-group, use honorifics for a higher-status member."
+ },
+ {
+  "t": "Quartet I Grammar Check – Keigo (honorific & humble)",
+  "s": "Quartet I, 初級文法チェック",
+  "q": "Humble form of もらう:",
+  "a": "いただく",
+  "w": [
+   "くださる",
+   "さしあげる",
+   "おもらいする"
+  ],
+  "e": "あげる → さしあげる, もらう → いただく (humble). くれる → くださる (honorific)."
+ },
+ {
+  "t": "Quartet I Grammar Check – Keigo (honorific & humble)",
+  "s": "Quartet I, 初級文法チェック",
+  "q": "Honorific form of 知っている:",
+  "a": "ご存じだ",
+  "w": [
+   "存じている",
+   "お知りになる",
+   "知っていらっしゃる"
+  ],
+  "e": "知っている → ご存じだ. Other specials: 寝る → お休みになる, 食べる/飲む → めしあがる, 言う → おっしゃる."
+ },
+ {
+  "t": "Quartet I Grammar Check – Keigo (honorific & humble)",
+  "s": "Quartet I, 初級文法チェック",
+  "q": "Humble form of 会う (to someone of higher status):",
+  "a": "お目にかかる",
+  "w": [
+   "お会いになる",
+   "ご覧になる",
+   "お目にかかられる"
+  ],
+  "e": "会う → お目にかかる (お会いする is also fine). 見る → 拝見する."
+ },
+ {
+  "t": "Quartet I Grammar Check – Keigo (honorific & humble)",
+  "s": "Quartet I, 初級文法チェック",
+  "q": "At a restaurant: 'Here is the menu.' →",
+  "a": "メニューでございます。",
+  "w": [
+   "メニューでいらっしゃいます。",
+   "メニューであります。",
+   "メニューでおります。"
+  ],
+  "e": "N だ → N でございます (Humble Type II)."
  }
 ]
