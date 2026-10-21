@@ -133,9 +133,9 @@ def vocab_questions():
                 continue
             lesson, word, reading, meaning = line.split("|")
             reading = reading or word
-            if (word, reading) in seen:      # first lesson that introduces a word keeps it
+            if (lesson[:2], word, reading) in seen:      # first lesson in a book that introduces a word keeps it
                 continue
-            seen.add((word, reading))
+            seen.add((lesson[:2], word, reading))
             book, num = BOOKS[lesson[:2]], lesson.split("L")[1]
             rows.append(dict(book=book, num=num, word=word, reading=reading, meaning=meaning,
                              verb=(meaning.startswith("to ") and not meaning.startswith("to (")) or "(honorific)" in meaning or "(humble)" in meaning or "(extra-modest)" in meaning))
@@ -238,8 +238,10 @@ def main():
         for q in qs:
             assert q["a"] not in q["w"] and len(set(q["w"])) == 3, q
             q["id"] = qid(q)
+            if q["id"] in ids and "Vocabulary" in q["t"] and q["t"].startswith("Quartet"):
+                q["id"] = hashlib.sha1((q["q"] + "|" + q["a"] + "|" + q["t"]).encode("utf-8")).hexdigest()[:10]
             if q["id"] in ids:
-                assert q.get("k") in ("vocab", "kana"), q
+                assert q.get("k") in ("vocab", "kana") or "Vocabulary" in q["t"], q
                 continue
             ids.add(q["id"])
             annotate(subj, q)

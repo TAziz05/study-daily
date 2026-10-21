@@ -1,0 +1,624 @@
+# lesson|word|reading|meaning — Quartet I vocabulary list (official 単語リスト, all lessons)
+Q1L1|監督|かんとく|director
+Q1L1|宮﨑駿|みやざきはやお|Hayao Miyazaki
+Q1L1|やはり||undoubtedly; after all
+Q1L1|千と千尋の神隠し|せんとちひろのかみかくし|Spirited Away [movie title]
+Q1L1|作品|さくひん|a work
+Q1L1|特に|とくに|especially
+Q1L1|アカデミー賞|あかでみーしょう|Academy Award
+Q1L1|取る|とる|to win (a prize); to take
+Q1L1|興味|きょうみ|interest
+Q1L1|もののけ姫|もののけひめ|Princess Mononoke [movie title]
+Q1L1|となりのトトロ|となりのととろ|My Neighbor Totoro [movie title]
+Q1L1|ストーリー||story
+Q1L1|環境|かんきょう|environment
+Q1L1|大人|おとな|adult
+Q1L1|髪|かみ|hair
+Q1L1|ひげ||beard
+Q1L1|ふち||frame (of glasses)
+Q1L1|笑顔|えがお|smile
+Q1L1|優しい|やさしい|gentle; kind
+Q1L1|厳しい|きびしい|strict
+Q1L1|例えば|たとえば|for example
+Q1L1|描く|かく|to draw
+Q1L1|絵|え|picture; drawing; painting
+Q1L1|直す|なおす|to fix
+Q1L1|ゴム||rubber
+Q1L1|かたい||hard; firm
+Q1L1|やわらかい||soft
+Q1L1|また||also; in addition
+Q1L1|たった||only; merely
+Q1L1|秒|びょう|second
+Q1L1|シーン||scene
+Q1L1|かける||to spend (time)
+Q1L1|はずかしい||embarrassing; embarrassed
+Q1L1|晩|ばん|evening; night
+Q1L1|ほとんど～ない||rarely; hardly
+Q1L1|晩ご飯|ばんごはん|dinner
+Q1L1|趣味|しゅみ|hobby
+Q1L1|若い|わかい|young
+Q1L1|美しい|うつくしい|beautiful
+Q1L1|芸術的な|げいじゅつてきな|artistic
+Q1L1|すばらしい||great; wonderful
+Q1L1|いつまでも||forever
+Q1L1|世界中で|せかいじゅうで|around the world
+Q1L1|愛する|あいする|to love
+Q1L1|紹介 する|しょうかい する|to introduce
+Q1L1|～生まれ|～うまれ|born in ~
+Q1L1|得意な|とくいな|good at
+Q1L1|きっかけ||start; impetus
+Q1L1|作家|さっか|writer
+Q1L1|就職 する|しゅうしょく する|to get employed
+Q1L1|発表 する|はっぴょう する|to release
+Q1L1|ベルリン||Berlin
+Q1L1|国際|こくさい|international
+Q1L1|映画祭|えいがさい|film festival
+Q1L1|出品 する|しゅっぴん する|to submit (one's work to ~)
+Q1L1|アカデミー名誉賞|あかでみーめいよしょう|Academy Honorary Award
+Q1L1|受賞 する|じゅしょう する|to receive an award
+Q1L1|ノーベル賞|のーべるしょう|Nobel Prize
+Q1L1|研究者|けんきゅうしゃ|researcher
+Q1L1|山中伸弥|やまなかしんや|Shinya Yamanaka
+Q1L1|教授|きょうじゅ|professor
+Q1L1|iPS 細胞|あいぴーえすさいぼう|iPS cells
+Q1L1|言葉|ことば|word; language
+Q1L1|部分|ぶぶん|part
+Q1L1|将来|しょうらい|future
+Q1L1|難しい|むずかしい|difficult
+Q1L1|助ける|たすける|to save; to help
+Q1L1|夢|ゆめ|dream
+Q1L1|出身|しゅっしん|one's hometown
+Q1L1|大阪|おおさか|Osaka
+Q1L1|学生時代|がくせいじだい|school days
+Q1L1|柔道|じゅうどう|judo
+Q1L1|ラグビー||rugby
+Q1L1|けが||injury
+Q1L1|決心する|けっしんする|to make up one's mind; to determine
+Q1L1|働き始める|はたらきはじめる|to start working
+Q1L1|なおす||to cure; to heal
+Q1L1|方法|ほうほう|method; means; way
+Q1L1|苦しむ|くるしむ|to suffer
+Q1L1|ショック||shock
+Q1L1|受ける|うける|to get; to receive
+Q1L1|理由|りゆう|reason
+Q1L1|性格|せいかく|personality; character
+Q1L1|講演|こうえん|lecture; speech
+Q1L1|必ず|かならず|certainly; always
+Q1L1|手術|しゅじゅつ|surgery
+Q1L1|友人|ゆうじん|friend
+Q1L1|～ほど||about ~
+Q1L1|簡単な|かんたんな|easy; simple
+Q1L1|苦手な|にがてな|poor at
+Q1L1|すまん||sorry（＝すみません）
+Q1L1|あやまる||to apologize
+Q1L1|不安な|ふあんな|nervous; anxious
+Q1L1|人生|じんせい|life
+Q1L1|目標|もくひょう|goal; objective
+Q1L1|技術|ぎじゅつ|technology
+Q1L1|ベッドサイド||bedside
+Q1L1|届ける|とどける|to deliver (something) to
+Q1L1|患者|かんじゃ|patient
+Q1L1|救う|すくう|to save; to cure
+Q1L1|結果を出す|けっかをだす|to achieve results
+Q1L1|つまり||in other words
+Q1L1|決める|きめる|to set; to decide
+Q1L1|必要な|ひつような|necessary
+Q1L1|成功する|せいこうする|to succeed
+Q1L1|決して～ない|けっして～ない|never; definitely not
+Q1L1|尊敬する|そんけいする|to respect
+Q1L2|鈴木|すずき|Suzuki [surname]
+Q1L2|宛先|あてさき|address
+Q1L2|件名|けんめい|subject
+Q1L2|推薦状|すいせんじょう|recommendation letter
+Q1L2|お願いする|おねがいする|to request; to ask a favor
+Q1L2|冷たい|つめたい|cold (thing/people)
+Q1L2|吹く|ふく|to blow
+Q1L2|寒い|さむい|cold (weather)
+Q1L2|降る|ふる|to fall; to come down
+Q1L2|やっと||at last; finally
+Q1L2|慣れる|なれる|to get used to
+Q1L2|楽しむ|たのしむ|to enjoy
+Q1L2|おせち料理|おせちりょうり|traditional Japanese New Year dishes
+Q1L2|和食|わしょく|Japanese food
+Q1L2|さて||now then
+Q1L2|実は|じつは|actually
+Q1L2|～市～|し~|City
+Q1L2|インターンシップ||internship
+Q1L2|プログラム||program
+Q1L2|交流する|こうりゅうする|to exchange; to interact
+Q1L2|～課|～か|division; department; section
+Q1L2|手伝う|てつだう|to help; to assist
+Q1L2|コミュニティーセンター||community center
+Q1L2|異文化|いぶんか|different culture
+Q1L2|イベント||event
+Q1L2|行う|おこなう|to do; to conduct
+Q1L2|きっと||surely; certainly
+Q1L2|役に立つ|やくにたつ|to be useful
+Q1L2|申し込む|もうしこむ|to apply for
+Q1L2|お忙しいところ|おいそがしいところ|while you are busy
+Q1L2|急な|きゅうな|sudden; urgent
+Q1L2|締め切り|しめきり|deadline
+Q1L2|～カ月|～かげつ|~ month(s)
+Q1L2|上旬|じょうじゅん|early in the month
+Q1L2|突然の|とつぜんの|sudden
+Q1L2|申し訳ない|もうしわけない|sorry
+Q1L2|返事|へんじ|reply
+Q1L2|季節|きせつ|season
+Q1L2|気をつける|きをつける|to take care; to be careful
+Q1L2|お礼|おれい|gratitude
+Q1L2|拝啓|はいけい|Dear Sir/Madam [a letter salutation]
+Q1L2|桜|さくら|cherry blossoms
+Q1L2|緑|みどり|greenery; verdure
+Q1L2|そろそろ||soon; nearly
+Q1L2|暑い|あつい|hot (weather)
+Q1L2|頃|ころ|when; the time
+Q1L2|いかが||how
+Q1L2|過ごす|すごす|to spend one's time
+Q1L2|サマーコース||summer course
+Q1L2|先日|せんじつ|the other day
+Q1L2|無事に|ぶじに|without any problems; peacefully
+Q1L2|すべて||all
+Q1L2|その節|そのせつ|at that time; on that occasion
+Q1L2|短い|みじかい|short
+Q1L2|期間|きかん|a period of time
+Q1L2|教科書|きょうかしょ|textbook
+Q1L2|学ぶ|まなぶ|to learn; to study
+Q1L2|準備する|じゅんびする|to prepare
+Q1L2|異なる|ことなる|to differ年代ねんだいage; generation
+Q1L2|知り合う|しりあう|to get to know
+Q1L2|理解する|りかいする|to understand
+Q1L2|深まる|ふかまる|to deepen
+Q1L2|発見する|はっけんする|to discover
+Q1L2|公園|こうえん|park
+Q1L2|お花見|おはなみ|cherry-blossom viewing
+Q1L2|気がつく|きがつく|to notice
+Q1L2|集まる|あつまる|to gather
+Q1L2|お弁当|おべんとう|bento; Japanese box lunch
+Q1L2|お酒|おさけ|liquor; sake
+Q1L2|居酒屋|いざかや|Japanese-style pub
+Q1L2|ボランティア||volunteer
+Q1L2|別の|べつの|another
+Q1L2|活動|かつどう|activity
+Q1L2|友達|ともだち|friend
+Q1L2|誘う|さそう|to invite (someone) to
+Q1L2|習慣|しゅうかん|custom
+Q1L2|機会|きかい|chance; opportunity
+Q1L2|つまらないものですが||It's nothing, but
+Q1L2|気に入る|きにいる|to like; to be pleased with
+Q1L2|では||well then
+Q1L2|大切にする|たいせつにする|to take care of; to treasure
+Q1L2|佐藤|さとう|Sato [surname]
+Q1L2|伝える|つたえる|to convey (a message) to ~
+Q1L2|敬具|けいぐ|sincerely yours [a closing greeting in letters]
+Q1L3|富士山|ふじさん|Mt. Fuji
+Q1L3|登山する|とざんする|to climb a mountain
+Q1L3|ガイド||guide
+Q1L3|訪れる|おとずれる|to visit (a place)
+Q1L3|山梨県|やまなしけん|Yamanashi Prefecture
+Q1L3|静岡県|しずおかけん|Shizuoka Prefecture
+Q1L3|～県|～けん|~ Prefecture
+Q1L3|県境|けんざかい|prefectural border
+Q1L3|特別な|とくべつな|special
+Q1L3|象徴|しょうちょう|symbol
+Q1L3|札|さつ|bill; note
+Q1L3|描く|えがく|to draw
+Q1L3|世界文化遺産|せかいぶんかいさん|World's Cultural Heritage (site)
+Q1L3|登録する|とうろくする|to register
+Q1L3|登山客|とざんきゃく|mountain climber
+Q1L3|役立つ|やくだつ|to be useful
+Q1L3|情報|じょうほう|information
+Q1L3|ルート||route
+Q1L3|登る|のぼる|to climb
+Q1L3|一般的な|いっぱんてきな|general
+Q1L3|約|やく|about; approximately
+Q1L3|山小屋|やまごや|mountain lodge
+Q1L3|距離|きょり|distance
+Q1L3|難しさ|むずかしさ|difficulty
+Q1L3|合う|あう|to match; to be suitable
+Q1L3|選ぶ|えらぶ|to choose
+Q1L3|計画|けいかく|plan
+Q1L3|最も|もっとも|most
+Q1L3|吉田ルート|よしだるーと|Yoshida Trail
+Q1L3|山頂|さんちょう|summit
+Q1L3|泊まる|とまる|to stay
+Q1L3|日の出|ひので|sunrise
+Q1L3|下山する|げざんする|to go down a mountain
+Q1L3|ご来光|ごらいこう|rising sun
+Q1L3|一生|いっしょう|whole life; lifetime
+Q1L3|ツアー||tour
+Q1L3|参加する|さんかする|to participate; to join
+Q1L3|安心な|あんしんな|relieving; reassuring
+Q1L3|予約する|よやくする|to make a reservation
+Q1L3|服装|ふくそう|clothes
+Q1L3|計画を立てる|けいかくをたてる|to make a plan
+Q1L3|限る|かぎる|to limit（ See 文型・表現 8「～とは限らない」）
+Q1L3|0度|れいど|zero degrees
+Q1L3|～以下|～いか|~ or less
+Q1L3|ダウンジャケット||down jacket
+Q1L3|丈夫な|じょうぶな|sturdy; tough
+Q1L3|登山靴|とざんぐつ|hiking boots
+Q1L3|岩|いわ|rock
+Q1L3|安全|あんぜん|safety
+Q1L3|用意する|よういする|to prepare; to arrange
+Q1L3|点|てん|point
+Q1L3|その他に|そのほかに|other than that; in addition
+Q1L3|ゴミ箱|ごみばこ|trash can
+Q1L3|持ち帰る|もちかえる|to bring back
+Q1L3|汚す|よごす|to make something dirty
+Q1L3|守る|まもる|to follow (rules)
+Q1L3|味わう|あじわう|to taste; to enjoy
+Q1L3|感じる|かんじる|to feel
+Q1L3|値段|ねだん|price
+Q1L3|仲よくなる|なかよくなる|to make friends with
+Q1L3|チェーン||chain
+Q1L3|数|かず|number
+Q1L3|会社帰り|かいしゃがえり|one's way home from work
+Q1L3|サラリーマン||salaried employee
+Q1L3|主婦|しゅふ|housewife; homemaker
+Q1L3|家族連れ|かぞくづれ|family
+Q1L3|様々な|さまざまな|various
+Q1L3|求める|もとめる|to seek; to want
+Q1L3|特徴|とくちょう|characteristic
+Q1L3|魅力|みりょく|appeal; charm
+Q1L3|種類|しゅるい|kinds
+Q1L3|席|せき|seat
+Q1L3|席に着く|せきにつく|to have a seat
+Q1L3|普通の|ふつうの|normal; ordinary
+Q1L3|飲食店|いんしょくてん|restaurant
+Q1L3|変わらない|かわらない|to be no different
+Q1L3|えだ豆|えだまめ|edamame; boiled young soybeans
+Q1L3|から揚げ|からあげ|fried chicken
+Q1L3|おつまみ||snacks to go with alcohol
+Q1L3|呼ぶ|よぶ|to call; to refer to ~ as
+Q1L3|日本酒|にほんしゅ|Japanese rice wine; sake
+Q1L3|チューハイ||shochu-based highball
+Q1L3|注文する|ちゅうもんする|to order
+Q1L3|ソフトドリンク||non-alcoholic drinks
+Q1L3|安さ|やすさ|cheapness
+Q1L3|気にする|きにする|to mind; to worry
+Q1L3|さらに||additionally
+Q1L3|量|りょう|quantity
+Q1L3|飲み放題|のみほうだい|all you can drink
+Q1L3|覚える|おぼえる|to remember; to memorize
+Q1L3|決まった|きまった|fixed
+Q1L3|金額|きんがく|amount of money; price
+Q1L3|時間内|じかんない|within a time frame
+Q1L3|何+counter+ も|なん+counter+ も|many ~ of
+Q1L3|好きなだけ|すきなだけ|as much as one likes
+Q1L3|最大の|さいだいの|the greatest
+Q1L3|場|ば|place
+Q1L3|たいてい||generally; mostly
+Q1L3|個室|こしつ|private room
+Q1L3|サークル||circle
+Q1L3|飲み会|のみかい|drinking party
+Q1L3|打ち上げ|うちあげ|party celebrating the finish of a project, event, etc.
+Q1L3|年末|ねんまつ|end of the year
+Q1L3|忘年会|ぼうねんかい|year-end party
+Q1L3|年始|ねんし|beginning of the year
+Q1L3|新年会|しんねんかい|New Year party
+Q1L3|開く|ひらく|to hold (a party)
+Q1L3|集まり|あつまり|gathering
+Q1L3|わいわい||noisily
+Q1L3|疲れる|つかれる|to get tired; to get exhausted
+Q1L3|息抜き|いきぬき|breather; relaxation
+Q1L3|解消する|かいしょうする|to relieve (stress)
+Q1L3|親しい|したしい|close; intimate
+Q1L3|深める|ふかめる|to deepen
+Q1L3|足を運ぶ|あしをはこぶ|to go to; to visit
+Q1L3|独特な|どくとくな|unique; original; distinctive
+Q1L3|雰囲気|ふんいき|atmosphere
+Q1L4|座談会|ざだんかい|round-table talk
+Q1L4|語る|かたる|to talk
+Q1L4|現在|げんざい|currently; present time
+Q1L4|話し合う|はなしあう|to discuss; to talk about
+Q1L4|どんどん||rapidly; steadily
+Q1L4|うまい||skillful; good at
+Q1L4|自身|じしん|oneself
+Q1L4|～以来|～いらい|since ~
+Q1L4|日常生活|にちじょうせいかつ|daily life
+Q1L4|気軽に|きがるに|freely; readily
+Q1L4|僕|ぼく|I [used among men]
+Q1L4|言語|げんご|language
+Q1L4|重要な|じゅうような|important
+Q1L4|何よりも|なによりも|more than anything
+Q1L4|実際に|じっさいに|actually
+Q1L4|政治|せいじ|politics
+Q1L4|歴史|れきし|history
+Q1L4|広島|ひろしま|Hiroshima
+Q1L4|原爆ドーム|げんばくどーむ|Atomic Bomb Dome (Hiroshima Peace Memorial)
+Q1L4|意見|いけん|opinion
+Q1L4|積極的に|せっきょくてきに|actively
+Q1L4|行動する|こうどうする|to act; to move
+Q1L4|深く|ふかく|deeply
+Q1L4|実感する|じっかんする|to realize
+Q1L4|メリット||merit; advantage
+Q1L4|多様な|たような|various; diverse
+Q1L4|価値観|かちかん|values
+Q1L4|触れる|ふれる|to touch; to encounter
+Q1L4|寮|りょう|dormitory
+Q1L4|生活様式|せいかつようしき|lifestyle
+Q1L4|体験する|たいけんする|to experience
+Q1L4|通じて|つうじて|through; via
+Q1L4|自分自身|じぶんじしん|oneself
+Q1L4|経験を積む|けいけんをつむ|to gain experience
+Q1L4|視野を広げる|しやをひろげる|to broaden one's perspective
+Q1L4|以前|いぜん|past; previous time
+Q1L4|比べる|くらべる|to compare with/to
+Q1L4|自信がつく|じしんがつく|to gain confidence in
+Q1L4|授業料|じゅぎょうりょう|tuition
+Q1L4|生活費|せいかつひ|living expenses
+Q1L4|十分な|じゅうぶんな|enough; sufficient
+Q1L4|母語|ぼご|mother tongue
+Q1L4|非常に|ひじょうに|very; greatly; extremely
+Q1L4|残念な|ざんねんな|unfortunate; disappointing
+Q1L4|自然に|しぜんに|naturally; effortlessly
+Q1L4|正しい|ただしい|correct; true
+Q1L4|むだにする||to waste
+Q1L4|確かに|たしかに|certainly; indeed
+Q1L4|なかなか～ない||cannot easily ~
+Q1L4|ついていく||to keep up with
+Q1L4|成績|せいせき|grade; result
+Q1L4|時には|ときには|sometimes
+Q1L4|一緒に|いっしょに|together with
+Q1L4|時間を過ごす|じかんをすごす|to spend time
+Q1L4|遠い|とおい|far
+Q1L4|ホームシックになる|ほーむしっくになる|to get homesick
+Q1L4|済む|すむ|to finish; to end（See 文型・表現6「～ないで済む／～ずに済む」）
+Q1L4|遅れる|おくれる|to be late; to fall behind
+Q1L4|自由に|じゆうに|freely
+Q1L4|場合|ばあい|case; circumstance
+Q1L4|～先|～さき|one's destination
+Q1L4|単位|たんい|credit
+Q1L4|事前に|じぜんに|in advance
+Q1L4|時期|じき|time; period
+Q1L4|就職活動|しゅうしょくかつどう|job hunting
+Q1L4|重なる|かさなる|to overlap
+Q1L4|交換する|こうかんする|to exchange
+Q1L4|対象|たいしょう|target
+Q1L4|本格的に|ほんかくてきに|on a full scale; in full swing
+Q1L4|海外|かいがい|overseas
+Q1L4|企業|きぎょう|company
+Q1L4|在学する|ざいがくする|to be in school
+Q1L4|優先的に|ゆうせんてきに|preferentially
+Q1L4|採用する|さいようする|to hire; to employ
+Q1L4|集める|あつめる|to collect
+Q1L4|帰国する|きこくする|to return to one's country
+Q1L4|あこがれる||to long for
+Q1L4|練習する|れんしゅうする|to practice
+Q1L4|初日|しょにち|first day
+Q1L4|一日中|いちにちじゅう|all day
+Q1L4|おじぎ||bow
+Q1L4|かしこまりました||Certainly.
+Q1L4|あいさつ||greetings
+Q1L4|きちんと||neatly; accurately
+Q1L4|社員|しゃいん|employee of a company
+Q1L4|代表する|だいひょうする|to represent
+Q1L4|接する|せっする|to attend to
+Q1L4|どうりで||no wonder
+Q1L4|礼儀正しい|れいぎただしい|polite
+Q1L4|内容|ないよう|description; content
+Q1L4|ホール||hall
+Q1L4|出す|だす|to put out
+Q1L4|ホールに出す|ほーるにだす|to let someone serve customers
+Q1L4|楽な|らくな|easy
+Q1L4|苦労する|くろうする|to have trouble; to have a hard time
+Q1L4|様子|ようす|condition
+Q1L4|対応する|たいおうする|to serve; to respond
+Q1L4|頼む|たのむ|to ask; to request
+Q1L4|残る|のこる|to remain; to be left
+Q1L4|片づけ|かたづけ|cleaning up
+Q1L4|決まり|きまり|agreement; rule
+Q1L4|一流の|いちりゅうの|first-class; top-ranking
+Q1L4|勤勉さ|きんべんさ|diligence
+Q1L4|熱心に|ねっしんに|enthusiastically
+Q1L4|驚く|おどろく|to get surprised
+Q1L4|暇な|ひまな|not busy
+Q1L4|おしゃべり||chatter
+Q1L4|教育する|きょういくする|to educate; to train (employee)
+Q1L4|プロ意識|ぷろいしき|professionalism
+Q1L4|意識する|いしきする|to be concious of; to be aware of
+Q1L4|～を通して|～をとおして|through ~
+Q1L4|一面|いちめん|one side; an aspect
+Q1L4|期待する|きたいする|to expect
+Q1L4|有意義な|ゆういぎな|significant; meaningful
+Q1L5|回転ずし|かいてんずし|sushi-go-round
+Q1L5|入門|にゅうもん|introduction
+Q1L5|高級な|こうきゅうな|expensive; high-class
+Q1L5|変える|かえる|to change (something)
+Q1L5|ネタ||ingredient (for sushi)
+Q1L5|新鮮な|しんせんな|fresh
+Q1L5|看板|かんばん|signboard
+Q1L5|つい||unintentionally; automatically
+Q1L5|回る|まわる|to turn around; to go around
+Q1L5|ベルトコンベア||belt conveyor
+Q1L5|目に入る|めにはいる|to come into view
+Q1L5|次々と|つぎつぎと|continuously; one after another
+Q1L5|豊富な|ほうふな|abundant
+Q1L5|～限定|～げんてい|limited; ~ only
+Q1L5|洋風|ようふう|Western style
+Q1L5|変わった|かわった|different; unusual
+Q1L5|～以外|～いがい|except ~
+Q1L5|サイドメニュー||side menu
+Q1L5|増える|ふえる|to increase
+Q1L5|通常|つうじょう|usually; normally
+Q1L5|～ごとに||every ~
+Q1L5|時間帯|じかんたい|period of time (in a day)
+Q1L5|行列|ぎょうれつ|line; queue
+Q1L5|置く|おく|to put
+Q1L5|人数|にんずう|number of people
+Q1L5|タッチパネル||touchscreen
+Q1L5|入力する|にゅうりょくする|to enter
+Q1L5|カウンター席|かうんたーせき|counter seat
+Q1L5|ボックス席|ぼっくすせき|booth
+Q1L5|空く|あく|to become available; to become vacant
+Q1L5|順番に|じゅんばんに|in order
+Q1L5|呼ぶ|よぶ|to call (someone's name); to summon
+Q1L5|湯のみ|ゆのみ|Japanese teacup
+Q1L5|粉末|ふんまつ|powder
+Q1L5|ティーバッグ||tea bag
+Q1L5|付く|つく|to be attached to; to be connected to
+Q1L5|ノズル||nozzle; faucet
+Q1L5|お湯|おゆ|hot water
+Q1L5|注ぐ|そそぐ|to pour; to fill one's cup
+Q1L5|押す|おす|to push
+Q1L5|しょうゆ||soy sauce
+Q1L5|わさび||wasabi
+Q1L5|お口直し|おくちなおし|palate cleanser
+Q1L5|ガリ||pickled ginger
+Q1L5|酢漬け|すづけ|pickles
+Q1L5|しょうが||ginger
+Q1L5|便利な|べんりな|convenient
+Q1L5|画面|がめん|screen
+Q1L5|にぎり||hand-pressed sushi
+Q1L5|巻物|まきもの|sushi roll
+Q1L5|おすすめ||recommendation
+Q1L5|詳しい|くわしい|detailed
+Q1L5|表示する|ひょうじする|to show; to display
+Q1L5|繰り返す|くりかえす|to repeat
+Q1L5|しばらくすると||after a little while
+Q1L5|注文品|ちゅうもんひん|ordered thing
+Q1L5|のる||to be put on
+Q1L5|流れる|ながれる|to flow
+Q1L5|流れてくる|ながれてくる|to come down (revolving conveyor belt carries plates of sushi to)
+Q1L5|一味違う|ひとあじちがう|to be somewhat different
+Q1L5|本場|ほんば|the home; the best place
+Q1L5|肉じゃが|にくじゃが|nikujaga (simmered meat, potatoes and onions)
+Q1L5|家庭|かてい|home; family
+Q1L5|家庭料理|かていりょうり|home cooking
+Q1L5|定番|ていばん|standard
+Q1L5|甘辛い|あまからい|sweet and salty
+Q1L5|材料|ざいりょう|ingredients; materials
+Q1L5|～分|～ぶん|for ~ people
+Q1L5|じゃがいも||potato
+Q1L5|だし||soup; stock
+Q1L5|にんじん||carrot
+Q1L5|大さじ|おおさじ|tablespoon (15 cc)
+Q1L5|玉ねぎ|たまねぎ|onion
+Q1L5|砂糖|さとう|sugar
+Q1L5|牛肉|ぎゅうにく|beef
+Q1L5|薄切り|うすぎり|thin slice
+Q1L5|みりん||sweet rice wine for cooking
+Q1L5|サラダ油|さらだゆ／さらだあぶら|salad oil
+Q1L5|皮|かわ|skin; coat
+Q1L5|むく||to peel
+Q1L5|大きさ|おおきさ|size
+Q1L5|縦に|たてに|vertically
+Q1L5|半分|はんぶん|half
+Q1L5|幅|はば|width
+Q1L5|薄く|うすく|thinly
+Q1L5|スライスする|すらいすする|to slice
+Q1L5|なべ||pot
+Q1L5|熱する|ねっする|to heat up
+Q1L5|いためる||to (stir-)fry
+Q1L5|加える|くわえる|to add
+Q1L5|軽く|かるく|lightly
+Q1L5|中火|ちゅうび|medium heat
+Q1L5|煮る|にる|to boil; to simmer
+Q1L5|表面|ひょうめん|surface
+Q1L5|アク||scum
+Q1L5|弱火|よわび|low heat
+Q1L5|こげる||to get burned
+Q1L5|様子を見る|ようすをみる|to watch; to see how it goes
+Q1L5|火|ひ|flame; fire
+Q1L5|調整する|ちょうせいする|to adjust
+Q1L5|完成する|かんせいする|to complete
+Q1L5|かつお節|かつおぶし|shaved dried bonito
+Q1L5|こんぶ||kelp
+Q1L5|煮出す|にだす|to extract the flavor of ~ by boiling
+Q1L5|汁|しる|soup; juice
+Q1L5|うまみ||umami; savoriness
+Q1L5|溶かす|とかす|to melt; to dissolve
+Q1L5|余る|あまる|to remain
+Q1L5|和風|わふう|Japanese style
+Q1L5|カレールー||curry roux
+Q1L5|煮込む|にこむ|to simmer; to stew
+Q1L5|捨てる|すてる|to throw away
+Q1L6|投書する|とうしょする|to write to a newspaper
+Q1L6|包装する|ほうそうする|to package; to wrap
+Q1L6|愛知県|あいちけん|Aichi Prefecture
+Q1L6|来日する|らいにちする|to come to Japan
+Q1L6|ペットボトル||plastic bottle
+Q1L6|雑誌|ざっし|magazine
+Q1L6|リサイクルする|りさいくるする|to recycle
+Q1L6|資源|しげん|resource
+Q1L6|資源ゴミ|しげんごみ|recyclable waste
+Q1L6|燃える|もえる|to burn
+Q1L6|燃えるゴミ|もえるごみ|burnable waste
+Q1L6|分かれる|わかれる|to get separated
+Q1L6|分別する|ぶんべつする|to separate; to sort
+Q1L6|気になる|きになる|to be on one's mind; to worry
+Q1L6|過剰な|かじょうな|excessive
+Q1L6|箱|はこ|box
+Q1L6|クッキー||cookie
+Q1L6|包む|つつむ|to wrap
+Q1L6|～ずつ||each ~ (e.g., 一つずつ one by one)
+Q1L6|ビニール||plastic; vinyl
+Q1L6|確実に|かくじつに|definitely; certainly
+Q1L6|包装紙|ほうそうし|wrapping paper
+Q1L6|結局|けっきょく|after all; eventually
+Q1L6|商品|しょうひん|merchandise; product
+Q1L6|袋|ふくろ|bag
+Q1L6|疑問|ぎもん|doubt; question
+Q1L6|ぬれる||to get wet
+Q1L6|紙袋|かみぶくろ|paper bag
+Q1L6|丁寧に|ていねいに|carefully; politely
+Q1L6|かける||to cover; to put something on
+Q1L6|～に対する|～にたいする|to; toward; for; concerning
+Q1L6|気づかい|きづかい|concern; consideration
+Q1L6|やりすぎ||overkill; overdone
+Q1L6|考え直す|かんがえなおす|to reconsider
+Q1L6|早期|そうき|early
+Q1L6|賛成する|さんせいする|to approve; to agree
+Q1L6|反対する|はんたいする|to oppose; to disagree
+Q1L6|育てる|そだてる|to educate; to train
+Q1L6|制度|せいど|system
+Q1L6|すでに||already
+Q1L6|全国的に|ぜんこくてきに|nationwide
+Q1L6|今後|こんご|from now; hereafter
+Q1L6|～化|～か|change to ~; ~ization
+Q1L6|進む|すすむ|to proceed; to advance
+Q1L6|関心|かんしん|interest
+Q1L6|ますます||more and more
+Q1L6|現状|げんじょう|current state
+Q1L6|第一に|だいいちに|first
+Q1L6|習得する|しゅうとくする|to acquire
+Q1L6|年齢|ねんれい|age
+Q1L6|超える|こえる|to exceed; to be over
+Q1L6|関係|かんけい|relation; connection
+Q1L6|関係がある|かんけいがある|to be related
+Q1L6|スポンジ||sponge
+Q1L6|吸収する|きゅうしゅうする|to absorb
+Q1L6|発音する|はつおんする|to pronounce
+Q1L6|効果的な|こうかてきな|effective
+Q1L6|抵抗感|ていこうかん|reluctance; resistance
+Q1L6|恥ずかしい|はずかしい|to be shy; to feel embarrassed
+Q1L6|一般的に|いっぱんてきに|basically; generally
+Q1L6|周り|まわり|surroundings; surrounding people
+Q1L6|失敗する|しっぱいする|to fail
+Q1L6|恐れる|おそれる|to be afraid of; to fear
+Q1L6|国際感覚|こくさいかんかく|cosmopolitan outlook
+Q1L6|身につける|みにつける|to learn; to acquire
+Q1L6|自国|じこく|one's home country
+Q1L6|受け入れる|うけいれる|to accept
+Q1L6|活躍する|かつやくする|to play an active part
+Q1L6|可能性|かのうせい|possibility
+Q1L6|広がる|ひろがる|to spread; to open
+Q1L6|述べる|のべる|to state; to express
+Q1L6|発達する|はったつする|to develop
+Q1L6|影響する|えいきょうする|to influence; to affect
+Q1L6|不十分な|ふじゅうぶんな|deficient
+Q1L6|どちらも||both
+Q1L6|表現する|ひょうげんする|to express
+Q1L6|混乱する|こんらんする|to get confused
+Q1L6|感情|かんじょう|feeling; emotion
+Q1L6|論理的に|ろんりてきに|logically
+Q1L6|意思|いし|will; volition
+Q1L6|塾|じゅく|cram school
+Q1L6|いやいや||unwillingly
+Q1L6|無理に|むりに|forcedly; by constraint
+Q1L6|英語嫌いな|えいごぎらいな|English-averse
+Q1L6|ふだん||usually
+Q1L6|先輩|せんぱい|one's senior
+Q1L6|本気で|ほんきで|seriously
+Q1L6|上達する|じょうたつする|to improve
+Q1L6|主張する|しゅちょうする|to insist; to claim

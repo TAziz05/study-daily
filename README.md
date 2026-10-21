@@ -15,7 +15,7 @@ Questions live in `data/src/*.json`. The file prefix sets the class: `phil_`, `d
 {"t": "Topic", "s": "Source (lecture/reading + section)", "q": "Question", "a": "Correct answer", "w": ["Wrong 1", "Wrong 2", "Wrong 3"], "e": "Explanation"}
 ```
 
-Japanese kanji questions are generated from `build/kanji_data.txt`, vocabulary from `build/vocab_genki1.txt` and `build/vocab_genki2.txt` (`lesson|word|reading|meaning`), and katakana practice from `build/katakana.py`. After editing, rebuild `questions.js` with:
+Japanese kanji questions are generated from `build/kanji_data.txt`, vocabulary from `build/vocab_genki1.txt`, `build/vocab_genki2.txt` and `build/vocab_quartet1.txt` (`lesson|word|reading|meaning`), and katakana practice from `build/katakana.py`. After editing, rebuild `questions.js` with:
 
 ```
 python3 build/build.py
