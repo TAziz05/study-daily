@@ -1,42 +1,82 @@
 # lesson|word|reading|meaning   (reading blank = same as word)
-# Genki I (3rd ed.) main vocabulary lists, L1–L12
-G1L1|今|いま|now
-G1L1|英語|えいご|English (language)
-G1L1|学生|がくせい|student
-G1L1|～語|～ご|... language
-G1L1|高校|こうこう|high school
-G1L1|午後|ごご|P.M.
-G1L1|午前|ごぜん|A.M.
-G1L1|～歳|～さい|... years old
-G1L1|～時|～じ|... o'clock
-G1L1|～人|～じん|... people (nationality)
-G1L1|専攻|せんこう|major (field of study)
-G1L1|先生|せんせい|teacher; professor
+# Lessons 0 (greetings) to 6 checked against the textbook pages; 7–12 from memory, to be checked
+# Greetings (あいさつ, p.32)
+G1L0|おはよう||Good morning.
+G1L0|おはようございます||Good morning. (polite)
+G1L0|こんにちは||Good afternoon.
+G1L0|こんばんは||Good evening.
+G1L0|さようなら||Good-bye.
+G1L0|おやすみ（なさい）||Good night.
+G1L0|ありがとう||Thank you.
+G1L0|ありがとうございます||Thank you. (polite)
+G1L0|すみません||Excuse me.; I'm sorry.
+G1L0|いいえ||No.; Not at all.
+G1L0|いってきます||I'll go and come back.
+G1L0|いってらっしゃい||Please go and come back.
+G1L0|ただいま||I'm home.
+G1L0|おかえり（なさい）||Welcome home.
+G1L0|いただきます||Thank you for the meal. (before eating)
+G1L0|ごちそうさま（でした）||Thank you for the meal. (after eating)
+G1L0|はじめまして||How do you do?
+G1L0|よろしくおねがいします||Nice to meet you.
 G1L1|大学|だいがく|college; university
-G1L1|電話|でんわ|telephone
+G1L1|高校|こうこう|high school
+G1L1|学生|がくせい|student
+G1L1|大学生|だいがくせい|college student
+G1L1|留学生|りゅうがくせい|international student
+G1L1|先生|せんせい|teacher; Professor ...
+G1L1|～年生|～ねんせい|... year student
+G1L1|一年生|いちねんせい|first-year student
+G1L1|専攻|せんこう|major
+G1L1|私|わたし|I
 G1L1|友だち|ともだち|friend
+G1L1|～さん||Mr./Ms. ...
+G1L1|～人|～じん|... people
+G1L1|日本人|にほんじん|Japanese people
+G1L1|今|いま|now
+G1L1|午前|ごぜん|A.M.
+G1L1|午後|ごご|P.M.
+G1L1|～時|～じ|... o'clock
+G1L1|一時|いちじ|one o'clock
+G1L1|半|はん|half
+G1L1|二時半|にじはん|half past two
+G1L1|日本|にほん|Japan
+G1L1|アメリカ||U.S.A.
+G1L1|～語|～ご|... language
+G1L1|日本語|にほんご|Japanese language
+G1L1|～歳|～さい|... years old
+G1L1|電話|でんわ|telephone
+G1L1|～番|～ばん|number ...
+G1L1|番号|ばんごう|number
 G1L1|名前|なまえ|name
 G1L1|何|なん|what
-G1L1|日本|にほん|Japan
-G1L1|～年生|～ねんせい|...-year student
-G1L1|半|はん|half (past the hour)
-G1L1|番号|ばんごう|number
-G1L1|留学生|りゅうがくせい|international student
-G1L1|私|わたし|I
-G1L1|アメリカ||U.S.A.
+G1L1|あのう||um ...
+G1L1|はい||yes
+G1L1|そうです||That's right.
+G1L1|そうですか||I see.; Is that so?
 G1L1|イギリス||Britain
+G1L1|オーストラリア||Australia
 G1L1|韓国|かんこく|Korea
+G1L1|カナダ||Canada
 G1L1|中国|ちゅうごく|China
-G1L1|科学|かがく|science
+G1L1|インド||India
+G1L1|エジプト||Egypt
+G1L1|フィリピン||Philippines
+G1L1|アジア研究|アジアけんきゅう|Asian studies
 G1L1|経済|けいざい|economics
+G1L1|工学|こうがく|engineering
 G1L1|国際関係|こくさいかんけい|international relations
-G1L1|人類学|じんるいがく|anthropology
+G1L1|コンピューター||computer
 G1L1|政治|せいじ|politics
+G1L1|生物学|せいぶつがく|biology
+G1L1|ビジネス||business
 G1L1|文学|ぶんがく|literature
 G1L1|歴史|れきし|history
-G1L1|仕事|しごと|job; work; occupation
+G1L1|仕事|しごと|job; occupation
 G1L1|医者|いしゃ|doctor
 G1L1|会社員|かいしゃいん|office worker
+G1L1|看護師|かんごし|nurse
+G1L1|高校生|こうこうせい|high school student
 G1L1|主婦|しゅふ|housewife
 G1L1|大学院生|だいがくいんせい|graduate student
 G1L1|弁護士|べんごし|lawyer
@@ -50,6 +90,10 @@ G1L2|これ||this one
 G1L2|それ||that one
 G1L2|あれ||that one (over there)
 G1L2|どれ||which one
+G1L2|この||this ...
+G1L2|その||that ...
+G1L2|あの||that ... (over there)
+G1L2|どの||which ...
 G1L2|ここ||here
 G1L2|そこ||there
 G1L2|あそこ||over there
@@ -61,60 +105,66 @@ G1L2|とんかつ||pork cutlet
 G1L2|肉|にく|meat
 G1L2|メニュー||menu
 G1L2|野菜|やさい|vegetable
-G1L2|鉛筆|えんぴつ|pencil
 G1L2|傘|かさ|umbrella
 G1L2|かばん||bag
 G1L2|靴|くつ|shoes
 G1L2|財布|さいふ|wallet
 G1L2|ジーンズ||jeans
-G1L2|辞書|じしょ|dictionary
 G1L2|自転車|じてんしゃ|bicycle
 G1L2|新聞|しんぶん|newspaper
+G1L2|スマホ||smartphone; mobile
+G1L2|Tシャツ|ティーシャツ|T-shirt
 G1L2|時計|とけい|watch; clock
 G1L2|ノート||notebook
 G1L2|ペン||pen
 G1L2|帽子|ぼうし|hat; cap
 G1L2|本|ほん|book
-G1L2|喫茶店|きっさてん|café
 G1L2|銀行|ぎんこう|bank
+G1L2|コンビニ||convenience store
 G1L2|トイレ||toilet; restroom
 G1L2|図書館|としょかん|library
 G1L2|郵便局|ゆうびんきょく|post office
+G1L2|英語|えいご|English (language)
 G1L2|いくら||how much
 G1L2|～円|～えん|... yen
 G1L2|高い|たかい|expensive; high
-G1L2|いらっしゃいませ||Welcome (to our store)
-G1L2|ください||please give me
-G1L2|どうぞ||please (go ahead); here it is
+G1L2|いらっしゃいませ||Welcome (to our store).
+G1L2|（～を）おねがいします||..., please.
+G1L2|（～を）ください||Please give me ...
+G1L2|じゃあ||then ...; if that is the case, ...
+G1L2|どうぞ||Please.; Here it is.
+G1L2|どうも||Thank you.
 G1L3|映画|えいが|movie
 G1L3|音楽|おんがく|music
 G1L3|雑誌|ざっし|magazine
 G1L3|スポーツ||sports
-G1L3|デート||date (romantic)
+G1L3|デート||date (romantic, not calendar)
 G1L3|テニス||tennis
 G1L3|テレビ||TV
 G1L3|アイスクリーム||ice cream
-G1L3|朝ご飯|あさごはん|breakfast
-G1L3|お酒|おさけ|sake; alcohol
+G1L3|ハンバーガー||hamburger
+G1L3|お酒|おさけ|sake; alcoholic drink
 G1L3|お茶|おちゃ|green tea
 G1L3|コーヒー||coffee
-G1L3|晩ご飯|ばんごはん|dinner
-G1L3|ハンバーガー||hamburger
-G1L3|昼ご飯|ひるごはん|lunch
 G1L3|水|みず|water
+G1L3|朝ご飯|あさごはん|breakfast
+G1L3|昼ご飯|ひるごはん|lunch
+G1L3|晩ご飯|ばんごはん|dinner
 G1L3|家|いえ|home; house
+G1L3|うち||home; house; my place
 G1L3|学校|がっこう|school
+G1L3|カフェ||cafe
+G1L3|明日|あした|tomorrow
+G1L3|今日|きょう|today
 G1L3|朝|あさ|morning
-G1L3|あした||tomorrow
-G1L3|いつ||when
-G1L3|きょう||today
-G1L3|～ごろ||at about ...
 G1L3|今晩|こんばん|tonight
+G1L3|毎日|まいにち|every day
+G1L3|毎晩|まいばん|every night
 G1L3|週末|しゅうまつ|weekend
 G1L3|土曜日|どようび|Saturday
 G1L3|日曜日|にちようび|Sunday
-G1L3|毎日|まいにち|every day
-G1L3|毎晩|まいばん|every night
+G1L3|いつ||when
+G1L3|～ごろ||at about ...
 G1L3|行く|いく|to go
 G1L3|帰る|かえる|to go back; to return
 G1L3|聞く|きく|to listen; to hear
@@ -128,26 +178,35 @@ G1L3|見る|みる|to see; to look at; to watch
 G1L3|来る|くる|to come
 G1L3|する||to do
 G1L3|勉強する|べんきょうする|to study
+G1L3|いい||good
 G1L3|早い|はやい|early
-G1L3|あまり||not much (with negative)
-G1L3|全然|ぜんぜん|not at all (with negative)
+G1L3|あまり||not much (+ negative)
+G1L3|全然|ぜんぜん|not at all (+ negative)
 G1L3|たいてい||usually
 G1L3|ちょっと||a little
 G1L3|時々|ときどき|sometimes
 G1L3|よく||often; much
+G1L3|そうですね||That's right.; Let me see.
+G1L3|でも||but
+G1L3|どうですか||How about ...?; How is ...?
+G1L3|ええ||yes
+G1L4|ゲーム||game
 G1L4|アルバイト||part-time job
 G1L4|買い物|かいもの|shopping
 G1L4|クラス||class
 G1L4|犬|いぬ|dog
-G1L4|お土産|おみやげ|souvenir
-G1L4|子供|こども|child
-G1L4|ご飯|ごはん|rice; meal
-G1L4|写真|しゃしん|picture; photograph
-G1L4|机|つくえ|desk
-G1L4|手紙|てがみ|letter
 G1L4|猫|ねこ|cat
-G1L4|パン||bread
 G1L4|人|ひと|person
+G1L4|子供|こども|child
+G1L4|あなた||you
+G1L4|いす||chair
+G1L4|机|つくえ|desk
+G1L4|写真|しゃしん|picture; photograph
+G1L4|花|はな|flower
+G1L4|レポート||(term) paper
+G1L4|ご飯|ごはん|rice; meal
+G1L4|パン||bread
+G1L4|お寺|おてら|temple
 G1L4|公園|こうえん|park
 G1L4|スーパー||supermarket
 G1L4|バス停|バスてい|bus stop
@@ -158,6 +217,7 @@ G1L4|町|まち|town; city
 G1L4|レストラン||restaurant
 G1L4|昨日|きのう|yesterday
 G1L4|～時間|～じかん|... hours
+G1L4|一時間|いちじかん|one hour
 G1L4|先週|せんしゅう|last week
 G1L4|時|とき|when ...; at the time of ...
 G1L4|月曜日|げつようび|Monday
@@ -173,62 +233,64 @@ G1L4|撮る|とる|to take (a picture)
 G1L4|待つ|まつ|to wait
 G1L4|分かる|わかる|to understand
 G1L4|いる||(a person) is in ...; stays at ...
-G1L4|～ぐらい||about (approximate measure)
+G1L4|～ぐらい||about (approximate measurement)
 G1L4|ごめんなさい||I'm sorry.
+G1L4|それから||and then
 G1L4|だから||so; therefore
 G1L4|たくさん||many; a lot
+G1L4|～と||together with (a person); and
 G1L4|どうして||why
 G1L4|一人で|ひとりで|alone
-G1L4|もしもし||Hello? (on the phone)
+G1L4|もしもし||Hello? (used on the phone)
 G1L4|右|みぎ|right
 G1L4|左|ひだり|left
 G1L4|前|まえ|front
 G1L4|後ろ|うしろ|back
 G1L4|中|なか|inside
-G1L4|上|うえ|on; above
-G1L4|下|した|under; below
+G1L4|上|うえ|on
+G1L4|下|した|under
 G1L4|近く|ちかく|near; nearby
-G1L4|隣|となり|next to
+G1L4|隣|となり|next
 G1L4|間|あいだ|between
-G1L5|海|うみ|sea
-G1L5|切手|きって|postal stamp
-G1L5|切符|きっぷ|ticket
-G1L5|サーフィン||surfing
-G1L5|宿題|しゅくだい|homework
 G1L5|食べ物|たべもの|food
-G1L5|誕生日|たんじょうび|birthday
-G1L5|テスト||test
-G1L5|天気|てんき|weather
 G1L5|飲み物|のみもの|drink
-G1L5|はがき||postcard
-G1L5|バス||bus
-G1L5|飛行機|ひこうき|airplane
-G1L5|部屋|へや|room
-G1L5|僕|ぼく|I (used by men)
+G1L5|果物|くだもの|fruit
 G1L5|休み|やすみ|holiday; day off; absence
 G1L5|旅行|りょこう|travel
+G1L5|海|うみ|sea
+G1L5|サーフィン||surfing
+G1L5|お土産|おみやげ|souvenir
+G1L5|バス||bus
+G1L5|天気|てんき|weather
+G1L5|宿題|しゅくだい|homework
+G1L5|テスト||test
+G1L5|誕生日|たんじょうび|birthday
+G1L5|部屋|へや|room
+G1L5|僕|ぼく|I (used by men)
+G1L5|Lサイズ|エルサイズ|size L
 G1L5|新しい|あたらしい|new
+G1L5|古い|ふるい|old (thing, not used for people)
 G1L5|暑い|あつい|hot (weather)
-G1L5|熱い|あつい|hot (objects)
+G1L5|寒い|さむい|cold (weather, not used for things)
+G1L5|熱い|あつい|hot (thing)
 G1L5|忙しい|いそがしい|busy (people/days)
 G1L5|大きい|おおきい|large
-G1L5|面白い|おもしろい|interesting; funny
-G1L5|怖い|こわい|frightening
-G1L5|寒い|さむい|cold (weather)
-G1L5|楽しい|たのしい|fun
 G1L5|小さい|ちいさい|small
+G1L5|面白い|おもしろい|interesting; funny
 G1L5|つまらない||boring
-G1L5|古い|ふるい|old (thing)
+G1L5|やさしい||easy (problem); kind (person)
 G1L5|難しい|むずかしい|difficult
-G1L5|優しい|やさしい|kind
-G1L5|易しい|やさしい|easy (problem)
-G1L5|安い|やすい|inexpensive; cheap
+G1L5|かっこいい||good-looking
+G1L5|怖い|こわい|frightening
+G1L5|楽しい|たのしい|fun
+G1L5|安い|やすい|inexpensive; cheap (thing)
+G1L5|好き|すき|fond of; to like
 G1L5|嫌い|きらい|disgusted with; to dislike
+G1L5|大好き|だいすき|very fond of; to love
+G1L5|大嫌い|だいきらい|to hate
+G1L5|きれい||beautiful; clean
 G1L5|元気|げんき|healthy; energetic
 G1L5|静か|しずか|quiet
-G1L5|好き|すき|fond of; to like
-G1L5|大嫌い|だいきらい|to hate
-G1L5|大好き|だいすき|very fond of; to love
 G1L5|にぎやか||lively
 G1L5|暇|ひま|not busy; free (time)
 G1L5|泳ぐ|およぐ|to swim
@@ -236,31 +298,37 @@ G1L5|乗る|のる|to ride; to board
 G1L5|やる||to do; to perform
 G1L5|出かける|でかける|to go out
 G1L5|一緒に|いっしょに|together
-G1L5|それから||and then
-G1L5|大丈夫|だいじょうぶ|It's okay; not to worry
+G1L5|すごく||extremely
+G1L5|大丈夫|だいじょうぶ|It's okay.; Not to worry.
 G1L5|とても||very
-G1L5|～枚|～まい|counter for flat objects
+G1L5|どんな||what kind of ...
+G1L5|～枚|～まい|[counter for flat objects]
 G1L6|漢字|かんじ|kanji; Chinese character
 G1L6|教科書|きょうかしょ|textbook
 G1L6|ページ||page
-G1L6|宿題|しゅくだい|homework
+G1L6|次|つぎ|next
 G1L6|お金|おかね|money
 G1L6|荷物|にもつ|baggage
 G1L6|パソコン||personal computer
-G1L6|お風呂|おふろ|bath
 G1L6|シャワー||shower
+G1L6|エアコン||air conditioner
 G1L6|電気|でんき|electricity; light
 G1L6|窓|まど|window
 G1L6|電車|でんしゃ|train
 G1L6|国|くに|country; place of origin
+G1L6|今週|こんしゅう|this week
 G1L6|来週|らいしゅう|next week
 G1L6|来年|らいねん|next year
+G1L6|夜|よる|night
+G1L6|大変|たいへん|tough (situation)
+G1L6|遊ぶ|あそぶ|to play; to spend time pleasantly
 G1L6|急ぐ|いそぐ|to hurry
 G1L6|返す|かえす|to return (a thing)
 G1L6|消す|けす|to turn off; to erase
 G1L6|死ぬ|しぬ|to die
 G1L6|座る|すわる|to sit down
 G1L6|立つ|たつ|to stand up
+G1L6|たばこを吸う|たばこをすう|to smoke
 G1L6|使う|つかう|to use
 G1L6|手伝う|てつだう|to help
 G1L6|入る|はいる|to enter
@@ -272,17 +340,17 @@ G1L6|教える|おしえる|to teach; to instruct
 G1L6|忘れる|わすれる|to forget; to leave behind
 G1L6|降りる|おりる|to get off
 G1L6|借りる|かりる|to borrow
-G1L6|浴びる|あびる|to take (a shower)
+G1L6|シャワーを浴びる|シャワーをあびる|to take a shower
 G1L6|つける||to turn on
 G1L6|電話する|でんわする|to call
 G1L6|連れてくる|つれてくる|to bring (a person)
 G1L6|持ってくる|もってくる|to bring (a thing)
 G1L6|後で|あとで|later on
 G1L6|すぐ||right away
-G1L6|結構です|けっこうです|That would be fine; No, thank you
-G1L6|もう一度|もういちど|one more time
-G1L6|ゆっくり||slowly; leisurely
+G1L6|ゆっくり||slowly; leisurely; unhurriedly
+G1L6|結構です|けっこうです|That would be fine.; That wouldn't be necessary.
 G1L6|本当ですか|ほんとうですか|Really?
+# Lessons 7–12
 G1L7|家族|かぞく|family
 G1L7|兄弟|きょうだい|brothers and sisters
 G1L7|兄|あに|(my) older brother

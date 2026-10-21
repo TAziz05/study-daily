@@ -155,8 +155,8 @@ def vocab_questions():
                 if len(got) == 3:
                     break
             return got
-        topic = f"{r['book']} L{r['num']} – Vocabulary"
-        src = f"{r['book']}, Lesson {r['num']} vocabulary"
+        topic = f"{r['book']} L{r['num']} – Vocabulary" if r["num"] != "0" else f"{r['book']} Greetings – Vocabulary"
+        src = f"{r['book']}, Lesson {r['num']} vocabulary" if r["num"] != "0" else f"{r['book']}, Greetings (あいさつ)"
         e = f"{show(r)}: {r['meaning']}."
         out.append(dict(t=topic, s=src, q=f"What does 「{show(r)}」 mean?", a=r["meaning"], w=pick(lambda x: x["meaning"]), e=e))
         out.append(dict(t=topic, s=src, q=f"How do you say “{r['meaning']}” in Japanese?", a=show(r), w=pick(show), e=e))
@@ -169,9 +169,9 @@ def annotate(subj, q):
     if subj == "japanese":
         if q.get("k") == "kana":
             return
-        m = re.match(r"^(Genki II|Genki I|Quartet I) L(\d+) – (.*)$", t)
+        m = re.match(r"^(Genki II|Genki I|Quartet I) (?:L(\d+)|Greetings) – (.*)$", t)
         book, num, rest = m.groups()
-        q["g"], q["L"] = book, f"{book} L{num}"
+        q["g"], q["L"] = book, (f"{book} L{num}" if num else f"{book} Greetings")
         if rest == "Kanji":
             q["k"], q["T"] = "kanji", "Kanji"
         elif rest == "Vocabulary":
@@ -199,7 +199,8 @@ def lesson_order(subj, qs):
         g = next(q.get("g", "") for q in qs if q["L"] == L)
         if subj == "japanese":
             gi = ["Kana", "Genki I", "Genki II", "Quartet I"].index(g)
-            n = int(re.search(r"L(\d+)$", L).group(1)) if g != "Kana" else 0
+            mm = re.search(r"L(\d+)$", L)
+            n = int(mm.group(1)) if mm else 0
             return (gi, n)
         if subj == "philosophy":
             return (0 if g == "Lecture slides" else 1, L)

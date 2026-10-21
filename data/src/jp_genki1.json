@@ -1,77 +1,1070 @@
 [
-{"t":"Genki I L1 – XはYです","s":"Genki I, Lesson 1","q":"Choose the particle: わたし＿＿がくせいです。(I am a student.)","a":"は","w":["を","に","で"],"e":"XはYです: 'X is Y'. は marks the topic."},
-{"t":"Genki I L1 – Question sentences","s":"Genki I, Lesson 1","q":"How do you turn 'りゅうがくせいです' into a question?","a":"りゅうがくせいですか。","w":["りゅうがくせいですね。","りゅうがくせいですよ。","りゅうがくせいですの。"],"e":"Add か at the end of a sentence to make a question."},
-{"t":"Genki I L1 – Noun の Noun","s":"Genki I, Lesson 1","q":"'A student at Sakura University' is:","a":"さくらだいがくのがくせい","w":["がくせいのさくらだいがく","さくらだいがくはがくせい","さくらだいがくにがくせい"],"e":"In Noun1 の Noun2, Noun1 modifies Noun2. The modifier comes first."},
-{"t":"Genki I L2 – これ/それ/あれ","s":"Genki I, Lesson 2","q":"Pointing at something near the LISTENER, you say:","a":"それ","w":["これ","あれ","どれ"],"e":"これ is near the speaker, それ near the listener, あれ far from both. どれ means 'which one'."},
-{"t":"Genki I L2 – この/その/あの","s":"Genki I, Lesson 2","q":"'This watch' (near speaker) is:","a":"このとけい","w":["これとけい","このとけいは","ここのとけい"],"e":"この/その/あの/どの must be followed by a noun. これ/それ/あれ stand alone."},
-{"t":"Genki I L2 – ここ/そこ/あそこ","s":"Genki I, Lesson 2","q":"'Where is the restroom?' → トイレは＿＿＿ですか。","a":"どこ","w":["どれ","どの","だれ"],"e":"ここ/そこ/あそこ/どこ refer to places."},
-{"t":"Genki I L2 – だれの","s":"Genki I, Lesson 2","q":"'Whose umbrella is this?' →","a":"これはだれのかさですか。","w":["これはだれかさですか。","これはどこのかさですか。","これはなんのかさですか。"],"e":"だれの + noun = 'whose'."},
-{"t":"Genki I L2 – も","s":"Genki I, Lesson 2","q":"'Takeshi is also Japanese.' → たけしさん＿＿にほんじんです。","a":"も","w":["は","が","の"],"e":"も ('too/also') replaces は."},
-{"t":"Genki I L2 – じゃないです","s":"Genki I, Lesson 2","q":"Negative of 'がくせいです':","a":"がくせいじゃないです","w":["がくせいないです","がくせいくないです","がくせいでません"],"e":"Noun + じゃないです (or じゃありません) is the negative."},
-{"t":"Genki I L2 – ね/よ","s":"Genki I, Lesson 2","q":"Which ending seeks the listener's agreement ('...isn't it?')?","a":"ね","w":["よ","か","の"],"e":"ね seeks agreement or confirmation. よ asserts new information to the listener."},
-{"t":"Genki I L3 – Verb conjugation","s":"Genki I, Lesson 3","q":"The long (ます) present affirmative of 行く is:","a":"行きます","w":["行くます","行ります","行けます"],"e":"For an u-verb, change the final -u to -i and add ます: いく → いきます."},
-{"t":"Genki I L3 – Verb types","s":"Genki I, Lesson 3","q":"Which of these is an u-verb, even though it ends in -eru?","a":"帰る (かえる)","w":["食べる (たべる)","寝る (ねる)","起きる (おきる)"],"e":"帰る → 帰ります (u-verb). 食べる, 寝る, 起きる are ru-verbs."},
-{"t":"Genki I L3 – Irregular verbs","s":"Genki I, Lesson 3","q":"The ます form of 来る is:","a":"来ます (きます)","w":["来ります (くります)","来ます (くます)","来ります (きります)"],"e":"The two irregular verbs are する → します and くる → きます."},
-{"t":"Genki I L3 – Particles","s":"Genki I, Lesson 3","q":"'I eat at a restaurant.' → レストラン＿＿たべます。","a":"で","w":["に","を","へ"],"e":"で marks where an action takes place."},
-{"t":"Genki I L3 – Particles","s":"Genki I, Lesson 3","q":"'I go to school.' → がっこう＿＿いきます。 Which TWO particles are both correct?","a":"に or へ","w":["で or を","を or が","の or で"],"e":"に and へ both mark the destination of movement."},
-{"t":"Genki I L3 – Particles","s":"Genki I, Lesson 3","q":"'I drink coffee.' → コーヒー＿＿のみます。","a":"を","w":["が","に","で"],"e":"を marks the direct object."},
-{"t":"Genki I L3 – Time references","s":"Genki I, Lesson 3","q":"Which time word does NOT take に?","a":"あした (tomorrow)","w":["にちようび (Sunday)","しちじ (seven o'clock)","さんがつ (March)"],"e":"Relative time words (きょう, あした, まいにち, こんばん) take no に. Clock times and days of the week do."},
-{"t":"Genki I L3 – ～ませんか","s":"Genki I, Lesson 3","q":"'Won't you see a movie (with me)?' →","a":"えいがをみませんか。","w":["えいがをみましょう。","えいがをみてください。","えいがをみたいですか。"],"e":"Verb-ませんか is a polite invitation."},
-{"t":"Genki I L3 – Frequency adverbs","s":"Genki I, Lesson 3","q":"Which frequency adverb requires a NEGATIVE verb?","a":"ぜんぜん","w":["よく","ときどき","たいてい"],"e":"ぜんぜん (not at all) and あまり (not much) go with negative verbs."},
-{"t":"Genki I L4 – あります/います","s":"Genki I, Lesson 4","q":"'There is a cat.' → ねこが＿＿＿。","a":"います","w":["あります","です","いきます"],"e":"います is for living things (people, animals). あります is for inanimate things."},
-{"t":"Genki I L4 – Location words","s":"Genki I, Lesson 4","q":"'The book is on the table.' →","a":"ほんはテーブルのうえにあります。","w":["ほんはテーブルのうえであります。","ほんはテーブルのうえをあります。","ほんはうえのテーブルにあります。"],"e":"X は Y の [location] に あります. The location of existence takes に."},
-{"t":"Genki I L4 – でした","s":"Genki I, Lesson 4","q":"Past tense of 'にちようびです':","a":"にちようびでした","w":["にちようびだったです","にちようびましたです","にちようびでしました"],"e":"です → でした. The negative past is じゃなかったです."},
-{"t":"Genki I L4 – Past ました","s":"Genki I, Lesson 4","q":"Past negative of 読みます:","a":"読みませんでした","w":["読みませんでしたです","読まなかったでした","読みましたない"],"e":"ました (past affirmative), ませんでした (past negative)."},
-{"t":"Genki I L4 – と (and/with)","s":"Genki I, Lesson 4","q":"'I went to Kyoto with a friend.' → ともだち＿＿きょうとへいきました。","a":"と","w":["や","も","の"],"e":"と means 'with' (doing something together) or 'and' between nouns."},
-{"t":"Genki I L4 – ～時間","s":"Genki I, Lesson 4","q":"'I studied for two hours' →","a":"二時間べんきょうしました。","w":["二時べんきょうしました。","二時にべんきょうしました。","二分間べんきょうしました。"],"e":"～時間 is duration ('for X hours'). ～時 is clock time."},
-{"t":"Genki I L5 – い-adjectives","s":"Genki I, Lesson 5","q":"Negative present of たかい:","a":"たかくないです","w":["たかいじゃないです","たかないです","たかくありませんでした"],"e":"Drop い and add くないです."},
-{"t":"Genki I L5 – Irregular いい","s":"Genki I, Lesson 5","q":"Past affirmative of いい:","a":"よかったです","w":["いかったです","いいでした","よいでした"],"e":"いい conjugates from よい: よくない, よかった, よくなかった."},
-{"t":"Genki I L5 – な-adjectives","s":"Genki I, Lesson 5","q":"Past negative of しずか(な):","a":"しずかじゃなかったです","w":["しずかくなかったです","しずかでしたない","しずかなかったです"],"e":"な-adjectives conjugate like nouns: じゃない, だった, じゃなかった."},
-{"t":"Genki I L5 – 好き/きらい","s":"Genki I, Lesson 5","q":"'I like sushi.' → すし＿＿すきです。","a":"が","w":["を","は","に"],"e":"The object of すき/きらい takes が."},
-{"t":"Genki I L5 – ～ましょう","s":"Genki I, Lesson 5","q":"'Let's go!' →","a":"いきましょう！","w":["いきませんか！","いってください！","いきたいです！"],"e":"Verb stem + ましょう = 'let's...'."},
-{"t":"Genki I L6 – Te-form","s":"Genki I, Lesson 6","q":"Te-form of 書く (かく):","a":"書いて","w":["書って","書きて","書んで"],"e":"く → いて. (Exception: 行く → 行って.)"},
-{"t":"Genki I L6 – Te-form","s":"Genki I, Lesson 6","q":"Te-form of 飲む (のむ):","a":"飲んで","w":["飲って","飲いて","飲みて"],"e":"む, ぶ, ぬ → んで."},
-{"t":"Genki I L6 – Te-form","s":"Genki I, Lesson 6","q":"Te-form of 話す (はなす):","a":"話して","w":["話って","話いて","話んで"],"e":"す → して."},
-{"t":"Genki I L6 – Te-form","s":"Genki I, Lesson 6","q":"Te-form of 待つ (まつ):","a":"待って","w":["待ちて","待んで","待いて"],"e":"う, つ, る (u-verbs) → って."},
-{"t":"Genki I L6 – ～てください","s":"Genki I, Lesson 6","q":"'Please show me.' →","a":"見せてください。","w":["見せるください。","見せてもいいです。","見せませんか。"],"e":"Te-form + ください = polite request."},
-{"t":"Genki I L6 – ～てもいいです","s":"Genki I, Lesson 6","q":"'May I take a photo?' →","a":"しゃしんをとってもいいですか。","w":["しゃしんをとってはいけませんか。","しゃしんをとってください。","しゃしんをとりませんか。"],"e":"Te-form + もいいです = permission."},
-{"t":"Genki I L6 – ～てはいけません","s":"Genki I, Lesson 6","q":"'You must not smoke here.' → ここでたばこをすって＿＿＿。","a":"はいけません","w":["もいいです","ください","います"],"e":"Te-form + はいけません = prohibition."},
-{"t":"Genki I L6 – ～から (reason)","s":"Genki I, Lesson 6","q":"'I'm busy, so I won't go.' →","a":"いそがしいですから、いきません。","w":["いそがしいですので、いきます。","いそがしいからですいきません。","いそがしいでから、いきません。"],"e":"[Reason] から [result]. から follows the reason clause."},
-{"t":"Genki I L7 – ～ている (progress)","s":"Genki I, Lesson 7","q":"'Takeshi is reading a book (right now).' →","a":"たけしさんはほんを読んでいます。","w":["たけしさんはほんを読みます。","たけしさんはほんを読んでいました。","たけしさんはほんを読みたいです。"],"e":"Te-form + いる describes an action in progress."},
-{"t":"Genki I L7 – ～ている (result)","s":"Genki I, Lesson 7","q":"'My sister is married.' (resulting state) →","a":"あねはけっこんしています。","w":["あねはけっこんします。","あねはけっこんしました。","あねはけっこんしてください。"],"e":"With change-of-state verbs (けっこんする, 知る, 住む), ている shows the resulting state."},
-{"t":"Genki I L7 – 知っています","s":"Genki I, Lesson 7","q":"'I don't know.' (polite) →","a":"知りません。","w":["知っていません。","知らないています。","知りませんでいます。"],"e":"The affirmative is 知っています, but the negative is irregular: 知りません."},
-{"t":"Genki I L7 – Describing people","s":"Genki I, Lesson 7","q":"'Mary has long hair.' →","a":"メアリーさんはかみがながいです。","w":["メアリーさんのかみはながいがあります。","メアリーさんはながいかみです。","メアリーさんをかみがながいです。"],"e":"Person は [body part] が [adjective]."},
-{"t":"Genki I L7 – Joining with te","s":"Genki I, Lesson 7","q":"'It's cheap and delicious.' →","a":"やすくておいしいです。","w":["やすいておいしいです。","やすいとおいしいです。","やすでおいしいです。"],"e":"い-adjective: drop い, add くて. な-adjectives and nouns take で."},
-{"t":"Genki I L7 – Stem + に行く","s":"Genki I, Lesson 7","q":"'I went to Kyoto to see a friend.' → きょうとへともだちに＿＿いきました。","a":"会いに","w":["会って","会うに","会うため"],"e":"Verb stem + に + 行く/来る/帰る = 'go/come/return in order to...'."},
-{"t":"Genki I L8 – Short forms","s":"Genki I, Lesson 8","q":"Short negative present of 行く:","a":"行かない","w":["行きない","行けない","行わない"],"e":"For u-verbs, change -u to -a and add ない."},
-{"t":"Genki I L8 – Short forms","s":"Genki I, Lesson 8","q":"Short negative present of 買う (かう):","a":"買わない","w":["買あない","買いない","買かない"],"e":"Verbs ending in う change to わ, not あ."},
-{"t":"Genki I L8 – Short forms","s":"Genki I, Lesson 8","q":"Short negative of ある (there is):","a":"ない","w":["あらない","ありない","あない"],"e":"ある's negative is just ない."},
-{"t":"Genki I L8 – ～と思います","s":"Genki I, Lesson 8","q":"'I think it will rain tomorrow.' →","a":"あしたはあめがふると思います。","w":["あしたはあめがふりますと思います。","あしたはあめがふってと思います。","あしたはあめがふるを思います。"],"e":"Short form + と思います. (For nouns/な-adjectives: だと思います.)"},
-{"t":"Genki I L8 – ～と言っていました","s":"Genki I, Lesson 8","q":"'Mary said she is busy.' →","a":"メアリーさんはいそがしいと言っていました。","w":["メアリーさんはいそがしいですと言いました。","メアリーさんはいそがしいを言っていました。","メアリーさんはいそがしくと言っていました。"],"e":"Short form + と言っていました reports what someone said."},
-{"t":"Genki I L8 – ～ないでください","s":"Genki I, Lesson 8","q":"'Please don't look.' →","a":"見ないでください。","w":["見てないください。","見なくてください。","見ませんでください。"],"e":"Short negative + でください = 'please don't'."},
-{"t":"Genki I L8 – Verb のが好き","s":"Genki I, Lesson 8","q":"'I like cooking.' → りょうりを＿＿＿がすきです。","a":"するの","w":["する","するが","しての"],"e":"Short-form verb + の turns the verb into a noun phrase: するのがすきです."},
-{"t":"Genki I L8 – が (subject)","s":"Genki I, Lesson 8","q":"'Who went?' → だれ＿＿いきましたか。","a":"が","w":["は","を","も"],"e":"Question words like だれ and なに as subjects take が, never は."},
-{"t":"Genki I L8 – 何か/何も","s":"Genki I, Lesson 8","q":"'I didn't eat anything.' → ＿＿＿たべませんでした。","a":"なにも","w":["なにか","なにを","なにが"],"e":"なにか = something (affirmative). なにも + negative = nothing."},
-{"t":"Genki I L9 – Past short forms","s":"Genki I, Lesson 9","q":"Short past of 飲む:","a":"飲んだ","w":["飲みた","飲った","飲むだ"],"e":"Short past = te-form with て→た, で→だ."},
-{"t":"Genki I L9 – Past short forms","s":"Genki I, Lesson 9","q":"Short past of the い-adjective おもしろい:","a":"おもしろかった","w":["おもしろいだった","おもしろだった","おもしろくた"],"e":"Drop い, add かった."},
-{"t":"Genki I L9 – Past short forms","s":"Genki I, Lesson 9","q":"Short past negative of 行く:","a":"行かなかった","w":["行かないだった","行きなかった","行ってなかった"],"e":"ない → なかった."},
-{"t":"Genki I L9 – Qualifying nouns","s":"Genki I, Lesson 9","q":"'The person who is wearing glasses' →","a":"めがねをかけている人","w":["人はめがねをかけている","めがねをかけているの人","めがねをかけていますの人"],"e":"A short-form verb phrase placed before a noun modifies it (no の)."},
-{"t":"Genki I L9 – まだ～ていません","s":"Genki I, Lesson 9","q":"'I haven't eaten yet.' →","a":"まだたべていません。","w":["まだたべません。","もうたべていません。","まだたべませんでした。"],"e":"まだ + te-form + いません = 'have not done yet'."},
-{"t":"Genki I L10 – Comparison","s":"Genki I, Lesson 10","q":"'Tokyo is bigger than Osaka.' →","a":"とうきょうはおおさかより大きいです。","w":["おおさかはとうきょうより大きいです。","とうきょうよりおおさかは大きいです。","とうきょうはおおさかのほう大きいです。"],"e":"A は B より [adjective] = A is more ~ than B."},
-{"t":"Genki I L10 – Comparison","s":"Genki I, Lesson 10","q":"'Which do you like better, cats or dogs?' →","a":"ねことイヌとどちらのほうがすきですか。","w":["ねことイヌとどれがいちばんすきですか。","ねこよりイヌがすきですか。","ねことイヌのなかでどこがすきですか。"],"e":"A と B と どちら(のほう)が... compares two things."},
-{"t":"Genki I L10 – いちばん","s":"Genki I, Lesson 10","q":"'Among foods, what do you like most?' →","a":"たべもののなかで、なにがいちばんすきですか。","w":["たべものより、なにがすきですか。","たべもののなかで、どちらのほうがすきですか。","たべものはなにがすきですか。"],"e":"[Group] の中で [X] が いちばん ~ is the superlative."},
-{"t":"Genki I L10 – ～つもりだ","s":"Genki I, Lesson 10","q":"'I intend to go to Japan.' →","a":"日本に行くつもりです。","w":["日本に行きつもりです。","日本に行ったつもりです。","日本に行くのつもりです。"],"e":"Short present verb + つもりです = intention."},
-{"t":"Genki I L10 – Adj + なる","s":"Genki I, Lesson 10","q":"'It has become cold.' →","a":"さむくなりました。","w":["さむいなりました。","さむになりました。","さむくにしました。"],"e":"い-adjective: く + なる. な-adjective/noun: に + なる."},
-{"t":"Genki I L10 – で (means)","s":"Genki I, Lesson 10","q":"'I go to school by bus.' → バス＿＿がっこうにいきます。","a":"で","w":["に","を","と"],"e":"で marks the means or instrument."},
-{"t":"Genki I L10 – どこにも","s":"Genki I, Lesson 10","q":"'I didn't go anywhere.' → ＿＿＿いきませんでした。","a":"どこにも","w":["どこかに","どこでも","どこに"],"e":"どこにも + negative = nowhere. どこかに = somewhere."},
-{"t":"Genki I L11 – ～たい","s":"Genki I, Lesson 11","q":"'I want to go to Kyoto.' →","a":"きょうとに行きたいです。","w":["きょうとに行くたいです。","きょうとに行ってたいです。","きょうとに行きたいでした。"],"e":"Verb stem + たい. It conjugates like an い-adjective (たくない, たかった)."},
-{"t":"Genki I L11 – ～たり～たりする","s":"Genki I, Lesson 11","q":"'On weekends I do things like clean and do laundry.' →","a":"しゅうまつは、そうじをしたり、せんたくをしたりします。","w":["しゅうまつは、そうじをして、せんたくをします。","しゅうまつは、そうじをしたり、せんたくをします。","しゅうまつは、そうじをするり、せんたくをするりします。"],"e":"Short past + り ... + り + する lists representative activities."},
-{"t":"Genki I L11 – ～ことがある","s":"Genki I, Lesson 11","q":"'Have you ever eaten sushi?' →","a":"すしを食べたことがありますか。","w":["すしを食べることがありますか。","すしを食べてことがありますか。","すしを食べたのがありますか。"],"e":"Short PAST + ことがある = have the experience of."},
-{"t":"Genki I L11 – や","s":"Genki I, Lesson 11","q":"'I bought things like bread and eggs.' → パン＿＿たまごをかいました。","a":"や","w":["と","も","か"],"e":"や lists examples non-exhaustively ('and so on'). と implies the complete list."},
-{"t":"Genki I L12 – ～んです","s":"Genki I, Lesson 12","q":"Explaining 'It's that I have a headache.' →","a":"あたまがいたいんです。","w":["あたまがいたいです。","あたまがいたいだんです。","あたまがいたくんです。"],"e":"Short form + んです explains a situation. Nouns/な-adjectives take なんです."},
-{"t":"Genki I L12 – ～すぎる","s":"Genki I, Lesson 12","q":"'I ate too much.' →","a":"たべすぎました。","w":["たべるすぎました。","たべてすぎました。","たべたすぎました。"],"e":"Verb stem + すぎる. い-adjectives drop い (たかすぎる)."},
-{"t":"Genki I L12 – ～ほうがいい","s":"Genki I, Lesson 12","q":"'You'd better go to the hospital.' →","a":"びょういんに行ったほうがいいですよ。","w":["びょういんに行くほうがいいですよ。","びょういんに行きほうがいいですよ。","びょういんに行ってほうがいいですよ。"],"e":"Short PAST affirmative + ほうがいい gives advice. Negative advice: ないほうがいい."},
-{"t":"Genki I L12 – ～ので","s":"Genki I, Lesson 12","q":"'Since I'm a student, I don't have money.' →","a":"がくせいなので、おかねがありません。","w":["がくせいので、おかねがありません。","がくせいだので、おかねがありません。","がくせいからので、おかねがありません。"],"e":"Nouns and な-adjectives take な before ので."},
-{"t":"Genki I L12 – ～なければいけません","s":"Genki I, Lesson 12","q":"'I have to study.' →","a":"べんきょうしなければいけません。","w":["べんきょうしなくていけません。","べんきょうしないといいです。","べんきょうしてはいけません。"],"e":"ない → なければいけません/ならない. Casually: なきゃいけない."},
-{"t":"Genki I L12 – ～でしょう","s":"Genki I, Lesson 12","q":"'It will probably be cold tomorrow.' →","a":"あしたはさむいでしょう。","w":["あしたはさむいだでしょう。","あしたはさむくでしょう。","あしたはさむいですでしょう。"],"e":"Short form + でしょう = probably. Nouns/な-adjectives drop だ."}
+ {
+  "t": "Genki I L1 – XはYです",
+  "s": "Genki I, Lesson 1",
+  "q": "Choose the particle: わたし＿＿がくせいです。(I am a student.)",
+  "a": "は",
+  "w": [
+   "を",
+   "に",
+   "で"
+  ],
+  "e": "XはYです: 'X is Y'. は marks the topic."
+ },
+ {
+  "t": "Genki I L1 – Question sentences",
+  "s": "Genki I, Lesson 1",
+  "q": "How do you turn 'りゅうがくせいです' into a question?",
+  "a": "りゅうがくせいですか。",
+  "w": [
+   "りゅうがくせいですね。",
+   "りゅうがくせいですよ。",
+   "りゅうがくせいですの。"
+  ],
+  "e": "Add か at the end of a sentence to make a question."
+ },
+ {
+  "t": "Genki I L1 – Noun の Noun",
+  "s": "Genki I, Lesson 1",
+  "q": "'A student at Sakura University' is:",
+  "a": "さくらだいがくのがくせい",
+  "w": [
+   "がくせいのさくらだいがく",
+   "さくらだいがくはがくせい",
+   "さくらだいがくにがくせい"
+  ],
+  "e": "In Noun1 の Noun2, Noun1 modifies Noun2. The modifier comes first."
+ },
+ {
+  "t": "Genki I L2 – これ/それ/あれ",
+  "s": "Genki I, Lesson 2",
+  "q": "Pointing at something near the LISTENER, you say:",
+  "a": "それ",
+  "w": [
+   "これ",
+   "あれ",
+   "どれ"
+  ],
+  "e": "これ is near the speaker, それ near the listener, あれ far from both. どれ means 'which one'."
+ },
+ {
+  "t": "Genki I L2 – この/その/あの",
+  "s": "Genki I, Lesson 2",
+  "q": "'This watch' (near speaker) is:",
+  "a": "このとけい",
+  "w": [
+   "これとけい",
+   "このとけいは",
+   "ここのとけい"
+  ],
+  "e": "この/その/あの/どの must be followed by a noun. これ/それ/あれ stand alone."
+ },
+ {
+  "t": "Genki I L2 – ここ/そこ/あそこ",
+  "s": "Genki I, Lesson 2",
+  "q": "'Where is the restroom?' → トイレは＿＿＿ですか。",
+  "a": "どこ",
+  "w": [
+   "どれ",
+   "どの",
+   "だれ"
+  ],
+  "e": "ここ/そこ/あそこ/どこ refer to places."
+ },
+ {
+  "t": "Genki I L2 – だれの",
+  "s": "Genki I, Lesson 2",
+  "q": "'Whose umbrella is this?' →",
+  "a": "これはだれのかさですか。",
+  "w": [
+   "これはだれかさですか。",
+   "これはどこのかさですか。",
+   "これはなんのかさですか。"
+  ],
+  "e": "だれの + noun = 'whose'."
+ },
+ {
+  "t": "Genki I L2 – も",
+  "s": "Genki I, Lesson 2",
+  "q": "'Takeshi is also Japanese.' → たけしさん＿＿にほんじんです。",
+  "a": "も",
+  "w": [
+   "は",
+   "が",
+   "の"
+  ],
+  "e": "も ('too/also') replaces は."
+ },
+ {
+  "t": "Genki I L2 – じゃないです",
+  "s": "Genki I, Lesson 2",
+  "q": "Negative of 'がくせいです':",
+  "a": "がくせいじゃないです",
+  "w": [
+   "がくせいないです",
+   "がくせいくないです",
+   "がくせいでません"
+  ],
+  "e": "Noun + じゃないです (or じゃありません) is the negative."
+ },
+ {
+  "t": "Genki I L2 – ね/よ",
+  "s": "Genki I, Lesson 2",
+  "q": "Which ending seeks the listener's agreement ('...isn't it?')?",
+  "a": "ね",
+  "w": [
+   "よ",
+   "か",
+   "の"
+  ],
+  "e": "ね seeks agreement or confirmation. よ asserts new information to the listener."
+ },
+ {
+  "t": "Genki I L3 – Verb conjugation",
+  "s": "Genki I, Lesson 3",
+  "q": "The long (ます) present affirmative of 行く is:",
+  "a": "行きます",
+  "w": [
+   "行くます",
+   "行ります",
+   "行けます"
+  ],
+  "e": "For an u-verb, change the final -u to -i and add ます: いく → いきます."
+ },
+ {
+  "t": "Genki I L3 – Verb types",
+  "s": "Genki I, Lesson 3",
+  "q": "Which of these is an u-verb, even though it ends in -eru?",
+  "a": "帰る (かえる)",
+  "w": [
+   "食べる (たべる)",
+   "寝る (ねる)",
+   "起きる (おきる)"
+  ],
+  "e": "帰る → 帰ります (u-verb). 食べる, 寝る, 起きる are ru-verbs."
+ },
+ {
+  "t": "Genki I L3 – Irregular verbs",
+  "s": "Genki I, Lesson 3",
+  "q": "The ます form of 来る is:",
+  "a": "来ます (きます)",
+  "w": [
+   "来ります (くります)",
+   "来ます (くます)",
+   "来ります (きります)"
+  ],
+  "e": "The two irregular verbs are する → します and くる → きます."
+ },
+ {
+  "t": "Genki I L3 – Particles",
+  "s": "Genki I, Lesson 3",
+  "q": "'I eat at a restaurant.' → レストラン＿＿たべます。",
+  "a": "で",
+  "w": [
+   "に",
+   "を",
+   "へ"
+  ],
+  "e": "で marks where an action takes place."
+ },
+ {
+  "t": "Genki I L3 – Particles",
+  "s": "Genki I, Lesson 3",
+  "q": "'I go to school.' → がっこう＿＿いきます。 Which TWO particles are both correct?",
+  "a": "に or へ",
+  "w": [
+   "で or を",
+   "を or が",
+   "の or で"
+  ],
+  "e": "に and へ both mark the destination of movement."
+ },
+ {
+  "t": "Genki I L3 – Particles",
+  "s": "Genki I, Lesson 3",
+  "q": "'I drink coffee.' → コーヒー＿＿のみます。",
+  "a": "を",
+  "w": [
+   "が",
+   "に",
+   "で"
+  ],
+  "e": "を marks the direct object."
+ },
+ {
+  "t": "Genki I L3 – Time references",
+  "s": "Genki I, Lesson 3",
+  "q": "Which time word does NOT take に?",
+  "a": "あした (tomorrow)",
+  "w": [
+   "にちようび (Sunday)",
+   "しちじ (seven o'clock)",
+   "さんがつ (March)"
+  ],
+  "e": "Relative time words (きょう, あした, まいにち, こんばん) take no に. Clock times and days of the week do."
+ },
+ {
+  "t": "Genki I L3 – ～ませんか",
+  "s": "Genki I, Lesson 3",
+  "q": "'Won't you see a movie (with me)?' →",
+  "a": "えいがをみませんか。",
+  "w": [
+   "えいがをみましょう。",
+   "えいがをみてください。",
+   "えいがをみたいですか。"
+  ],
+  "e": "Verb-ませんか is a polite invitation."
+ },
+ {
+  "t": "Genki I L3 – Frequency adverbs",
+  "s": "Genki I, Lesson 3",
+  "q": "Which frequency adverb requires a NEGATIVE verb?",
+  "a": "ぜんぜん",
+  "w": [
+   "よく",
+   "ときどき",
+   "たいてい"
+  ],
+  "e": "ぜんぜん (not at all) and あまり (not much) go with negative verbs."
+ },
+ {
+  "t": "Genki I L4 – あります/います",
+  "s": "Genki I, Lesson 4",
+  "q": "'There is a cat.' → ねこが＿＿＿。",
+  "a": "います",
+  "w": [
+   "あります",
+   "です",
+   "いきます"
+  ],
+  "e": "います is for living things (people, animals). あります is for inanimate things."
+ },
+ {
+  "t": "Genki I L4 – Location words",
+  "s": "Genki I, Lesson 4",
+  "q": "'The book is on the table.' →",
+  "a": "ほんはテーブルのうえにあります。",
+  "w": [
+   "ほんはテーブルのうえであります。",
+   "ほんはテーブルのうえをあります。",
+   "ほんはうえのテーブルにあります。"
+  ],
+  "e": "X は Y の [location] に あります. The location of existence takes に."
+ },
+ {
+  "t": "Genki I L4 – でした",
+  "s": "Genki I, Lesson 4",
+  "q": "Past tense of 'にちようびです':",
+  "a": "にちようびでした",
+  "w": [
+   "にちようびだったです",
+   "にちようびましたです",
+   "にちようびでしました"
+  ],
+  "e": "です → でした. The negative past is じゃなかったです."
+ },
+ {
+  "t": "Genki I L4 – Past ました",
+  "s": "Genki I, Lesson 4",
+  "q": "Past negative of 読みます:",
+  "a": "読みませんでした",
+  "w": [
+   "読みませんでしたです",
+   "読まなかったでした",
+   "読みましたない"
+  ],
+  "e": "ました (past affirmative), ませんでした (past negative)."
+ },
+ {
+  "t": "Genki I L4 – と (and/with)",
+  "s": "Genki I, Lesson 4",
+  "q": "'I went to Kyoto with a friend.' → ともだち＿＿きょうとへいきました。",
+  "a": "と",
+  "w": [
+   "や",
+   "も",
+   "の"
+  ],
+  "e": "と means 'with' (doing something together) or 'and' between nouns."
+ },
+ {
+  "t": "Genki I L4 – ～時間",
+  "s": "Genki I, Lesson 4",
+  "q": "'I studied for two hours' →",
+  "a": "二時間べんきょうしました。",
+  "w": [
+   "二時べんきょうしました。",
+   "二時にべんきょうしました。",
+   "二分間べんきょうしました。"
+  ],
+  "e": "～時間 is duration ('for X hours'). ～時 is clock time."
+ },
+ {
+  "t": "Genki I L5 – い-adjectives",
+  "s": "Genki I, Lesson 5",
+  "q": "Negative present of たかい:",
+  "a": "たかくないです",
+  "w": [
+   "たかいじゃないです",
+   "たかないです",
+   "たかくありませんでした"
+  ],
+  "e": "Drop い and add くないです."
+ },
+ {
+  "t": "Genki I L5 – Irregular いい",
+  "s": "Genki I, Lesson 5",
+  "q": "Past affirmative of いい:",
+  "a": "よかったです",
+  "w": [
+   "いかったです",
+   "いいでした",
+   "よいでした"
+  ],
+  "e": "いい conjugates from よい: よくない, よかった, よくなかった."
+ },
+ {
+  "t": "Genki I L5 – な-adjectives",
+  "s": "Genki I, Lesson 5",
+  "q": "Past negative of しずか(な):",
+  "a": "しずかじゃなかったです",
+  "w": [
+   "しずかくなかったです",
+   "しずかでしたない",
+   "しずかなかったです"
+  ],
+  "e": "な-adjectives conjugate like nouns: じゃない, だった, じゃなかった."
+ },
+ {
+  "t": "Genki I L5 – 好き/きらい",
+  "s": "Genki I, Lesson 5",
+  "q": "'I like sushi.' → すし＿＿すきです。",
+  "a": "が",
+  "w": [
+   "を",
+   "は",
+   "に"
+  ],
+  "e": "The object of すき/きらい takes が."
+ },
+ {
+  "t": "Genki I L5 – ～ましょう",
+  "s": "Genki I, Lesson 5",
+  "q": "'Let's go!' →",
+  "a": "いきましょう！",
+  "w": [
+   "いきませんか！",
+   "いってください！",
+   "いきたいです！"
+  ],
+  "e": "Verb stem + ましょう = 'let's...'."
+ },
+ {
+  "t": "Genki I L6 – Te-form",
+  "s": "Genki I, Lesson 6",
+  "q": "Te-form of 書く (かく):",
+  "a": "書いて",
+  "w": [
+   "書って",
+   "書きて",
+   "書んで"
+  ],
+  "e": "く → いて. (Exception: 行く → 行って.)"
+ },
+ {
+  "t": "Genki I L6 – Te-form",
+  "s": "Genki I, Lesson 6",
+  "q": "Te-form of 飲む (のむ):",
+  "a": "飲んで",
+  "w": [
+   "飲って",
+   "飲いて",
+   "飲みて"
+  ],
+  "e": "む, ぶ, ぬ → んで."
+ },
+ {
+  "t": "Genki I L6 – Te-form",
+  "s": "Genki I, Lesson 6",
+  "q": "Te-form of 話す (はなす):",
+  "a": "話して",
+  "w": [
+   "話って",
+   "話いて",
+   "話んで"
+  ],
+  "e": "す → して."
+ },
+ {
+  "t": "Genki I L6 – Te-form",
+  "s": "Genki I, Lesson 6",
+  "q": "Te-form of 待つ (まつ):",
+  "a": "待って",
+  "w": [
+   "待ちて",
+   "待んで",
+   "待いて"
+  ],
+  "e": "う, つ, る (u-verbs) → って."
+ },
+ {
+  "t": "Genki I L6 – ～てください",
+  "s": "Genki I, Lesson 6",
+  "q": "'Please show me.' →",
+  "a": "見せてください。",
+  "w": [
+   "見せるください。",
+   "見せてもいいです。",
+   "見せませんか。"
+  ],
+  "e": "Te-form + ください = polite request."
+ },
+ {
+  "t": "Genki I L6 – ～てもいいです",
+  "s": "Genki I, Lesson 6",
+  "q": "'May I take a photo?' →",
+  "a": "しゃしんをとってもいいですか。",
+  "w": [
+   "しゃしんをとってはいけませんか。",
+   "しゃしんをとってください。",
+   "しゃしんをとりませんか。"
+  ],
+  "e": "Te-form + もいいです = permission."
+ },
+ {
+  "t": "Genki I L6 – ～てはいけません",
+  "s": "Genki I, Lesson 6",
+  "q": "'You must not smoke here.' → ここでたばこをすって＿＿＿。",
+  "a": "はいけません",
+  "w": [
+   "もいいです",
+   "ください",
+   "います"
+  ],
+  "e": "Te-form + はいけません = prohibition."
+ },
+ {
+  "t": "Genki I L6 – ～から (reason)",
+  "s": "Genki I, Lesson 6",
+  "q": "'I'm busy, so I won't go.' →",
+  "a": "いそがしいですから、いきません。",
+  "w": [
+   "いそがしいですので、いきます。",
+   "いそがしいからですいきません。",
+   "いそがしいでから、いきません。"
+  ],
+  "e": "[Reason] から [result]. から follows the reason clause."
+ },
+ {
+  "t": "Genki I L7 – ～ている (progress)",
+  "s": "Genki I, Lesson 7",
+  "q": "'Takeshi is reading a book (right now).' →",
+  "a": "たけしさんはほんを読んでいます。",
+  "w": [
+   "たけしさんはほんを読みます。",
+   "たけしさんはほんを読んでいました。",
+   "たけしさんはほんを読みたいです。"
+  ],
+  "e": "Te-form + いる describes an action in progress."
+ },
+ {
+  "t": "Genki I L7 – ～ている (result)",
+  "s": "Genki I, Lesson 7",
+  "q": "'My sister is married.' (resulting state) →",
+  "a": "あねはけっこんしています。",
+  "w": [
+   "あねはけっこんします。",
+   "あねはけっこんしました。",
+   "あねはけっこんしてください。"
+  ],
+  "e": "With change-of-state verbs (けっこんする, 知る, 住む), ている shows the resulting state."
+ },
+ {
+  "t": "Genki I L7 – 知っています",
+  "s": "Genki I, Lesson 7",
+  "q": "'I don't know.' (polite) →",
+  "a": "知りません。",
+  "w": [
+   "知っていません。",
+   "知らないています。",
+   "知りませんでいます。"
+  ],
+  "e": "The affirmative is 知っています, but the negative is irregular: 知りません."
+ },
+ {
+  "t": "Genki I L7 – Describing people",
+  "s": "Genki I, Lesson 7",
+  "q": "'Mary has long hair.' →",
+  "a": "メアリーさんはかみがながいです。",
+  "w": [
+   "メアリーさんのかみはながいがあります。",
+   "メアリーさんはながいかみです。",
+   "メアリーさんをかみがながいです。"
+  ],
+  "e": "Person は [body part] が [adjective]."
+ },
+ {
+  "t": "Genki I L7 – Joining with te",
+  "s": "Genki I, Lesson 7",
+  "q": "'It's cheap and delicious.' →",
+  "a": "やすくておいしいです。",
+  "w": [
+   "やすいておいしいです。",
+   "やすいとおいしいです。",
+   "やすでおいしいです。"
+  ],
+  "e": "い-adjective: drop い, add くて. な-adjectives and nouns take で."
+ },
+ {
+  "t": "Genki I L7 – Stem + に行く",
+  "s": "Genki I, Lesson 7",
+  "q": "'I went to Kyoto to see a friend.' → きょうとへともだちに＿＿いきました。",
+  "a": "会いに",
+  "w": [
+   "会って",
+   "会うに",
+   "会うため"
+  ],
+  "e": "Verb stem + に + 行く/来る/帰る = 'go/come/return in order to...'."
+ },
+ {
+  "t": "Genki I L8 – Short forms",
+  "s": "Genki I, Lesson 8",
+  "q": "Short negative present of 行く:",
+  "a": "行かない",
+  "w": [
+   "行きない",
+   "行けない",
+   "行わない"
+  ],
+  "e": "For u-verbs, change -u to -a and add ない."
+ },
+ {
+  "t": "Genki I L8 – Short forms",
+  "s": "Genki I, Lesson 8",
+  "q": "Short negative present of 買う (かう):",
+  "a": "買わない",
+  "w": [
+   "買あない",
+   "買いない",
+   "買かない"
+  ],
+  "e": "Verbs ending in う change to わ, not あ."
+ },
+ {
+  "t": "Genki I L8 – Short forms",
+  "s": "Genki I, Lesson 8",
+  "q": "Short negative of ある (there is):",
+  "a": "ない",
+  "w": [
+   "あらない",
+   "ありない",
+   "あない"
+  ],
+  "e": "ある's negative is just ない."
+ },
+ {
+  "t": "Genki I L8 – ～と思います",
+  "s": "Genki I, Lesson 8",
+  "q": "'I think it will rain tomorrow.' →",
+  "a": "あしたはあめがふると思います。",
+  "w": [
+   "あしたはあめがふりますと思います。",
+   "あしたはあめがふってと思います。",
+   "あしたはあめがふるを思います。"
+  ],
+  "e": "Short form + と思います. (For nouns/な-adjectives: だと思います.)"
+ },
+ {
+  "t": "Genki I L8 – ～と言っていました",
+  "s": "Genki I, Lesson 8",
+  "q": "'Mary said she is busy.' →",
+  "a": "メアリーさんはいそがしいと言っていました。",
+  "w": [
+   "メアリーさんはいそがしいですと言いました。",
+   "メアリーさんはいそがしいを言っていました。",
+   "メアリーさんはいそがしくと言っていました。"
+  ],
+  "e": "Short form + と言っていました reports what someone said."
+ },
+ {
+  "t": "Genki I L8 – ～ないでください",
+  "s": "Genki I, Lesson 8",
+  "q": "'Please don't look.' →",
+  "a": "見ないでください。",
+  "w": [
+   "見てないください。",
+   "見なくてください。",
+   "見ませんでください。"
+  ],
+  "e": "Short negative + でください = 'please don't'."
+ },
+ {
+  "t": "Genki I L8 – Verb のが好き",
+  "s": "Genki I, Lesson 8",
+  "q": "'I like cooking.' → りょうりを＿＿＿がすきです。",
+  "a": "するの",
+  "w": [
+   "する",
+   "するが",
+   "しての"
+  ],
+  "e": "Short-form verb + の turns the verb into a noun phrase: するのがすきです."
+ },
+ {
+  "t": "Genki I L8 – が (subject)",
+  "s": "Genki I, Lesson 8",
+  "q": "'Who went?' → だれ＿＿いきましたか。",
+  "a": "が",
+  "w": [
+   "は",
+   "を",
+   "も"
+  ],
+  "e": "Question words like だれ and なに as subjects take が, never は."
+ },
+ {
+  "t": "Genki I L8 – 何か/何も",
+  "s": "Genki I, Lesson 8",
+  "q": "'I didn't eat anything.' → ＿＿＿たべませんでした。",
+  "a": "なにも",
+  "w": [
+   "なにか",
+   "なにを",
+   "なにが"
+  ],
+  "e": "なにか = something (affirmative). なにも + negative = nothing."
+ },
+ {
+  "t": "Genki I L9 – Past short forms",
+  "s": "Genki I, Lesson 9",
+  "q": "Short past of 飲む:",
+  "a": "飲んだ",
+  "w": [
+   "飲みた",
+   "飲った",
+   "飲むだ"
+  ],
+  "e": "Short past = te-form with て→た, で→だ."
+ },
+ {
+  "t": "Genki I L9 – Past short forms",
+  "s": "Genki I, Lesson 9",
+  "q": "Short past of the い-adjective おもしろい:",
+  "a": "おもしろかった",
+  "w": [
+   "おもしろいだった",
+   "おもしろだった",
+   "おもしろくた"
+  ],
+  "e": "Drop い, add かった."
+ },
+ {
+  "t": "Genki I L9 – Past short forms",
+  "s": "Genki I, Lesson 9",
+  "q": "Short past negative of 行く:",
+  "a": "行かなかった",
+  "w": [
+   "行かないだった",
+   "行きなかった",
+   "行ってなかった"
+  ],
+  "e": "ない → なかった."
+ },
+ {
+  "t": "Genki I L9 – Qualifying nouns",
+  "s": "Genki I, Lesson 9",
+  "q": "'The person who is wearing glasses' →",
+  "a": "めがねをかけている人",
+  "w": [
+   "人はめがねをかけている",
+   "めがねをかけているの人",
+   "めがねをかけていますの人"
+  ],
+  "e": "A short-form verb phrase placed before a noun modifies it (no の)."
+ },
+ {
+  "t": "Genki I L9 – まだ～ていません",
+  "s": "Genki I, Lesson 9",
+  "q": "'I haven't eaten yet.' →",
+  "a": "まだたべていません。",
+  "w": [
+   "まだたべません。",
+   "もうたべていません。",
+   "まだたべませんでした。"
+  ],
+  "e": "まだ + te-form + いません = 'have not done yet'."
+ },
+ {
+  "t": "Genki I L10 – Comparison",
+  "s": "Genki I, Lesson 10",
+  "q": "'Tokyo is bigger than Osaka.' →",
+  "a": "とうきょうはおおさかより大きいです。",
+  "w": [
+   "おおさかはとうきょうより大きいです。",
+   "とうきょうよりおおさかは大きいです。",
+   "とうきょうはおおさかのほう大きいです。"
+  ],
+  "e": "A は B より [adjective] = A is more ~ than B."
+ },
+ {
+  "t": "Genki I L10 – Comparison",
+  "s": "Genki I, Lesson 10",
+  "q": "'Which do you like better, cats or dogs?' →",
+  "a": "ねことイヌとどちらのほうがすきですか。",
+  "w": [
+   "ねことイヌとどれがいちばんすきですか。",
+   "ねこよりイヌがすきですか。",
+   "ねことイヌのなかでどこがすきですか。"
+  ],
+  "e": "A と B と どちら(のほう)が... compares two things."
+ },
+ {
+  "t": "Genki I L10 – いちばん",
+  "s": "Genki I, Lesson 10",
+  "q": "'Among foods, what do you like most?' →",
+  "a": "たべもののなかで、なにがいちばんすきですか。",
+  "w": [
+   "たべものより、なにがすきですか。",
+   "たべもののなかで、どちらのほうがすきですか。",
+   "たべものはなにがすきですか。"
+  ],
+  "e": "[Group] の中で [X] が いちばん ~ is the superlative."
+ },
+ {
+  "t": "Genki I L10 – ～つもりだ",
+  "s": "Genki I, Lesson 10",
+  "q": "'I intend to go to Japan.' →",
+  "a": "日本に行くつもりです。",
+  "w": [
+   "日本に行きつもりです。",
+   "日本に行ったつもりです。",
+   "日本に行くのつもりです。"
+  ],
+  "e": "Short present verb + つもりです = intention."
+ },
+ {
+  "t": "Genki I L10 – Adj + なる",
+  "s": "Genki I, Lesson 10",
+  "q": "'It has become cold.' →",
+  "a": "さむくなりました。",
+  "w": [
+   "さむいなりました。",
+   "さむになりました。",
+   "さむくにしました。"
+  ],
+  "e": "い-adjective: く + なる. な-adjective/noun: に + なる."
+ },
+ {
+  "t": "Genki I L10 – で (means)",
+  "s": "Genki I, Lesson 10",
+  "q": "'I go to school by bus.' → バス＿＿がっこうにいきます。",
+  "a": "で",
+  "w": [
+   "に",
+   "を",
+   "と"
+  ],
+  "e": "で marks the means or instrument."
+ },
+ {
+  "t": "Genki I L10 – どこにも",
+  "s": "Genki I, Lesson 10",
+  "q": "'I didn't go anywhere.' → ＿＿＿いきませんでした。",
+  "a": "どこにも",
+  "w": [
+   "どこかに",
+   "どこでも",
+   "どこに"
+  ],
+  "e": "どこにも + negative = nowhere. どこかに = somewhere."
+ },
+ {
+  "t": "Genki I L11 – ～たい",
+  "s": "Genki I, Lesson 11",
+  "q": "'I want to go to Kyoto.' →",
+  "a": "きょうとに行きたいです。",
+  "w": [
+   "きょうとに行くたいです。",
+   "きょうとに行ってたいです。",
+   "きょうとに行きたいでした。"
+  ],
+  "e": "Verb stem + たい. It conjugates like an い-adjective (たくない, たかった)."
+ },
+ {
+  "t": "Genki I L11 – ～たり～たりする",
+  "s": "Genki I, Lesson 11",
+  "q": "'On weekends I do things like clean and do laundry.' →",
+  "a": "しゅうまつは、そうじをしたり、せんたくをしたりします。",
+  "w": [
+   "しゅうまつは、そうじをして、せんたくをします。",
+   "しゅうまつは、そうじをしたり、せんたくをします。",
+   "しゅうまつは、そうじをするり、せんたくをするりします。"
+  ],
+  "e": "Short past + り ... + り + する lists representative activities."
+ },
+ {
+  "t": "Genki I L11 – ～ことがある",
+  "s": "Genki I, Lesson 11",
+  "q": "'Have you ever eaten sushi?' →",
+  "a": "すしを食べたことがありますか。",
+  "w": [
+   "すしを食べることがありますか。",
+   "すしを食べてことがありますか。",
+   "すしを食べたのがありますか。"
+  ],
+  "e": "Short PAST + ことがある = have the experience of."
+ },
+ {
+  "t": "Genki I L11 – や",
+  "s": "Genki I, Lesson 11",
+  "q": "'I bought things like bread and eggs.' → パン＿＿たまごをかいました。",
+  "a": "や",
+  "w": [
+   "と",
+   "も",
+   "か"
+  ],
+  "e": "や lists examples non-exhaustively ('and so on'). と implies the complete list."
+ },
+ {
+  "t": "Genki I L12 – ～んです",
+  "s": "Genki I, Lesson 12",
+  "q": "Explaining 'It's that I have a headache.' →",
+  "a": "あたまがいたいんです。",
+  "w": [
+   "あたまがいたいです。",
+   "あたまがいたいだんです。",
+   "あたまがいたくんです。"
+  ],
+  "e": "Short form + んです explains a situation. Nouns/な-adjectives take なんです."
+ },
+ {
+  "t": "Genki I L12 – ～すぎる",
+  "s": "Genki I, Lesson 12",
+  "q": "'I ate too much.' →",
+  "a": "たべすぎました。",
+  "w": [
+   "たべるすぎました。",
+   "たべてすぎました。",
+   "たべたすぎました。"
+  ],
+  "e": "Verb stem + すぎる. い-adjectives drop い (たかすぎる)."
+ },
+ {
+  "t": "Genki I L12 – ～ほうがいい",
+  "s": "Genki I, Lesson 12",
+  "q": "'You'd better go to the hospital.' →",
+  "a": "びょういんに行ったほうがいいですよ。",
+  "w": [
+   "びょういんに行くほうがいいですよ。",
+   "びょういんに行きほうがいいですよ。",
+   "びょういんに行ってほうがいいですよ。"
+  ],
+  "e": "Short PAST affirmative + ほうがいい gives advice. Negative advice: ないほうがいい."
+ },
+ {
+  "t": "Genki I L12 – ～ので",
+  "s": "Genki I, Lesson 12",
+  "q": "'Since I'm a student, I don't have money.' →",
+  "a": "がくせいなので、おかねがありません。",
+  "w": [
+   "がくせいので、おかねがありません。",
+   "がくせいだので、おかねがありません。",
+   "がくせいからので、おかねがありません。"
+  ],
+  "e": "Nouns and な-adjectives take な before ので."
+ },
+ {
+  "t": "Genki I L12 – ～なければいけません",
+  "s": "Genki I, Lesson 12",
+  "q": "'I have to study.' →",
+  "a": "べんきょうしなければいけません。",
+  "w": [
+   "べんきょうしなくていけません。",
+   "べんきょうしないといいです。",
+   "べんきょうしてはいけません。"
+  ],
+  "e": "ない → なければいけません/ならない. Casually: なきゃいけない."
+ },
+ {
+  "t": "Genki I L12 – ～でしょうか",
+  "s": "Genki I, Lesson 12",
+  "q": "Asking a teacher politely: 'Will the exam be difficult?' →",
+  "a": "しけんはむずかしいでしょうか。",
+  "w": [
+   "しけんはむずかしいですでしょうか。",
+   "しけんはむずかしくでしょうか。",
+   "しけんはむずかしいだでしょうか。"
+  ],
+  "e": "でしょうか is a more polite version of ですか. It follows short forms: い-adjectives attach directly (むずかしいでしょうか), and です is dropped."
+ },
+ {
+  "t": "Genki I L3 – Word Order",
+  "s": "Genki I, Lesson 3",
+  "q": "Which sentence uses the usual word order for 'I watch TV at home on Sunday'?",
+  "a": "にちようびにうちでテレビをみます。",
+  "w": [
+   "うちでテレビをみますにちようびに。",
+   "テレビをみますにちようびにうちで。",
+   "みますテレビをうちでにちようびに。"
+  ],
+  "e": "The usual order is topic → time → place → object → verb. Particles mark each role, but the verb always comes last."
+ },
+ {
+  "t": "Genki I L3 – The Topic Particle は",
+  "s": "Genki I, Lesson 3",
+  "q": "Mary is asked about her plans: 'What about this weekend?' → しゅうまつ＿＿どうですか。",
+  "a": "は",
+  "w": [
+   "を",
+   "で",
+   "に"
+  ],
+  "e": "は marks the topic: 'As for the weekend, how is it?' It sets up what the sentence is about."
+ },
+ {
+  "t": "Genki I L4 – も",
+  "s": "Genki I, Lesson 4",
+  "q": "'I went on Saturday, and I also went on Sunday.' → どようびにいきました。にちようび＿＿いきました。",
+  "a": "にも",
+  "w": [
+   "もに",
+   "はも",
+   "をも"
+  ],
+  "e": "も replaces は, が and を, but goes AFTER other particles like に and で: にちようびにも."
+ },
+ {
+  "t": "Genki I L4 – たくさん",
+  "s": "Genki I, Lesson 4",
+  "q": "'I took a lot of photos.' Which is correct?",
+  "a": "しゃしんをたくさんとりました。",
+  "w": [
+   "たくさんをしゃしんとりました。",
+   "しゃしんたくさんをとりました。",
+   "しゃしんをとりましたたくさん。"
+  ],
+  "e": "たくさん usually comes right after the noun and its particle, before the verb."
+ },
+ {
+  "t": "Genki I L5 – Adjectives (Noun Modification)",
+  "s": "Genki I, Lesson 5",
+  "q": "'an interesting book' →",
+  "a": "おもしろい本",
+  "w": [
+   "おもしろいな本",
+   "おもしろいの本",
+   "おもしろく本"
+  ],
+  "e": "い-adjectives go straight before the noun: おもしろい本."
+ },
+ {
+  "t": "Genki I L5 – Adjectives (Noun Modification)",
+  "s": "Genki I, Lesson 5",
+  "q": "'a quiet town' →",
+  "a": "しずかな町",
+  "w": [
+   "しずか町",
+   "しずかの町",
+   "しずかい町"
+  ],
+  "e": "な-adjectives need な before a noun: しずかな町."
+ },
+ {
+  "t": "Genki I L5 – Counting",
+  "s": "Genki I, Lesson 5",
+  "q": "'Two T-shirts, please.' (flat objects) → Tシャツを＿＿ください。",
+  "a": "にまい",
+  "w": [
+   "ふたつまい",
+   "にこう",
+   "ふたまい"
+  ],
+  "e": "～まい counts flat objects (shirts, paper, tickets). The number uses the Chinese-origin reading: いちまい, にまい, さんまい."
+ },
+ {
+  "t": "Genki I L5 – ～ましょう/～ましょうか",
+  "s": "Genki I, Lesson 5",
+  "q": "'Shall we go to the sea?' →",
+  "a": "うみにいきましょうか。",
+  "w": [
+   "うみにいきませんでしたか。",
+   "うみにいってくださいか。",
+   "うみにいきたいでしょうか。"
+  ],
+  "e": "～ましょう = 'let's'. Adding か (～ましょうか) turns it into 'shall we?'"
+ },
+ {
+  "t": "Genki I L6 – Describing Two Activities",
+  "s": "Genki I, Lesson 6",
+  "q": "'I ate breakfast and then went to school.' →",
+  "a": "あさごはんをたべて、がっこうにいきました。",
+  "w": [
+   "あさごはんをたべ、がっこうにいって。",
+   "あさごはんをたべました、がっこうにいって。",
+   "あさごはんをたべるて、がっこうにいきました。"
+  ],
+  "e": "Join activities with the te-form of the first verb. The tense comes from the last verb (いきました)."
+ },
+ {
+  "t": "Genki I L6 – ～ましょうか (Offering Assistance)",
+  "s": "Genki I, Lesson 6",
+  "q": "Offering help: 'Shall I help you?' →",
+  "a": "てつだいましょうか。",
+  "w": [
+   "てつだってもいいです。",
+   "てつだいませんか。",
+   "てつだってください。"
+  ],
+  "e": "～ましょうか can offer to do something for someone: 'Shall I ...?'"
+ },
+ {
+  "t": "Genki I L7 – Counting People",
+  "s": "Genki I, Lesson 7",
+  "q": "'one person' →",
+  "a": "ひとり",
+  "w": [
+   "いちにん",
+   "ひとにん",
+   "いちり"
+  ],
+  "e": "1 and 2 are irregular: ひとり, ふたり. From 3 on it's number + にん: さんにん, よにん."
+ },
+ {
+  "t": "Genki I L7 – Counting People",
+  "s": "Genki I, Lesson 7",
+  "q": "'four people' →",
+  "a": "よにん",
+  "w": [
+   "よんにん",
+   "しにん",
+   "よったり"
+  ],
+  "e": "Four people is よにん (not よんにん or しにん)."
+ },
+ {
+  "t": "Genki I L9 – Explanation から、Situation",
+  "s": "Genki I, Lesson 9",
+  "q": "Casual: 'I'm not feeling well, so I'll go home early.' → げんきじゃない＿＿、はやくかえる。",
+  "a": "から",
+  "w": [
+   "まで",
+   "けど",
+   "より"
+  ],
+  "e": "Explanation + から, then the situation. In casual speech the explanation is a short form: げんきじゃないから."
+ },
+ {
+  "t": "Genki I L10 – Adjective/Noun + の",
+  "s": "Genki I, Lesson 10",
+  "q": "'This watch is expensive. Please show me a cheaper one.' → もっと＿＿をみせてください。",
+  "a": "やすいの",
+  "w": [
+   "やすい",
+   "やすいなの",
+   "やすくの"
+  ],
+  "e": "の replaces a noun that's already clear from context: やすいの = 'a cheap one'."
+ }
 ]
