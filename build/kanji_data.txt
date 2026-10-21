@@ -724,3 +724,76 @@ G2L23|果|fruit; result|結果|けっか|result
 G2L23|化|change; -ize|文化|ぶんか|culture
 G2L23|横|side; horizontal|横|よこ|side
 G2L23|相|mutual; partner|相手|あいて|partner; the other party
+# Quartet I Lesson 1 (漢字リスト 001–045)
+Q1L1|賞|prize; reward|～賞|～しょう|~ Award; ~ Prize
+Q1L1|賞|prize; reward|受賞|じゅしょう|receiving an award
+Q1L1|取|take|取得|しゅとく|acquisition
+Q1L1|取|take|取る|とる|to win (a prize); to take
+Q1L1|興|interest; spring up|興味|きょうみ|interest
+Q1L1|環|ring|環境|かんきょう|environment
+Q1L1|境|border|県境|けんざかい|prefectural border
+Q1L1|優|gentle; superior|優秀|ゆうしゅう|excellent
+Q1L1|優|gentle; superior|優しい|やさしい|gentle; kind
+Q1L1|例|example|例|れい|example
+Q1L1|例|example|例えば|たとえば|for example
+Q1L1|絵|picture|絵|え|picture; drawing; painting
+Q1L1|絵|picture|絵画|かいが|picture
+Q1L1|直|direct; straight|直接|ちょくせつ|directly
+Q1L1|直|direct; straight|直す|なおす|to fix
+Q1L1|秒|second|秒|びょう|second
+Q1L1|晩|evening; late|晩|ばん|evening; night
+Q1L1|晩|evening; late|晩ご飯|ばんごはん|dinner
+Q1L1|美|beauty|美人|びじん|beautiful woman
+Q1L1|美|beauty|美しい|うつくしい|beautiful
+Q1L1|芸|art|芸術的|げいじゅつてき|artistic
+Q1L1|術|means; art; skill|手術|しゅじゅつ|surgery
+Q1L1|術|means; art; skill|技術|ぎじゅつ|technology
+Q1L1|愛|love; affection|愛する|あいする|to love
+Q1L1|紹|introduce|紹介|しょうかい|introduction
+Q1L1|介|mediate|紹介|しょうかい|introduction
+Q1L1|得|ability; obtain|得意|とくい|good at
+Q1L1|得|ability; obtain|得る|える|to obtain
+Q1L1|就|install; get a job|就職|しゅうしょく|getting employed
+Q1L1|職|job|就職|しゅうしょく|getting employed
+Q1L1|際|limit; case; verge|国際|こくさい|international
+Q1L1|祭|festival|映画祭|えいがさい|film festival
+Q1L1|祭|festival|夏祭り|なつまつり|summer festival
+Q1L1|受|accept|受賞|じゅしょう|receiving an award
+Q1L1|受|accept|受ける|うける|to get; to receive
+Q1L1|葉|leaf|紅葉|こうよう|autumn leaves
+Q1L1|葉|leaf|言葉|ことば|word; language
+Q1L1|将|commander|将来|しょうらい|future
+Q1L1|難|difficult|困難|こんなん|difficulty
+Q1L1|難|difficult|難しい|むずかしい|difficult
+Q1L1|助|help|助詞|じょし|particle
+Q1L1|助|help|助ける|たすける|to save; to help
+Q1L1|夢|dream|夢中|むちゅう|absorbed in; frantic
+Q1L1|夢|dream|夢|ゆめ|dream
+Q1L1|身|body|出身|しゅっしん|one's hometown
+Q1L1|身|body|身近|みぢか|familiar
+Q1L1|決|fix; settle; decide|決心|けっしん|determination
+Q1L1|決|fix; settle; decide|決して～ない|けっして～ない|never; definitely not
+Q1L1|決|fix; settle; decide|決める|きめる|to set; to decide
+Q1L1|法|law; method|方法|ほうほう|method; means; way
+Q1L1|法|law; method|法律|ほうりつ|law
+Q1L1|苦|bitter; pain|苦労|くろう|trouble; hardship
+Q1L1|苦|bitter; pain|苦しむ|くるしむ|to suffer
+Q1L1|苦|bitter; pain|苦手|にがて|poor at
+Q1L1|由|reason|理由|りゆう|reason
+Q1L1|性|nature; sex|性格|せいかく|personality; character
+Q1L1|性|nature; sex|性別|せいべつ|sex; gender
+Q1L1|格|character|本格的に|ほんかくてきに|on a full scale; in full swing
+Q1L1|講|lecture|講演|こうえん|lecture; speech
+Q1L1|講|lecture|講義|こうぎ|lecture (class)
+Q1L1|演|act|演じる|えんじる|to act
+Q1L1|必|certain; necessary|必要|ひつよう|necessary
+Q1L1|必|certain; necessary|必ず|かならず|certainly; always
+Q1L1|簡|letter; brevity|簡単|かんたん|easy; simple
+Q1L1|単|single; simple|単位|たんい|credit
+Q1L1|標|mark; sign|目標|もくひょう|goal; objective
+Q1L1|標|mark; sign|標準|ひょうじゅん|standard
+Q1L1|技|skill; art; craft|技|わざ|skill; trick
+Q1L1|要|necessary|要る|いる|to need
+Q1L1|尊|esteem|尊敬|そんけい|respect
+Q1L1|尊|esteem|尊い|とうとい|precious; noble
+Q1L1|敬|respect|敬語|けいご|honorific language

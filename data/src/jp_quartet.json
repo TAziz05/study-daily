@@ -144,16 +144,16 @@
   "e": "Verb + ようになる = come to (be able to) do; a gradual change."
  },
  {
-  "t": "Quartet I L1 – ～ないようになる",
-  "s": "Quartet I, Lesson 1",
-  "q": "'I've stopped eating sweets (came not to eat).' →",
-  "a": "甘い物を食べないようになりました。",
+  "t": "Quartet I L1 – ～なくなる",
+  "s": "Quartet I, Lesson 1 文型・表現ノート",
+  "q": "'Since I started college, I stopped watching TV.' Which is the more natural sentence?",
+  "a": "大学に入ってから、全然テレビを見なくなった。",
   "w": [
-   "甘い物を食べないにしました。",
-   "甘い物を食べるようになりませんでした。",
-   "甘い物を食べなくようになりました。"
+   "大学に入ってから、全然テレビを見ないようになった。",
+   "大学に入ってから、全然テレビを見ないようにした。",
+   "大学に入ってから、全然テレビを見なくした。"
   ],
-  "e": "Negative + ようになる = came to not do."
+  "e": "Both ～なくなる and ～ないようになる mean 'cease to do', but ～なくなる is more common. The book marks 見ないようになった with a '?'."
  },
  {
   "t": "Quartet I L1 – ～ようにする",
@@ -168,16 +168,16 @@
   "e": "ようにする = make an effort to. (ようになる is a change that happens.)"
  },
  {
-  "t": "Quartet I L1 – ようにする vs ことにする",
-  "s": "Quartet I, Lesson 1",
-  "q": "How does ～ようにしている differ from ～ことにしている?",
-  "a": "ようにしている = trying; ことにしている = a firm rule",
+  "t": "Quartet I L1 – ～ようにする vs ～ようにしている",
+  "s": "Quartet I, Lesson 1 文型・表現ノート",
+  "q": "Which sentence is WRONG, according to the book?",
+  "a": "友達を作りたいので、サークルに入るようにしている。",
   "w": [
-   "They are identical in meaning and use",
-   "ようにしている is just the past tense form",
-   "ことにしている describes other people's decisions"
+   "友達を作りたいので、毎日サークルの練習に行くようにしている。",
+   "明日から遅れないようにします。",
+   "日本語が上手になりたいので、友達と日本語で話すようにしています。"
   ],
-  "e": "ようにしている means trying your best; ことにしている is a firmer self-imposed rule. 野菜を食べるようにしている = I try to eat vegetables. 毎朝走ることにしている = I make it a rule to run every morning."
+  "e": "～ようにしている describes a habitual effort, so one-time actions like 入る (join) can't be used with it."
  },
  {
   "t": "Quartet I L1 – Nによると",
@@ -526,5 +526,125 @@
    "このかばんは旅行のに便利です。"
   ],
   "e": "Dictionary form + のに + 便利/必要/使う = for the purpose of. (Nouns take に: 旅行に便利.)"
+ },
+ {
+  "t": "Quartet I L1 – Nなら (as for N)",
+  "s": "Quartet I, Lesson 1 文型・表現ノート",
+  "q": "学生: 川村先生はいらっしゃいますか。 事務員: 川村先生＿＿、もうお帰りになりましたよ。",
+  "a": "なら",
+  "w": [
+   "といえば",
+   "によると",
+   "らしい"
+  ],
+  "e": "Nなら sets up a noun the other person just mentioned as the topic: 'As for Professor Kawamura, ...'"
+ },
+ {
+  "t": "Quartet I L1 – Nなら (contrast)",
+  "s": "Quartet I, Lesson 1 文型・表現ノート",
+  "q": "A: えんぴつ、貸してくれない？ B: ごめん、持ってないんだ。ペン＿＿あるんだけど。",
+  "a": "なら",
+  "w": [
+   "といえば",
+   "らしく",
+   "どおり"
+  ],
+  "e": "Nなら Y makes a statement about N in contrast to something else (a pen instead of a pencil). Y is usually positive."
+ },
+ {
+  "t": "Quartet I L1 – ～なら",
+  "s": "Quartet I, Lesson 1 文型・表現ノート",
+  "q": "'If it's a cold, try this medicine.' Which form is correct?",
+  "a": "風邪なら、この薬を飲んでみて。",
+  "w": [
+   "風邪だなら、この薬を飲んでみて。",
+   "風邪のなら、この薬を飲んでみて。",
+   "風邪ななら、この薬を飲んでみて。"
+  ],
+  "e": "With nouns and な-adjectives, だ is dropped before なら: 風邪なら, 静かなら."
+ },
+ {
+  "t": "Quartet I L1 – ～とおり（に）",
+  "s": "Quartet I, Lesson 1 文型・表現ノート",
+  "q": "Which sentence correctly leaves out に after とおり?",
+  "a": "うわさで聞いていたとおり、優しい先生だった。",
+  "w": [
+   "うわさで聞いていたとおり、準備すれば大丈夫だよ。",
+   "私が言うとおり、作ったらおいしいカレーができますよ。",
+   "計画どおり、仕事をするのは難しい。"
+  ],
+  "e": "に is used only when とおり describes HOW the next action is done. 'Just as I'd heard, she was kind' isn't about how an action is done, so に is left out."
+ },
+ {
+  "t": "Quartet I L1 – ～らしい (seems)",
+  "s": "Quartet I, Lesson 1 文型・表現ノート",
+  "q": "How does ～らしい differ from hearsay ～そうだ?",
+  "a": "らしい can include the speaker's own inference",
+  "w": [
+   "そうだ can include the speaker's inference",
+   "They can never be used for the same sentence",
+   "らしい is only used with nouns"
+  ],
+  "e": "そうだ reports exactly what the source said. らしい can add the speaker's inference, and it's preferred for unreliable sources like rumors."
+ },
+ {
+  "t": "Quartet I L1 – ～らしい (seems)",
+  "s": "Quartet I, Lesson 1 文型・表現ノート",
+  "q": "B said 'Horror movies are a bit... (for me).' C thinks to herself: Bさんはホラー映画が＿＿。",
+  "a": "嫌いらしい",
+  "w": [
+   "嫌いだらしい",
+   "嫌いならしい",
+   "嫌いのらしい"
+  ],
+  "e": "C infers from what she overheard, so らしい fits. な-adjectives drop だ before らしい: 嫌いらしい."
+ },
+ {
+  "t": "Quartet I L1 – Nらしい (typical)",
+  "s": "Quartet I, Lesson 1 文型・表現ノート",
+  "q": "'Ai is always reading difficult books alone, so she's not very child-like.' →",
+  "a": "あまり子どもらしくない。",
+  "w": [
+   "あまり子どもそうじゃない。",
+   "あまり子どもらしいじゃない。",
+   "あまり子どものらしくない。"
+  ],
+  "e": "Nらしい conjugates like an い-adjective: 子どもらしくない = not typical of a child."
+ },
+ {
+  "t": "Quartet I L1 – ～ために",
+  "s": "Quartet I, Lesson 1 文型・表現ノート",
+  "q": "Which sentence is correct, according to the book?",
+  "a": "漢字を覚えるために、毎日100回練習している。",
+  "w": [
+   "漢字が覚えられるために、毎日100回練習している。",
+   "黒板の字が見えるために、前に座った。",
+   "漢字が覚わるために、毎日100回練習している。"
+  ],
+  "e": "With ために both verbs must express the subject's will. Potential forms (覚えられる) and stative verbs (見える) can't be used."
+ },
+ {
+  "t": "Quartet I L1 – ～ようになる",
+  "s": "Quartet I, Lesson 1 文型・表現ノート",
+  "q": "Which sentence is WRONG, according to the book?",
+  "a": "最近よく運動しているから、少しやせるようになった。",
+  "w": [
+   "日本語でマンガを読むようになりました。",
+   "日本語の新聞が少しずつ読めるようになった。",
+   "自分でお弁当を作るようになったよ。"
+  ],
+  "e": "ようになる already expresses a change, so verbs that are changes themselves (太る, やせる, 慣れる, 増える) can't be used with it. Just say 少しやせた."
+ },
+ {
+  "t": "Quartet I L1 – ～ようになる",
+  "s": "Quartet I, Lesson 1 文型・表現ノート",
+  "q": "'I've become able to read Japanese newspapers little by little.' What does the potential form add?",
+  "a": "It used to be impossible, but now it's possible",
+  "w": [
+   "It's a habit you started recently",
+   "It's something someone made you do",
+   "It's a plan for the future"
+  ],
+  "e": "Dictionary form + ようになる = started doing it habitually. Potential form + ようになる = became able to."
  }
 ]

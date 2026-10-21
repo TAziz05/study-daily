@@ -67,7 +67,7 @@ def reading_distractors(r, rows, rng):
         tries += 1
         i = rng.randrange(len(stems))
         n = [p for p in template if not isinstance(p, str)][i]
-        cand = sorted(v for v in runs.get(n, ()) if v != stems[i] and abs(len(v) - len(stems[i])) <= 1)
+        cand = sorted(v for v in runs.get(n, ()) if v != stems[i] and abs(len(v) - len(stems[i])) <= 1 and not v.endswith("っ"))
         if not cand:
             continue
         ns = stems[:]; ns[i] = rng.choice(cand)
@@ -89,7 +89,7 @@ def kanji_questions():
         if not line or line.startswith("#"):
             continue
         lesson, k, meaning, word, reading, wmeaning = line.split("|")
-        book = "Genki I" if lesson.startswith("G1") else "Genki II"
+        book = BOOKS[lesson[:2]]
         rows.append(dict(lesson=lesson, book=book, num=lesson.split("L")[1], k=k,
                          meaning=meaning, word=word, reading=reading, wmeaning=wmeaning))
     rng = random.Random(42)
