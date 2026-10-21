@@ -30,13 +30,35 @@ G1L3|八|eight|八時|はちじ|eight o'clock
 G1L3|八|eight|八百|はっぴゃく|eight hundred
 G1L3|八|eight|八歳|はっさい|eight years old
 G1L3|八|eight|八つ|やっつ|eight (things)
+G1L3|九|nine|九|きゅう|nine
 G1L3|九|nine|九時|くじ|nine o'clock
-G1L3|十|ten|十分|じゅっぷん|ten minutes
+G1L3|九|nine|九月|くがつ|September
+G1L3|九|nine|九歳|きゅうさい|nine years old
+G1L3|九|nine|九つ|ここのつ|nine (things)
+G1L3|十|ten|十|じゅう|ten
+G1L3|十|ten|十時|じゅうじ|ten o'clock
+G1L3|十|ten|十月|じゅうがつ|October
+G1L3|十|ten|十歳|じゅっさい|ten years old
+G1L3|百|hundred|百|ひゃく|hundred
 G1L3|百|hundred|三百|さんびゃく|three hundred
+G1L3|百|hundred|六百|ろっぴゃく|six hundred
+G1L3|百|hundred|八百|はっぴゃく|eight hundred
+G1L3|千|thousand|千|せん|thousand
 G1L3|千|thousand|三千|さんぜん|three thousand
-G1L3|万|ten thousand|一万円|いちまんえん|10,000 yen
-G1L3|円|yen; circle|百円|ひゃくえん|100 yen
-G1L3|時|time; o'clock|時間|じかん|time; hours
+G1L3|千|thousand|八千|はっせん|eight thousand
+G1L3|千|thousand|千円|せんえん|one thousand yen
+G1L3|万|ten thousand|一万|いちまん|ten thousand
+G1L3|万|ten thousand|十万|じゅうまん|one hundred thousand
+G1L3|万|ten thousand|百万|ひゃくまん|one million
+G1L3|円|yen; circle|百円|ひゃくえん|one hundred yen
+G1L3|円|yen; circle|円|えん|circle
+G1L3|円|yen; circle|円高|えんだか|strong yen
+G1L3|円|yen; circle|円い|まるい|round
+G1L3|時|time|一時|いちじ|one o'clock
+G1L3|時|time|時間|じかん|time; ... hours
+G1L3|時|time|子どもの時|こどものとき|in one's childhood
+G1L3|時|time|時計|とけい|watch; clock
+G1L3|時|time|時々|ときどき|sometimes
 G1L4|日|day; sun|日曜日|にちようび|Sunday
 G1L4|日|day; sun|毎日|まいにち|every day
 G1L4|日|day; sun|母の日|ははのひ|Mother's Day
@@ -207,93 +229,330 @@ G1L6|国|country|中国|ちゅうごく|China
 G1L6|国|country|国|くに|country
 G1L6|国|country|韓国|かんこく|South Korea
 G1L6|国|country|国会|こっかい|the Diet
+G1L7|京|capital|東京|とうきょう|Tokyo
+G1L7|京|capital|京子|きょうこ|Kyoko
 G1L7|京|capital|京都|きょうと|Kyoto
-G1L7|子|child|子供|こども|child
+G1L7|京|capital|上京する|じょうきょうする|to go to the capital
+G1L7|子|child|子ども|こども|child
+G1L7|子|child|女の子|おんなのこ|girl
+G1L7|子|child|男の子|おとこのこ|boy
+G1L7|子|child|女子学生|じょしがくせい|female student
 G1L7|小|small|小さい|ちいさい|small
-G1L7|会|meet|会う|あう|to meet
-G1L7|社|company; shrine|会社|かいしゃ|company
-G1L7|父|father|お父さん|おとうさん|(someone's) father
-G1L7|母|mother|お母さん|おかあさん|(someone's) mother
-G1L7|高|high; expensive|高い|たかい|expensive; tall
-G1L7|校|school|高校|こうこう|high school
-G1L7|毎|every|毎朝|まいあさ|every morning
-G1L7|語|word; language|日本語|にほんご|Japanese language
-G1L7|文|sentence; writing|文学|ぶんがく|literature
-G1L7|帰|return|帰る|かえる|to go home
-G1L7|入|enter|入る|はいる|to enter
-G1L8|員|member|会社員|かいしゃいん|office worker
+G1L7|小|small|小学校|しょうがっこう|elementary school
+G1L7|小|small|小学生|しょうがくせい|elementary school student
+G1L7|会|to meet|会う|あう|to meet
+G1L7|会|to meet|会社|かいしゃ|company
+G1L7|会|to meet|会社員|かいしゃいん|office worker
+G1L7|会|to meet|会議|かいぎ|meeting
+G1L7|会|to meet|教会|きょうかい|church
+G1L7|社|company|神社|じんじゃ|shrine
+G1L7|社|company|社会|しゃかい|society
+G1L7|社|company|入社|にゅうしゃ|entry to a company
+G1L7|父|father|父|ちち|(my) father
+G1L7|父|father|お父さん|おとうさん|father
+G1L7|父|father|父母|ふぼ|father and mother
+G1L7|父|father|祖父|そふ|grandfather
+G1L7|母|mother|母|はは|(my) mother
+G1L7|母|mother|お母さん|おかあさん|mother
+G1L7|母|mother|母語|ぼご|mother tongue
+G1L7|母|mother|祖母|そぼ|grandmother
+G1L7|高|high|高い|たかい|expensive; high
+G1L7|高|high|高校|こうこう|high school
+G1L7|高|high|高校生|こうこうせい|high school student
+G1L7|高|high|最高|さいこう|the best
+G1L7|校|school|学校|がっこう|school
+G1L7|校|school|中学校|ちゅうがっこう|junior high school
+G1L7|毎|every|毎日|まいにち|every day
+G1L7|毎|every|毎週|まいしゅう|every week
+G1L7|毎|every|毎晩|まいばん|every night
+G1L7|毎|every|毎年|まいねん|every year
+G1L7|語|word|日本語|にほんご|Japanese language
+G1L7|語|word|英語|えいご|English language
+G1L7|語|word|敬語|けいご|honorific expressions
+G1L7|文|sentence|文学|ぶんがく|literature
+G1L7|文|sentence|作文|さくぶん|composition
+G1L7|文|sentence|文字|もじ|letter; character
+G1L7|文|sentence|文化|ぶんか|culture
+G1L7|文|sentence|文法|ぶんぽう|grammar
+G1L7|帰|to return|帰る|かえる|to return
+G1L7|帰|to return|帰国|きこく|going home
+G1L7|帰|to return|帰宅|きたく|returning home
+G1L7|帰|to return|帰り|かえり|return
+G1L7|入|to enter|入る|はいる|to enter
+G1L7|入|to enter|入口|いりぐち|entrance
+G1L7|入|to enter|入れる|いれる|to put something in
+G1L7|入|to enter|輸入|ゆにゅう|import
+G1L8|員|member|店員|てんいん|store clerk
+G1L8|員|member|会員|かいいん|member
+G1L8|員|member|駅員|えきいん|station attendant
 G1L8|新|new|新しい|あたらしい|new
-G1L8|聞|hear; ask|新聞|しんぶん|newspaper
-G1L8|作|make|作る|つくる|to make
-G1L8|仕|serve|仕事|しごと|job; work
-G1L8|事|thing; matter|事|こと|thing; matter
+G1L8|新|new|新聞|しんぶん|newspaper
+G1L8|新|new|新幹線|しんかんせん|Bullet Train
+G1L8|新|new|新鮮|しんせん|fresh
+G1L8|聞|to listen|聞く|きく|to listen
+G1L8|聞|to listen|聞こえる|きこえる|can be heard
+G1L8|作|to make|作る|つくる|to make
+G1L8|作|to make|作品|さくひん|work (of art, etc.)
+G1L8|作|to make|作者|さくしゃ|author
+G1L8|仕|to serve|仕事|しごと|job
+G1L8|仕|to serve|仕返し|しかえし|revenge
+G1L8|仕|to serve|仕える|つかえる|to serve; to work under
+G1L8|事|thing|事|こと|thing
+G1L8|事|thing|火事|かじ|fire
+G1L8|事|thing|食事|しょくじ|meal
+G1L8|事|thing|返事|へんじ|reply
+G1L8|電|electricity|電車|でんしゃ|train
+G1L8|電|electricity|電気|でんき|electricity; light
+G1L8|電|electricity|電池|でんち|battery
 G1L8|電|electricity|電話|でんわ|telephone
-G1L8|車|car; vehicle|電車|でんしゃ|train
-G1L8|休|rest|休む|やすむ|to rest; be absent
-G1L8|言|say|言う|いう|to say
-G1L8|読|read|読む|よむ|to read
-G1L8|思|think|思う|おもう|to think
+G1L8|電|electricity|電子レンジ|でんしレンジ|microwave oven
+G1L8|車|car|車|くるま|car
+G1L8|車|car|自転車|じてんしゃ|bicycle
+G1L8|車|car|車いす|くるまいす|wheelchair
+G1L8|車|car|駐車場|ちゅうしゃじょう|parking lot
+G1L8|休|to rest|休む|やすむ|to be absent; to rest
+G1L8|休|to rest|休み|やすみ|holiday; absence
+G1L8|休|to rest|休日|きゅうじつ|holiday
+G1L8|言|to say|言う|いう|to say
+G1L8|言|to say|言語学|げんごがく|linguistics
+G1L8|言|to say|方言|ほうげん|dialect
+G1L8|言|to say|言葉|ことば|word; language
+G1L8|読|to read|読む|よむ|to read
+G1L8|読|to read|読書|どくしょ|reading books
+G1L8|読|to read|読み物|よみもの|reading matter
+G1L8|思|to think|思う|おもう|to think
+G1L8|思|to think|不思議|ふしぎ|mysterious
+G1L8|思|to think|思い出す|おもいだす|to recall; to remember
 G1L8|次|next|次|つぎ|next
+G1L8|次|next|次女|じじょ|second daughter
+G1L8|次|next|目次|もくじ|table of contents
+G1L8|次|next|次回|じかい|next time
 G1L8|何|what|何|なに|what
+G1L8|何|what|何時|なんじ|what time
+G1L8|何|what|何人|なんにん|how many people
+G1L8|何|what|何か|なにか|something
 G1L9|午|noon|午前|ごぜん|A.M.
-G1L9|後|after; behind|午後|ごご|P.M.
-G1L9|前|before; front|名前|なまえ|name
-G1L9|名|name|名前|なまえ|name
+G1L9|午|noon|午後|ごご|P.M.; in the afternoon
+G1L9|午|noon|午前中|ごぜんちゅう|in the morning
+G1L9|午|noon|正午|しょうご|noon
+G1L9|後|after|の後|のあと|after ...
+G1L9|後|after|後で|あとで|later
+G1L9|後|after|後ろ|うしろ|back; behind
+G1L9|後|after|最後に|さいごに|lastly
+G1L9|前|before|前|まえ|before; front
+G1L9|前|before|名前|なまえ|name
+G1L9|前|before|前売り|まえうり|advance sale
+G1L9|名|name|有名|ゆうめい|famous
+G1L9|名|name|名刺|めいし|name card
+G1L9|名|name|氏名|しめい|full name
+G1L9|名|name|名字|みょうじ|family name
 G1L9|白|white|白い|しろい|white
+G1L9|白|white|白紙|はくし|blank sheet
+G1L9|白|white|白|しろ|white color
+G1L9|白|white|白鳥|はくちょう|swan
 G1L9|雨|rain|雨|あめ|rain
-G1L9|書|write|書く|かく|to write
-G1L9|友|friend|友達|ともだち|friend
-G1L9|間|interval; between|時間|じかん|time
-G1L9|家|house; family|家|いえ|house
-G1L9|話|talk|話す|はなす|to speak
-G1L9|少|few; little|少し|すこし|a little
-G1L9|古|old|古い|ふるい|old (things)
-G1L9|知|know|知る|しる|to know
-G1L9|来|come|来る|くる|to come
-G1L10|住|live|住む|すむ|to live (reside)
-G1L10|正|correct|お正月|おしょうがつ|New Year's
+G1L9|雨|rain|雨期|うき|rainy season
+G1L9|雨|rain|梅雨|つゆ|rainy season (June)
+G1L9|雨|rain|大雨|おおあめ|heavy rain
+G1L9|書|to write|書く|かく|to write
+G1L9|書|to write|辞書|じしょ|dictionary
+G1L9|書|to write|教科書|きょうかしょ|textbook
+G1L9|書|to write|図書館|としょかん|library
+G1L9|友|friend|友だち|ともだち|friend
+G1L9|友|friend|親友|しんゆう|best friend
+G1L9|友|friend|友人|ゆうじん|friend (formal)
+G1L9|友|friend|友情|ゆうじょう|friendship
+G1L9|間|between|時間|じかん|time; ... hours
+G1L9|間|between|二時間|にじかん|two hours
+G1L9|間|between|間|あいだ|between
+G1L9|間|between|人間|にんげん|human being
+G1L9|間|between|一週間|いっしゅうかん|one week
+G1L9|家|house|家|いえ|house
+G1L9|家|house|家族|かぞく|family
+G1L9|家|house|作家|さっか|author
+G1L9|家|house|家事|かじ|housework
+G1L9|家|house|家賃|やちん|rent
+G1L9|話|to speak|話す|はなす|to speak
+G1L9|話|to speak|話|はなし|talk; story
+G1L9|話|to speak|会話|かいわ|conversation
+G1L9|少|little|少し|すこし|little
+G1L9|少|little|少ない|すくない|few
+G1L9|少|little|少々|しょうしょう|a little
+G1L9|少|little|少女|しょうじょ|girl
+G1L9|少|little|少年|しょうねん|boy
+G1L9|古|old|古い|ふるい|old (for things)
+G1L9|古|old|中古|ちゅうこ|secondhand
+G1L9|古|old|古代|こだい|ancient times
+G1L9|知|to know|知る|しる|to know
+G1L9|知|to know|知人|ちじん|acquaintance
+G1L9|知|to know|知り合い|しりあい|acquaintance (person you know)
+G1L9|来|to come|来る|くる|to come
+G1L9|来|to come|来ます|きます|to come (polite)
+G1L9|来|to come|来ない|こない|not to come
+G1L9|来|to come|来日|らいにち|visit to Japan
+G1L9|来|to come|来週|らいしゅう|next week
+G1L10|住|to live|住む|すむ|to live
+G1L10|住|to live|住所|じゅうしょ|address
+G1L10|住|to live|移住する|いじゅうする|to immigrate
+G1L10|正|right|お正月|おしょうがつ|New Year
+G1L10|正|right|正しい|ただしい|right; correct
+G1L10|正|right|正解|せいかい|correct answer
+G1L10|年|year|三年生|さんねんせい|third-year student
+G1L10|年|year|来年|らいねん|next year
 G1L10|年|year|今年|ことし|this year
-G1L10|売|sell|売る|うる|to sell
-G1L10|買|buy|買う|かう|to buy
+G1L10|年|year|年|とし|year
+G1L10|売|to sell|売る|うる|to sell
+G1L10|売|to sell|売店|ばいてん|stand; stall
+G1L10|売|to sell|自動販売機|じどうはんばいき|vending machine
+G1L10|買|to buy|買う|かう|to buy
+G1L10|買|to buy|買い物|かいもの|shopping
+G1L10|買|to buy|売買|ばいばい|selling and buying
 G1L10|町|town|町|まち|town
-G1L10|長|long; chief|長い|ながい|long
-G1L10|道|road; way|道|みち|road; way
+G1L10|町|town|北山町|きたやまちょう|Kitayama Town
+G1L10|町|town|町長|ちょうちょう|mayor of a town
+G1L10|長|long|長い|ながい|long
+G1L10|長|long|長男|ちょうなん|the eldest son
+G1L10|長|long|社長|しゃちょう|company president
+G1L10|道|way|道|みち|way; road
+G1L10|道|way|書道|しょどう|calligraphy
+G1L10|道|way|柔道|じゅうどう|judo
+G1L10|道|way|北海道|ほっかいどう|Hokkaido
 G1L10|雪|snow|雪|ゆき|snow
-G1L10|立|stand|立つ|たつ|to stand
+G1L10|雪|snow|新雪|しんせつ|new snow
+G1L10|雪|snow|雪だるま|ゆきだるま|snowman
+G1L10|立|to stand|立つ|たつ|to stand
+G1L10|立|to stand|国立大学|こくりつだいがく|national university
+G1L10|立|to stand|私立高校|しりつこうこう|private high school
 G1L10|自|self|自分|じぶん|oneself
+G1L10|自|self|自動車|じどうしゃ|automobile
+G1L10|自|self|自転車|じてんしゃ|bicycle
+G1L10|自|self|自由|じゆう|freedom
+G1L10|夜|night|夜|よる|night
+G1L10|夜|night|夜中|よなか|middle of night
 G1L10|夜|night|今夜|こんや|tonight
-G1L10|朝|morning|朝ご飯|あさごはん|breakfast
-G1L10|持|hold|持つ|もつ|to hold; carry
+G1L10|夜|night|夜明け|よあけ|dawn
+G1L10|朝|morning|朝|あさ|morning
+G1L10|朝|morning|今朝|けさ|this morning
+G1L10|朝|morning|朝食|ちょうしょく|breakfast
+G1L10|朝|morning|毎朝|まいあさ|every morning
+G1L10|持|to hold|持つ|もつ|to carry; to hold
+G1L10|持|to hold|持ってくる|もってくる|to bring
+G1L10|持|to hold|所持品|しょじひん|belongings
+G1L10|持|to hold|気持ち|きもち|feeling
 G1L11|手|hand|手紙|てがみ|letter
+G1L11|手|hand|歌手|かしゅ|singer
+G1L11|手|hand|手|て|hand
+G1L11|手|hand|手話|しゅわ|sign language
+G1L11|手|hand|上手|じょうず|good at
 G1L11|紙|paper|紙|かみ|paper
-G1L11|好|like|好き|すき|to like
-G1L11|近|near|近い|ちかい|near
-G1L11|明|bright|明るい|あかるい|bright; cheerful
-G1L11|病|illness|病気|びょうき|illness; sick
-G1L11|院|institution|病院|びょういん|hospital
-G1L11|映|reflect; project|映画|えいが|movie
-G1L11|画|picture; stroke|映画|えいが|movie
-G1L11|歌|song; sing|歌う|うたう|to sing
-G1L11|市|city|市|し|city
+G1L11|紙|paper|和紙|わし|Japanese paper
+G1L11|紙|paper|表紙|ひょうし|cover page
+G1L11|紙|paper|折り紙|おりがみ|origami
+G1L11|好|favorite; to like|好き|すき|to like
+G1L11|好|favorite; to like|大好き|だいすき|to love
+G1L11|好|favorite; to like|好意|こうい|goodwill
+G1L11|好|favorite; to like|好み|このみ|liking; taste
+G1L11|好|favorite; to like|好物|こうぶつ|favorite food
+G1L11|近|near|近く|ちかく|near; nearby
+G1L11|近|near|近所|きんじょ|neighborhood
+G1L11|近|near|最近|さいきん|recently
+G1L11|近|near|中近東|ちゅうきんとう|the Middle and Near East
+G1L11|明|bright|明るい|あかるい|cheerful; bright
+G1L11|明|bright|明日|あした|tomorrow
+G1L11|明|bright|説明|せつめい|explanation
+G1L11|明|bright|発明|はつめい|invention
+G1L11|明|bright|文明|ぶんめい|civilization
+G1L11|病|ill; sick|病院|びょういん|hospital
+G1L11|病|ill; sick|病気|びょうき|illness
+G1L11|病|ill; sick|重病|じゅうびょう|serious illness
+G1L11|病|ill; sick|急病|きゅうびょう|sudden illness
+G1L11|院|institution|大学院|だいがくいん|graduate school
+G1L11|院|institution|美容院|びよういん|beauty parlor
+G1L11|映|to reflect|映画|えいが|movie
+G1L11|映|to reflect|映画館|えいがかん|movie theater
+G1L11|映|to reflect|映る|うつる|to be reflected
+G1L11|画|picture|画家|がか|painter
+G1L11|画|picture|計画|けいかく|plan
+G1L11|画|picture|漫画|まんが|comic
+G1L11|歌|to sing|歌う|うたう|to sing
+G1L11|歌|to sing|歌|うた|song
+G1L11|歌|to sing|国歌|こっか|national anthem
+G1L11|歌|to sing|歌舞伎|かぶき|Kabuki
+G1L11|歌|to sing|歌詞|かし|lyrics
+G1L11|市|city|川口市|かわぐちし|Kawaguchi City
+G1L11|市|city|市役所|しやくしょ|city hall
+G1L11|市|city|市長|しちょう|mayor
+G1L11|市|city|市場|いちば|market
 G1L11|所|place|所|ところ|place
-G1L11|勉|exertion|勉強|べんきょう|study
+G1L11|所|place|台所|だいどころ|kitchen
+G1L11|所|place|住所|じゅうしょ|address
+G1L11|勉|to make efforts|勉強する|べんきょうする|to study
+G1L11|勉|to make efforts|勉める|つとめる|to try hard
+G1L11|勉|to make efforts|勤勉|きんべん|diligent
 G1L11|強|strong|強い|つよい|strong
-G1L11|有|exist; have|有名|ゆうめい|famous
+G1L11|強|strong|強情|ごうじょう|obstinate
+G1L11|強|strong|強盗|ごうとう|robbery
+G1L11|強|strong|強力|きょうりょく|powerful
+G1L11|有|to exist|有名|ゆうめい|famous
+G1L11|有|to exist|有料|ゆうりょう|toll; fee
+G1L11|有|to exist|有る|ある|to exist
+G1L11|有|to exist|有能|ゆうのう|talented
 G1L11|旅|travel|旅行|りょこう|travel
-G1L12|昔|old times|昔|むかし|long ago
-G1L12|々|(repetition mark)|時々|ときどき|sometimes
-G1L12|神|god|神様|かみさま|god
-G1L12|早|early; fast|早い|はやい|early
-G1L12|起|wake up|起きる|おきる|to get up
+G1L11|旅|travel|旅館|りょかん|Japanese inn
+G1L11|旅|travel|旅券|りょけん|passport
+G1L11|旅|travel|一人旅|ひとりたび|traveling alone
+G1L12|昔|ancient times|昔|むかし|old times
+G1L12|昔|ancient times|昔話|むかしばなし|old tale
+G1L12|昔|ancient times|大昔|おおむかし|ancient times
+G1L12|々|repetition mark|昔々|むかしむかし|once upon a time
+G1L12|々|repetition mark|人々|ひとびと|people
+G1L12|々|repetition mark|色々|いろいろ|various
+G1L12|神|God|神さま|かみさま|God
+G1L12|神|God|神道|しんとう|Shinto
+G1L12|神|God|神戸市|こうべし|Kobe City
+G1L12|早|early|早い|はやい|early
+G1L12|早|early|早起きする|はやおきする|to get up early
+G1L12|早|early|早朝|そうちょう|early morning
+G1L12|起|to get up|起きる|おきる|to get up
+G1L12|起|to get up|起こす|おこす|to wake someone up
+G1L12|起|to get up|再起動|さいきどう|reboot
+G1L12|牛|cow|牛|うし|cow
 G1L12|牛|cow|牛乳|ぎゅうにゅう|milk
-G1L12|使|use|使う|つかう|to use
-G1L12|働|work|働く|はたらく|to work
-G1L12|連|take along|連れて行く|つれていく|to take (someone) along
-G1L12|別|separate|別れる|わかれる|to break up; part
-G1L12|度|degrees; times|今度|こんど|next time; this time
+G1L12|牛|cow|牛肉|ぎゅうにく|beef
+G1L12|牛|cow|子牛|こうし|calf; veal
+G1L12|使|to use|使う|つかう|to use
+G1L12|使|to use|大使|たいし|ambassador
+G1L12|使|to use|使用中|しようちゅう|"Occupied"
+G1L12|使|to use|お使い|おつかい|errand
+G1L12|働|to work|働く|はたらく|to work
+G1L12|働|to work|共働き|ともばたらき|both husband and wife working
+G1L12|働|to work|労働|ろうどう|labor
+G1L12|連|to link|連れて帰る|つれてかえる|to bring (a person) back
+G1L12|連|to link|国連|こくれん|United Nations
+G1L12|連|to link|連休|れんきゅう|consecutive holidays
+G1L12|別|to separate|別れる|わかれる|to separate
+G1L12|別|to separate|別に|べつに|not in particular
+G1L12|別|to separate|特別|とくべつ|special
+G1L12|別|to separate|差別|さべつ|discrimination
+G1L12|別|to separate|別々に|べつべつに|separately
+G1L12|度|time; degrees|一度|いちど|once
+G1L12|度|time; degrees|今度|こんど|near future
+G1L12|度|time; degrees|温度|おんど|temperature
+G1L12|度|time; degrees|三十度|さんじゅうど|30 degrees
+G1L12|度|time; degrees|態度|たいど|attitude
+G1L12|赤|red|赤|あか|red color
 G1L12|赤|red|赤い|あかい|red
+G1L12|赤|red|赤ちゃん|あかちゃん|baby
+G1L12|赤|red|赤道|せきどう|the equator
+G1L12|赤|red|赤十字|せきじゅうじ|the Red Cross
+G1L12|青|blue|青|あお|blue color
 G1L12|青|blue|青い|あおい|blue
+G1L12|青|blue|青年|せいねん|youth
+G1L12|青|blue|青空|あおぞら|blue sky
+G1L12|青|blue|青信号|あおしんごう|green light
 G1L12|色|color|色|いろ|color
+G1L12|色|color|景色|けしき|scenery
+G1L12|色|color|特色|とくしょく|characteristic
 G2L13|物|thing|食べ物|たべもの|food
 G2L13|鳥|bird|鳥|とり|bird
 G2L13|料|fee; materials|料理|りょうり|cooking; cuisine
