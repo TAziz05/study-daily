@@ -205,15 +205,15 @@
  },
  {
   "t": "Quartet I L2 – Formal て (連用中止形)",
-  "s": "Quartet I, Lesson 2",
-  "q": "Formal-writing linking form of いる and する:",
-  "a": "おり / し",
+  "s": "Quartet I, Lesson 2 文型・表現ノート",
+  "q": "兄は海外の大学に留学して＿＿、今、家族と一緒に住んでいない。(formal writing)",
+  "a": "おり",
   "w": [
-   "いて / して",
-   "いり / すり",
-   "おって / しり"
+   "いて",
+   "いり",
+   "おって"
   ],
-  "e": "In written style, いる often becomes おり (e.g., 元気にしており…) and する becomes し."
+  "e": "The formal equivalent of ～ていて is ～ており."
  },
  {
   "t": "Quartet I L2 – ～てくる",
@@ -289,15 +289,15 @@
  },
  {
   "t": "Quartet I L2 – 「気」expressions",
-  "s": "Quartet I, Lesson 2",
-  "q": "'I have a feeling it will rain.' →",
-  "a": "雨が降るような気がします。",
+  "s": "Quartet I, Lesson 2 文型・表現ノート",
+  "q": "'At the station, I noticed I'd forgotten my wallet.' → 駅に着いてから、財布を忘れた＿＿気がついた。",
+  "a": "のに",
   "w": [
-   "雨が降るような気になります。",
-   "雨が降るように気をつけます。",
-   "雨が降る気に入ります。"
+   "ことを",
+   "のが",
+   "に"
   ],
-  "e": "～(ような)気がする = to have a feeling that..."
+  "e": "～に気がつく = notice. A verb phrase becomes a noun with の or こと before に: 忘れたのに気がついた."
  },
  {
   "t": "Quartet I L2 – おかげ",
@@ -358,174 +358,6 @@
    "大阪に転勤するのことになりました。"
   ],
   "e": "ことになる = decided by circumstances or others, not the speaker."
- },
- {
-  "t": "Quartet I L3 – ～うちに",
-  "s": "Quartet I, Lesson 3",
-  "q": "'Eat it while it's hot.' →",
-  "a": "温かいうちに食べてください。",
-  "w": [
-   "温かい間に食べてください。",
-   "温かいながら食べてください。",
-   "温かいまでに食べてください。"
-  ],
-  "e": "～うちに = while (a state lasts); do it before the state changes."
- },
- {
-  "t": "Quartet I L3 – ～ないうちに",
-  "s": "Quartet I, Lesson 3",
-  "q": "'Let's go home before it gets dark.' →",
-  "a": "暗くならないうちに帰りましょう。",
-  "w": [
-   "暗くなるうちに帰りましょう。",
-   "暗くならないまでに帰りましょう。",
-   "暗くならないながら帰りましょう。"
-  ],
-  "e": "～ないうちに = before (something undesirable) happens."
- },
- {
-  "t": "Quartet I L3 – 何と言っても",
-  "s": "Quartet I, Lesson 3",
-  "q": "'何と言っても、日本の夏は暑い。' means:",
-  "a": "Above all, Japan's summer is hot",
-  "w": [
-   "Nobody says Japan's summer is hot",
-   "What did you say about Japan's summer?",
-   "No matter what I say, it isn't hot"
-  ],
-  "e": "Whatever anyone says / above all, Japan's summer is hot. 何と言っても = after all, above all, undeniably."
- },
- {
-  "t": "Quartet I L3 – Nにとって",
-  "s": "Quartet I, Lesson 3",
-  "q": "'For me, family is the most important thing.' →",
-  "a": "私にとって、家族が一番大切です。",
-  "w": [
-   "私として、家族が一番大切です。",
-   "私によって、家族が一番大切です。",
-   "私のために、家族が一番大切です。"
-  ],
-  "e": "Nにとって = from the standpoint of N; for N."
- },
- {
-  "t": "Quartet I L3 – Nとして",
-  "s": "Quartet I, Lesson 3",
-  "q": "'I came to Japan as an exchange student.' →",
-  "a": "交換留学生として日本に来ました。",
-  "w": [
-   "交換留学生にとって日本に来ました。",
-   "交換留学生によって日本に来ました。",
-   "交換留学生のように日本に来ました。"
-  ],
-  "e": "Nとして = in the capacity/role of N."
- },
- {
-  "t": "Quartet I L3 – ～ため(に) (cause)",
-  "s": "Quartet I, Lesson 3",
-  "q": "'Because of the typhoon, the train stopped.' (formal) →",
-  "a": "台風のため、電車が止まりました。",
-  "w": [
-   "台風のために、電車を止めましょう。",
-   "台風ように、電車が止まりました。",
-   "台風によると、電車が止まりました。"
-  ],
-  "e": "Besides purpose, ため(に) can mean cause or reason, especially in formal or written Japanese."
- },
- {
-  "t": "Quartet I L3 – Nによって",
-  "s": "Quartet I, Lesson 3",
-  "q": "'Customs differ depending on the country.' →",
-  "a": "国によって習慣が違います。",
-  "w": [
-   "国によると習慣が違います。",
-   "国にとって習慣が違います。",
-   "国として習慣が違います。"
-  ],
-  "e": "Nによって = depending on N. It can also mark the agent of a passive (by N) or a means."
- },
- {
-  "t": "Quartet I L3 – Nによって (agent)",
-  "s": "Quartet I, Lesson 3",
-  "q": "'This temple was built by a famous architect.' →",
-  "a": "このお寺は有名な建築家によって建てられました。",
-  "w": [
-   "このお寺は有名な建築家にとって建てられました。",
-   "このお寺は有名な建築家によると建てられました。",
-   "このお寺は有名な建築家として建てられました。"
-  ],
-  "e": "In passives about creation (built, written, discovered), the agent is marked with によって."
- },
- {
-  "t": "Quartet I L3 – ～べきだ",
-  "s": "Quartet I, Lesson 3",
-  "q": "'You should apologize.' (strong) →",
-  "a": "あやまるべきです。",
-  "w": [
-   "あやまりべきです。",
-   "あやまったべきです。",
-   "あやまるのべきです。"
-  ],
-  "e": "Dictionary form + べきだ = should, ought to. する → するべき or すべき."
- },
- {
-  "t": "Quartet I L3 – ～べきではない",
-  "s": "Quartet I, Lesson 3",
-  "q": "'You shouldn't say such things.' →",
-  "a": "そんなことを言うべきではありません。",
-  "w": [
-   "そんなことを言わないべきです。",
-   "そんなことを言うべきないです。",
-   "そんなことを言ってべきではありません。"
-  ],
-  "e": "The negative is べきではない, not ないべき."
- },
- {
-  "t": "Quartet I L3 – ～からといって",
-  "s": "Quartet I, Lesson 3",
-  "q": "'Just because it's expensive doesn't mean it's good.' →",
-  "a": "高いからといって、いいとは限らない。",
-  "w": [
-   "高いからこそ、いいとは限らない。",
-   "高いのに、いいとは限る。",
-   "高いからといって、いいに決まっている。"
-  ],
-  "e": "～からといって = just because... (usually followed by a negative conclusion)."
- },
- {
-  "t": "Quartet I L3 – ～とは限らない",
-  "s": "Quartet I, Lesson 3",
-  "q": "'日本人がみんな寿司が好きだとは限らない。' means:",
-  "a": "Not every Japanese person likes sushi",
-  "w": [
-   "No Japanese people like sushi at all",
-   "Every Japanese person likes sushi",
-   "Japanese people only like to eat sushi"
-  ],
-  "e": "～とは限らない = not necessarily. It's often paired with みんな, いつも, or 必ずしも."
- },
- {
-  "t": "Quartet I L3 – ～のに",
-  "s": "Quartet I, Lesson 3",
-  "q": "'I invited him, yet he didn't come.' →",
-  "a": "誘ったのに、彼は来なかった。",
-  "w": [
-   "誘ったので、彼は来なかった。",
-   "誘ったから、彼は来なかった。",
-   "誘ったのに、彼は来ましょう。"
-  ],
-  "e": "のに shows the result went against expectation, often with disappointment."
- },
- {
-  "t": "Quartet I L3 – ～のに (purpose)",
-  "s": "Quartet I, Lesson 3",
-  "q": "'This bag is convenient for traveling.' →",
-  "a": "このかばんは旅行するのに便利です。",
-  "w": [
-   "このかばんは旅行するので便利です。",
-   "このかばんは旅行するのは便利です。",
-   "このかばんは旅行のに便利です。"
-  ],
-  "e": "Dictionary form + のに + 便利/必要/使う = for the purpose of. (Nouns take に: 旅行に便利.)"
  },
  {
   "t": "Quartet I L1 – Nなら (as for N)",
@@ -646,5 +478,305 @@
    "It's a plan for the future"
   ],
   "e": "Dictionary form + ようになる = started doing it habitually. Potential form + ようになる = became able to."
+ },
+ {
+  "t": "Quartet I L2 – Formal て (連用中止形)",
+  "s": "Quartet I, Lesson 2 文型・表現ノート",
+  "q": "Formal version of 試験では、辞書を使わないで作文を書かなければいけない。",
+  "a": "辞書を使わず（に）",
+  "w": [
+   "辞書を使わなく",
+   "辞書を使わないでおり",
+   "辞書を使いず"
+  ],
+  "e": "The formal equivalent of ～ないで is ～ず（に）. For しないで it's せず（に）."
+ },
+ {
+  "t": "Quartet I L2 – Formal て (連用中止形)",
+  "s": "Quartet I, Lesson 2 文型・表現ノート",
+  "q": "Formal version of 'call first' → 電話を＿＿、人の家に行かないほうがいい。",
+  "a": "せずに",
+  "w": [
+   "しずに",
+   "さずに",
+   "しないずに"
+  ],
+  "e": "しないで → せず（に）. する is irregular here."
+ },
+ {
+  "t": "Quartet I L2 – Formal て (連用中止形)",
+  "s": "Quartet I, Lesson 2 文型・表現ノート",
+  "q": "Formal version of この町は物価が安くて、住みやすい。",
+  "a": "この町は物価が安く、住みやすい。",
+  "w": [
+   "この町は物価が安い、住みやすい。",
+   "この町は物価が安かり、住みやすい。",
+   "この町は物価が安ず、住みやすい。"
+  ],
+  "e": "For い-adjectives, the formal version of ～くて is just ～く."
+ },
+ {
+  "t": "Quartet I L2 – ～てくる",
+  "s": "Quartet I, Lesson 2 文型・表現ノート",
+  "q": "Which sentence uses ～てくる correctly, according to the book?",
+  "a": "最近日本語だけで話せるようになってきたよ。",
+  "w": [
+   "最近日本語だけで話してきたよ。",
+   "最近日本語だけで話せてきたよ。",
+   "最近日本語だけで話すてきたよ。"
+  ],
+  "e": "～てくる is used with verbs that are changes themselves (太る, 増える, なる, 慣れる). Other verbs need ～ようになってきた."
+ },
+ {
+  "t": "Quartet I L2 – ～ていく",
+  "s": "Quartet I, Lesson 2 文型・表現ノート",
+  "q": "How is ～ていく different from ～てくる?",
+  "a": "～ていく is a change continuing into the future",
+  "w": [
+   "～ていく is a change that already finished",
+   "～ていく is only used with past tense",
+   "～ていく can't be used with なる"
+  ],
+  "e": "～てきた: change from the past up to now. ～ていく: change from now into the future."
+ },
+ {
+  "t": "Quartet I L2 – しか～ない",
+  "s": "Quartet I, Lesson 2 文型・表現ノート",
+  "q": "'It only takes 3 minutes from my house.' → 3分＿＿。",
+  "a": "しかかからない",
+  "w": [
+   "しかかかる",
+   "だけかからない",
+   "しかかかります"
+  ],
+  "e": "Number + counter しか～ない stresses that the amount is small. しか always takes a negative verb."
+ },
+ {
+  "t": "Quartet I L2 – しか～ない",
+  "s": "Quartet I, Lesson 2 文型・表現ノート",
+  "q": "'I only have time on Sunday.' →",
+  "a": "日曜日にしか時間がない。",
+  "w": [
+   "日曜日しかに時間がない。",
+   "日曜日しか時間がある。",
+   "日曜日にしか時間がある。"
+  ],
+  "e": "しか replaces は, が and を, but goes AFTER other particles like に: 日曜日にしか."
+ },
+ {
+  "t": "Quartet I L2 – しか～ない",
+  "s": "Quartet I, Lesson 2 文型・表現ノート",
+  "q": "'Only international students can apply.' →",
+  "a": "留学生しか申し込めません。",
+  "w": [
+   "留学生がしか申し込めません。",
+   "留学生しか申し込めます。",
+   "留学生をしか申し込めません。"
+  ],
+  "e": "が is dropped before しか: 留学生しか, not 留学生がしか."
+ },
+ {
+  "t": "Quartet I L2 – ～ことにする",
+  "s": "Quartet I, Lesson 2 文型・表現ノート",
+  "q": "How does ～ことにしている differ from ～ようにしている?",
+  "a": "ことにしている = a firm rule; ようにしている = trying your best",
+  "w": [
+   "They mean exactly the same thing",
+   "ようにしている is a firmer rule",
+   "ことにしている is for decisions by other people"
+  ],
+  "e": "毎日1リットル水を飲むことにしています = I make it a rule. なるべく食べるようにしている = I try to."
+ },
+ {
+  "t": "Quartet I L2 – ～ことにする",
+  "s": "Quartet I, Lesson 2 文型・表現ノート",
+  "q": "Which sentence is WRONG?",
+  "a": "毎朝6時に起きられることにしています。",
+  "w": [
+   "毎朝6時に起きることにしています。",
+   "パソコンは買わないことにした。",
+   "北海道に行くことにした。"
+  ],
+  "e": "Potential forms (起きられる) can't be used with ～ことにする."
+ },
+ {
+  "t": "Quartet I L2 – 「気」expressions",
+  "s": "Quartet I, Lesson 2 文型・表現ノート",
+  "q": "'Be careful of cars when walking on the road.' → 道を歩く時は、車＿＿。",
+  "a": "に気をつけてください",
+  "w": [
+   "が気に入ってください",
+   "に気がついてください",
+   "を気にしてください"
+  ],
+  "e": "Nに気をつける = be careful about N. It's a more colloquial version of Nに注意する."
+ },
+ {
+  "t": "Quartet I L2 – 「気」expressions",
+  "s": "Quartet I, Lesson 2 文型・表現ノート",
+  "q": "Which sentence is WRONG, according to the book?",
+  "a": "甘い物が気に入っている。",
+  "w": [
+   "このカフェのケーキが気に入っている。",
+   "このかばんがとても気に入っているんだ。",
+   "甘い物が好きだ。"
+  ],
+  "e": "気に入る is for a specific item, not a general category. For a category, use 好き."
+ },
+ {
+  "t": "Quartet I L2 – おかげ",
+  "s": "Quartet I, Lesson 2 文型・表現ノート",
+  "q": "'Thanks to the house being close to the station, I didn't get wet.' →",
+  "a": "家が駅から近いおかげで、ぬれなかった。",
+  "w": [
+   "家が駅から近いのおかげで、ぬれなかった。",
+   "家が駅から近いなおかげで、ぬれなかった。",
+   "家が駅から近いだおかげで、ぬれなかった。"
+  ],
+  "e": "い-adjectives attach directly: 近いおかげで. な-adjectives use な (上手なおかげで), nouns use の (友達のおかげで)."
+ },
+ {
+  "t": "Quartet I L2 – おかげ",
+  "s": "Quartet I, Lesson 2 文型・表現ノート",
+  "q": "'Maybe it's thanks to exercising, but I slept well.' (cause isn't certain) →",
+  "a": "運動したおかげか、よく寝られた。",
+  "w": [
+   "運動したおかげで、よく寝られた。",
+   "運動したおかげさまで、よく寝られた。",
+   "運動したおかげに、よく寝られた。"
+  ],
+  "e": "When you're only guessing at the cause, use おかげか instead of おかげで."
+ },
+ {
+  "t": "Quartet I L2 – おかげ",
+  "s": "Quartet I, Lesson 2 文型・表現ノート",
+  "q": "A: お久しぶりですね。お元気でしたか。 B: ええ、＿＿。",
+  "a": "おかげさまで",
+  "w": [
+   "おかげで",
+   "おかげか",
+   "おかげのため"
+  ],
+  "e": "おかげさまで is a set phrase for 'I'm doing well, thank you', even when the listener didn't do anything specific."
+ },
+ {
+  "t": "Quartet I L2 – XばXほどY",
+  "s": "Quartet I, Lesson 2 文型・表現ノート",
+  "q": "'The harder the job, the more I want to take on the challenge.' (な-adjective 大変) →",
+  "a": "大変であればあるほど",
+  "w": [
+   "大変ければ大変いほど",
+   "大変なれば大変なほど",
+   "大変すればするほど"
+  ],
+  "e": "な-adjectives and nouns use であれば ... (で)あるほど."
+ },
+ {
+  "t": "Quartet I L2 – XばXほどY",
+  "s": "Quartet I, Lesson 2 文型・表現ノート",
+  "q": "'The more I think about it, the less I understand.' →",
+  "a": "考えれば考えるほどわからなくなる。",
+  "w": [
+   "考えるば考えるほどわからなくなる。",
+   "考えれば考えたほどわからなくなる。",
+   "考えたら考えるほどわからなくなる。"
+  ],
+  "e": "Verb ば-form + dictionary form + ほど. Y can be negative."
+ },
+ {
+  "t": "Quartet I L2 – (まるで)Nのようだ",
+  "s": "Quartet I, Lesson 2 文型・表現ノート",
+  "q": "'Sarah is a person like a model.' → まるでモデル＿＿人だ。",
+  "a": "のような",
+  "w": [
+   "のように",
+   "のようだ",
+   "ような"
+  ],
+  "e": "Before a noun: Nのような + N. Before a verb or adjective: Nのように."
+ },
+ {
+  "t": "Quartet I L2 – (まるで)Nのようだ",
+  "s": "Quartet I, Lesson 2 文型・表現ノート",
+  "q": "What does 氷のように冷たい mean?",
+  "a": "As cold as ice",
+  "w": [
+   "Cold enough to freeze",
+   "Melting like ice",
+   "Colder than ice"
+  ],
+  "e": "Idioms with ようだ: 雪のように白い (white as snow), 山のようにある (a ton of)."
+ },
+ {
+  "t": "Quartet I L2 – (まるで)Nのようだ",
+  "s": "Quartet I, Lesson 2 文型・表現ノート",
+  "q": "Which is the more colloquial version of モデルのようだ?",
+  "a": "モデルみたいだ",
+  "w": [
+   "モデルらしい",
+   "モデルそうだ",
+   "モデルのとおりだ"
+  ],
+  "e": "Nみたいだ is a more casual version of Nのようだ."
+ },
+ {
+  "t": "Quartet I L2 – ～ことになる",
+  "s": "Quartet I, Lesson 2 文型・表現ノート",
+  "q": "'I'm getting married next month.' (decided together with a partner) →",
+  "a": "来月結婚することになりました。",
+  "w": [
+   "来月結婚することにしました。",
+   "来月結婚するようにしました。",
+   "来月結婚するようになりました。"
+  ],
+  "e": "ことになった is used when the decision wasn't made by the speaker alone."
+ },
+ {
+  "t": "Quartet I L2 – ～ことになる",
+  "s": "Quartet I, Lesson 2 文型・表現ノート",
+  "q": "'You're not allowed to smoke here.' (a rule) →",
+  "a": "ここでたばこを吸ってはいけないことになっています。",
+  "w": [
+   "ここでたばこを吸ってはいけないことにしています。",
+   "ここでたばこを吸ってはいけないようになっています。",
+   "ここでたばこを吸ってはいけないことにしました。"
+  ],
+  "e": "～ことになっている states a rule, custom or plan."
+ },
+ {
+  "t": "Quartet I L2 – ようにする/ようになる/ことにする/ことになる",
+  "s": "Quartet I, Lesson 2 文型・表現ノート",
+  "q": "'I couldn't eat sashimi before, but now I can.' Which fits?",
+  "a": "食べられるようになりました",
+  "w": [
+   "食べられるようにしました",
+   "食べることにしました",
+   "食べることになりました"
+  ],
+  "e": "ようになる = a change in habit or ability, not by will. (する = speaker's will; なる = not the speaker's will.)"
+ },
+ {
+  "t": "Quartet I L2 – ようにする/ようになる/ことにする/ことになる",
+  "s": "Quartet I, Lesson 2 文型・表現ノート",
+  "q": "'I've decided to take an economics class this semester.' (my own decision) →",
+  "a": "授業を取ることにしました",
+  "w": [
+   "授業を取ることになりました",
+   "授業を取るようになりました",
+   "授業を取るようにしました"
+  ],
+  "e": "ことにする = something you decide yourself."
+ },
+ {
+  "t": "Quartet I L2 – ようにする/ようになる/ことにする/ことになる",
+  "s": "Quartet I, Lesson 2 文型・表現ノート",
+  "q": "'I'll make sure to speak loudly in my next speech.' →",
+  "a": "大きい声で話すようにします",
+  "w": [
+   "大きい声で話すようになります",
+   "大きい声で話すことになります",
+   "大きい声で話せることにします"
+  ],
+  "e": "ようにする = something you make an effort to do."
  }
 ]

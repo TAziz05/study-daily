@@ -797,3 +797,84 @@ Q1L1|要|necessary|要る|いる|to need
 Q1L1|尊|esteem|尊敬|そんけい|respect
 Q1L1|尊|esteem|尊い|とうとい|precious; noble
 Q1L1|敬|respect|敬語|けいご|honorific language
+# Quartet I Lesson 2 (漢字リスト 046–090)
+Q1L2|願|desire; prayer|願望|がんぼう|desire
+Q1L2|願|desire; prayer|お願い|おねがい|request; favor
+Q1L2|冷|cold|冷水|れいすい|cold water
+Q1L2|冷|cold|冷たい|つめたい|cold (thing/people)
+Q1L2|吹|blow|吹奏楽|すいそうがく|wind-instrument music
+Q1L2|吹|blow|吹く|ふく|to blow
+Q1L2|寒|cold|寒暖|かんだん|hot and cold
+Q1L2|寒|cold|寒い|さむい|cold (weather)
+Q1L2|降|fall; descend; surrender|降下|こうか|descent
+Q1L2|降|fall; descend; surrender|降る|ふる|to fall; to come down
+Q1L2|降|fall; descend; surrender|降りる|おりる|to get off
+Q1L2|慣|custom; get used to|習慣|しゅうかん|custom
+Q1L2|慣|custom; get used to|慣れる|なれる|to get used to
+Q1L2|和|peace; harmony; Japan|和食|わしょく|Japanese food
+Q1L2|和|peace; harmony; Japan|和む|なごむ|to feel relaxed; to calm down
+Q1L2|実|substance; truth; actual|実は|じつは|actually
+Q1L2|実|substance; truth; actual|実る|みのる|to bear fruit
+Q1L2|交|intercourse; exchange; cross|交流|こうりゅう|exchange; interchange
+Q1L2|交|intercourse; exchange; cross|交える|まじえる|to include; to exchange
+Q1L2|流|flow; wander; style|流れる|ながれる|to flow
+Q1L2|課|allot; section|国際交流課|こくさいこうりゅうか|International Relations Division
+Q1L2|伝|convey; transmit; legend|伝言|でんごん|message
+Q1L2|伝|convey; transmit; legend|手伝う|てつだう|to help; to assist
+Q1L2|伝|convey; transmit; legend|伝える|つたえる|to convey (a message)
+Q1L2|異|different; unusual|異文化|いぶんか|different culture
+Q1L2|異|different; unusual|異なる|ことなる|to differ
+Q1L2|役|service; role|役に立つ|やくにたつ|to be useful
+Q1L2|申|state; declare|申告|しんこく|declaration
+Q1L2|申|state; declare|申し込む|もうしこむ|to apply for
+Q1L2|申|state; declare|申し訳ない|もうしわけない|sorry
+Q1L2|込|crowded; packed|申し込む|もうしこむ|to apply for
+Q1L2|忙|busy|多忙|たぼう|very busy
+Q1L2|忙|busy|忙しい|いそがしい|busy
+Q1L2|忙|busy|お忙しいところ|おいそがしいところ|while you are busy
+Q1L2|突|thrust|突然|とつぜん|sudden
+Q1L2|突|thrust|突く|つく|to thrust
+Q1L2|然|nature; yes|突然|とつぜん|sudden
+Q1L2|訳|translation|訳す|やくす|to translate
+Q1L2|訳|translation|申し訳ない|もうしわけない|sorry
+Q1L2|返|return|返事|へんじ|reply
+Q1L2|返|return|返す|かえす|to return
+Q1L2|季|season|季節|きせつ|season
+Q1L2|節|season; section|その節|そのせつ|at that time; on that occasion
+Q1L2|礼|courtesy; politeness; salutation|お礼|おれい|gratitude
+Q1L2|礼|courtesy; politeness; salutation|失礼|しつれい|impoliteness
+Q1L2|拝|worship; bow|拝啓|はいけい|Dear Sir/Madam (letter salutation)
+Q1L2|拝|worship; bow|参拝|さんぱい|visiting a shrine/temple
+Q1L2|啓|enlighten; state|拝啓|はいけい|Dear Sir/Madam (letter salutation)
+Q1L2|暑|hot; summer|残暑|ざんしょ|heat of late summer
+Q1L2|暑|hot; summer|暑い|あつい|hot (weather)
+Q1L2|頃|time; about|頃|ころ|when; the time
+Q1L2|過|pass; spend|過去|かこ|past
+Q1L2|過|pass; spend|過ごす|すごす|to spend one's time
+Q1L2|短|short; brief|短期|たんき|short term
+Q1L2|短|short; brief|短い|みじかい|short
+Q1L2|期|time; period|期間|きかん|a period of time
+Q1L2|科|course of study|教科書|きょうかしょ|textbook
+Q1L2|準|standard|準備|じゅんび|preparation
+Q1L2|備|provide; preparation|備える|そなえる|to prepare
+Q1L2|合|combine; join; match|合流|ごうりゅう|confluence
+Q1L2|合|combine; join; match|知り合う|しりあう|to get to know
+Q1L2|解|solve; melt; understand|理解|りかい|understanding
+Q1L2|解|solve; melt; understand|解く|とく|to solve
+Q1L2|深|deep|深夜|しんや|midnight
+Q1L2|深|deep|深まる|ふかまる|to deepen
+Q1L2|公|public|公園|こうえん|park
+Q1L2|公|public|公の|おおやけの|public
+Q1L2|園|garden; park|花園|はなぞの|flower garden
+Q1L2|酒|sake; wine; liquor|日本酒|にほんしゅ|Japanese sake
+Q1L2|酒|sake; wine; liquor|酒|さけ|liquor; sake
+Q1L2|酒|sake; wine; liquor|居酒屋|いざかや|Japanese-style pub
+Q1L2|居|be; live; sit|居住地|きょじゅうち|settlement
+Q1L2|達|lead; deliver|達する|たっする|to reach
+Q1L2|達|lead; deliver|友達|ともだち|friend
+Q1L2|誘|invite; induce|誘惑|ゆうわく|temptation
+Q1L2|誘|invite; induce|誘う|さそう|to invite (someone) to
+Q1L2|機|machine; chance|機会|きかい|chance; opportunity
+Q1L2|具|equipment; tool|敬具|けいぐ|sincerely yours (letter closing)
+Q1L2|具|equipment; tool|家具|かぐ|furniture
+Q1L2|具|equipment; tool|具体的|ぐたいてき|concrete
