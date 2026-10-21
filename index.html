@@ -215,8 +215,14 @@ function shuffled(arr, seed){ const r=rng(seed), a=arr.slice(); for(let i=a.leng
 function choicesFor(q, salt=""){ return shuffled([q.a, ...q.w], hash(q.id+salt)); }
 
 // ---------- daily selection ----------
+// Lessons not yet covered in class stay in Practice but are left out of the daily quiz
+const DAILY_MAX_LESSON = {"Quartet I": 2};
+function inDaily(q){
+  const max = DAILY_MAX_LESSON[q.g]; if (!max) return true;
+  const m = /L(\d+)$/.exec(q.L || ""); return !m || +m[1] <= max;
+}
 function slotPool(slot){
-  const qs = BANK[slot.subject] || [];
+  const qs = (BANK[slot.subject] || []).filter(inDaily);
   return slot.kind ? qs.filter(q => q.k === slot.kind) : qs;
 }
 function seenInDaily(){ const s=new Set(); for (const d of Object.values(state.days)) for (const id of Object.values(d.q||{})) s.add(id); return s; }
