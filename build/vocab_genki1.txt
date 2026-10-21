@@ -1,5 +1,5 @@
 # lesson|word|reading|meaning   (reading blank = same as word)
-# Lessons 0 (greetings) to 6 checked against the textbook pages; 7–12 from memory, to be checked
+# Genki I (3rd ed.) vocabulary, checked against the textbook pages (greetings p.32, L1–L12)
 # Greetings (あいさつ, p.32)
 G1L0|おはよう||Good morning.
 G1L0|おはようございます||Good morning. (polite)
@@ -350,27 +350,26 @@ G1L6|すぐ||right away
 G1L6|ゆっくり||slowly; leisurely; unhurriedly
 G1L6|結構です|けっこうです|That would be fine.; That wouldn't be necessary.
 G1L6|本当ですか|ほんとうですか|Really?
-# Lessons 7–12
 G1L7|家族|かぞく|family
-G1L7|兄弟|きょうだい|brothers and sisters
-G1L7|兄|あに|(my) older brother
-G1L7|姉|あね|(my) older sister
-G1L7|父|ちち|(my) father
-G1L7|母|はは|(my) mother
 G1L7|おじいさん||grandfather; old man
 G1L7|おばあさん||grandmother; old woman
-G1L7|ご主人|ごしゅじん|(your/their) husband
-G1L7|奥さん|おくさん|(your/their) wife
-G1L7|両親|りょうしん|parents
+G1L7|父|ちち|(my) father
+G1L7|母|はは|(my) mother
+G1L7|兄|あに|(my) older brother
+G1L7|姉|あね|(my) older sister
+G1L7|兄弟|きょうだい|brothers and sisters
+G1L7|男の人|おとこのひと|man
+G1L7|女の人|おんなのひと|woman
+G1L7|会社|かいしゃ|company
+G1L7|食堂|しょくどう|cafeteria; dining commons
+G1L7|デパート||department store
 G1L7|髪|かみ|hair
 G1L7|口|くち|mouth
 G1L7|目|め|eye
 G1L7|眼鏡|めがね|glasses
 G1L7|歌|うた|song
-G1L7|会社|かいしゃ|company
-G1L7|食堂|しょくどう|cafeteria; dining commons
-G1L7|コンビニ||convenience store
-G1L7|意味|いみ|meaning
+G1L7|サークル||club activity
+G1L7|車|くるま|car
 G1L7|長い|ながい|long
 G1L7|短い|みじかい|short (length)
 G1L7|速い|はやい|fast
@@ -378,85 +377,115 @@ G1L7|背が高い|せがたかい|tall (stature)
 G1L7|背が低い|せがひくい|short (stature)
 G1L7|頭がいい|あたまがいい|bright; smart; clever
 G1L7|かわいい||cute
-G1L7|かっこいい||good-looking
-G1L7|きれい||beautiful; clean
 G1L7|親切|しんせつ|kind
 G1L7|便利|べんり|convenient
-G1L7|遊ぶ|あそぶ|to play; to spend time pleasantly
+G1L7|歌う|うたう|to sing
+G1L7|かぶる||to put on (a hat)
+G1L7|はく||to put on (items below your waist)
 G1L7|知る|しる|to get to know
+G1L7|知っています|しっています|I know
+G1L7|知りません|しりません|I do not know
 G1L7|住む|すむ|to live
 G1L7|働く|はたらく|to work
 G1L7|太る|ふとる|to gain weight
-G1L7|歌う|うたう|to sing
-G1L7|着る|きる|to put on (clothes above the waist)
-G1L7|勤める|つとめる|to work for
+G1L7|太っています|ふとっています|to be on the heavy side; overweight
+G1L7|（眼鏡を）かける|（めがねを）かける|to put on (glasses)
+G1L7|着る|きる|to put on (clothes above your waist)
 G1L7|やせる||to lose weight
+G1L7|やせています||to be thin
 G1L7|結婚する|けっこんする|to get married
-G1L7|何も|なにも|not ... anything (with negative)
-G1L7|別に|べつに|nothing in particular
-G1L7|もちろん||of course
-G1L7|よかったら||if you like
+G1L7|～が||..., but
+G1L7|何も|なにも|not ... anything (+ negative)
+G1L7|～人|～にん|[counter for people]
 G1L7|一人|ひとり|one person
 G1L7|二人|ふたり|two people
-G1L8|あさって||the day after tomorrow
-G1L8|毎朝|まいあさ|every morning
-G1L8|来月|らいげつ|next month
-G1L8|今度|こんど|near future
-G1L8|今年|ことし|this year
-G1L8|会議|かいぎ|business meeting; conference
-G1L8|カメラ||camera
-G1L8|カラオケ||karaoke
-G1L8|車|くるま|car
-G1L8|パーティー||party
-G1L8|バーベキュー||barbecue
+G1L7|別に|べつに|nothing in particular (+ negative)
+G1L7|もちろん||of course
+G1L7|よかったら||if you like
+G1L8|晴れ|はれ|sunny weather
 G1L8|雨|あめ|rain
+G1L8|曇り|くもり|cloudy weather
 G1L8|雪|ゆき|snow
 G1L8|天気予報|てんきよほう|weather forecast
+G1L8|気温|きおん|temperature (weather, not used for things)
+G1L8|夏|なつ|summer
+G1L8|冬|ふゆ|winter
+G1L8|今朝|けさ|this morning
+G1L8|あさって||the day after tomorrow
+G1L8|毎週|まいしゅう|every week
+G1L8|今月|こんげつ|this month
+G1L8|来月|らいげつ|next month
+G1L8|カメラ||camera
+G1L8|カラオケ||karaoke
+G1L8|所|ところ|place
+G1L8|トマト||tomato
+G1L8|はし||chopsticks
+G1L8|パーティー||party
+G1L8|バーベキュー||barbecue
+G1L8|ホームステイ||homestay; living with a local family
+G1L8|お風呂|おふろ|bath
+G1L8|スペイン||Spain
+G1L8|何か|なにか|something
+G1L8|上手|じょうず|skillful; good at ...
+G1L8|下手|へた|clumsy; poor at ...
+G1L8|有名|ゆうめい|famous
 G1L8|洗う|あらう|to wash
 G1L8|言う|いう|to say
 G1L8|要る|いる|to need
 G1L8|遅くなる|おそくなる|to be late
-G1L8|頑張る|がんばる|to do one's best; to try hard
+G1L8|お風呂に入る|おふろにはいる|to take a bath
+G1L8|思う|おもう|to think
 G1L8|切る|きる|to cut
 G1L8|作る|つくる|to make
 G1L8|降る|ふる|(rain/snow) falls
 G1L8|持っていく|もっていく|to take (a thing)
-G1L8|思う|おもう|to think
+G1L8|捨てる|すてる|to throw away
 G1L8|始める|はじめる|to begin
 G1L8|運転する|うんてんする|to drive
 G1L8|洗濯する|せんたくする|to do laundry
 G1L8|掃除する|そうじする|to clean
 G1L8|料理する|りょうりする|to cook
-G1L8|上手|じょうず|skillful; good at
-G1L8|下手|へた|clumsy; poor at
-G1L8|有名|ゆうめい|famous
-G1L8|みんな||all; everyone
+G1L8|うん||uh-huh; yes
+G1L8|ううん||uh-uh; no
+G1L8|いつも||always
+G1L8|遅く|おそく|(do something) late
+G1L8|乾杯|かんぱい|Cheers! (a toast)
+G1L8|みんなで||all (of the people) together
+G1L8|残念（ですね）|ざんねん（ですね）|That's too bad.
+G1L8|まだ||not ... yet (+ negative)
 G1L8|～について||about ...; concerning ...
-G1L8|どうやって||how; by what means
-G1L8|だれか||someone
-G1L8|本当に|ほんとうに|really
-G1L8|まだ||not ... yet
-G1L8|仕事|しごと|job; work
-G1L8|日本人|にほんじん|Japanese people
-G1L8|空|そら|sky
-G1L8|晴れ|はれ|sunny weather
-G1L8|曇り|くもり|cloudy weather
-G1L9|歌舞伎|かぶき|Kabuki; traditional Japanese theater
-G1L9|ギター||guitar
-G1L9|薬|くすり|medicine
-G1L9|コンサート||concert
-G1L9|試験|しけん|exam
+G1L8|～度|～ど|... degrees (temperature)
+G1L8|どう||how
+G1L9|単語|たんご|word; vocabulary
 G1L9|作文|さくぶん|essay; composition
+G1L9|試験|しけん|exam
+G1L9|手紙|てがみ|letter
+G1L9|メール||e-mail
+G1L9|ギター||guitar
 G1L9|ピアノ||piano
-G1L9|病気|びょうき|illness; sickness
-G1L9|お弁当|おべんとう|boxed lunch
-G1L9|紅葉|こうよう|red leaves of autumn
-G1L9|色|いろ|color
+G1L9|コンサート||concert
 G1L9|チケット||ticket
-G1L9|去年|きょねん|last year
+G1L9|歌舞伎|かぶき|Kabuki; traditional Japanese theatrical art
+G1L9|スキー||ski
+G1L9|お弁当|おべんとう|boxed lunch
+G1L9|ピザ||pizza
+G1L9|病気|びょうき|illness; sickness
+G1L9|薬|くすり|medicine
+G1L9|いい子|いいこ|good child
+G1L9|色|いろ|color
+G1L9|今度|こんど|near future
 G1L9|先月|せんげつ|last month
+G1L9|去年|きょねん|last year
+G1L9|青い|あおい|blue
+G1L9|赤い|あかい|red
+G1L9|黒い|くろい|black
+G1L9|白い|しろい|white
+G1L9|寂しい|さびしい|lonely
+G1L9|若い|わかい|young
+G1L9|意地悪|いじわる|mean-spirited
 G1L9|踊る|おどる|to dance
 G1L9|終わる|おわる|(something) ends
+G1L9|薬を飲む|くすりをのむ|to take medicine
 G1L9|人気がある|にんきがある|to be popular
 G1L9|始まる|はじまる|(something) begins
 G1L9|弾く|ひく|to play (a string instrument or piano)
@@ -465,141 +494,187 @@ G1L9|覚える|おぼえる|to memorize
 G1L9|出る|でる|to appear; to attend; to exit
 G1L9|運動する|うんどうする|to exercise
 G1L9|散歩する|さんぽする|to take a walk
-G1L9|若い|わかい|young
-G1L9|寂しい|さびしい|lonely
-G1L9|青い|あおい|blue
-G1L9|赤い|あかい|red
-G1L9|黒い|くろい|black
-G1L9|白い|しろい|white
-G1L9|一つ|ひとつ|one (general counter)
-G1L9|二つ|ふたつ|two (general counter)
-G1L9|三つ|みっつ|three (general counter)
-G1L9|四つ|よっつ|four (general counter)
-G1L9|五つ|いつつ|five (general counter)
-G1L9|六つ|むっつ|six (general counter)
-G1L9|七つ|ななつ|seven (general counter)
-G1L9|八つ|やっつ|eight (general counter)
-G1L9|九つ|ここのつ|nine (general counter)
-G1L9|十|とお|ten (general counter)
-G1L9|いくつ||how many; how old
-G1L9|全部で|ぜんぶで|all together
+G1L9|そう||(I think) so
 G1L9|～から||from ...
-G1L10|駅|えき|station
+G1L9|～まで||to (a place/a time)
+G1L9|是非|ぜひ|by all means
+G1L9|ところで||by the way
+G1L9|みんな||all
+G1L9|もう||already
+G1L9|一つ|ひとつ|one (small item)
+G1L9|二つ|ふたつ|two (small items)
+G1L9|三つ|みっつ|three (small items)
+G1L9|四つ|よっつ|four (small items)
+G1L9|五つ|いつつ|five (small items)
+G1L9|六つ|むっつ|six (small items)
+G1L9|七つ|ななつ|seven (small items)
+G1L9|八つ|やっつ|eight (small items)
+G1L9|九つ|ここのつ|nine (small items)
+G1L9|十|とお|ten (small items)
 G1L10|季節|きせつ|season
 G1L10|春|はる|spring
-G1L10|夏|なつ|summer
 G1L10|秋|あき|fall
-G1L10|冬|ふゆ|winter
-G1L10|果物|くだもの|fruit
+G1L10|牛乳|ぎゅうにゅう|milk
+G1L10|ケーキ||cake
+G1L10|すし||sushi
+G1L10|天ぷら|てんぷら|tempura
+G1L10|りんご||apple
+G1L10|料理|りょうり|cooking; cuisine
+G1L10|サッカー||soccer
+G1L10|野球|やきゅう|baseball
+G1L10|お金持ち|おかねもち|rich person
+G1L10|有名人|ゆうめいじん|celebrity
+G1L10|顔|かお|face
+G1L10|年上|としうえ|someone older
+G1L10|駅|えき|station
+G1L10|新幹線|しんかんせん|Shinkansen; "Bullet Train"
 G1L10|地下鉄|ちかてつ|subway
-G1L10|新幹線|しんかんせん|Shinkansen; bullet train
 G1L10|船|ふね|ship; boat
-G1L10|床屋|とこや|barber's
-G1L10|世界|せかい|world
+G1L10|飛行機|ひこうき|airplane
 G1L10|予約|よやく|reservation
-G1L10|一年中|いちねんじゅう|all year around
+G1L10|ツアー||tour
+G1L10|動物園|どうぶつえん|zoo
+G1L10|時間|じかん|time
+G1L10|世界|せかい|world
+G1L10|美容院|びよういん|beauty parlor
+G1L10|手袋|てぶくろ|gloves
+G1L10|生活|せいかつ|life; living
+G1L10|今年|ことし|this year
 G1L10|暖かい|あたたかい|warm
-G1L10|遅い|おそい|slow; late
-G1L10|涼しい|すずしい|cool (weather)
+G1L10|涼しい|すずしい|cool (weather, not used for things)
 G1L10|冷たい|つめたい|cold (things/people)
+G1L10|遅い|おそい|slow; late
 G1L10|眠い|ねむい|sleepy
 G1L10|簡単|かんたん|easy; simple
 G1L10|かかる||to take (amount of time/money)
 G1L10|泊まる|とまる|to stay (at a hotel, etc.)
 G1L10|なる||to become
 G1L10|決める|きめる|to decide
-G1L10|やめる||to quit
-G1L10|どちら||which
-G1L10|どっち||which (casual)
-G1L10|いちばん||best; most
-G1L10|～ほう||(comparison) the one that is ...
-G1L10|～より||than ...
-G1L10|～か月|～かげつ|for ... months
+G1L10|ごろごろする||to chill out at home; to stay home and do nothing
+G1L10|旅行する|りょこうする|to travel
+G1L10|練習する|れんしゅうする|to practice
+G1L10|一番|いちばん|best
+G1L10|どっち／どちら||which
+G1L10|早く／速く|はやく|(do something) early; fast
+G1L10|歩いて|あるいて|on foot
+G1L10|～で||by (means of transportation); with (a tool)
+G1L10|どうやって||how; by what means
+G1L10|どのぐらい||how much; how long
 G1L10|～週間|～しゅうかん|for ... weeks
+G1L10|～か月|～かげつ|for ... months
 G1L10|～年|～ねん|... years
-G1L10|早く|はやく|(do something) early; fast
-G1L10|～で||by (means of transportation)
-G1L10|動物|どうぶつ|animal
-G1L10|有名人|ゆうめいじん|celebrity
-G1L11|お祭り|おまつり|festival
-G1L11|お見合い|おみあい|arranged marriage meeting
+G1L10|このごろ||these days
+G1L10|～後|～ご|in ... time; after ...
+G1L10|～か～||or
+G1L11|外国|がいこく|foreign country
+G1L11|川|かわ|river
 G1L11|温泉|おんせん|spa; hot spring
+G1L11|つり||fishing
+G1L11|湖|みずうみ|lake
+G1L11|山|やま|mountain
 G1L11|キャンプ||camp
 G1L11|ドライブ||drive
-G1L11|山|やま|mountain
-G1L11|川|かわ|river
-G1L11|湖|みずうみ|lake
-G1L11|おもちゃ||toy
-G1L11|会社員|かいしゃいん|office worker
-G1L11|歌手|かしゅ|singer
-G1L11|将来|しょうらい|future
+G1L11|神社|じんじゃ|shrine
+G1L11|美術館|びじゅつかん|art museum
 G1L11|社長|しゃちょう|president of a company
+G1L11|歌手|かしゅ|singer
 G1L11|ルームメイト||roommate
-G1L11|先生|せんせい|teacher
-G1L11|ホームシック||homesickness
-G1L11|おなか||stomach
+G1L11|ホストファミリー||host family
+G1L11|将来|しょうらい|future
+G1L11|夢|ゆめ|dream
+G1L11|お祭り|おまつり|festival
+G1L11|お正月|おしょうがつ|New Year's
+G1L11|お菓子|おかし|snack; sweets
+G1L11|ビール||beer
+G1L11|おもちゃ||toy
+G1L11|今学期|こんがっき|this semester
+G1L11|来学期|らいがっき|next semester
+G1L11|授業|じゅぎょう|class
+G1L11|こちら||this person (polite)
+G1L11|うそをつく||to tell a lie
 G1L11|おなかがすく||to become hungry
-G1L11|～ごろ||about (time)
-G1L11|～か月前|～かげつまえ|... months ago
-G1L11|この間|このあいだ|the other day
-G1L11|この頃|このごろ|these days
-G1L11|最近|さいきん|recently
-G1L11|夏休み|なつやすみ|summer vacation
-G1L11|生まれる|うまれる|to be born
-G1L11|登る|のぼる|to climb
-G1L11|サボる||to skip (classes)
+G1L11|飼う|かう|to own (a pet)
+G1L11|サボる||to cut (classes)
 G1L11|取る|とる|to take (a class); to get (a grade)
 G1L11|習う|ならう|to learn
-G1L11|飼う|かう|to own (a pet)
+G1L11|登る|のぼる|to climb
 G1L11|走る|はしる|to run
+G1L11|疲れる|つかれる|to get tired
 G1L11|やめる||to quit
 G1L11|けんかする||to have a fight; to quarrel
+G1L11|紹介する|しょうかいする|to introduce
+G1L11|ダイエットする||to go on a diet
+G1L11|遅刻する|ちこくする|to be late (for an appointment)
 G1L11|留学する|りゅうがくする|to study abroad
-G1L11|うそをつく||to tell a lie
-G1L11|ゆっくりする||to relax; to stay long
-G1L11|今度|こんど|near future
-G1L11|ぜひ||by all means
-G1L11|～たち||(pluralizing suffix)
-G1L12|彼|かれ|he; boyfriend
-G1L12|彼女|かのじょ|she; girlfriend
-G1L12|彼氏|かれし|boyfriend
-G1L12|風邪|かぜ|cold (illness)
-G1L12|熱|ねつ|fever
-G1L12|せき||cough
-G1L12|のど||throat
-G1L12|歯|は|tooth
-G1L12|頭|あたま|head
-G1L12|足|あし|leg; foot
+G1L11|出身|しゅっしん|coming from (a place)
+G1L11|久しぶり|ひさしぶり|it has been a long time
+G1L11|まあまあ||okay; so-so
+G1L11|もっと||more
+G1L11|後|あと|after (an event)
+G1L11|そして||and then
+G1L11|～だけ||just ...; only ...
+G1L11|～点|～てん|... points
+G1L11|作家|さっか|writer
+G1L11|ジャーナリスト||journalist
+G1L11|警察官|けいさつかん|police officer
+G1L11|消防士|しょうぼうし|firefighter
+G1L11|教師|きょうし|schoolteacher
+G1L11|研究者|けんきゅうしゃ|researcher
+G1L11|宇宙飛行士|うちゅうひこうし|astronaut
+G1L11|スポーツ選手|スポーツせんしゅ|athlete
+G1L11|大統領|だいとうりょう|president of a country
+G1L11|俳優|はいゆう|actor; actress
+G1L11|シェフ||chef
+G1L11|漫画家|まんがか|cartoonist
 G1L12|おなか||stomach
-G1L12|気分|きぶん|feeling
+G1L12|足|あし|leg; foot
+G1L12|喉|のど|throat
+G1L12|歯|は|tooth
 G1L12|インフルエンザ||influenza
-G1L12|お祈り|おいのり|prayer
-G1L12|試合|しあい|match; game
-G1L12|ジュース||juice
-G1L12|洗濯|せんたく|laundry
-G1L12|成績|せいせき|grade (on a test, etc.)
+G1L12|風邪|かぜ|cold
+G1L12|せき||cough
 G1L12|二日酔い|ふつかよい|hangover
-G1L12|雨|あめ|rain
-G1L12|天気予報|てんきよほう|weather forecast
-G1L12|痛い|いたい|hurt; painful
-G1L12|うらやましい||envious
-G1L12|多い|おおい|there are many ...
-G1L12|少ない|すくない|there are few ...
+G1L12|ホームシック||homesickness
+G1L12|アレルギー||allergy
+G1L12|ジュース||juice
+G1L12|卵|たまご|egg
+G1L12|服|ふく|clothes
+G1L12|物|もの|thing (concrete object)
+G1L12|プレゼント||present
+G1L12|切符|きっぷ|(train) ticket
+G1L12|～代|～だい|charge; fee
+G1L12|用事|ようじ|business to take care of
+G1L12|お手洗い|おてあらい|restroom
+G1L12|試合|しあい|match; game
+G1L12|成績|せいせき|grade (on a test, etc.)
+G1L12|彼女|かのじょ|she; girlfriend
+G1L12|彼|かれ|he; boyfriend
+G1L12|彼氏|かれし|boyfriend
+G1L12|意味|いみ|meaning
+G1L12|狭い|せまい|narrow; not spacious
+G1L12|広い|ひろい|wide; spacious
 G1L12|悪い|わるい|bad
-G1L12|暖かい|あたたかい|warm
-G1L12|大変|たいへん|tough (situation)
-G1L12|ひどい||terrible
-G1L12|過ぎる|すぎる|too much
+G1L12|痛い|いたい|hurt; painful
+G1L12|甘い|あまい|sweet
+G1L12|多い|おおい|there are many ...
+G1L12|素敵|すてき|nice
+G1L12|歩く|あるく|to walk
+G1L12|風邪をひく|かぜをひく|to catch a cold
+G1L12|熱がある|ねつがある|to have a fever
+G1L12|喉が渇く|のどがかわく|to become thirsty
+G1L12|払う|はらう|to pay
+G1L12|なくす||to lose
+G1L12|興味がある|きょうみがある|to be interested (in ...)
 G1L12|せきが出る|せきがでる|to cough
-G1L12|のどがかわく||to become thirsty
-G1L12|曇る|くもる|to become cloudy
-G1L12|晴れる|はれる|to become sunny
-G1L12|治る|なおる|(illness) gets better
-G1L12|心配する|しんぱいする|to worry
-G1L12|練習する|れんしゅうする|to practice
 G1L12|別れる|わかれる|to break up; to separate
+G1L12|緊張する|きんちょうする|to get nervous
+G1L12|心配する|しんぱいする|to worry
 G1L12|お大事に|おだいじに|Get well soon.
-G1L12|きっと||surely; probably
-G1L12|たぶん||probably; maybe
-G1L12|～度|～ど|... degrees (temperature)
-G1L12|病院|びょういん|hospital
+G1L12|元気がない|げんきがない|don't look well
+G1L12|できるだけ||as much as possible
+G1L12|多分|たぶん|probably; maybe
+G1L12|もうすぐ||very soon; in a few moments/days
+G1L12|初めて|はじめて|for the first time
+G1L12|二三日|にさんにち|for two to three days
+G1L12|それに||moreover, ...
+G1L12|同じ|おなじ|same

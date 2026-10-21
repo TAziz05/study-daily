@@ -93,14 +93,16 @@ def kanji_questions():
         rows.append(dict(lesson=lesson, book=book, num=lesson.split("L")[1], k=k,
                          meaning=meaning, word=word, reading=reading, wmeaning=wmeaning))
     rng = random.Random(42)
-    out, seen_words = [], set()
+    out, seen_words, seen_kanji = [], set(), set()
     for r in rows:
         same_book = [x for x in rows if x["book"] == r["book"] and x["k"] != r["k"]]
+        first = r["k"] not in seen_kanji
+        seen_kanji.add(r["k"])
         topic = f"{r['book']} L{r['num']} – Kanji"
         src = f"{r['book']}, Lesson {r['num']} kanji"
-        pool = list({x["meaning"] for x in same_book if x["meaning"] != r["meaning"]})
+        pool = sorted({x["meaning"] for x in same_book if x["meaning"] != r["meaning"]})
         pool.sort(key=lambda m: (is_verb(m) != is_verb(r["meaning"]), rng.random()))
-        out.append(dict(t=topic, s=src, q=f"What does the kanji 「{r['k']}」 mean?",
+        if first: out.append(dict(t=topic, s=src, q=f"What does the kanji 「{r['k']}」 mean?",
                         a=r["meaning"], w=pool[:3],
                         e=f"{r['k']} = {r['meaning']}. Example: {r['word']}（{r['reading']}）: {r['wmeaning']}."))
         if r["word"] not in seen_words:
@@ -136,7 +138,7 @@ def vocab_questions():
             seen.add((word, reading))
             book, num = BOOKS[lesson[:2]], lesson.split("L")[1]
             rows.append(dict(book=book, num=num, word=word, reading=reading, meaning=meaning,
-                             verb=meaning.startswith("to ") or "(honorific)" in meaning or "(humble)" in meaning or "(extra-modest)" in meaning))
+                             verb=(meaning.startswith("to ") and not meaning.startswith("to (")) or "(honorific)" in meaning or "(humble)" in meaning or "(extra-modest)" in meaning))
     rng = random.Random(11)
     show = lambda r: r["word"] if r["word"] == r["reading"] else f"{r['word']}（{r['reading']}）"
     out = []

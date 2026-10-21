@@ -1,12 +1,35 @@
 # lesson|kanji|meaning|word|reading|word meaning
+G1L3|一|one|一時|いちじ|one o'clock
+G1L3|一|one|一年生|いちねんせい|first-year student
+G1L3|一|one|一分|いっぷん|one minute
 G1L3|一|one|一つ|ひとつ|one (thing)
-G1L3|二|two|二人|ふたり|two people
+G1L3|二|two|二時|にじ|two o'clock
+G1L3|二|two|二年生|にねんせい|second-year student
+G1L3|二|two|二つ|ふたつ|two (things)
+G1L3|二|two|二日間|ふつかかん|two days
+G1L3|三|three|三時|さんじ|three o'clock
+G1L3|三|three|三年生|さんねんせい|third-year student
 G1L3|三|three|三月|さんがつ|March
+G1L3|三|three|三つ|みっつ|three (things)
 G1L3|四|four|四時|よじ|four o'clock
-G1L3|五|five|五日|いつか|the fifth day
+G1L3|四|four|四年生|よねんせい|fourth-year student
+G1L3|四|four|四月|しがつ|April
+G1L3|四|four|四つ|よっつ|four (things)
+G1L3|五|five|五時|ごじ|five o'clock
+G1L3|五|five|五月|ごがつ|May
+G1L3|五|five|五歳|ごさい|five years old
+G1L3|五|five|五つ|いつつ|five (things)
+G1L3|六|six|六時|ろくじ|six o'clock
 G1L3|六|six|六百|ろっぴゃく|six hundred
+G1L3|六|six|六分|ろっぷん|six minutes
+G1L3|六|six|六つ|むっつ|six (things)
 G1L3|七|seven|七時|しちじ|seven o'clock
+G1L3|七|seven|七月|しちがつ|July
+G1L3|七|seven|七つ|ななつ|seven (things)
+G1L3|八|eight|八時|はちじ|eight o'clock
 G1L3|八|eight|八百|はっぴゃく|eight hundred
+G1L3|八|eight|八歳|はっさい|eight years old
+G1L3|八|eight|八つ|やっつ|eight (things)
 G1L3|九|nine|九時|くじ|nine o'clock
 G1L3|十|ten|十分|じゅっぷん|ten minutes
 G1L3|百|hundred|三百|さんびゃく|three hundred
@@ -14,49 +37,176 @@ G1L3|千|thousand|三千|さんぜん|three thousand
 G1L3|万|ten thousand|一万円|いちまんえん|10,000 yen
 G1L3|円|yen; circle|百円|ひゃくえん|100 yen
 G1L3|時|time; o'clock|時間|じかん|time; hours
+G1L4|日|day; sun|日曜日|にちようび|Sunday
 G1L4|日|day; sun|毎日|まいにち|every day
-G1L4|本|book; origin|日本|にほん|Japan
-G1L4|人|person|日本人|にほんじん|Japanese person
-G1L4|月|month; moon|月曜日|げつようび|Monday
+G1L4|日|day; sun|母の日|ははのひ|Mother's Day
+G1L4|日|day; sun|日記|にっき|diary
+G1L4|日|day; sun|三日|みっか|three days
+G1L4|本|book; basis|本|ほん|book
+G1L4|本|book; basis|日本|にほん|Japan
+G1L4|本|book; basis|日本語|にほんご|Japanese language
+G1L4|本|book; basis|山本さん|やまもとさん|Mr./Ms. Yamamoto
+G1L4|人|person|日本人|にほんじん|Japanese people
+G1L4|人|person|一人で|ひとりで|alone
+G1L4|人|person|この人|このひと|this person
+G1L4|人|person|三人|さんにん|three people
+G1L4|月|moon; month|月曜日|げつようび|Monday
+G1L4|月|moon; month|一月|いちがつ|January
+G1L4|月|moon; month|月|つき|moon
+G1L4|月|moon; month|今月|こんげつ|this month
+G1L4|月|moon; month|一か月|いっかげつ|one month
 G1L4|火|fire|火曜日|かようび|Tuesday
+G1L4|火|fire|火|ひ|fire
+G1L4|火|fire|火山|かざん|volcano
+G1L4|火|fire|花火|はなび|fireworks
+G1L4|火|fire|火星|かせい|Mars
 G1L4|水|water|水曜日|すいようび|Wednesday
+G1L4|水|water|水|みず|water
+G1L4|水|water|水泳|すいえい|swimming
+G1L4|水|water|水道|すいどう|water supply
+G1L4|水|water|水着|みずぎ|swimwear
 G1L4|木|tree|木曜日|もくようび|Thursday
+G1L4|木|tree|木|き|tree
+G1L4|木|tree|木村さん|きむらさん|Mr./Ms. Kimura
+G1L4|金|gold; money|金曜日|きんようび|Friday
 G1L4|金|gold; money|お金|おかね|money
+G1L4|金|gold; money|料金|りょうきん|charge
+G1L4|金|gold; money|お金持ち|おかねもち|rich person
 G1L4|土|soil|土曜日|どようび|Saturday
-G1L4|曜|day of the week|日曜日|にちようび|Sunday
-G1L4|上|up; above|上手|じょうず|good at
-G1L4|下|down; below|下手|へた|bad at
-G1L4|中|middle; inside|中国|ちゅうごく|China
-G1L4|半|half|三時半|さんじはん|3:30
+G1L4|土|soil|土|つち|soil
+G1L4|土|soil|土地|とち|land
+G1L4|土|soil|粘土|ねんど|clay
+G1L4|曜|weekday|曜日|ようび|day of the week
+G1L4|上|up|上|うえ|top; above
+G1L4|上|up|上手|じょうず|good at
+G1L4|上|up|屋上|おくじょう|rooftop
+G1L4|上|up|上る|のぼる|to go up
+G1L4|下|down|下|した|under
+G1L4|下|down|地下鉄|ちかてつ|subway
+G1L4|下|down|下手|へた|poor at
+G1L4|下|down|下さい|ください|Please give/do ...
+G1L4|中|middle|中|なか|inside
+G1L4|中|middle|中国|ちゅうごく|China
+G1L4|中|middle|中学|ちゅうがく|junior high school
+G1L4|中|middle|一年中|いちねんじゅう|all year around
+G1L4|半|half|三時半|さんじはん|half past three
+G1L4|半|half|半分|はんぶん|half
+G1L4|半|half|半年|はんとし|half a year
+G1L4|半|half|半額|はんがく|half price
+G1L5|山|mountain|山|やま|mountain
+G1L5|山|mountain|山川さん|やまかわさん|Mr./Ms. Yamakawa
 G1L5|山|mountain|富士山|ふじさん|Mt. Fuji
 G1L5|川|river|川|かわ|river
-G1L5|元|origin|元気|げんき|healthy; energetic
-G1L5|気|spirit; air|天気|てんき|weather
-G1L5|天|heaven|天気|てんき|weather
+G1L5|川|river|小川さん|おがわさん|Mr./Ms. Ogawa
+G1L5|元|origin|元気|げんき|fine
+G1L5|元|origin|元日|がんじつ|the first day of the year
+G1L5|元|origin|地元|じもと|local
+G1L5|気|spirit|天気|てんき|weather
+G1L5|気|spirit|電気|でんき|electricity; light
+G1L5|気|spirit|気持ち|きもち|feeling
+G1L5|気|spirit|人気|にんき|popularity
+G1L5|天|heaven|天国|てんごく|heaven
+G1L5|天|heaven|天皇|てんのう|Japanese emperor
+G1L5|天|heaven|天才|てんさい|genius
 G1L5|私|I; private|私|わたし|I
+G1L5|私|I; private|私立大学|しりつだいがく|private university
+G1L5|今|now|今|いま|now
 G1L5|今|now|今日|きょう|today
+G1L5|今|now|今晩|こんばん|tonight
+G1L5|今|now|今年|ことし|this year
 G1L5|田|rice field|田中さん|たなかさん|Mr./Ms. Tanaka
+G1L5|田|rice field|山田さん|やまださん|Mr./Ms. Yamada
+G1L5|田|rice field|田んぼ|たんぼ|rice field
 G1L5|女|woman|女の人|おんなのひと|woman
+G1L5|女|woman|女性|じょせい|woman
+G1L5|女|woman|女の子|おんなのこ|girl
+G1L5|女|woman|長女|ちょうじょ|the eldest daughter
 G1L5|男|man|男の人|おとこのひと|man
-G1L5|見|see|見る|みる|to see
-G1L5|行|go|行く|いく|to go
-G1L5|食|eat|食べる|たべる|to eat
-G1L5|飲|drink|飲む|のむ|to drink
+G1L5|男|man|男性|だんせい|man
+G1L5|男|man|男の子|おとこのこ|boy
+G1L5|男|man|男子学生|だんしがくせい|male student
+G1L5|見|to see|見る|みる|to see
+G1L5|見|to see|見物|けんぶつ|sightseeing
+G1L5|見|to see|花見|はなみ|flower viewing
+G1L5|見|to see|意見|いけん|opinion
+G1L5|行|to go|行く|いく|to go
+G1L5|行|to go|銀行|ぎんこう|bank
+G1L5|行|to go|一行目|いちぎょうめ|first line
+G1L5|行|to go|旅行|りょこう|travel
+G1L5|食|to eat|食べる|たべる|to eat
+G1L5|食|to eat|食べ物|たべもの|food
+G1L5|食|to eat|食堂|しょくどう|cafeteria
+G1L5|食|to eat|食事|しょくじ|meal
+G1L5|食|to eat|朝食|ちょうしょく|breakfast
+G1L5|飲|to drink|飲む|のむ|to drink
+G1L5|飲|to drink|飲み物|のみもの|drink
+G1L5|飲|to drink|飲酒運転|いんしゅうんてん|drunken driving
+G1L6|東|east|東|ひがし|east
+G1L6|東|east|東口|ひがしぐち|east exit
 G1L6|東|east|東京|とうきょう|Tokyo
+G1L6|東|east|関東|かんとう|Kanto area
+G1L6|東|east|東洋|とうよう|the East
 G1L6|西|west|西|にし|west
+G1L6|西|west|西口|にしぐち|west exit
+G1L6|西|west|北西|ほくせい|northwest
+G1L6|西|west|関西|かんさい|Kansai area
+G1L6|西|west|西洋|せいよう|the West
 G1L6|南|south|南|みなみ|south
+G1L6|南|south|南口|みなみぐち|south exit
+G1L6|南|south|南東|なんとう|southeast
+G1L6|南|south|南極|なんきょく|Antarctica
+G1L6|北|north|北|きた|north
+G1L6|北|north|北口|きたぐち|north exit
+G1L6|北|north|東北|とうほく|Tohoku area
+G1L6|北|north|北極|ほっきょく|North Pole
 G1L6|北|north|北海道|ほっかいどう|Hokkaido
+G1L6|口|mouth|口|くち|mouth
+G1L6|口|mouth|人口|じんこう|population
 G1L6|口|mouth|入口|いりぐち|entrance
-G1L6|出|exit; go out|出口|でぐち|exit
+G1L6|出|to exit|出る|でる|to exit
+G1L6|出|to exit|出口|でぐち|exit
+G1L6|出|to exit|出かける|でかける|to go out
+G1L6|出|to exit|出す|だす|to take something out
+G1L6|出|to exit|出席|しゅっせき|attendance
+G1L6|出|to exit|輸出|ゆしゅつ|export
 G1L6|右|right|右|みぎ|right
+G1L6|右|right|右折|うせつ|right turn
+G1L6|右|right|左右|さゆう|right and left
+G1L6|右|right|右手|みぎて|right hand
+G1L6|右|right|右側|みぎがわ|right side
 G1L6|左|left|左|ひだり|left
-G1L6|分|minute; divide|分かる|わかる|to understand
-G1L6|先|ahead; previous|先週|せんしゅう|last week
-G1L6|生|life; birth|先生|せんせい|teacher
-G1L6|大|big|大学|だいがく|university
-G1L6|学|learning|学生|がくせい|student
+G1L6|左|left|左折|させつ|left turn
+G1L6|左|left|左手|ひだりて|left hand
+G1L6|左|left|左利き|ひだりきき|left-handed
+G1L6|分|minute; to divide|五分|ごふん|five minutes
+G1L6|分|minute; to divide|十分|じゅっぷん|ten minutes
+G1L6|分|minute; to divide|自分|じぶん|oneself
+G1L6|分|minute; to divide|分ける|わける|to divide
+G1L6|先|ahead|先生|せんせい|teacher
+G1L6|先|ahead|先週|せんしゅう|last week
+G1L6|先|ahead|先に|さきに|ahead
+G1L6|先|ahead|先月|せんげつ|last month
+G1L6|先|ahead|先輩|せんぱい|senior member
+G1L6|生|birth|学生|がくせい|student
+G1L6|生|birth|生まれる|うまれる|to be born
+G1L6|生|birth|一生に一度|いっしょうにいちど|once in a lifetime
+G1L6|大|big|大学生|だいがくせい|college student
+G1L6|大|big|大きい|おおきい|big
+G1L6|大|big|大変|たいへん|tough
+G1L6|大|big|大人|おとな|adult
+G1L6|大|big|大使館|たいしかん|embassy
+G1L6|学|learning|大学|だいがく|university
+G1L6|学|learning|学校|がっこう|school
+G1L6|学|learning|学ぶ|まなぶ|to study
+G1L6|学|learning|学部|がくぶ|department; faculty
 G1L6|外|outside|外国|がいこく|foreign country
+G1L6|外|outside|外国人|がいこくじん|foreigner
+G1L6|外|outside|外|そと|outside
+G1L6|外|outside|海外|かいがい|overseas
+G1L6|国|country|中国|ちゅうごく|China
 G1L6|国|country|国|くに|country
+G1L6|国|country|韓国|かんこく|South Korea
+G1L6|国|country|国会|こっかい|the Diet
 G1L7|京|capital|京都|きょうと|Kyoto
 G1L7|子|child|子供|こども|child
 G1L7|小|small|小さい|ちいさい|small
