@@ -473,9 +473,9 @@
   "q": "'I've become able to read Japanese newspapers little by little.' What does the potential form add?",
   "a": "It used to be impossible, but now it's possible",
   "w": [
-   "It's a habit you started recently",
-   "It's something someone made you do",
-   "It's a plan for the future"
+   "It's a habit you only recently started doing",
+   "It's something another person made you do",
+   "It's a plan you've made for the near future"
   ],
   "e": "Dictionary form + ようになる = started doing it habitually. Potential form + ようになる = became able to."
  },
@@ -521,9 +521,9 @@
   "q": "Which sentence uses ～てくる correctly, according to the book?",
   "a": "最近日本語だけで話せるようになってきたよ。",
   "w": [
-   "最近日本語だけで話してきたよ。",
-   "最近日本語だけで話せてきたよ。",
-   "最近日本語だけで話すてきたよ。"
+   "最近日本語だけで話してきてるんだよ。",
+   "最近日本語だけで話せてきたんだよね。",
+   "最近日本語だけで話すようにしてきた。"
   ],
   "e": "～てくる is used with verbs that are changes themselves (太る, 増える, なる, 慣れる). Other verbs need ～ようになってきた."
  },
@@ -579,11 +579,11 @@
   "t": "Quartet I L2 – ～ことにする",
   "s": "Quartet I, Lesson 2 文型・表現ノート",
   "q": "How does ～ことにしている differ from ～ようにしている?",
-  "a": "ことにしている = a firm rule; ようにしている = trying your best",
+  "a": "ことにしている is a firm rule; ようにしている is trying",
   "w": [
-   "They mean exactly the same thing",
-   "ようにしている is a firmer rule",
-   "ことにしている is for decisions by other people"
+   "They mean exactly the same thing in every case",
+   "ようにしている is the firmer rule of the two",
+   "ことにしている is for other people's decisions"
   ],
   "e": "毎日1リットル水を飲むことにしています = I make it a rule. なるべく食べるようにしている = I try to."
  },
